@@ -1018,6 +1018,7 @@ enemy{ id = "dungeons/zazak_blue", description = "Zazak Blue" }
 enemy{ id = "electric_barrier", description = "Barriere electrique" }
 enemy{ id = "light_world/armos", description = "Armos" }
 enemy{ id = "light_world/chicken", description = "Chicken" }
+enemy{ id = "light_world/deadrock", description = "Deadrock" }
 enemy{ id = "light_world/geldman", description = "Geldman" }
 enemy{ id = "light_world/octorok", description = "Octorok" }
 enemy{ id = "light_world/poe", description = "Poe" }
@@ -1140,6 +1141,7 @@ file{ path = "enemies/library/waiting_for_hero.lua", author = "Christopho", lice
 file{ path = "enemies/light_world", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/armos.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/chicken.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/light_world/deadrock.lua", author = "Franck Jousseaume", license = "GPL v3" }
 file{ path = "enemies/light_world/geldman.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/octorok.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/light_world/poe.lua", author = "Christopho", license = "GPL v3" }
@@ -2315,6 +2317,7 @@ file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GP
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "scripts/meta", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/enemy.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/meta/map.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/npc.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
