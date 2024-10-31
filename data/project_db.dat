@@ -556,6 +556,9 @@ sprite{ id = "enemies/others/wizzrobe_beam", description = "Wizzrobe's beam" }
 sprite{ id = "enemies/soldiers/ball", description = "Fléau (boule)" }
 sprite{ id = "enemies/soldiers/chain", description = "Fléau (chaine)" }
 sprite{ id = "enemies/soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+sprite{ id = "enemies/soldiers/soldier_archer", description = "enemies/soldier_archer" }
+sprite{ id = "enemies/soldiers/soldier_archer_head", description = "enemies/soldier_archer_head" }
+sprite{ id = "enemies/soldiers/soldier_archer_projectile", description = "enemies/soldier_archer_projectile" }
 sprite{ id = "enemies/soldiers/soldier_simple_green", description = "Soldat vert simple" }
 sprite{ id = "enemies/soldiers/spear_soldier_red", description = "Red Spear Soldier" }
 sprite{ id = "enemies/soldiers/spear_soldier_red_weapon", description = "Red Spear Soldier" }
@@ -1040,6 +1043,8 @@ enemy{ id = "others/rabbit_beam", description = "Rabbit's Beam" }
 enemy{ id = "others/wizzrobe_beam", description = "Wizzrobe's Beam" }
 enemy{ id = "soldiers/chain_and_ball", description = "chaine et boule" }
 enemy{ id = "soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+enemy{ id = "soldiers/soldier_archer", description = "soldier_archier" }
+enemy{ id = "soldiers/soldier_archer_projectile", description = "soldier_archier_projectile" }
 enemy{ id = "soldiers/soldier_simple_green", description = "Soldat vert simple" }
 enemy{ id = "soldiers/spear_soldier_red", description = "Spear Soldier Red" }
 enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Soldier Blue" }
@@ -1166,6 +1171,8 @@ file{ path = "enemies/others/wizzrobe_beam.lua", author = "Christopho", license 
 file{ path = "enemies/soldiers", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/chain_and_ball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/knight_chain_and_ball.lua", author = "Christopho, ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/soldiers/soldier_archer.lua", author = "DarkDavy15", license = "GPL v3" }
+file{ path = "enemies/soldiers/soldier_archer_projectile.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "enemies/soldiers/soldier_simple_green.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/spear_soldier_red.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/soldiers/sword_soldier_blue.lua", author = "Christopho", license = "GPL v3" }
@@ -2669,6 +2676,10 @@ file{ path = "sprites/enemies/soldiers/ball.dat", author = "ZeldoRetro", license
 file{ path = "sprites/enemies/soldiers/chain.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/knight_chain_and_ball.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/soldier_archer.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/soldier_archer.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/soldiers/soldier_archer_head.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/soldiers/soldier_archer_projectile.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/soldier_simple_green.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/soldiers/soldier_simple_green.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/enemies/soldiers/spear_soldier_red.dat", author = "Christopho", license = "CC BY-SA 4.0" }

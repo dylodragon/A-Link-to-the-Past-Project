@@ -1,0 +1,20 @@
+animation{
+  name = "walking",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 280, y = 24, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 5 },
+    { x = 272, y = 24, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 9 },
+    { x = 280, y = 32, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 5 },
+    { x = 264, y = 24, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 9 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 280, y = 24, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 5 },
+    { x = 272, y = 24, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 9 },
+    { x = 280, y = 32, frame_width = 16, frame_height = 8, origin_x = 8, origin_y = 5 },
+    { x = 264, y = 24, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 9 },
+  },
+}
