@@ -1,96 +1,117 @@
--- Lua script of enemy eyegore.
-
 local enemy = ...
-local game = enemy:get_game()
-local map = enemy:get_map()
-local hero = map:get_hero()
-local sprite = {}
-local movement
-local direction = 3
-local state = 0
-local step = 0
-local x, y = enemy:get_position()
+local going_hero = false
+local timer
+local timer_awakening = 500
+local timer_asleep = 2000
+local timer_following = 3000
 
-function enemy:set_vulnerable() end
+--Eyegore green
 
 function enemy:on_created()
-  enemy:set_can_attack(false)
-  enemy:set_invincible()
+  self:set_life(8)
+  self:set_damage(2)
+  self:create_sprite("enemies/" .. enemy:get_breed())
+  self:set_hurt_style("monster")
+  self:get_sprite():set_animation("immobilized")
+  self:set_invincible(true)
   self:set_attack_consequence("sword", "protected")
   self:set_attack_consequence("thrown_item", "protected")
   self:set_attack_consequence("explosion", "protected")
   self:set_attack_consequence("boomerang", "protected")
   self:set_attack_consequence("arrow", "protected")
-  sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_life(8)
-  enemy:set_damage(2)
-  function enemy:set_vulnerable(boolean)
-    if boolean then
-      enemy:set_default_attack_consequences()
-      enemy:set_attack_consequence("arrow", 8)
-      self:set_attack_consequence("thrown_item", 8)
-    else
-      enemy:set_invincible()
-      self:set_attack_consequence("sword", "protected")
-      self:set_attack_consequence("thrown_item", "protected")
-      self:set_attack_consequence("explosion", "protected")
-      self:set_attack_consequence("boomerang", "protected")
-      self:set_attack_consequence("arrow", "protected")
-    end
-  end
   if self:get_treasure() == nil then self:set_treasure("prize_packs/5") end
-  sprite:set_animation("immobilized")
-  enemy:set_attacking_collision_mode("overlapping")
+  --self:set_arrow_reaction("protected")
+  --self:set_hookshot_reaction("protected")
+  --self:set_fire_reaction("protected")
+end
+
+function enemy:on_obstacle_reached(movement)
+  if not going_hero then
+    self:sleep()
+    self:check_hero()
+  end
 end
 
 function enemy:on_restarted()
-  x, y = enemy:get_position()
-  if not enemy:is_in_same_region(hero) then step = 0 end
-  if state == 0 then -- wait hero
-    enemy:set_can_attack(false)
-    sprite:set_animation("immobilized")
-    if (sol.main.get_distance(x, y, hero:get_position()) < 64)
-    and enemy:is_in_same_region(hero) then
-      sprite:set_animation("awakening")
-        sol.timer.start(enemy, 1200, function()
-          state = 1
-          enemy:set_vulnerable(true)
-          enemy:set_can_attack(true)
-          step = 20
-          sprite:set_animation("walking")
-          enemy:restart()
-        end)
+  if not going_hero then
+    self:get_sprite():set_animation("immobilized")
+    self:check_hero()
+  else
+    if enemy:is_in_same_region(enemy:get_map():get_hero()) then self:go_hero()
     else
-      sol.timer.start(enemy, 200, function()
-        enemy:restart()
-      end)
+      local m = sol.movement.create("target")
+      m:set_speed(32)
+      m:start(enemy)
+      m:stop()
+      enemy:set_attack_consequence("arrow", "protected")
+      --enemy:set_arrow_reaction("protected")
+      enemy:set_attack_consequence("sword", "protected")
+      enemy:set_attack_consequence("thrown_item", "protected")
+      enemy:set_attack_consequence("explosion", "protected")
+      enemy:get_sprite():set_animation("immobilized")
+      going_hero = false
+      enemy:check_hero()
     end
-  elseif state == 1 then -- target hero
-    step = step-1
-    if step <= 0 then
-      state = 2
-      enemy:restart()
-    else
-      direction = (math.ceil((math.abs((sol.main.get_angle(x, y, hero:get_position()))*(180/math.pi))-45)/90))%4
-      movement = sol.movement.create("path")
-      movement:set_path{direction*2}
-      movement:set_speed(48)
-      function movement:on_obstacle_reached()
-        enemy:restart()
-      end
-      movement:start(enemy, function()
-        enemy:restart()
-      end)
-      sprite:set_direction(direction)
-    end
-  elseif state == 2 then -- close eyes
-    enemy:set_can_attack(false)
-    enemy:set_vulnerable(false)
-    sprite:set_direction(3)
-    sprite:set_animation("sleeping", function()
-      state = 0
-      sprite:set_animation("immobilized")
-      enemy:restart()
-    end)
   end
+end
+
+function enemy:check_hero()
+  local hero = self:get_map():get_entity("hero")
+  local _, _, layer = self:get_position()
+  local _, _, hero_layer = hero:get_position()
+  local near_hero = layer == hero_layer
+    and self:get_distance(hero) <= 40
+
+  if near_hero and not going_hero then
+    timer:stop()
+    timer = nil
+    self:awakens()
+  end
+-- TODO #21 : Timing d'ouverture de l'oeil lié à la vérification de pressence du Héro... trop lent
+  timer = sol.timer.start(self, timer_awakening, function() self:check_hero() end)
+end
+
+function enemy:sleep()
+  self:set_attack_consequence("arrow", "protected")
+  --self:set_arrow_reaction("protected")
+  self:set_attack_consequence("sword", "protected")
+  self:set_attack_consequence("thrown_item", "protected")
+  self:set_attack_consequence("explosion", "protected")
+  self:get_sprite():set_animation("sleeping",function()
+    self:get_sprite():set_animation("immobilized")
+  end)
+  timer = sol.timer.start(self, timer_asleep, function() going_hero = false self:check_hero() end)
+end
+
+function enemy:awakens()
+  self:get_sprite():set_animation("awakening",function() end)
+  timer = sol.timer.start(self, timer_awakening, function() self:go_hero() end)  
+end
+
+function enemy:on_movement_changed(movement)
+
+    local direction4 = movement:get_direction4()
+    local sprite = self:get_sprite()
+    sprite:set_direction(direction4)
+    timer_following = timer_following - 25
+end
+
+function enemy:go_hero()
+  self:set_attack_consequence("arrow", 8)
+  --self:set_arrow_reaction(8)
+  --self:set_hammer_reaction(8)
+  --self:set_fire_reaction(4)
+  self:set_attack_consequence("sword", 1)
+  self:set_attack_consequence("thrown_item", 8)
+  self:set_attack_consequence("explosion", 4)
+  self:get_sprite():set_animation("walking")
+  local m = sol.movement.create("target")
+  m:set_speed(56)
+  m:start(self)
+  going_hero = true
+  sol.timer.start(self,timer_following,function()
+    timer_following = 3000  
+    m:stop(self)
+    self:sleep() 
+  end)
 end

@@ -1,0 +1,62 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 344, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+    { x = 344, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+  },
+}
+animation{
+  name = "attack",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 344, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+    { x = 344, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  frame_delay = 60,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 296, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26, num_frames = 4 },
+    { x = 296, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24, num_frames = 4 },
+    { x = 296, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26, num_frames = 4 },
+    { x = 296, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24, num_frames = 4 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 344, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+    { x = 344, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 344, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+    { x = 344, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/soldiers/soldier_archer.png",
+  directions = {
+    { x = 344, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+    { x = 344, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 26 },
+    { x = 344, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 24 },
+  },
+}

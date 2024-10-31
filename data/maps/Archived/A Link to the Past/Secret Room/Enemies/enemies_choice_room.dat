@@ -6,7 +6,7 @@ properties{
   min_layer = -8,
   max_layer = 7,
   world = "Secret Room",
-  tileset = "dungeon/brown",
+  tileset = "dungeon/green",
 }
 
 tile{
@@ -5304,60 +5304,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1104,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 1120,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 1136,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 1152,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 1168,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 1184,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
   x = 1296,
   y = 16,
   width = 24,
@@ -6600,159 +6546,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 2584,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2600,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2616,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2584,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2600,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2616,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2600,
-  y = 40,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2584,
-  y = 40,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2584,
-  y = 56,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2584,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2776,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2760,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2744,
-  y = 8,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2760,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2776,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 2776,
-  y = 40,
-  width = 16,
-  height = 16,
-  pattern = "spike_trap",
-}
-
-tile{
-  layer = 1,
-  x = 3160,
-  y = 72,
-  width = 80,
-  height = 64,
-  pattern = "floor.18-2",
-}
-
-tile{
-  layer = 1,
   x = 3112,
   y = 168,
   width = 16,
@@ -6767,33 +6560,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "torch",
-}
-
-tile{
-  layer = 1,
-  x = 3168,
-  y = 104,
-  width = 32,
-  height = 24,
-  pattern = "triforce.tile-2",
-}
-
-tile{
-  layer = 1,
-  x = 3200,
-  y = 104,
-  width = 32,
-  height = 24,
-  pattern = "triforce.tile-2",
-}
-
-tile{
-  layer = 1,
-  x = 3184,
-  y = 80,
-  width = 32,
-  height = 24,
-  pattern = "triforce.tile-1",
 }
 
 tile{
@@ -9100,120 +8866,11 @@ tile{
   pattern = "ceiling.1",
 }
 
-enemy{
-  name = "armos_debug",
-  layer = 1,
-  x = 128,
-  y = 125,
-  direction = 0,
-  breed = "bosses/armos_knight",
-  treasure_name = "consumables/fairy",
-}
-
-enemy{
-  name = "agahnim_1_debug",
-  layer = 1,
-  x = 896,
-  y = 93,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/agahnim",
-}
-
-enemy{
-  name = "helmasaur_debug",
-  layer = 1,
-  x = 1144,
-  y = 117,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/helmasaur_king",
-}
-
-enemy{
-  name = "arrghus_debug",
-  layer = 1,
-  x = 1408,
-  y = 93,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/arrghus",
-}
-
-enemy{
-  name = "mothula_debug",
-  layer = 1,
-  x = 1664,
-  y = 101,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/mothula",
-}
-
-enemy{
-  name = "kholdstare_debug",
-  layer = 1,
-  x = 2176,
-  y = 101,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/kholdstare",
-}
-
-enemy{
-  name = "vitreous_debug",
-  layer = 1,
-  x = 2432,
-  y = 69,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/vitreous",
-}
-
-enemy{
-  name = "blind_debug",
-  layer = 1,
-  x = 1920,
-  y = 117,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/blind_the_thief",
-}
-
-enemy{
-  name = "trinexx_debug",
-  layer = 1,
-  x = 2688,
-  y = 61,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "dark_world/stal",
-}
-
-enemy{
-  name = "ganon_debug",
-  layer = 1,
-  x = 3200,
-  y = 101,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/ganon",
-}
-
-door{
-  name = "armos_door",
-  layer = 1,
-  x = 120,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
-  name = "armos",
+  name = "vulture",
   layer = 1,
   x = 128,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
@@ -12026,83 +11683,47 @@ stream{
   speed = 512,
 }
 
-door{
-  name = "lanmola_door",
-  layer = 1,
-  x = 376,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
-  name = "lanmola",
+  name = "devalant_blue",
   layer = 1,
   x = 384,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
 
-door{
-  name = "agahnim_1_door",
-  layer = 1,
-  x = 888,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
-  name = "agahnim_1",
+  name = "eyegore_green",
   layer = 1,
   x = 896,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
 
-door{
-  name = "helmasaur_door",
-  layer = 1,
-  x = 1144,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
-  name = "helmasaur",
+  name = "beamos",
   layer = 1,
   x = 1152,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
 
 sensor{
-  name = "arrghus",
+  name = "kodongo",
   layer = 1,
   x = 1408,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
 
-door{
-  name = "mothula_door",
-  layer = 1,
-  x = 1656,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
-  name = "mothula",
+  name = "hardhat_beetle_blue",
   layer = 1,
   x = 1664,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
@@ -12116,15 +11737,6 @@ sensor{
   height = 16,
 }
 
-door{
-  name = "vitreous_door",
-  layer = 1,
-  x = 2424,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
   name = "vitreous",
   layer = 1,
@@ -12132,15 +11744,6 @@ sensor{
   y = 197,
   width = 16,
   height = 16,
-}
-
-door{
-  name = "ganon_door",
-  layer = 1,
-  x = 3192,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
 }
 
 sensor{
@@ -12221,8 +11824,8 @@ destination{
 destination{
   name = "destination",
   layer = 1,
-  x = 384,
-  y = 325,
+  x = 64,
+  y = 373,
   direction = 0,
   starting_location_mode = "yes",
 }
@@ -12265,24 +11868,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/octopus",
-}
-
-door{
-  name = "arrghus_door",
-  layer = 1,
-  x = 1400,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
-door{
-  name = "blind_door",
-  layer = 1,
-  x = 1912,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
 }
 
 sensor{
@@ -12353,15 +11938,6 @@ destination{
   starting_location_mode = "no",
 }
 
-door{
-  name = "trinexx_door",
-  layer = 1,
-  x = 2680,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d2_normal",
-}
-
 sensor{
   name = "trinexx",
   layer = 1,
@@ -12401,25 +11977,6 @@ npc{
   sprite = "npc/octopus",
 }
 
-enemy{
-  name = "agahnim_2_debug",
-  layer = 1,
-  x = 2944,
-  y = 93,
-  enabled_at_start = false,
-  direction = 0,
-  breed = "bosses/agahnim",
-}
-
-door{
-  name = "agahnim_2_door",
-  layer = 1,
-  x = 2936,
-  y = 200,
-  direction = 3,
-  sprite = "doors/door_d1_normal",
-}
-
 sensor{
   name = "agahnim_2",
   layer = 1,
@@ -12429,52 +11986,125 @@ sensor{
   height = 16,
 }
 
-enemy{
-  name = "lanmola_1",
+custom_entity{
+  name = "spawn_enemy",
+  layer = 1,
+  x = 128,
+  y = 117,
+  properties = {
+    {
+      key = "name",
+      value = "light_world/vulture",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_2",
   layer = 1,
   x = 384,
-  y = 85,
-  enabled_at_start = false,
+  y = 125,
   properties = {
     {
-      key = "is_major",
-      value = "true",
+      key = "name",
+      value = "dungeons/devalant_blue",
     },
   },
-  direction = 0,
-  breed = "bosses/lanmola",
+  width = 16,
+  height = 16,
+  direction = 3,
 }
 
-enemy{
-  name = "lanmola_2",
+custom_entity{
+  name = "spawn_enemy_3",
   layer = 1,
-  x = 328,
-  y = 173,
-  enabled_at_start = false,
+  x = 384,
+  y = 125,
   properties = {
     {
-      key = "is_major",
-      value = "true",
+      key = "name",
+      value = "dungeons/quicksand",
     },
   },
-  direction = 0,
-  breed = "bosses/lanmola",
+  width = 16,
+  height = 16,
+  direction = 3,
 }
 
-enemy{
-  name = "lanmola_3",
+sensor{
+  name = "quicksand",
   layer = 1,
-  x = 440,
-  y = 173,
-  enabled_at_start = false,
+  x = 384,
+  y = 213,
+  width = 16,
+  height = 16,
+}
+
+custom_entity{
+  name = "spawn_enemy_4",
+  layer = 1,
+  x = 896,
+  y = 133,
   properties = {
     {
-      key = "is_major",
-      value = "true",
+      key = "name",
+      value = "dungeons/eyegore_green",
     },
   },
-  direction = 0,
-  breed = "bosses/lanmola",
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_5",
+  layer = 1,
+  x = 1152,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "traps/beamos",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_6",
+  layer = 1,
+  x = 1408,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/kodongo",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_7",
+  layer = 1,
+  x = 1664,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/hardhat_beetle_blue",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
 }
 
 tile{
@@ -12830,15 +12460,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 1888,
-  y = 64,
-  width = 64,
-  height = 64,
-  pattern = "lighting.2",
-}
-
-tile{
-  layer = 2,
   x = 2416,
   y = 216,
   width = 32,
@@ -12916,51 +12537,6 @@ tile{
   width = 3328,
   height = 64,
   pattern = "ceiling.1",
-}
-
-tile{
-  layer = 3,
-  x = 104,
-  y = 272,
-  width = 8,
-  height = 16,
-  pattern = "344",
-}
-
-tile{
-  layer = 3,
-  x = 112,
-  y = 272,
-  width = 8,
-  height = 16,
-  pattern = "387",
-}
-
-tile{
-  layer = 3,
-  x = 120,
-  y = 272,
-  width = 8,
-  height = 16,
-  pattern = "382",
-}
-
-tile{
-  layer = 3,
-  x = 128,
-  y = 272,
-  width = 8,
-  height = 16,
-  pattern = "384",
-}
-
-tile{
-  layer = 3,
-  x = 136,
-  y = 272,
-  width = 8,
-  height = 16,
-  pattern = "388",
 }
 
 tile{
@@ -14032,6 +13608,69 @@ tile{
   width = 16,
   height = 224,
   pattern = "ceiling.1",
+}
+
+tile{
+  layer = 3,
+  x = 96,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "35",
+}
+
+tile{
+  layer = 3,
+  x = 104,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "60",
+}
+
+tile{
+  layer = 3,
+  x = 112,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "51",
+}
+
+tile{
+  layer = 3,
+  x = 120,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "59",
+}
+
+tile{
+  layer = 3,
+  x = 128,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "60",
+}
+
+tile{
+  layer = 3,
+  x = 136,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "57",
+}
+
+tile{
+  layer = 3,
+  x = 144,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "44",
 }
 
 separator{
