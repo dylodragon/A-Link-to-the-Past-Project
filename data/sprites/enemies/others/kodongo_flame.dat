@@ -1,0 +1,33 @@
+animation{
+  name = "walking",
+  src_image = "enemies/others/kodongo_flame.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+animation{
+  name = "disapear",
+  src_image = "enemies/others/kodongo_flame.png",
+  frame_delay = 100,
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+  },
+}
+animation{
+  name = "stare",
+  src_image = "enemies/others/kodongo_flame.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+  },
+}
