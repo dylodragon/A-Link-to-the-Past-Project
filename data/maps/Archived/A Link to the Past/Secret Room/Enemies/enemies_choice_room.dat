@@ -11711,19 +11711,19 @@ sensor{
 }
 
 sensor{
-  name = "arrghus",
+  name = "kodongo",
   layer = 1,
   x = 1408,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
 
 sensor{
-  name = "mothula",
+  name = "hardhat_beetle_blue",
   layer = 1,
   x = 1664,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }
@@ -12068,6 +12068,38 @@ custom_entity{
     {
       key = "name",
       value = "traps/beamos",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_6",
+  layer = 1,
+  x = 1408,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/kodongo",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_7",
+  layer = 1,
+  x = 1664,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "dungeons/hardhat_beetle_blue",
     },
   },
   width = 16,
