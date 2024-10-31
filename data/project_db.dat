@@ -508,6 +508,9 @@ sprite{ id = "enemies/dungeons/keese", description = "Keese" }
 sprite{ id = "enemies/dungeons/leever_blue", description = "Leever bleu" }
 sprite{ id = "enemies/dungeons/leever_green", description = "Leever vert" }
 sprite{ id = "enemies/dungeons/leever_red", description = "Leever rouge" }
+sprite{ id = "enemies/dungeons/mini_moldorm", description = "Mini Moldorm" }
+sprite{ id = "enemies/dungeons/mini_moldorm_body", description = "Mini Moldorm (corps)" }
+sprite{ id = "enemies/dungeons/mini_moldorm_tail", description = "Mini Moldorm (queue)" }
 sprite{ id = "enemies/dungeons/pengator", description = "Pengator" }
 sprite{ id = "enemies/dungeons/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/dungeons/popo", description = "Popo" }
@@ -575,6 +578,7 @@ sprite{ id = "enemies/traps/cannonball_big", description = "Gros boulet de canon
 sprite{ id = "enemies/traps/cannonball_hand", description = "Main (obstacle)" }
 sprite{ id = "enemies/traps/evil_tile", description = "Dalle piégée" }
 sprite{ id = "enemies/traps/fire_fairy", description = "Fire Fairy" }
+sprite{ id = "enemies/traps/fireball_animated", description = "Boule de feu (barre de feu)" }
 sprite{ id = "enemies/traps/medusa", description = "Medusa" }
 sprite{ id = "enemies/traps/medusa_blue", description = "Blue Medusa" }
 sprite{ id = "enemies/traps/medusa_purple", description = "Purple Medusa" }
@@ -1002,6 +1006,7 @@ enemy{ id = "dungeons/keese", description = "Keese" }
 enemy{ id = "dungeons/leever_blue", description = "Leever bleu" }
 enemy{ id = "dungeons/leever_green", description = "Leever vert" }
 enemy{ id = "dungeons/leever_red", description = "Leever rouge" }
+enemy{ id = "dungeons/mini_moldorm", description = "Mini Moldorm" }
 enemy{ id = "dungeons/pengator", description = "Pengator" }
 enemy{ id = "dungeons/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "dungeons/popo", description = "Popo" }
@@ -1051,7 +1056,9 @@ enemy{ id = "traps/cannon_projectile", description = "Zazak (flamme)" }
 enemy{ id = "traps/cannonball", description = "Boulet de canon" }
 enemy{ id = "traps/cannonball_big", description = "Gros boulet de canon" }
 enemy{ id = "traps/evil_tile", description = "Dalle piégée" }
+enemy{ id = "traps/fire_bar", description = "Barre de feu" }
 enemy{ id = "traps/fire_fairy", description = "Fire Fairy" }
+enemy{ id = "traps/fireball_animated", description = "Barre de feu (éléments)" }
 enemy{ id = "traps/medusa", description = "Medusa" }
 enemy{ id = "traps/trap_auto", description = "Mooving trap" }
 enemy{ id = "traps/trap_detect", description = "Trap detecting the hero proximity" }
@@ -1119,6 +1126,7 @@ file{ path = "enemies/dungeons/keese.lua", author = "Christopho, Razdarac", lice
 file{ path = "enemies/dungeons/leever_blue.lua", author = "Vlag", }
 file{ path = "enemies/dungeons/leever_green.lua", author = "Vlag", }
 file{ path = "enemies/dungeons/leever_red.lua", author = "Vlag", }
+file{ path = "enemies/dungeons/mini_moldorm.lua", author = "Vlag", license = "GPL v3" }
 file{ path = "enemies/dungeons/pengator.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
@@ -1177,7 +1185,9 @@ file{ path = "enemies/traps/cannon_projectile.lua", author = "ZeldoRetro", licen
 file{ path = "enemies/traps/cannonball.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/cannonball_big.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/traps/evil_tile.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/traps/fire_bar.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/fire_fairy.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "enemies/traps/fireball_animated.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/medusa.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/trap_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/trap_detect.lua", author = "Christopho", license = "GPL v3" }
@@ -2571,6 +2581,11 @@ file{ path = "sprites/enemies/dungeons/keese.png", author = "Nintendo", license 
 file{ path = "sprites/enemies/dungeons/leever_blue.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/leever_green.dat", author = "ZeldoRetro", }
 file{ path = "sprites/enemies/dungeons/leever_red.dat", author = "ZeldoRetro", }
+file{ path = "sprites/enemies/dungeons/mini_moldorm.dat", author = "Vlag", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/mini_moldorm.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/mini_moldorm_body.dat", author = "Vlag", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/mini_moldorm_tail.dat", author = "Vlag", license = "CC BY-SA 4.0" }
+file{ path = "sprites/enemies/dungeons/mini_moldorm_tail.png", author = "JulioTanaka", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/pengator.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/dungeons/pengator.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/dungeons/pike.png", author = "Nintendo", license = "Proprietary (Fair use)" }
@@ -2695,6 +2710,8 @@ file{ path = "sprites/enemies/traps/cannonball_hand.dat", author = "ZeldoRetro",
 file{ path = "sprites/enemies/traps/evil_tile.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/fire_fairy.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/fire_fairy.png", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sprites/enemies/traps/fireball.png", author = "Nintendo", license = "Proprietary (fair use)" }
+file{ path = "sprites/enemies/traps/fireball_animated.dat", author = "Matt Wright", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/medusa.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/enemies/traps/medusa.png", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sprites/enemies/traps/medusa_blue.dat", author = "Christopho", license = "CC BY-SA 4.0" }

@@ -11,5 +11,11 @@ separator_manager:manage_map(map)
 
 function map:on_started(destination)
 
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
 
 end
