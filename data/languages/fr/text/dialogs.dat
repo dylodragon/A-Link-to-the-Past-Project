@@ -831,3 +831,30 @@ pour vaincre les ennemis coriaces.
 ]],
 }
 
+dialog{
+  id = "ts.hint_hera_1",
+  text = [[
+Link, c'est moi, Sahasrahla.
+l'Ancien ! Un conseil ! Dans le
+donjon, jette un coup d'oeil
+au Miroir Magique chaque fois
+que tu veux revenir à l'entrée.
+N'oublie pas cela !
+]],
+}
+
+dialog{
+  id = "ts.hint_hera_2",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Une sphère appelée Perle
+de Lune est dans cette Tour.
+Celui qui détient la Perle de Lune
+est protégé et conserve sa forme
+dans le Monde des Ténèbres.
+Tu dois la trouver avant
+de quitter la Tour !
+N'oublie pas la Perle de Lune !
+]],
+}
+

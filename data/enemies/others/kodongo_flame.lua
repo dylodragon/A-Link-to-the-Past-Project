@@ -10,7 +10,6 @@ function enemy:on_created()
   enemy:set_invincible()
   enemy:set_obstacle_behavior("flying")
   enemy:set_property("is_major","true")
-  enemy:set_minimum_shield_needed(3) -- Miror shield.
 end
 
 function enemy:on_obstacle_reached()

@@ -1,12 +1,21 @@
 local enemy = ...
 
--- Red Hardhat Beetle.
+local movement = sol.movement.create("target")
+local max_speed = 48
+local min_speed = 0
+local speed = min_speed
+local speed_change = false
+
+
+-- Blue Hardhat Beetle.
 
 function enemy:on_created()
 
   enemy:set_life(8)
-  enemy:set_damage(6)
+  enemy:set_damage(4)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
+  if self:get_treasure() == nil then self:set_treasure("prize_packs/2") end
+  enemy:set_push_hero_on_sword(true)
 end
 
 local function go_hero()

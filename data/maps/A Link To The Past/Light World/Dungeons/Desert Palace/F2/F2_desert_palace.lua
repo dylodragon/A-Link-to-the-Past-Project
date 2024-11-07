@@ -25,12 +25,22 @@ function map:on_started(destination)
   -- Dalles piégées
   map:set_entities_enabled("evil_tile_", false)
 
-  --Pendentif obtenu : Boss ne revient pas
-  if game:get_value("get_pendant_of_power") then
+  --Réceptacle obtenu : Pendentif apparait et pas Boss
+  if game:get_value("desert_palace_heart_container") then
     sensor_boss:set_enabled(false)
     sensor_falling_auto_door_6_n_open:set_enabled(false)
     map:set_doors_open("auto_door_6")
+    local x, y = key_item_spot:get_position()
+      map:create_pickable{
+        treasure_name = "quest/pendant_of_power",
+        treasure_variant = 1,
+        treasure_savegame_variable = "get_pendant_of_power",
+        x = x,
+        y = y,
+        layer = 1
+      }
   end
+
 end
 
 --DALLES PIEGEES
@@ -85,7 +95,7 @@ for torch in map:get_entities("wall_torch") do
   end
 end
 
---BOSS : ACTIVATION LAMNOLAS, MORT ET RÉCUPÉRATION PENDENTIF
+--BOSS : ACTIVATION LANMOLAS, MORT ET RÉCUPÉRATION PENDENTIF
 
 function sensor_boss:on_activated()
     self:set_enabled(false)
@@ -97,16 +107,20 @@ function sensor_boss:on_activated()
       m:set_max_distance(16)
       m:set_angle(math.pi / 2)
       m:start(map:get_camera())
+      lanmola_1:set_enabled(true)
+      lanmola_2:set_enabled(true)
+      lanmola_3:set_enabled(true)
     end)
 end
 
-for enemy in map:get_entities("lamnola_") do
+for enemy in map:get_entities("lanmola_") do
   function enemy:on_dead()
     local x, y, layer = enemy:get_position()
-    if not map:has_entities("lamnola_") then
+    if not map:has_entities("lanmola_") then
       map:create_pickable{
         treasure_name = "consumables/heart_container",
         treasure_variant = 1,
+        treasure_savegame_variable = "desert_palace_heart_container",
         x = x,
         y = y,
         layer = layer

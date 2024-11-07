@@ -94,6 +94,8 @@ enemy:register_event("on_created", function(enemy)
   enemy:set_origin(8, 8)
   enemy:set_hookshot_reaction(6)
   enemy:set_attack_consequence("boomerang","protected")
+
+  if enemy:get_treasure() == nil then enemy:set_treasure("prize_packs/2") end
   
   -- Create sprites.
   head_sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())

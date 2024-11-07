@@ -2316,6 +2316,15 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 1,
+  x = 856,
+  y = 824,
+  width = 80,
+  height = 8,
+  pattern = "2761",
+}
+
 sensor{
   name = "evil_tiles_sensor_1",
   layer = 1,
@@ -3182,7 +3191,7 @@ dynamic_tile{
 }
 
 enemy{
-  name = "lamnola_1",
+  name = "lanmola_1",
   layer = 1,
   x = 640,
   y = 349,
@@ -3247,7 +3256,7 @@ sensor{
 }
 
 enemy{
-  name = "lamnola_2",
+  name = "lanmola_2",
   layer = 1,
   x = 584,
   y = 445,
@@ -3263,7 +3272,7 @@ enemy{
 }
 
 enemy{
-  name = "lamnola_3",
+  name = "lanmola_3",
   layer = 1,
   x = 696,
   y = 445,

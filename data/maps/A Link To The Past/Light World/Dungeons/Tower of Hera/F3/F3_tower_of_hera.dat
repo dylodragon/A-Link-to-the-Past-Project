@@ -1751,78 +1751,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 176,
-  y = 384,
-  width = 16,
-  height = 16,
-  pattern = "floor_star.on-1",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 400,
-  width = 16,
-  height = 16,
-  pattern = "floor_star.off",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 352,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 352,
-  width = 32,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 376,
-  width = 32,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 1,
-  x = 112,
-  y = 400,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 112,
-  y = 400,
-  width = 32,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 1,
-  x = 112,
-  y = 424,
-  width = 32,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 1,
   x = 160,
   y = 472,
   width = 32,
@@ -2098,141 +2026,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "cauldron.1-1",
-}
-
-tile{
-  layer = 1,
-  x = 64,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "floor_star.off",
-}
-
-tile{
-  layer = 1,
-  x = 112,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "floor_star.on-1",
-}
-
-tile{
-  layer = 1,
-  x = 304,
-  y = 80,
-  width = 16,
-  height = 16,
-  pattern = "floor_star.off",
-}
-
-tile{
-  layer = 1,
-  x = 56,
-  y = 176,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 56,
-  y = 176,
-  width = 32,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 1,
-  x = 56,
-  y = 200,
-  width = 32,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 112,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 112,
-  width = 32,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 136,
-  width = 32,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 1,
-  x = 240,
-  y = 176,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 240,
-  y = 176,
-  width = 32,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 1,
-  x = 240,
-  y = 200,
-  width = 32,
-  height = 8,
-  pattern = "hole.2",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 112,
-  width = 32,
-  height = 32,
-  pattern = "hole_parallax.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 112,
-  width = 32,
-  height = 8,
-  pattern = "hole.1",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 136,
-  width = 32,
-  height = 8,
-  pattern = "hole.2",
 }
 
 tile{
@@ -2703,6 +2496,33 @@ tile{
   pattern = "wall_diag.2-2",
 }
 
+tile{
+  layer = 1,
+  x = 144,
+  y = 56,
+  width = 208,
+  height = 8,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 360,
+  width = 8,
+  height = 64,
+  pattern = "2761",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 360,
+  width = 8,
+  height = 64,
+  pattern = "2761",
+}
+
 wall{
   layer = 1,
   x = 216,
@@ -3042,6 +2862,577 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_A_3",
+  layer = 1,
+  x = 80,
+  y = 352,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_A_1",
+  layer = 1,
+  x = 80,
+  y = 352,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_A_2",
+  layer = 1,
+  x = 80,
+  y = 376,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+dynamic_tile{
+  name = "hole_A_6",
+  layer = 1,
+  x = 112,
+  y = 400,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_A_4",
+  layer = 1,
+  x = 112,
+  y = 400,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_A_5",
+  layer = 1,
+  x = 112,
+  y = 424,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_A_7",
+  layer = 1,
+  x = 80,
+  y = 352,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+teletransporter{
+  name = "hole_A_8",
+  layer = 1,
+  x = 112,
+  y = 400,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+switch{
+  name = "switch_hole_B_1",
+  layer = 1,
+  x = 176,
+  y = 384,
+  subtype = "walkable",
+  sprite = "switches/switch_star",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "switch_hole_A_1",
+  layer = 1,
+  x = 80,
+  y = 400,
+  subtype = "walkable",
+  sprite = "switches/switch_star",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  name = "hole_B_2",
+  layer = 1,
+  x = 128,
+  y = 352,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_B_1",
+  layer = 1,
+  x = 128,
+  y = 352,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_B_3",
+  layer = 1,
+  x = 128,
+  y = 376,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_B_4",
+  layer = 1,
+  x = 128,
+  y = 352,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_B_5",
+  layer = 1,
+  x = 160,
+  y = 416,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_B_6",
+  layer = 1,
+  x = 160,
+  y = 416,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_B_7",
+  layer = 1,
+  x = 160,
+  y = 440,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_B_8",
+  layer = 1,
+  x = 160,
+  y = 416,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+switch{
+  name = "switch_hole_A_2",
+  layer = 1,
+  x = 112,
+  y = 176,
+  subtype = "walkable",
+  sprite = "switches/switch_star",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "switch_hole_B_2",
+  layer = 1,
+  x = 64,
+  y = 144,
+  subtype = "walkable",
+  sprite = "switches/switch_star",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "switch_hole_B_3",
+  layer = 1,
+  x = 304,
+  y = 80,
+  subtype = "walkable",
+  sprite = "switches/switch_star",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  name = "hole_A_9",
+  layer = 1,
+  x = 64,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_A_10",
+  layer = 1,
+  x = 64,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_A_11",
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_A_12",
+  layer = 1,
+  x = 64,
+  y = 176,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_A_13",
+  layer = 1,
+  x = 176,
+  y = 112,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_A_14",
+  layer = 1,
+  x = 176,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_A_15",
+  layer = 1,
+  x = 176,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_A_16",
+  layer = 1,
+  x = 176,
+  y = 112,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_A_17",
+  layer = 1,
+  x = 240,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_A_18",
+  layer = 1,
+  x = 240,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_A_19",
+  layer = 1,
+  x = 240,
+  y = 200,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_A_20",
+  layer = 1,
+  x = 240,
+  y = 176,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_A_21",
+  layer = 1,
+  x = 320,
+  y = 112,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_A_22",
+  layer = 1,
+  x = 320,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_A_23",
+  layer = 1,
+  x = 320,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_A_24",
+  layer = 1,
+  x = 320,
+  y = 112,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_B_9",
+  layer = 1,
+  x = 432,
+  y = 176,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_B_10",
+  layer = 1,
+  x = 432,
+  y = 176,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_B_11",
+  layer = 1,
+  x = 432,
+  y = 200,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_B_12",
+  layer = 1,
+  x = 432,
+  y = 176,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_B_13",
+  layer = 1,
+  x = 352,
+  y = 112,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_B_14",
+  layer = 1,
+  x = 352,
+  y = 112,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_B_15",
+  layer = 1,
+  x = 352,
+  y = 136,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_B_16",
+  layer = 1,
+  x = 352,
+  y = 112,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_B_17",
+  layer = 1,
+  x = 176,
+  y = 144,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_B_18",
+  layer = 1,
+  x = 176,
+  y = 144,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_B_19",
+  layer = 1,
+  x = 176,
+  y = 168,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_B_20",
+  layer = 1,
+  x = 176,
+  y = 144,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
+  destination = "_same",
+}
+
+dynamic_tile{
+  name = "hole_B_21",
+  layer = 1,
+  x = 112,
+  y = 112,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
+  pattern = "hole_parallax.1-2",
+}
+
+dynamic_tile{
+  name = "hole_B_22",
+  layer = 1,
+  x = 112,
+  y = 112,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.1",
+}
+
+dynamic_tile{
+  name = "hole_B_23",
+  layer = 1,
+  x = 112,
+  y = 136,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "hole.2",
+}
+
+teletransporter{
+  name = "hole_B_24",
+  layer = 1,
+  x = 112,
+  y = 112,
+  enabled_at_start = false,
+  width = 32,
+  height = 32,
   destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F2/F2_tower_of_hera",
   destination = "_same",
 }

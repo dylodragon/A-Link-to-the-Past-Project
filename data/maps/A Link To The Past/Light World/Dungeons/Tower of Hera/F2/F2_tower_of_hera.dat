@@ -2202,7 +2202,7 @@ chest{
 }
 
 npc{
-  name = "ts.hint_desert",
+  name = "ts.hint_hera_1",
   layer = 0,
   x = 256,
   y = 237,
@@ -2615,6 +2615,22 @@ enemy{
   y = 149,
   direction = 0,
   breed = "dungeons/mini_moldorm",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 173,
+  direction = 3,
+  breed = "dungeons/kodongo",
+}
+
+enemy{
+  layer = 0,
+  x = 376,
+  y = 173,
+  direction = 3,
+  breed = "dungeons/kodongo",
 }
 
 tile{

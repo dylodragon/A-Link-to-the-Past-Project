@@ -18,10 +18,19 @@ function map:on_started(destination)
     hero:set_visible()
   end
 
-  --Pendentif obtenu : Boss ne revient pas
-  if game:get_value("get_pendant_of_wisdom") then
+  --Réceptacle obtenu : Pendentif apparait et pas Boss
+  if game:get_value("tower_of_hera_heart_container") then
     boss:set_enabled(false)
     sol.audio.play_music("light_world_dungeon")
+    local x, y = key_item_spot:get_position()
+      map:create_pickable{
+        treasure_name = "quest/pendant_of_wisdom",
+        treasure_variant = 1,
+        treasure_savegame_variable = "get_pendant_of_wisdom",
+        x = x,
+        y = y,
+        layer = 1
+      }
   end
 end
 
