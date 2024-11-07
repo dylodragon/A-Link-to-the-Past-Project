@@ -1038,6 +1038,7 @@ enemy{ id = "others/fire_bat", description = "Ganon's Fire Bat" }
 enemy{ id = "others/fire_circle", description = "Fire Circle" }
 enemy{ id = "others/fireball_red_big", description = "Big Red Fireball" }
 enemy{ id = "others/fireball_red_small", description = "Red small Fireball" }
+enemy{ id = "others/kodongo_flame", description = "others/kodongo_flame" }
 enemy{ id = "others/laser", description = "Laser" }
 enemy{ id = "others/lynel_flame", description = "Lynel's Flame" }
 enemy{ id = "others/octorok_stone", description = "Octorok Stone" }
