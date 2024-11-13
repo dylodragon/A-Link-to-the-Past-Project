@@ -11874,7 +11874,7 @@ sensor{
   name = "blind",
   layer = 1,
   x = 1920,
-  y = 197,
+  y = 213,
   width = 16,
   height = 16,
 }

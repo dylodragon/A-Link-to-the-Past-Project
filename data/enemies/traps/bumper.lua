@@ -22,6 +22,7 @@ function enemy:on_created()
   enemy:set_damage(0)
   sprite_collision:set_opacity(0)
   sprite:set_xy(0, -5)
+  enemy:set_can_hurt_hero_running(true)
 end
 
 function enemy:on_restarted()
@@ -67,27 +68,34 @@ function enemy:on_attacking_hero(hero, enemy_sprite)
   local bounce_power = (sol.main.get_distance(x, y, hero:get_position()))/6
 
   local posi_x_add, posi_y_add = math.cos(temp_angle)*bounce_power, math.sin(temp_angle)*bounce_power
-  local timer_repeat = 20
+  local timer_repeat = 12
   if var_bounce <= 20 then
     sol.audio.play_sound("bounce")
 
     var_bounce = 25
-    sol.timer.start(hero, 10, function()
-      local h_x, h_y  = hero:get_position()
-      if not hero:test_obstacles(posi_x_add, posi_y_add) then
-        hero:set_position(h_x+posi_x_add, h_y+posi_y_add)
-      else
-        if not hero:test_obstacles(posi_x_add, 0) then
-          hero:set_position(h_x+posi_x_add, h_y)
+    hero:freeze()
+    sol.timer.start(hero, 25, function()
+      if hero:get_animation() == "stopped" or hero:get_animation() == "stopped_with_shield" then
+        local h_x, h_y  = hero:get_position()
+        if not hero:test_obstacles(posi_x_add, posi_y_add) then
+          hero:set_position(h_x+posi_x_add, h_y+posi_y_add)
+        else
+          if not hero:test_obstacles(posi_x_add, 0) then
+            hero:set_position(h_x+posi_x_add, h_y)
+          end
+          if not hero:test_obstacles(0, posi_y_add) then
+            hero:set_position(h_x, h_y+posi_y_add)
+          end
         end
-        if not hero:test_obstacles(0, posi_y_add) then
-          hero:set_position(h_x, h_y+posi_y_add)
-        end
+        timer_repeat = timer_repeat-1
+      else 
+        timer_repeat = 0      
       end
-      timer_repeat = timer_repeat-1
+      if timer_repeat <= 0 then 
+        hero:unfreeze()
+      end
       return timer_repeat > 0
     end)
-
   end
 end
 

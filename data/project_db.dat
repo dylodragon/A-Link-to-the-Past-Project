@@ -1180,6 +1180,7 @@ file{ path = "enemies/soldiers/sword_soldier_green.lua", author = "Christopho", 
 file{ path = "enemies/traps", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/traps/beamos.lua", author = "Vlag, ZeldoRetro, Adenothe", }
 file{ path = "enemies/traps/beamos_laser.lua", author = "Vlag, ZeldoRetro, Adenothe", }
+file{ path = "enemies/traps/bumper.lua", author = "DarkDavy15, Adenothe", }
 file{ path = "enemies/traps/cannon.lua", author = "ZeldoRetro", }
 file{ path = "enemies/traps/cannon_projectile.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/traps/cannonball.lua", author = "Christopho", license = "GPL v3" }
