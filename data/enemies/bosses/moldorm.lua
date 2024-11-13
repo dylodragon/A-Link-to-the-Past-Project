@@ -22,17 +22,17 @@ local sprites = {}
 local head_sprite, tail_sprite
 local last_positions, frame_count
 local walking_movement
-local is_angry
 
 -- Configuration variables
-local walking_speed = 88
+local min_speed = 88
 local walking_angle = 0.035
-local running_speed = 140
+local max_speed = 140
 local tied_sprites_frame_lags = {20, 35, 50, 62}
 local keeping_angle_duration = 1000
 local angry_duration = 3000
 local before_explosion_delay = 2000
 local between_explosion_delay = 500
+local max_life = 7
 
 -- Constants
 local highest_frame_lag = tied_sprites_frame_lags[#tied_sprites_frame_lags] + 1
@@ -109,9 +109,8 @@ local function on_attack_received()
   -- Don't hurt and only repulse if the hero sword sprite doesn't collide with the tail sprite.
   if not enemy:overlaps(hero, "sprite", tail_sprite, hero:get_sprite("sword")) then
     enemy:start_pushing_back(hero, 200, 100, function()
-      --TODO enemy:set_hero_weapons_reactions(on_attack_received, {jump_on = "ignored"})
+      -- TODO enemy:set_hero_weapons_reactions(on_attack_received, {jump_on = "ignored"})
     end)
-    return
   end
 
   -- Custom die if only one more life point.
@@ -147,7 +146,7 @@ end
 function enemy:start_walking()
 
   walking_movement = sol.movement.create("straight")
-  walking_movement:set_speed(walking_speed)
+  walking_movement:set_speed(min_speed + (max_speed - min_speed) * (max_life - enemy:get_life())/(max_life - 1))
   walking_movement:set_angle(math.random(4) * quarter)
   walking_movement:set_smooth(false)
   walking_movement:start(enemy)
@@ -155,39 +154,41 @@ function enemy:start_walking()
   -- Take the obstacle normal as angle on obstacle reached.
   function walking_movement:on_obstacle_reached()
     walking_movement:set_angle(enemy:get_obstacles_normal_angle())
+    straight = false
+    walking_angle = 0.035 * 2 * (math.random(2) - 1) - 0.035
   end
 
-  -- Regularly and randomly change the angle.
+  -- Check for straight movement duration for making a loop
+  local straight = true
   sol.timer.start(enemy, keeping_angle_duration, function()
-    if math.random(2) == 1 then
-      walking_angle = 0 - walking_angle
+    if(straight) then    
+      local x, y, _ = enemy:get_position()
+      local hero_x, hero_y, _ = hero:get_position()
+      local hero_angle = math.atan2(y - hero_y, hero_x - x)
+      backup_angle = walking_movement:get_angle()
+      walking_movement:set_angle(hero_angle)
+      walking_angle = 0
+      straight = not straight
+    else
+      walking_angle = 0.035 * 2 * (math.random(2) - 1) - 0.035
+      straight = not straight
     end
     return true
   end)
-
+  walking_movement:set_angle(math.pi/2)
   -- Update walking angle, head sprite direction and tied sprites positions
   sol.timer.start(enemy, 10, function()
     walking_movement:set_angle((walking_movement:get_angle() + walking_angle) % circle)
     update_sprites()
-    return walking_speed / walking_movement:get_speed() * 10 -- Schedule for each frame while walking and more while running, to keep the same curve and sprites distance.
-  end)
-end
-
--- Increase the enemy speed for some time.
-function enemy:set_angry()
-
-  is_angry = true
-  walking_movement:set_speed(running_speed)
-  sol.timer.start(enemy, angry_duration, function()
-    is_angry = false
-    walking_movement:set_speed(walking_speed)
+    return min_speed / walking_movement:get_speed() * 10 -- Schedule for each frame while walking and more while running, to keep the same curve and sprites distance.
   end)
 end
 
 -- Initialization.
 enemy:register_event("on_created", function(enemy)
-
-  enemy:set_life(12)
+  
+  enemy:set_pushed_back_when_hurt(false)
+  enemy:set_life(max_life)
   enemy:set_size(24, 24)
   enemy:set_origin(12, 12)
   
@@ -217,7 +218,4 @@ enemy:register_event("on_restarted", function(enemy)
   enemy:set_can_attack(true)
   enemy:set_damage(2)
   enemy:start_walking()
-  if enemy:get_life() < 4 then
-    enemy:set_angry()
-  end
 end)

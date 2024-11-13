@@ -27,7 +27,7 @@ function enemy:on_created()
   self:set_damage(4)
   enemy:set_property("is_major","true")
   self.is_exhausted = false -- True after a shoot and before a delay.
-  sol.timer.start(500, function()
+  sol.timer.start(1000, function()
     start_shooting = true
   end)
 end
