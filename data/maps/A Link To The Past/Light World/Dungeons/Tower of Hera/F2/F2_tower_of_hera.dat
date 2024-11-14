@@ -2163,6 +2163,15 @@ tile{
   pattern = "wall_diag.border.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 432,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "2761",
+}
+
 destination{
   name = "entree",
   layer = 0,
@@ -4372,5 +4381,597 @@ dynamic_tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_down.1-1",
+}
+
+stream{
+  layer = 2,
+  x = 112,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 64,
+  y = 197,
+  direction = 0,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 64,
+  y = 181,
+  direction = 7,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 64,
+  y = 213,
+  direction = 1,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 80,
+  y = 181,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 96,
+  y = 197,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 96,
+  y = 181,
+  direction = 5,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 144,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 192,
+  y = 117,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 176,
+  y = 117,
+  direction = 7,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 208,
+  y = 117,
+  direction = 5,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 208,
+  y = 133,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 208,
+  y = 149,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 208,
+  y = 165,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 248,
+  y = 213,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 264,
+  y = 213,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 264,
+  y = 221,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 248,
+  y = 221,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 336,
+  y = 117,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 352,
+  y = 117,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 320,
+  y = 117,
+  direction = 7,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 320,
+  y = 133,
+  direction = 0,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 352,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 368,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 384,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 336,
+  y = 149,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 320,
+  y = 149,
+  direction = 1,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 464,
+  y = 181,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 448,
+  y = 181,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 448,
+  y = 197,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 448,
+  y = 213,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 464,
+  y = 213,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 464,
+  y = 197,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 448,
+  y = 373,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 448,
+  y = 389,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 448,
+  y = 405,
+  direction = 3,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 192,
+  y = 453,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 176,
+  y = 453,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 160,
+  y = 453,
+  direction = 2,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 352,
+  y = 437,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 352,
+  y = 421,
+  direction = 4,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 112,
+  y = 437,
+  direction = 1,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 104,
+  y = 429,
+  direction = 1,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 120,
+  y = 445,
+  direction = 1,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 144,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 128,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 160,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 352,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 368,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 384,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 112,
+  y = 357,
+  direction = 5,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+stream{
+  layer = 2,
+  x = 96,
+  y = 357,
+  direction = 6,
+  speed = 48,
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
+}
+
+dynamic_tile{
+  layer = 2,
+  x = 440,
+  y = 168,
+  width = 32,
+  height = 48,
+  pattern = "2761",
 }
 

@@ -68,11 +68,11 @@ for torch in map:get_entities("wall_torch") do
         local sliding_wall_4_x, sliding_wall_4_y = map:get_entity("sliding_wall_4"):get_position()
         local i = 0
         local camera = map:get_camera()
-        --local shake_config = {
-        --  count = 310,
-        --  amplitude = 2,
-        --}
-        --camera:shake(shake_config)
+        local shake_config = {
+          count = 120,
+          amplitude = 2,
+        }
+        camera:shake(shake_config)
         sol.timer.start(map,70,function()
           sol.audio.play_sound("hero_pushes")
           i = i + 1

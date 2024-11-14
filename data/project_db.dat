@@ -866,6 +866,7 @@ sound{ id = "magic_meter", description = "magic_meter" }
 sound{ id = "magic_powder", description = "magic_powder" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
+sound{ id = "moldorm", description = "moldorm" }
 sound{ id = "monkey", description = "monkey" }
 sound{ id = "monster_hurt", description = "monster_hurt" }
 sound{ id = "octorok", description = "octorok" }
@@ -935,6 +936,7 @@ item{ id = "equipment/bow_quiver", description = "Quiver (x30 / x50 / x70)" }
 item{ id = "equipment/flippers", description = "Flippers" }
 item{ id = "equipment/glove", description = "Glove (level 1 / level 2)" }
 item{ id = "equipment/magic_meter", description = "Magic Meter" }
+item{ id = "equipment/moon_pearl", description = "Perle de Lune" }
 item{ id = "equipment/pegasus_shoes", description = "Pegasus Shoes" }
 item{ id = "equipment/piece_of_heart_counter", description = "Counter Piece of Heart" }
 item{ id = "equipment/shield", description = "Shield" }
@@ -1008,7 +1010,7 @@ enemy{ id = "dungeons/hardhat_beetle_blue", description = "Hardhat Beetle Blue" 
 enemy{ id = "dungeons/hardhat_beetle_red", description = "Hardhat Beetle Red" }
 enemy{ id = "dungeons/helmasaur_red", description = "Helmasaur Red" }
 enemy{ id = "dungeons/keese", description = "Keese" }
-enemy{ id = "dungeons/kodongo", description = "dungeons/kodongo" }
+enemy{ id = "dungeons/kodongo", description = "Kodongo" }
 enemy{ id = "dungeons/leever_blue", description = "Leever bleu" }
 enemy{ id = "dungeons/leever_green", description = "Leever vert" }
 enemy{ id = "dungeons/leever_red", description = "Leever rouge" }
@@ -1062,8 +1064,10 @@ enemy{ id = "soldiers/sword_soldier_green", description = "Sword Soldier Green" 
 enemy{ id = "traps/beamos", description = "Beamos" }
 enemy{ id = "traps/beamos_laser", description = "Beamos (laser)" }
 enemy{ id = "traps/bumper", description = "Bumper" }
-enemy{ id = "traps/bumper", description = "traps/bumper" }
 enemy{ id = "traps/cannon", description = "Canon mobile" }
+enemy{ id = "traps/cannon_projectile", description = "Boulet de canon" }
+enemy{ id = "traps/cannonball", description = "Cannonball" }
+enemy{ id = "traps/cannonball_big", description = "Cannonball Big" }
 enemy{ id = "traps/evil_tile", description = "Dalle piégée" }
 enemy{ id = "traps/fire_bar", description = "Barre de Feu" }
 enemy{ id = "traps/fire_fairy", description = "Fire Fairy" }
@@ -1106,7 +1110,7 @@ file{ path = "enemies/bosses/ganon.lua", author = "Christopho", license = "GPL v
 file{ path = "enemies/bosses/helmasaur_king.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/kholdstare.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/lanmola.lua", author = "DarkDavy15, Zeldoretro, Adenothe", license = "GPL v3" }
-file{ path = "enemies/bosses/moldorm.lua", author = "Vlag", license = "GPL v3" }
+file{ path = "enemies/bosses/moldorm.lua", author = "Vlag, Adenothe", license = "GPL v3" }
 file{ path = "enemies/bosses/mothula.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/bosses/vitreous.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dark_world", author = "Christopho", license = "GPL v3" }
@@ -1121,8 +1125,8 @@ file{ path = "enemies/dark_world/taros_red.lua", author = "Christopho", license 
 file{ path = "enemies/dungeons", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/bari_blue.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/chasupa.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/devalant_blue.lua", author = "ZeldoRetro", }
-file{ path = "enemies/dungeons/devalant_red.lua", author = "ZeldoRetro", }
+file{ path = "enemies/dungeons/devalant_blue.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "enemies/dungeons/devalant_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_green.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/eyegore_red.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/freezor.lua", author = "Christopho", license = "GPL v3" }
@@ -1141,7 +1145,7 @@ file{ path = "enemies/dungeons/mini_moldorm.lua", author = "Vlag", license = "GP
 file{ path = "enemies/dungeons/pengator.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/pike_auto.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/popo.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "enemies/dungeons/quicksand.lua", author = "ZeldoRetro", }
+file{ path = "enemies/dungeons/quicksand.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "enemies/dungeons/rat.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rolling_spike_trap.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "enemies/dungeons/rope.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -1243,6 +1247,7 @@ file{ path = "items/equipment/bow_quiver.lua", author = "Christopho, Mehdi Kheli
 file{ path = "items/equipment/flippers.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/glove.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "items/equipment/moon_pearl.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "items/equipment/pegasus_shoes.lua", author = "DarkDavy15", license = "GPL v3" }
 file{ path = "items/equipment/piece_of_heart_counter.lua", author = "Mehdi Khelifi", license = "GPL v3" }
 file{ path = "items/equipment/shield.lua", author = "Mehdi Khelifi", license = "GPL v3" }
@@ -2344,6 +2349,7 @@ file{ path = "scripts/menus/savegames.lua", author = "Christopho", license = "GP
 file{ path = "scripts/menus/solarus_logo.lua", author = "Maxs", license = "GPL v3" }
 file{ path = "scripts/menus/title_screen.lua", author = "Olivier Cléro", license = "GPL v3" }
 file{ path = "scripts/meta", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "scripts/meta/camera.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "scripts/meta/map.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/npc.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "scripts/meta/sensor.lua", author = "ZeldoRetro", license = "GPL v3" }
@@ -2407,6 +2413,7 @@ file{ path = "sounds/magic_meter.ogg", author = "Nintendo", license = "Proprieta
 file{ path = "sounds/magic_powder.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_end.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/message_letter.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
+file{ path = "sounds/moldorm.ogg", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sounds/monkey.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/monster_hurt.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }
 file{ path = "sounds/octorok.ogg", author = "Nintendo", license = "Proprietary (Fair use)" }

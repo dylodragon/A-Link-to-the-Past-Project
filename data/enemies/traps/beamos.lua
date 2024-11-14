@@ -26,6 +26,7 @@ function enemy:on_created()
   self:set_invincible()
   self:set_damage(4)
   enemy:set_property("is_major","true")
+  enemy:set_can_hurt_hero_running(true)
   self.is_exhausted = false -- True after a shoot and before a delay.
   sol.timer.start(1000, function()
     start_shooting = true

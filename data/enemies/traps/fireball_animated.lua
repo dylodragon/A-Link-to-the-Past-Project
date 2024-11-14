@@ -10,6 +10,7 @@ function enemy:on_created()
   self:set_origin(8, 8)
   self:set_invincible()
   self:set_obstacle_behavior("flying")
+  enemy:set_can_hurt_hero_running(true)
 end
 
 function enemy:go_circle(center_entity, rayon, notRev)

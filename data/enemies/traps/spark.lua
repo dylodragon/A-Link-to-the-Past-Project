@@ -13,7 +13,8 @@ function enemy:on_created()
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_can_hurt_hero_running(true)
   self:set_invincible()
-  self:set_obstacle_behavior("swimming")
+  self:set_obstacle_behavior("flying")
+  enemy:set_can_hurt_hero_running(true)
 
 end
 

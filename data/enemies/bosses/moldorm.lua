@@ -4,35 +4,37 @@
 --
 -- Caterpillar enemy with three body parts and one tail that will follow the head move.
 -- Moves in curved motion, and randomly change the direction of the curve.
--- Speed up the move if set_angry() or hurt.
 --
 -- Methods : enemy:start_walking()
---           enemy:set_angry()
 --
 ----------------------------------
 
 -- Global variables
 local enemy = ...
---require("enemies/lib/common_actions").learn(enemy)
+require("enemies/library/common_actions").learn(enemy)
 
 local game = enemy:get_game()
 local map = enemy:get_map()
 local hero = map:get_hero()
 local sprites = {}
 local head_sprite, tail_sprite
+local tied_sprites_frame_lags = {}
 local last_positions, frame_count
 local walking_movement
 
 -- Configuration variables
-local min_speed = 88
+local walking_speed = 80
 local walking_angle = 0.035
-local max_speed = 140
+local running_speed = 144
 local tied_sprites_frame_lags = {20, 35, 50, 62}
-local keeping_angle_duration = 1000
-local angry_duration = 3000
+local keeping_angle_duration = 1200
 local before_explosion_delay = 2000
 local between_explosion_delay = 500
+
+local min_speed = 88
+local max_speed = 140
 local max_life = 7
+local backup_angle
 
 -- Constants
 local highest_frame_lag = tied_sprites_frame_lags[#tied_sprites_frame_lags] + 1
@@ -41,7 +43,9 @@ local eighth = math.pi * 0.25
 local quarter = math.pi * 0.5
 local circle = math.pi * 2.0
 
--- Return the normal angle of close obstacles as a multiple of pi/4, or nil if none.
+local hit = false
+local interval = 200
+
 function enemy:get_obstacles_normal_angle()
 
   local collisions = {
@@ -103,38 +107,23 @@ end
 -- Hurt or repulse the hero depending on touched sprite.
 local function on_attack_received()
 
-  -- Make sure to only trigger this event once by attack.
-  enemy:set_invincible()
-
   -- Don't hurt and only repulse if the hero sword sprite doesn't collide with the tail sprite.
-  if not enemy:overlaps(hero, "sprite", tail_sprite, hero:get_sprite("sword")) then
-    enemy:start_pushing_back(hero, 200, 100, function()
-      -- TODO enemy:set_hero_weapons_reactions(on_attack_received, {jump_on = "ignored"})
-    end)
-  end
+  if enemy:overlaps(hero, "sprite", head_sprite, hero:get_sprite("sword")) then
+    if not hit then
+      hit = true
+      sol.audio.play_sound("sword_tapping")
+      enemy:start_pushing_back(hero, 200, 200, sprite, nil, function()
+        enemy:set_invincible()
 
-  -- Custom die if only one more life point.
-  if enemy:get_life() < 2 then
+        enemy:set_attack_consequence("sword", on_attack_received)
 
-    -- Wait a few time, make tail then body sprites explode, wait a few time again and finally make the head explode and enemy die.
-    enemy:start_death(function()
-      for _, sprite in enemy:get_sprites() do
-        if sprite:has_animation("hurt") then
-          sprite:set_animation("hurt")
-        end
-      end
-
-      local sorted_tied_sprites = {sprites[5], sprites[4], sprites[3], sprites[2]}
-      sol.timer.start(enemy, 2000, function()
-        enemy:start_sprite_explosions(sorted_tied_sprites, "entities/explosion_boss", 0, 0, function()
-          sol.timer.start(enemy, 1000, function()
-            local x, y = head_sprite:get_xy()
-            enemy:start_brief_effect("entities/explosion_boss", nil, x, y)
-            finish_death()
-          end)
-        end)
+        enemy:set_attack_consequence("explosion", "protected")
+        enemy:set_attack_consequence("boomerang", "protected")
+        hit = false
       end)
-    end)
+    elseif not enemy:overlaps(hero, "sprite", tail_sprite, hero:get_sprite("sword")) then
+      return
+    end
     return
   end
 
@@ -146,7 +135,12 @@ end
 function enemy:start_walking()
 
   walking_movement = sol.movement.create("straight")
-  walking_movement:set_speed(min_speed + (max_speed - min_speed) * (max_life - enemy:get_life())/(max_life - 1))
+  if enemy:get_life() > 2 then 
+    walking_movement:set_speed(min_speed)
+  else 
+    walking_movement:set_speed(max_speed)
+    interval = 120
+  end
   walking_movement:set_angle(math.random(4) * quarter)
   walking_movement:set_smooth(false)
   walking_movement:start(enemy)
@@ -186,20 +180,21 @@ end
 
 -- Initialization.
 enemy:register_event("on_created", function(enemy)
-  
-  enemy:set_pushed_back_when_hurt(false)
+
   enemy:set_life(max_life)
   enemy:set_size(24, 24)
   enemy:set_origin(12, 12)
+
+  enemy:set_pushed_back_when_hurt(false)
+
+  enemy:set_hurt_style("boss")
   
   -- Create sprites in right z-order.
   sprites[5] = enemy:create_sprite("enemies/" .. enemy:get_breed() .. "/tail")
-  for i = 3, 1, -1 do -- for i = 3 to 1 step -1
+  for i = 3, 1, -1 do
     sprites[i + 1] = enemy:create_sprite("enemies/" .. enemy:get_breed() .. "/body_" .. i)
-    enemy:set_invincible_sprite(sprites[i + 1])
   end
   sprites[1] = enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_invincible_sprite(sprites[1])
 
   head_sprite = sprites[1]
   tail_sprite = sprites[5]
@@ -208,14 +203,25 @@ end)
 -- Restart settings.
 enemy:register_event("on_restarted", function(enemy)
 
-  -- Behavior for each items.
- -- TODO enemy:set_hero_weapons_reactions(on_attack_received, {jump_on = "ignored"})
+  enemy:set_invincible()
+  enemy:set_attack_consequence("sword", on_attack_received)
+  enemy:set_attack_consequence("explosion", "protected")
+  enemy:set_attack_consequence("boomerang", "protected")
+
+  if enemy:is_in_same_region(hero) then
+    sol.timer.start(enemy, interval, function() sol.audio.play_sound("moldorm") return true end)
+  end
 
   -- States.
   last_positions = {}
   frame_count = 0
-  is_angry = false
   enemy:set_can_attack(true)
-  enemy:set_damage(2)
+  enemy:set_damage(0)
   enemy:start_walking()
+end)
+
+enemy:register_event("on_attacking_hero", function(enemy)
+  local hero = enemy:get_map():get_hero()
+	enemy:get_game():remove_life(2)
+  hero:start_hurt(enemy, 1)
 end)

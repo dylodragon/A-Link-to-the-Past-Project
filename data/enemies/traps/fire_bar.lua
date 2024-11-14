@@ -6,6 +6,7 @@ function enemy:on_created()
   self:set_size(16, 16); self:set_origin(8, 8)
   self:set_invincible()
   self:set_obstacle_behavior("flying")
+  enemy:set_can_hurt_hero_running(true)
   enemy:set_property("is_major","true")
 
   son1 = self:create_enemy{

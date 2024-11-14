@@ -3055,7 +3055,7 @@ tile{
   x = 0,
   y = 496,
   width = 512,
-  height = 8,
+  height = 16,
   pattern = "ceiling.1",
 }
 

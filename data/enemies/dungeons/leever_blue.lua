@@ -15,6 +15,7 @@ end
 function enemy:on_restarted()
   local m = sol.movement.create("path_finding")
   m:set_speed(32)
+  enemy:set_can_attack(true)
   sol.timer.start(enemy, math.random(3000,5000), function() enemy:disappear() end)
   m:start(self)
 end
@@ -32,7 +33,6 @@ end
 
 function enemy:reappear()
   local sprite = self:get_sprite()
-  enemy:set_can_attack(true)
   enemy:set_attack_consequence ("sword", 1)
   enemy:set_attack_consequence ("thrown_item", 1)
   enemy:set_attack_consequence ("explosion", 2)
