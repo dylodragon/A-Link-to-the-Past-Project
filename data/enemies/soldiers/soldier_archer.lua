@@ -8,7 +8,7 @@ local sprite = {}
 local x, y = enemy:get_position()
 local speed = 6
 local projectile_speed = 96
-local projectile_damage = 8
+local projectile_damage = 2
 
 local view_distance = 88
 local targeted_hero = false
@@ -27,7 +27,7 @@ function enemy:on_created()
   sprite[1] = enemy:create_sprite("enemies/" .. enemy:get_breed() .. "_head")
   -- statistique
   projectile_speed = 255
-  enemy:set_life(6)
+  enemy:set_life(3)
   enemy:set_damage(2)
   enemy:set_attack_consequence("boomerang", "immobilized")
   enemy:set_attack_consequence("sword", 1)

@@ -1046,6 +1046,8 @@ enemy{ id = "others/rabbit_beam", description = "Rabbit's Beam" }
 enemy{ id = "others/wizzrobe_beam", description = "Wizzrobe's Beam" }
 enemy{ id = "soldiers/chain_and_ball", description = "chaine et boule" }
 enemy{ id = "soldiers/knight_chain_and_ball", description = "Chevalier à fléau" }
+enemy{ id = "soldiers/soldier_archer", description = "soldiers/soldier_archer" }
+enemy{ id = "soldiers/soldier_archer_projectile", description = "soldiers/soldier_archer_projectile" }
 enemy{ id = "soldiers/soldier_simple_green", description = "Soldat vert simple" }
 enemy{ id = "soldiers/spear_soldier_red", description = "Spear Soldier Red" }
 enemy{ id = "soldiers/sword_soldier_blue", description = "Sword Soldier Blue" }

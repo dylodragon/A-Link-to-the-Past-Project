@@ -6,7 +6,7 @@ local can_shoot = true
 
 function enemy:on_created()
 
-  enemy:set_life(4)
+  enemy:set_life(1)
   enemy:set_damage(4)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 end
