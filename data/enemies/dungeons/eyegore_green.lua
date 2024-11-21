@@ -27,6 +27,7 @@ function enemy:on_created()
   function enemy:set_vulnerable(boolean)
     if boolean then
       enemy:set_default_attack_consequences()
+      enemy:set_attack_consequence("boomerang", "protected")
       enemy:set_attack_consequence("arrow", 8)
       self:set_attack_consequence("thrown_item", 8)
     else

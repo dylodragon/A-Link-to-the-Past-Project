@@ -17992,6 +17992,26 @@ tile{
   pattern = "957",
 }
 
+tile{
+  layer = 1,
+  x = 840,
+  y = 0,
+  width = 32,
+  height = 40,
+  pattern = "7859",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 40,
+  width = 32,
+  height = 8,
+  pattern = "7856",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 teletransporter{
   name = "border_eastern_ruins_west_0",
   layer = 2,

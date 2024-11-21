@@ -7403,13 +7403,6 @@ destination{
   direction = 3,
 }
 
-pickable{
-  layer = 0,
-  x = 280,
-  y = 349,
-  treasure_name = "equipment/pegasus_shoes",
-}
-
 teletransporter{
   name = "tp_dungeon_desert_of_mystery_3",
   layer = 0,

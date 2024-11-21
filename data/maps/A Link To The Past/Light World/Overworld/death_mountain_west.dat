@@ -23692,6 +23692,26 @@ tile{
   pattern = "12493",
 }
 
+tile{
+  layer = 1,
+  x = 744,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "7922",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 104,
+  width = 32,
+  height = 8,
+  pattern = "7916",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 jumper{
   name = "jump_death_mountain_west_21",
   layer = 1,

@@ -22,3 +22,18 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+
+-- Dialogues Sahasrahla
+
+function sahasrahla:on_interaction()
+  -- On a les bottes, dirige vers la suite
+  if game:get_value("get_pegasus_shoes") then game:start_dialog("NoBigKey")
+  -- On a trouvé le Pendentif, donne les bootes et dirige vers la suite
+  elseif game:get_value("get_pendant_of_courage") then
+    game:start_dialog("NoSmallKey",function()
+      hero:start_treasure("equipment/pegasus_shoes", 1, "get_pegasus_shoes", function() game:start_dialog("NoBigKey") end)
+    end)
+  -- Défaut: dirige vers Eastern Palace
+  else game:start_dialog("NoBigKey") end
+end
