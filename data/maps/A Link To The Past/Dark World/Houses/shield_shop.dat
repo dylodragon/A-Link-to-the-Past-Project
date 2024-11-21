@@ -522,7 +522,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/hyrule_forest",
+  destination_map = "A Link To The Past/Dark World/Overworld/C4_hyrule_forest",
   destination = "dest_house_hyrule_forest_0",
 }
 

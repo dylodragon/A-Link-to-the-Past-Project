@@ -1,0 +1,7715 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 840,
+  min_layer = -1,
+  max_layer = 7,
+  world = "dark_world",
+  tileset = "out/outside_darkworld_main",
+}
+
+tile{
+  layer = -1,
+  x = 0,
+  y = 80,
+  width = 1024,
+  height = 160,
+  pattern = "12430",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 559,
+  width = 944,
+  height = 184,
+  pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 80,
+  pattern = "12412",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 512,
+  width = 112,
+  height = 64,
+  pattern = "8231",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 808,
+  width = 1024,
+  height = 32,
+  pattern = "1644",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 160,
+  width = 16,
+  height = 576,
+  pattern = "1654",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "1656",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 736,
+  width = 16,
+  height = 16,
+  pattern = "1655",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "1656",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "1655",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "1656",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "1655",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "1656",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "1655",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "1656",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 800,
+  width = 800,
+  height = 16,
+  pattern = "1651",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 752,
+  width = 64,
+  height = 16,
+  pattern = "1651",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "1657",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 800,
+  width = 16,
+  height = 16,
+  pattern = "1658",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "1657",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 784,
+  width = 16,
+  height = 16,
+  pattern = "1658",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 752,
+  width = 16,
+  height = 16,
+  pattern = "1657",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 768,
+  width = 16,
+  height = 16,
+  pattern = "1658",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 160,
+  width = 16,
+  height = 432,
+  pattern = "1653",
+}
+
+tile{
+  layer = 0,
+  x = 984,
+  y = 600,
+  width = 48,
+  height = 16,
+  pattern = "1652",
+}
+
+tile{
+  layer = 0,
+  x = 960,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1660",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 600,
+  width = 16,
+  height = 16,
+  pattern = "1660",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 608,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 616,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 624,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 632,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 632,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 680,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 680,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 680,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 688,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 688,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 688,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 696,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 696,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 696,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 704,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 712,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 704,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 400,
+  properties = {
+    {
+      key = "escalie",
+      value = "escalie",
+    },
+  },
+  width = 32,
+  height = 64,
+  pattern = "8231",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 288,
+  properties = {
+    {
+      key = "escalier",
+      value = "escalier",
+    },
+  },
+  width = 16,
+  height = 64,
+  pattern = "8231",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 288,
+  properties = {
+    {
+      key = "escalier",
+      value = "escalier",
+    },
+  },
+  width = 16,
+  height = 64,
+  pattern = "8231",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 176,
+  properties = {
+    {
+      key = "escalier",
+      value = "escalier",
+    },
+  },
+  width = 32,
+  height = 64,
+  pattern = "8231",
+  tileset = "out/outside_darkworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 448,
+  width = 16,
+  height = 16,
+  pattern = "8270",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "8268",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "8268",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "8266",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "8266",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 792,
+  width = 16,
+  height = 8,
+  pattern = "1647",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 568,
+  width = 16,
+  height = 8,
+  pattern = "1647",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 776,
+  width = 8,
+  height = 8,
+  pattern = "1648",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 552,
+  width = 8,
+  height = 8,
+  pattern = "1648",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 336,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 624,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "14668",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "1037",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "14835",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 144,
+  width = 16,
+  height = 8,
+  pattern = "14835",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "14835",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 504,
+  y = 109,
+  direction = 3,
+}
+
+destructible{
+  name = "auto_destructible_4",
+  layer = 0,
+  x = 152,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_5",
+  layer = 0,
+  x = 168,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_6",
+  layer = 0,
+  x = 184,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_7",
+  layer = 0,
+  x = 200,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_8",
+  layer = 0,
+  x = 216,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_9",
+  layer = 0,
+  x = 232,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_10",
+  layer = 0,
+  x = 248,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_11",
+  layer = 0,
+  x = 264,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_12",
+  layer = 0,
+  x = 280,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_13",
+  layer = 0,
+  x = 328,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_14",
+  layer = 0,
+  x = 344,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_15",
+  layer = 0,
+  x = 392,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_16",
+  layer = 0,
+  x = 408,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_17",
+  layer = 0,
+  x = 152,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_18",
+  layer = 0,
+  x = 168,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_19",
+  layer = 0,
+  x = 184,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_20",
+  layer = 0,
+  x = 200,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_21",
+  layer = 0,
+  x = 216,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_22",
+  layer = 0,
+  x = 232,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_23",
+  layer = 0,
+  x = 248,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_24",
+  layer = 0,
+  x = 264,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_25",
+  layer = 0,
+  x = 280,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_26",
+  layer = 0,
+  x = 296,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_27",
+  layer = 0,
+  x = 312,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_28",
+  layer = 0,
+  x = 328,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_29",
+  layer = 0,
+  x = 344,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_30",
+  layer = 0,
+  x = 360,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_31",
+  layer = 0,
+  x = 376,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_32",
+  layer = 0,
+  x = 392,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_33",
+  layer = 0,
+  x = 408,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_34",
+  layer = 0,
+  x = 424,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_35",
+  layer = 0,
+  x = 440,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_36",
+  layer = 0,
+  x = 440,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_37",
+  layer = 0,
+  x = 408,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_38",
+  layer = 0,
+  x = 424,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_39",
+  layer = 0,
+  x = 424,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_40",
+  layer = 0,
+  x = 440,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_41",
+  layer = 0,
+  x = 440,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_42",
+  layer = 0,
+  x = 440,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_43",
+  layer = 0,
+  x = 440,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_44",
+  layer = 0,
+  x = 440,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_45",
+  layer = 0,
+  x = 440,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_46",
+  layer = 0,
+  x = 424,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_47",
+  layer = 0,
+  x = 424,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_48",
+  layer = 0,
+  x = 440,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_49",
+  layer = 0,
+  x = 184,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_50",
+  layer = 0,
+  x = 200,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_51",
+  layer = 0,
+  x = 216,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_52",
+  layer = 0,
+  x = 232,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_53",
+  layer = 0,
+  x = 248,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_54",
+  layer = 0,
+  x = 264,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_55",
+  layer = 0,
+  x = 280,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_56",
+  layer = 0,
+  x = 296,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_57",
+  layer = 0,
+  x = 312,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_58",
+  layer = 0,
+  x = 328,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_59",
+  layer = 0,
+  x = 344,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_60",
+  layer = 0,
+  x = 184,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_61",
+  layer = 0,
+  x = 200,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_62",
+  layer = 0,
+  x = 216,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_63",
+  layer = 0,
+  x = 232,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_64",
+  layer = 0,
+  x = 248,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_65",
+  layer = 0,
+  x = 264,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_66",
+  layer = 0,
+  x = 280,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_67",
+  layer = 0,
+  x = 296,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_68",
+  layer = 0,
+  x = 312,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_69",
+  layer = 0,
+  x = 328,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_70",
+  layer = 0,
+  x = 184,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_71",
+  layer = 0,
+  x = 200,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_72",
+  layer = 0,
+  x = 216,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_73",
+  layer = 0,
+  x = 232,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_74",
+  layer = 0,
+  x = 248,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_75",
+  layer = 0,
+  x = 264,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_76",
+  layer = 0,
+  x = 280,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_77",
+  layer = 0,
+  x = 296,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_78",
+  layer = 0,
+  x = 312,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_79",
+  layer = 0,
+  x = 328,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_80",
+  layer = 0,
+  x = 184,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_81",
+  layer = 0,
+  x = 200,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_82",
+  layer = 0,
+  x = 216,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_83",
+  layer = 0,
+  x = 232,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_84",
+  layer = 0,
+  x = 248,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_85",
+  layer = 0,
+  x = 264,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_86",
+  layer = 0,
+  x = 280,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_87",
+  layer = 0,
+  x = 296,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_88",
+  layer = 0,
+  x = 312,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_89",
+  layer = 0,
+  x = 328,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_90",
+  layer = 0,
+  x = 200,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_91",
+  layer = 0,
+  x = 216,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_92",
+  layer = 0,
+  x = 232,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_93",
+  layer = 0,
+  x = 248,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_94",
+  layer = 0,
+  x = 264,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_95",
+  layer = 0,
+  x = 280,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_96",
+  layer = 0,
+  x = 296,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_97",
+  layer = 0,
+  x = 312,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_98",
+  layer = 0,
+  x = 328,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_99",
+  layer = 0,
+  x = 344,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_100",
+  layer = 0,
+  x = 216,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_101",
+  layer = 0,
+  x = 232,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_102",
+  layer = 0,
+  x = 248,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_103",
+  layer = 0,
+  x = 264,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_104",
+  layer = 0,
+  x = 280,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_105",
+  layer = 0,
+  x = 296,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_106",
+  layer = 0,
+  x = 312,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_107",
+  layer = 0,
+  x = 328,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_108",
+  layer = 0,
+  x = 344,
+  y = 701,
+  treasure_name = "pickable/fairy",
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_109",
+  layer = 0,
+  x = 344,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_110",
+  layer = 0,
+  x = 248,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_111",
+  layer = 0,
+  x = 264,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_112",
+  layer = 0,
+  x = 280,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_113",
+  layer = 0,
+  x = 296,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_114",
+  layer = 0,
+  x = 312,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_115",
+  layer = 0,
+  x = 328,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_116",
+  layer = 0,
+  x = 344,
+  y = 717,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_117",
+  layer = 0,
+  x = 328,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_118",
+  layer = 0,
+  x = 312,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_119",
+  layer = 0,
+  x = 296,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_120",
+  layer = 0,
+  x = 280,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_121",
+  layer = 0,
+  x = 264,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_122",
+  layer = 0,
+  x = 248,
+  y = 733,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_123",
+  layer = 0,
+  x = 616,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_124",
+  layer = 0,
+  x = 632,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_125",
+  layer = 0,
+  x = 648,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_126",
+  layer = 0,
+  x = 632,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_127",
+  layer = 0,
+  x = 616,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_128",
+  layer = 0,
+  x = 600,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_129",
+  layer = 0,
+  x = 584,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_130",
+  layer = 0,
+  x = 584,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_131",
+  layer = 0,
+  x = 600,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_132",
+  layer = 0,
+  x = 616,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_133",
+  layer = 0,
+  x = 632,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_134",
+  layer = 0,
+  x = 600,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_135",
+  layer = 0,
+  x = 584,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_136",
+  layer = 0,
+  x = 584,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_137",
+  layer = 0,
+  x = 600,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_138",
+  layer = 0,
+  x = 600,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_139",
+  layer = 0,
+  x = 584,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_140",
+  layer = 0,
+  x = 584,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_141",
+  layer = 0,
+  x = 792,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_142",
+  layer = 0,
+  x = 808,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_143",
+  layer = 0,
+  x = 824,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_144",
+  layer = 0,
+  x = 840,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_145",
+  layer = 0,
+  x = 856,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_146",
+  layer = 0,
+  x = 872,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_147",
+  layer = 0,
+  x = 888,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_148",
+  layer = 0,
+  x = 904,
+  y = 589,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_149",
+  layer = 0,
+  x = 888,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_150",
+  layer = 0,
+  x = 872,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_151",
+  layer = 0,
+  x = 856,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_152",
+  layer = 0,
+  x = 840,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_153",
+  layer = 0,
+  x = 824,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_154",
+  layer = 0,
+  x = 808,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_155",
+  layer = 0,
+  x = 792,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_156",
+  layer = 0,
+  x = 776,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_157",
+  layer = 0,
+  x = 760,
+  y = 605,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_158",
+  layer = 0,
+  x = 744,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_159",
+  layer = 0,
+  x = 760,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_160",
+  layer = 0,
+  x = 776,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_161",
+  layer = 0,
+  x = 792,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_162",
+  layer = 0,
+  x = 808,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_163",
+  layer = 0,
+  x = 824,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_164",
+  layer = 0,
+  x = 840,
+  y = 621,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_165",
+  layer = 0,
+  x = 824,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_166",
+  layer = 0,
+  x = 808,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_167",
+  layer = 0,
+  x = 792,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_168",
+  layer = 0,
+  x = 776,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_169",
+  layer = 0,
+  x = 760,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_170",
+  layer = 0,
+  x = 744,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_171",
+  layer = 0,
+  x = 728,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_172",
+  layer = 0,
+  x = 712,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_173",
+  layer = 0,
+  x = 696,
+  y = 637,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_174",
+  layer = 0,
+  x = 680,
+  y = 653,
+  treasure_name = "pickable/magic_flask",
+  treasure_variant = 2,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_175",
+  layer = 0,
+  x = 696,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_176",
+  layer = 0,
+  x = 712,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_177",
+  layer = 0,
+  x = 728,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_178",
+  layer = 0,
+  x = 744,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_179",
+  layer = 0,
+  x = 760,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_180",
+  layer = 0,
+  x = 776,
+  y = 653,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_181",
+  layer = 0,
+  x = 760,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_182",
+  layer = 0,
+  x = 744,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_183",
+  layer = 0,
+  x = 728,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_184",
+  layer = 0,
+  x = 712,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_185",
+  layer = 0,
+  x = 696,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_186",
+  layer = 0,
+  x = 680,
+  y = 669,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_187",
+  layer = 0,
+  x = 696,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_188",
+  layer = 0,
+  x = 712,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_189",
+  layer = 0,
+  x = 728,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_190",
+  layer = 0,
+  x = 744,
+  y = 685,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_191",
+  layer = 0,
+  x = 728,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+destructible{
+  name = "auto_destructible_192",
+  layer = 0,
+  x = 712,
+  y = 701,
+  sprite = "entities/Grass/grass04",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 80,
+  width = 16,
+  height = 96,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 464,
+  y = 80,
+  width = 80,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 544,
+  y = 80,
+  width = 16,
+  height = 96,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 464,
+  y = 160,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 528,
+  y = 160,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 240,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 528,
+  y = 240,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 480,
+  y = 176,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 520,
+  y = 176,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 608,
+  y = 96,
+  width = 16,
+  height = 144,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 384,
+  y = 96,
+  width = 16,
+  height = 144,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 400,
+  y = 224,
+  width = 48,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 560,
+  y = 224,
+  width = 48,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 368,
+  y = 96,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 624,
+  y = 96,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 352,
+  y = 96,
+  width = 16,
+  height = 192,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 640,
+  y = 96,
+  width = 16,
+  height = 192,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 624,
+  y = 272,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 368,
+  y = 272,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 272,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 408,
+  y = 288,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 384,
+  y = 288,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 592,
+  y = 288,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 616,
+  y = 288,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 240,
+  y = 128,
+  width = 64,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 144,
+  width = 16,
+  height = 208,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 304,
+  y = 336,
+  width = 80,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 336,
+  width = 176,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 624,
+  y = 336,
+  width = 96,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 704,
+  y = 128,
+  width = 16,
+  height = 208,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 720,
+  y = 128,
+  width = 48,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 240,
+  y = 144,
+  width = 16,
+  height = 256,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 256,
+  y = 384,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 336,
+  y = 384,
+  width = 112,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 400,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 328,
+  y = 400,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 544,
+  y = 384,
+  width = 128,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 704,
+  y = 384,
+  width = 48,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 752,
+  y = 144,
+  width = 16,
+  height = 256,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 256,
+  y = 448,
+  width = 32,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 448,
+  width = 32,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 224,
+  y = 448,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 248,
+  y = 448,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 232,
+  y = 440,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 176,
+  y = 496,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 272,
+  y = 496,
+  width = 176,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 832,
+  y = 272,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 848,
+  y = 288,
+  width = 16,
+  height = 224,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 832,
+  y = 496,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 704,
+  y = 496,
+  width = 64,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 576,
+  y = 496,
+  width = 96,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 640,
+  y = 448,
+  width = 32,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 672,
+  y = 448,
+  width = 160,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 816,
+  y = 288,
+  width = 16,
+  height = 160,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 336,
+  y = 448,
+  width = 304,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 512,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 568,
+  y = 512,
+  width = 8,
+  height = 72,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 576,
+  y = 560,
+  width = 360,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 928,
+  y = 576,
+  width = 8,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 920,
+  y = 592,
+  width = 8,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 928,
+  y = 632,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 936,
+  y = 640,
+  width = 40,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 976,
+  y = 632,
+  width = 48,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 976,
+  y = 696,
+  width = 48,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 936,
+  y = 688,
+  width = 40,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 896,
+  y = 728,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 904,
+  y = 720,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 912,
+  y = 712,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 920,
+  y = 704,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 928,
+  y = 696,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 784,
+  y = 704,
+  width = 32,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 720,
+  y = 704,
+  width = 32,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 576,
+  y = 576,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 640,
+  y = 576,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 704,
+  y = 576,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 616,
+  y = 656,
+  width = 48,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 360,
+  y = 656,
+  width = 48,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 80,
+  y = 560,
+  width = 368,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 288,
+  y = 576,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 352,
+  y = 576,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 576,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 80,
+  y = 576,
+  width = 8,
+  height = 128,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 688,
+  width = 16,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 104,
+  y = 704,
+  width = 16,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 120,
+  y = 736,
+  width = 776,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 448,
+  y = 640,
+  width = 32,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 544,
+  y = 640,
+  width = 32,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+jumper{
+  layer = 0,
+  x = 432,
+  y = 288,
+  width = 160,
+  height = 8,
+  direction = 6,
+  jump_length = 80,
+}
+
+jumper{
+  layer = 0,
+  x = 448,
+  y = 400,
+  width = 96,
+  height = 8,
+  direction = 6,
+  jump_length = 80,
+}
+
+jumper{
+  layer = 0,
+  x = 672,
+  y = 400,
+  width = 32,
+  height = 8,
+  direction = 6,
+  jump_length = 80,
+}
+
+jumper{
+  layer = 0,
+  x = 672,
+  y = 512,
+  width = 32,
+  height = 8,
+  direction = 6,
+  jump_length = 80,
+}
+
+jumper{
+  layer = 0,
+  x = 768,
+  y = 512,
+  width = 64,
+  height = 8,
+  direction = 6,
+  jump_length = 80,
+}
+
+jumper{
+  layer = 0,
+  x = 208,
+  y = 512,
+  width = 64,
+  height = 8,
+  direction = 6,
+  jump_length = 80,
+}
+
+wall{
+  layer = 0,
+  x = 968,
+  y = 656,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+pickable{
+  layer = 0,
+  x = 840,
+  y = 301,
+  treasure_name = "inventory/bow_light",
+  treasure_savegame_variable = "get_bow_silver",
+}
+
+destination{
+  name = "sortie",
+  layer = 0,
+  x = 240,
+  y = 477,
+  direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "8966",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 416,
+  width = 8,
+  height = 16,
+  pattern = "8964",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 416,
+  width = 8,
+  height = 16,
+  pattern = "8965",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "8966",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "8964",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "8965",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "8966",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "8964",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "8965",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 648,
+  width = 8,
+  height = 48,
+  pattern = "2920",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 640,
+  width = 48,
+  height = 8,
+  pattern = "2914",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 648,
+  width = 8,
+  height = 48,
+  pattern = "2922",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 648,
+  width = 48,
+  height = 48,
+  pattern = "2906",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 696,
+  width = 48,
+  height = 8,
+  pattern = "2921",
+}
+
+tile{
+  layer = 1,
+  x = 608,
+  y = 648,
+  width = 8,
+  height = 48,
+  pattern = "2920",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 640,
+  width = 48,
+  height = 8,
+  pattern = "2914",
+}
+
+tile{
+  layer = 1,
+  x = 664,
+  y = 648,
+  width = 8,
+  height = 48,
+  pattern = "2922",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 648,
+  width = 48,
+  height = 48,
+  pattern = "2906",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 696,
+  width = 48,
+  height = 8,
+  pattern = "2921",
+}
+

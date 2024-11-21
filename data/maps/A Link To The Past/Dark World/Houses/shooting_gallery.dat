@@ -484,7 +484,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/shooting_gallery",
+  destination_map = "A Link To The Past/Dark World/Overworld/B6_shooting_gallery",
   destination = "dest_house_shooting_gallery_0",
 }
 

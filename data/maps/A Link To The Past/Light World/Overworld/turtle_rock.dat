@@ -7703,7 +7703,7 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/turtle_rock",
+  destination_map = "A Link To The Past/Dark World/Overworld/H1_turtle_rock",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",

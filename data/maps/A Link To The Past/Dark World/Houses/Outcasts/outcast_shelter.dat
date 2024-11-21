@@ -522,7 +522,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/village_of_outcasts",
+  destination_map = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts",
   destination = "dest_house_village_of_outcast_3",
 }
 

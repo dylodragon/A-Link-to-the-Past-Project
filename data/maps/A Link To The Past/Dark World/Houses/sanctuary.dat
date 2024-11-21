@@ -522,7 +522,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/sanctuary",
+  destination_map = "A Link To The Past/Dark World/Overworld/D3_sanctuary",
   destination = "dest_house_sanctuary_0",
 }
 

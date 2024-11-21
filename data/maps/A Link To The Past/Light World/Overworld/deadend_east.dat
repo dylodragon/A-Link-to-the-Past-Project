@@ -4825,7 +4825,7 @@ teletransporter{
   y = 368,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/deadend_east",
+  destination_map = "A Link To The Past/Dark World/Overworld/H6_deadend_east",
   destination = "_same",
   sprite = "entities/teletransporter_blue",
   sound = "warp",
