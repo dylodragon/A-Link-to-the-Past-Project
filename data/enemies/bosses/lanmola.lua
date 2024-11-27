@@ -92,7 +92,6 @@ local function shoot()
       stone:go(i/2)
     end
   else
-    projectiles_random_direction = math.random(0,1)
     for i = 0, 3 do
       local stone = enemy:create_enemy({
         breed = "others/octorok_stone",
@@ -103,7 +102,7 @@ local function shoot()
       stone:get_sprite():set_opacity(0)
       stone:create_sprite("enemies/" .. enemy:get_breed(), "lanmola_projo")
       stone:get_sprite("lanmola_projo"):set_animation("projectile_1")
-      stone:go(i + projectiles_random_direction/2)
+      stone:go(i + 1/2)
     end
   end
 end
