@@ -8867,7 +8867,7 @@ tile{
 }
 
 sensor{
-  name = "vulture",
+  name = "soldier_archer",
   layer = 1,
   x = 128,
   y = 213,
@@ -11871,7 +11871,7 @@ npc{
 }
 
 sensor{
-  name = "blind",
+  name = "zora",
   layer = 1,
   x = 1920,
   y = 213,
@@ -11994,7 +11994,7 @@ custom_entity{
   properties = {
     {
       key = "name",
-      value = "light_world/vulture",
+      value = "soldiers/soldier_archer",
     },
   },
   width = 16,
@@ -12100,6 +12100,22 @@ custom_entity{
     {
       key = "name",
       value = "dungeons/hardhat_beetle_blue",
+    },
+  },
+  width = 16,
+  height = 16,
+  direction = 3,
+}
+
+custom_entity{
+  name = "spawn_enemy_8",
+  layer = 1,
+  x = 1920,
+  y = 125,
+  properties = {
+    {
+      key = "name",
+      value = "light_world/zora",
     },
   },
   width = 16,

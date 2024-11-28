@@ -12,7 +12,7 @@ local speed_change = false
 function enemy:on_created()
 
   enemy:set_life(8)
-  enemy:set_damage(4)
+  enemy:set_damage(8)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   if self:get_treasure() == nil then self:set_treasure("prize_packs/2") end
   enemy:set_push_hero_on_sword(true)

@@ -7,7 +7,7 @@ local children = {}
 
 function enemy:on_created()
 
-  enemy:set_life(2)
+  enemy:set_life(3)
   enemy:set_damage(2)
   enemy:set_obstacle_behavior("swimming")
   enemy:set_pushed_back_when_hurt(false)
