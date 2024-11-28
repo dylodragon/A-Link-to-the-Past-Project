@@ -1422,6 +1422,15 @@ tile{
   pattern = "door.3.low_support.2-2",
 }
 
+tile{
+  layer = 0,
+  x = 48,
+  y = 416,
+  width = 8,
+  height = 16,
+  pattern = "865",
+}
+
 wall{
   layer = 0,
   x = 208,
@@ -1594,6 +1603,15 @@ tile{
 
 tile{
   layer = 2,
+  x = 0,
+  y = 176,
+  width = 48,
+  height = 336,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
   x = 208,
   y = 320,
   width = 304,
@@ -1607,15 +1625,6 @@ tile{
   y = 472,
   width = 160,
   height = 40,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 2,
-  x = 0,
-  y = 176,
-  width = 48,
-  height = 336,
   pattern = "ceiling.2",
 }
 

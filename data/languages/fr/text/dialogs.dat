@@ -27,19 +27,12 @@ Il te faut une petite clé pour ça !
 dialog{
   id = "_bush",
   text = [[
-Vous pouvez soulever les buissons,
-où bien les couper avec votre épée !
 ]],
 }
 
 dialog{
   id = "_crystal",
   text = [[
-Frapper le cristal avec votre épée, 
-ou autres choses !
-
-En faisant ça, vous relèverez les
-plots et en abaisserez d'autres..
 ]],
 }
 

@@ -48,11 +48,12 @@ For players who might eventually discover this title, or even the entire series 
 
 This game is currently under development. However, you will still be able to play demo versions with each update.  
 
-##### **v0.3.x**
+##### **v0.4.x**
 This version includes:
 - The map of the **Light OverWorld**, with jumpers, without enemies, and featuring caves, houses, and generic dungeons...
 - *Map created entirely by **KaKaShUruKioRa**.*
 - The **Introduction** of the game with **Uncle**, **Zelda** & the **Hyrule Castle** & his **Secret Passage** in the **Sewers**
-- The very first in-game dungeon, namely **Eastern Palace**, where you can obtain an item and battle your way to the final boss of the dungeon.  
+- Three Donjon, namely **Eastern Palace**, **Desert Palace**, **Tower of Hera**, where you can obtain majors items and fight again **Memorable Bosses**.  
 However, there won't be a **Map** and a **Compass** for the time being.  
 - *Map created by **ZeldoRetro** and **Boss** developed by **DarkDavy15**.*
+- * **Items** and Some **Enemies Behaviours** by **Adenothe**.*

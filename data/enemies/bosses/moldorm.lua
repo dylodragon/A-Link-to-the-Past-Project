@@ -128,7 +128,7 @@ local function on_attack_received()
   end
 
   -- Else hurt normally.
-  enemy:hurt(1)
+  enemy:hurt(game:get_ability("sword", game:get_value("possession_sword")))
 end
 
 -- Start the enemy movement.

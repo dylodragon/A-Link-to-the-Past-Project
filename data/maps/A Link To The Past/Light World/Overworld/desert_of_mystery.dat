@@ -15653,9 +15653,9 @@ jumper{
   name = "jump_desert_of_mystery_13",
   layer = 1,
   x = 672,
-  y = 160,
+  y = 152,
   width = 8,
-  height = 56,
+  height = 64,
   direction = 4,
   jump_length = 40,
 }
