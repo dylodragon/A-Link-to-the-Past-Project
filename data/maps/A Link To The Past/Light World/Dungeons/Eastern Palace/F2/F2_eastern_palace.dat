@@ -3936,6 +3936,7 @@ enemy{
   direction = 3,
   breed = "bosses/armos_knight",
   treasure_name = "consumables/heart_container",
+  treasure_savegame_variable = "eastern_palace_heart_container",
 }
 
 custom_entity{

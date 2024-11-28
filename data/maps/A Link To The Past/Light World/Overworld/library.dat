@@ -4330,6 +4330,32 @@ tile{
   pattern = "728",
 }
 
+wall{
+  layer = 0,
+  x = 344,
+  y = 440,
+  width = 168,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 320,
+  y = 488,
+  width = 192,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 teletransporter{
   name = "tp_house_library_2",
   layer = 0,

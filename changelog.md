@@ -1,5 +1,63 @@
 # Changelog
 
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.4.0
+
+`Changes on November 28, 2024` v0.4.0
+
+🗺**Overworld**
+- __Light Overworld__:
+  * Added **Desert Palace**
+  * Added **Tower of Hera**
+
+🗺**Desert Palace**
+- Added a key on the torch which falls with the boots
+- Added the **Power Gloves**
+- Added **Leevers Purple** & **Green**, **Mini Moldorm**, **Quicksand**, **Devalant Blue** & **Red** and **Beemos**
+- Added the Boss **Lanmolas**, his Reward, his Pendant
+- Added System to **Shake the Camera** 
+- Added new **Enemy Item Drops** (Prize Packs)
+- Added Dialogues for **Sahasrahla**, **Power Gloves**
+
+🗺**Tower of Hera**
+- Added the **Moon Pearl** with no Code
+- Added **Hardhat Beetle Purple** & **Green**, **Skeleton Red** and **Kodongo**
+- Added **Spark** and **Firebar**
+- Added **Bumper**
+- Added **Switch Star**
+- Added the Boss **Moldorm**, his Reward, his Pendant
+- Added new **Enemy Item Drops** (Prize Packs)
+- Added Dialogues for **Sahasrahla**
+
+🗺**Eastern Ruins**
+- Added **Dialogues** for **Sahasrahla**
+- **Sahasrahla** give **Pegasus Shoes** after 
+
+☠️**Ennemies Fix**
+- Fix awakening and sleep timing  **Eyegore**
+
+🖼️**Sprites**
+- Added Sprites of **Soldier Archer**
+- Added Sprites of **Leevers Purple** & **Green**, **Mini Moldorm** and **Beemos** 
+- Added Sprites of **Kodongo**, **Hardhat Beetle Purple** & **Green** and **Skeleton Red** 
+- Added Sprites of **Quicksand**, **Devalant Blue** & **Red**
+- Added Sprites of **Spark** and **Firebar**
+- Added Sprites of **Bumper**
+- Added **Switch Star**
+
+📟**Script**
+- Added meta/__camera.lua__
+
+🧠**Debug**
+- __Secret Room__: Warp to the **General Secret Room** with ","
+- __Boss Room__: Warp to the **Secret Boss Room** with "="
+- __Enemies Room__: Warp to the **Secret Enemies Room** with ")"
+
+🗃**Organization**
+- Added a Secret Room/Boss/boss_choiche_room
+- Added a Secret Room/Enemies/enemies_choiche_room
+
+__--------------------------------------------------------------------------------------------------------------__
+
 ## The Legend of Zelda A Link to the Past (Solarus Edition) 0.3.0
 
 `Changes on June 20, 2024` v0.3.0
@@ -47,7 +105,7 @@
 - Added __electric_barrier.lua__
 
 🗃**Organization**
-- Added a **/devdate** folder for **Developers**
+- Added a **/devdata** folder for **Developers**
 
 __--------------------------------------------------------------------------------------------------------------__
 
@@ -65,7 +123,7 @@ __------------------------------------------------------------------------------
 - Added the **Bow** and **Pegasus Boots**
 - Added Systems for Managing Dark Rooms and their Lighting (Torch/Lantern)
 - Added **EyeGores Red** & **Green**, **Evil Tiles**, **Skeletons**, and **Cannonballs**
-- Added the Boss **Armos Knight**, his Reward, his Medallion
+- Added the Boss **Armos Knight**, his Reward, his Pendant
 - Management metatables for **Switches**, **Small Keys** & **Boss Keys**
 - Added a System for Managing **Enemy Item Drops** (Prize Packs)
 - Added Dialogues for **Sahasrahla**, the **Bow**, **Rupees**, **Chests**, **Small Keys** & **Boss Keys**

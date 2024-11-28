@@ -16488,6 +16488,19 @@ destination{
   direction = 3,
 }
 
+wall{
+  layer = 0,
+  x = 208,
+  y = 264,
+  width = 80,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 tile{
   layer = 1,
   x = 200,
@@ -17990,6 +18003,26 @@ tile{
   width = 32,
   height = 16,
   pattern = "957",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 0,
+  width = 32,
+  height = 40,
+  pattern = "7859",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 40,
+  width = 32,
+  height = 8,
+  pattern = "7856",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 teletransporter{

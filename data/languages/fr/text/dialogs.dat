@@ -2,7 +2,7 @@ dialog{
   id = "NoBigKey",
   skip = "all",
   text = [[
-Hein ? c'est fermé a clé !
+Hein ? C'est fermé à clé !
 Si tu avais une Grande Clé,
 tu pourrais ouvrir 
 ]],
@@ -27,19 +27,12 @@ Il te faut une petite clé pour ça !
 dialog{
   id = "_bush",
   text = [[
-Vous pouvez soulever les buissons,
-où bien les couper avec votre épée !
 ]],
 }
 
 dialog{
   id = "_crystal",
   text = [[
-Frapper le cristal avec votre épée, 
-ou autres choses !
-
-En faisant ça, vous relèverez les
-plots et en abaisserez d'autres..
 ]],
 }
 
@@ -191,6 +184,15 @@ profonde !
 }
 
 dialog{
+  id = "_treasure.equipment/glove.1",
+  text = [[
+Tu as récupéré le Gant de la
+Puissance !$0 Tu dois ressentir
+la force dans tes mains.
+]],
+}
+
+dialog{
   id = "_treasure.equipment/shield.1",
   text = [[
 Tu as trouvé
@@ -251,9 +253,8 @@ avec ça !
 
 dialog{
   id = "_treasure.inventory/boomerang.1",
-  skip = "all",
   text = [[
-Tu as le Boomerang ! Fais un
+Tu as le Boomerang ! $0Fais un
 essai ! Pour choisir un objet,
 appuie sur Pause.
 ]],
@@ -364,6 +365,22 @@ Tu as gagné le Pendentif du
 Courage ! $0
 Apporte-le à Sahasrahla !
 Il reste encore deux Pendentifs !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_power.1",
+  text = [[
+Tu as gagné le Pendentif du
+Pouvoir ! $0
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_wisdom.1",
+  text = [[
+Tu as gagné le Pendentif de
+Sagesse ! $0
 ]],
 }
 
@@ -607,10 +624,10 @@ dialog{
 Ce blason doit s'ouvrir en coulissant.
 Tu as la Lanterne ?
 
-C'est indispensabble car il fait
+C'est indispensable car il fait
 rudement sombre la-dedans.
 
-Si tu es prêts, allons-y.
+Si tu es prêt, allons-y.
 Aide-moi à pousser le blason
 par la gauche !
 ]],
@@ -681,6 +698,24 @@ ne remarque notre disparition.
 Je connais une allée secrète,
 mais il faut d'abord monter
 au Rez-de-chaussée.
+]],
+}
+
+dialog{
+  id = "misc.pendants_all",
+  text = [[
+Bravo ! Tu as les 3 Pendentifs !
+Pars maintenant aux Bois Perdus
+pour retrouver l'Epée de Légende.
+]],
+}
+
+dialog{
+  id = "misc.pendants_only_one",
+  text = [[
+Tu te rapproches de ton objectif
+qui est de trouver les 3 Pendentifs.
+Pars à la recherche du dernier !
 ]],
 }
 
@@ -769,6 +804,15 @@ Signé : LE ROI
 }
 
 dialog{
+  id = "ts.hint_desert",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Tu dois retrouver impérativement
+les trésors de chaque donjon.
+]],
+}
+
+dialog{
   id = "ts.hint_eastern",
   text = [[
 Link, c'est moi, Sahasrahla.
@@ -777,6 +821,33 @@ quand tu touches cette dalle.
 Voici un indice. Tu peux utiliser
 le Trésor caché dans ce Palais
 pour vaincre les ennemis coriaces.
+]],
+}
+
+dialog{
+  id = "ts.hint_hera_1",
+  text = [[
+Link, c'est moi, Sahasrahla.
+l'Ancien ! Un conseil ! Dans le
+donjon, jette un coup d'oeil
+au Miroir Magique chaque fois
+que tu veux revenir à l'entrée.
+N'oublie pas cela !
+]],
+}
+
+dialog{
+  id = "ts.hint_hera_2",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Une sphère appelée Perle
+de Lune est dans cette Tour.
+Celui qui détient la Perle de Lune
+est protégé et conserve sa forme
+dans le Monde des Ténèbres.
+Tu dois la trouver avant
+de quitter la Tour !
+N'oublie pas la Perle de Lune !
 ]],
 }
 

@@ -7,13 +7,13 @@ local jumping_height = 16
 local jumping_duration = 600
 local throwing_bone_delay = 300
 
-require("enemies/lib/common_actions").learn(enemy)
+require("enemies/library/common_actions").learn(enemy)
 
 --Skeleton red
 
 function enemy:on_created()
-  enemy:set_life(4)
-  enemy:set_damage(4)
+  enemy:set_life(2)
+  enemy:set_damage(2)
   enemy:set_hookshot_reaction(2)
   enemy:set_attack_consequence("boomerang",1)
   enemy:set_attack_consequence("thrown_item",2)
@@ -102,11 +102,12 @@ enemy:register_event("on_jump_finished", function(enemy)
   sol.timer.start(enemy, throwing_bone_delay, function()      
     if enemy:get_life() > 0 then
       local x, y, layer = enemy:get_position()
+      sol.audio.play_sound("sword2")
       enemy:get_map():create_enemy({
-        breed = "skeleton_bone",
+        breed = "dungeons/skeleton_bone",
         x = x,
         y = y - 5,
-        layer = layer,
+        layer = layer + 1,
         direction = enemy:get_direction4_to(hero)
       })
     end
