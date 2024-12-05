@@ -26,7 +26,7 @@ function enemy:on_created()
   self:set_invincible()
   self:set_damage(4)
   enemy:set_property("is_major","true")
-  enemy:set_can_hurt_hero_running(true)
+  enemy:set_attacking_collision_mode("overlapping")
   self.is_exhausted = false -- True after a shoot and before a delay.
   sol.timer.start(1000, function()
     start_shooting = true
@@ -83,12 +83,14 @@ function sprite:on_frame_changed(animation, frame)
 
   if (not enemy.is_exhausted) and start_shooting then
     local x, y, _ = enemy:get_position()
+    local camera = map:get_camera()
+    local cam_x, cam_y, _ = camera:get_position() 
+    local lenght_cam_x, lenght_cam_y = sol.video.get_quest_size()
     local hero_x, hero_y, _ = hero:get_position()
     local enemy_angle = frame * angle_per_frame - math.pi * 0.5 -- Frame 0 of the sprite faces the south.
     local hero_angle = math.atan2(y - hero_y, hero_x - x)
-
     if math.abs(enemy_angle - hero_angle) % (math.pi * 2.0) <= triggering_angle then
-      if enemy:is_in_same_region(hero) and enemy:get_distance(hero) <= 256 then 
+      if enemy:is_in_same_region(hero) and x >= cam_x and x <= cam_x + lenght_cam_x and y >= cam_y and y <= cam_y + lenght_cam_y then 
         laser_direction = hero_angle
         enemy:start_firing() 
       end
