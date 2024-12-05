@@ -17074,6 +17074,93 @@ npc{
   behavior = "dialog#escape.soldiers.front_castle",
 }
 
+enemy{
+  name = "blue_soldier_hyrule_castle_0",
+  layer = 0,
+  x = 888,
+  y = 317,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_hyrule_castle_1",
+  layer = 0,
+  x = 904,
+  y = 669,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_hyrule_castle_2",
+  layer = 0,
+  x = 528,
+  y = 733,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "green_soldier_hyrule_castle_0",
+  layer = 0,
+  x = 504,
+  y = 701,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_soldier_hyrule_castle_0",
+  layer = 0,
+  x = 104,
+  y = 221,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_soldier_red",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_soldier_hyrule_castle_1",
+  layer = 0,
+  x = 504,
+  y = 429,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_soldier_red",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_spear_soldier_hyrule_castle_0",
+  layer = 0,
+  x = 136,
+  y = 653,
+  direction = 3,
+  breed = "soldiers/knight_chain_and_ball",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_soldier_hyrule_castle_2",
+  layer = 0,
+  x = 536,
+  y = 821,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "soldiers/spear_soldier_red",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 592,

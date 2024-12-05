@@ -5,6 +5,7 @@ local game = map:get_game()
 function map:on_started()
 
   if not game:get_value("intro_done") then
+    red_spear_soldier_hyrule_castle_0:set_enabled(false)
     map:set_entities_enabled("intro_",true)
     sol.audio.play_music("beginning")
     sol.audio.play_sound("rain_out",true)
@@ -18,7 +19,21 @@ function map:on_started()
       return true
     end):set_suspended_with_map(false)
   else
+    for entity in map:get_entities("blue_soldier_hyrule_castle_") do
+      entity:set_enabled()
+    end
+    for entity in map:get_entities("red_soldier_hyrule_castle_") do
+      entity:set_enabled()
+    end
+    for entity in map:get_entities("green_soldier_hyrule_castle_") do
+      entity:set_enabled()
+    end
+    for entity in map:get_entities("red_spear_soldier_hyrule_castle_") do
+      entity:set_enabled()
+    end
+
     sol.audio.play_music("overworld")
+    
   end
 
   if game:get_value("follower_zelda_on") then

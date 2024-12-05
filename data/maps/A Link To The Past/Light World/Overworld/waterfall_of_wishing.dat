@@ -6272,6 +6272,46 @@ wall{
   stops_projectiles = true,
 }
 
+enemy{
+  name = "sand_crab_waterfall_of_wishing_1",
+  layer = 0,
+  x = 280,
+  y = 301,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "sand_crab_waterfall_of_wishing_2",
+  layer = 0,
+  x = 216,
+  y = 221,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_waterfall_of_wishing_1",
+  layer = 0,
+  x = 168,
+  y = 293,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_waterfall_of_wishing_0",
+  layer = 0,
+  x = 88,
+  y = 277,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 464,
@@ -7341,6 +7381,16 @@ tile{
   width = 16,
   height = 8,
   pattern = "959",
+}
+
+enemy{
+  name = "crow_waterfall_of_wishing_0",
+  layer = 1,
+  x = 456,
+  y = 349,
+  direction = 3,
+  breed = "dungeons/keese",
+  treasure_name = "prize_packs/1",
 }
 
 teletransporter{

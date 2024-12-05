@@ -27,13 +27,13 @@ local inventory_items_names = {
   -- TODO "cane_of_somaria",
   -- TODO "cane_of_byrna",
   -- TODO "magic_cape",
-  "magic_mirror",
+  --"magic_mirror",
   -- Here is place holder.
   "bottle_1",
   "bottle_2",
   "bottle_3",
   "bottle_4",
-  "magic_mirror",
+  "magic_mirror"
 }
 
 local main_equipment_names = {

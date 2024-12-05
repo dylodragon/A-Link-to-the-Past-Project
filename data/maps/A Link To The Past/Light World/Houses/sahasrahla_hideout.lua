@@ -26,14 +26,26 @@ end
 
 -- Dialogues Sahasrahla
 
+local function sahasrahla_question()
+  game:start_dialog("npc.sahasrahla.first_meeting",function(answer)
+    if answer == 3 then
+      game:start_dialog("npc.sahasrahla.first_meeting_yes")
+    else
+      game:start_dialog("npc.sahasrahla.first_meeting_no")
+    end
+  end)
+end
+
 function sahasrahla:on_interaction()
   -- On a les bottes, dirige vers la suite
-  if game:get_value("get_pegasus_shoes") then game:start_dialog("NoBigKey")
+  if game:get_value("get_pegasus_shoes") then game:start_dialog("demo.sahasrahla.hint_repeat")
   -- On a trouvé le Pendentif, donne les bootes et dirige vers la suite
   elseif game:get_value("get_pendant_of_courage") then
-    game:start_dialog("NoSmallKey",function()
-      hero:start_treasure("equipment/pegasus_shoes", 1, "get_pegasus_shoes", function() game:start_dialog("NoBigKey") end)
+    game:start_dialog("npc.sahasrahla.give_courage_pendent",function()
+      hero:start_treasure("equipment/pegasus_shoes", 1, "get_pegasus_shoes", function() game:start_dialog("demo.sahasrahla.hint_dungeon2_and_3") end)
     end)
   -- Défaut: dirige vers Eastern Palace
-  else game:start_dialog("NoBigKey") end
+  else 
+    sahasrahla_question()  
+  end
 end

@@ -24092,6 +24092,144 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "deadrock_death_mountain_east_0",
+  layer = 0,
+  x = 120,
+  y = 189,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_death_mountain_east_1",
+  layer = 0,
+  x = 856,
+  y = 221,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_death_mountain_east_2",
+  layer = 0,
+  x = 488,
+  y = 237,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_death_mountain_east_3",
+  layer = 0,
+  x = 856,
+  y = 253,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_tektite_death_mountain_east_0",
+  layer = 0,
+  x = 136,
+  y = 221,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_tektite_death_mountain_east_0",
+  layer = 0,
+  x = 512,
+  y = 253,
+  direction = 3,
+  breed = "light_world/geldman",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_tektite_death_mountain_east_1",
+  layer = 0,
+  x = 664,
+  y = 253,
+  direction = 3,
+  breed = "light_world/geldman",
+  treasure_name = "prize_packs/1",
+}
+
+pickable{
+  name = "piece_of_heart_death_mountain_east_0",
+  layer = 0,
+  x = 760,
+  y = 61,
+  treasure_name = "consumables/piece_of_heart",
+}
+
+enemy{
+  name = "blue_tektite_death_mountain_east_1",
+  layer = 0,
+  x = 488,
+  y = 797,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_tektite_death_mountain_east_2",
+  layer = 0,
+  x = 848,
+  y = 677,
+  direction = 3,
+  breed = "light_world/geldman",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_tektite_death_mountain_east_3",
+  layer = 0,
+  x = 760,
+  y = 765,
+  direction = 3,
+  breed = "light_world/geldman",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_death_mountain_east_4",
+  layer = 0,
+  x = 680,
+  y = 765,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_death_mountain_east_5",
+  layer = 0,
+  x = 872,
+  y = 877,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_death_mountain_east_6",
+  layer = 0,
+  x = 664,
+  y = 877,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 0,

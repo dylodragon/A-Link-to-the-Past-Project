@@ -6971,6 +6971,56 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "sand_crab_river_hylia_north_0",
+  layer = 0,
+  x = 144,
+  y = 141,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_river_hylia_north_0",
+  layer = 0,
+  x = 296,
+  y = 413,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "sand_crab_river_hylia_north_1",
+  layer = 0,
+  x = 272,
+  y = 141,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "sand_crab_river_hylia_north_2",
+  layer = 0,
+  x = 256,
+  y = 189,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "sand_crab_river_hylia_north_3",
+  layer = 0,
+  x = 368,
+  y = 285,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 496,
@@ -7689,6 +7739,16 @@ tile{
   width = 32,
   height = 8,
   pattern = "991",
+}
+
+enemy{
+  name = "crow_river_hylia_north_0",
+  layer = 1,
+  x = 192,
+  y = 357,
+  direction = 3,
+  breed = "dungeons/keese",
+  treasure_name = "prize_packs/1",
 }
 
 teletransporter{

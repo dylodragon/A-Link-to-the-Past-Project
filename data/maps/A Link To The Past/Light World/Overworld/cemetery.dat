@@ -5971,6 +5971,26 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "green_soldier_cemetry_0",
+  layer = 0,
+  x = 280,
+  y = 413,
+  direction = 3,
+  breed = "soldiers/sword_soldier_green",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_spear_soldier_cemetry_0",
+  layer = 0,
+  x = 344,
+  y = 301,
+  direction = 3,
+  breed = "soldiers/spear_soldier_red",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 224,

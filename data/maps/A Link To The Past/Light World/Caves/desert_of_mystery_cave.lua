@@ -10,6 +10,8 @@
 local map = ...
 local game = map:get_game()
 
+local already_meet = false
+
 -- Event called at initialization time, as soon as this map is loaded.
 function map:on_started()
 
@@ -21,4 +23,15 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
+end
+
+function wiseman:on_interaction()
+  if game:get_value("already_meet") and game:has_item("quest/pendant_of_power") then
+    game:start_dialog("npc.wiseman.after_pendant")
+  elseif game:get_value("already_meet") and game:has_item("equipment/book_of_mudora") then
+    game:start_dialog("npc.wiseman.book_of_mudora")
+  else
+    game:start_dialog("npc.wiseman.first_meeting")
+       game:set_value("already_meet", true)
+  end
 end

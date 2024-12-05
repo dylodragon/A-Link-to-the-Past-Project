@@ -3594,18 +3594,6 @@ destructible{
 }
 
 custom_entity{
-  name = "big_stone_white_sanctuary_1",
-  layer = 0,
-  x = 56,
-  y = 173,
-  width = 32,
-  height = 32,
-  direction = 0,
-  sprite = "destructibles/stone_big_lw_1",
-  model = "stone_big_white",
-}
-
-custom_entity{
   name = "big_stone_white_sanctuary_0",
   layer = 0,
   x = 232,
@@ -4388,6 +4376,47 @@ door{
   direction = 3,
   sprite = "doors/door_outside_sanctuary",
   opening_method = "interaction",
+}
+
+sensor{
+  name = "sensor_demo_part_one_ended",
+  layer = 0,
+  x = 344,
+  y = 93,
+  width = 32,
+  height = 32,
+}
+
+enemy{
+  name = "blue_soldier_sanctuary_0",
+  layer = 0,
+  x = 216,
+  y = 381,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_sanctuary_1",
+  layer = 0,
+  x = 304,
+  y = 429,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+custom_entity{
+  name = "explode_stone_sanctuary_0",
+  layer = 0,
+  x = 56,
+  y = 173,
+  width = 32,
+  height = 32,
+  direction = 0,
+  sprite = "destructibles/stone_explode_lw_1",
+  model = "stone_explode",
 }
 
 tile{

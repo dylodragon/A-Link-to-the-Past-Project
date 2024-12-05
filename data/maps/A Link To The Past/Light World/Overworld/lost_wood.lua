@@ -11,10 +11,15 @@ local map = ...
 local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+function map:on_started()  
+  if game:get_item("equipment/sword"):has_variant(2) then
+    for mist in map:get_entities("mist_lost_wood_") do
+      mist:set_enabled(false)
+    end
+      light_lost_wood_0:set_enabled(true)
+  else
+    sol.audio.play_music("lost_woods")
+  end
 end
 
 -- Event called after the opening transition effect of the map,

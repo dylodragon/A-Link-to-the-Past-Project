@@ -20,7 +20,10 @@ function item:on_obtaining(variant, savegame_variable)
   if amount == nil then
     error("Invalid variant '" .. variant .. "' for item 'bomb'")
   else
-    game:get_item("equipment/bomb_bag"):add_amount(amount)
+      if not game:has_item("inventory/bombs") then
+          game:get_item("inventory/bombs"):set_variant(1)
+      end
+      game:get_item("equipment/bomb_bag"):add_amount(amount)
   end
 end
 

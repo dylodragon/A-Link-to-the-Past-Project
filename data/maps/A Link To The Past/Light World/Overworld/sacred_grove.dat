@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "Light World",
   tileset = "out/outside_lightworld_main",
-  music = "lost_woods",
+  music = "same",
 }
 
 tile{
@@ -3674,6 +3674,25 @@ wall{
   stops_projectiles = true,
 }
 
+npc{
+  name = "crypted_stone_sacred_grove_0",
+  layer = 0,
+  x = 120,
+  y = 165,
+  direction = 3,
+  subtype = 0,
+}
+
+npc{
+  name = "excalibur",
+  layer = 0,
+  x = 120,
+  y = 157,
+  direction = 1,
+  subtype = 0,
+  sprite = "entities/excalibur",
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -6869,11 +6888,43 @@ tile{
   pattern = "1387",
 }
 
+dynamic_tile{
+  name = "light_sacred_grove_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 256,
+  height = 512,
+  pattern = "12373",
+}
+
 destination{
   name = "dest_secret",
   layer = 2,
   x = 128,
   y = 256,
   direction = 3,
+}
+
+dynamic_tile{
+  name = "mist_sacred_grove_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 512,
+  pattern = "12372",
+}
+
+dynamic_tile{
+  name = "mist_sacred_grove_1",
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 512,
+  pattern = "10249",
+  tileset = "out/outside_special",
 }
 

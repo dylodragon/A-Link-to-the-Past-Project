@@ -7709,6 +7709,56 @@ teletransporter{
   sound = "warp",
 }
 
+enemy{
+  name = "deadrock_turtle_rock_0",
+  layer = 1,
+  x = 232,
+  y = 125,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_turtle_rock_1",
+  layer = 1,
+  x = 168,
+  y = 221,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_turtle_rock_2",
+  layer = 1,
+  x = 376,
+  y = 349,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_turtle_rock_3",
+  layer = 1,
+  x = 248,
+  y = 365,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "deadrock_turtle_rock_4",
+  layer = 1,
+  x = 296,
+  y = 365,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
 teletransporter{
   name = "border_turtle_rock_west",
   layer = 2,

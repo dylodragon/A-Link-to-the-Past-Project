@@ -90,3 +90,21 @@ function sensor_skeleton_spawn:on_activated()
     end)
   end)
 end
+
+function bow_chest:on_opened(treasure_item, treasure_variant, treasure_savegame_variable)
+  hero:start_treasure(treasure_item:get_name(), treasure_variant)
+
+  sol.timer.start(map,100,function()
+    local i = 0
+    sol.timer.start(map,550,function()
+      sol.audio.play_sound("cape")
+      map:get_entity("smoke_bow_"..i):set_enabled(true)
+      sol.timer.start(map,200,function()
+        map:get_entity("auto_enemy_skeleton_bow_"..i):set_enabled(true)
+        i = i + 1
+      end)
+      return i < 3
+    end)
+  end)
+end
+

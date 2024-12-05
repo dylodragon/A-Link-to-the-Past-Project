@@ -6337,76 +6337,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 576,
-  y = 120,
-  width = 160,
-  height = 56,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 312,
-  width = 96,
-  height = 56,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 376,
-  width = 96,
-  height = 56,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 352,
-  y = 600,
-  width = 96,
-  height = 72,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 592,
-  y = 600,
-  width = 96,
-  height = 56,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 784,
-  y = 584,
-  width = 96,
-  height = 56,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 608,
-  y = 792,
-  width = 96,
-  height = 104,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 368,
   y = 264,
   width = 352,
@@ -7703,16 +7633,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 440,
-  y = 848,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 456,
   y = 848,
   width = 8,
@@ -8203,16 +8123,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 648,
-  y = 896,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 664,
   y = 896,
   width = 8,
@@ -8253,16 +8163,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 632,
-  y = 656,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 648,
   y = 656,
   width = 8,
@@ -8298,16 +8198,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "5919",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 824,
-  y = 640,
-  width = 16,
-  height = 16,
-  pattern = "6020",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -8353,16 +8243,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
-  y = 672,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 408,
   y = 672,
   width = 8,
@@ -8403,16 +8283,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 368,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 216,
   y = 368,
   width = 8,
@@ -8453,16 +8323,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 840,
-  y = 432,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 856,
   y = 432,
   width = 8,
@@ -8503,16 +8363,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 680,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 696,
   y = 176,
   width = 8,
@@ -8548,16 +8398,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "5919",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
-  x = 616,
-  y = 176,
-  width = 16,
-  height = 16,
-  pattern = "6020",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -13391,6 +13231,96 @@ tile{
   tileset = "out/outside_lightworld_buildings",
 }
 
+tile{
+  layer = 0,
+  x = 616,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 648,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 848,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 teletransporter{
   name = "tp_cave_kakariko_village_0",
   layer = 0,
@@ -15967,6 +15897,285 @@ npc{
   sprite = "npc/grandson",
 }
 
+enemy{
+  name = "cucco_kakariko_village_0",
+  layer = 0,
+  x = 328,
+  y = 845,
+  direction = 3,
+  breed = "light_world/chicken",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "cucco_kakariko_village_1",
+  layer = 0,
+  x = 360,
+  y = 861,
+  direction = 3,
+  breed = "light_world/chicken",
+  treasure_name = "prize_packs/1",
+}
+
+door{
+  name = "door_kakariko_village_0",
+  layer = 0,
+  x = 616,
+  y = 176,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_1",
+  layer = 0,
+  x = 680,
+  y = 176,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_2",
+  layer = 0,
+  x = 200,
+  y = 368,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_3",
+  layer = 0,
+  x = 840,
+  y = 432,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_4",
+  layer = 0,
+  x = 392,
+  y = 672,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_5",
+  layer = 0,
+  x = 632,
+  y = 656,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_6",
+  layer = 0,
+  x = 824,
+  y = 640,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  name = "door_kakariko_village_7",
+  layer = 0,
+  x = 648,
+  y = 896,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+door{
+  layer = 0,
+  x = 440,
+  y = 848,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 784,
+  width = 80,
+  height = 112,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 592,
+  width = 80,
+  height = 80,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 576,
+  width = 80,
+  height = 64,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 600,
+  width = 96,
+  height = 64,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 600,
+  width = 96,
+  height = 48,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 584,
+  width = 96,
+  height = 48,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 608,
+  y = 792,
+  width = 96,
+  height = 96,
+  pattern = "7514",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 376,
+  width = 96,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "7412",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "7317",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 808,
+  y = 368,
+  width = 80,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 312,
+  width = 96,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 304,
+  width = 80,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "7317",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "7412",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 576,
+  y = 120,
+  width = 160,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 584,
+  y = 112,
+  width = 144,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 tile{
   layer = 1,
   x = 632,
@@ -15999,16 +16208,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 624,
-  y = 784,
-  width = 64,
-  height = 8,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 592,
   y = 584,
   width = 16,
@@ -16029,10 +16228,10 @@ tile{
 
 tile{
   layer = 1,
-  x = 608,
+  x = 600,
   y = 592,
-  width = 64,
-  height = 8,
+  width = 80,
+  height = 64,
   pattern = "7514",
   tileset = "out/outside_lightworld_buildings",
 }
@@ -16059,16 +16258,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 800,
-  y = 576,
-  width = 64,
-  height = 8,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 352,
   y = 584,
   width = 16,
@@ -16089,56 +16278,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 368,
-  y = 592,
-  width = 64,
-  height = 8,
-  pattern = "7514",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 816,
-  y = 368,
-  width = 64,
-  height = 8,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 800,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "7317",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 880,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "7412",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 592,
-  y = 112,
-  width = 128,
-  height = 8,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 576,
   y = 104,
   width = 16,
@@ -16151,36 +16290,6 @@ tile{
   layer = 1,
   x = 720,
   y = 104,
-  width = 16,
-  height = 16,
-  pattern = "7412",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 176,
-  y = 304,
-  width = 64,
-  height = 8,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 160,
-  y = 296,
-  width = 16,
-  height = 16,
-  pattern = "7317",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 240,
-  y = 296,
   width = 16,
   height = 16,
   pattern = "7412",

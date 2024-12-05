@@ -6309,6 +6309,26 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "blue_soldier_wooden_bridge_north_1",
+  layer = 0,
+  x = 184,
+  y = 381,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_wooden_bridge_north_0",
+  layer = 0,
+  x = 360,
+  y = 237,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 216,

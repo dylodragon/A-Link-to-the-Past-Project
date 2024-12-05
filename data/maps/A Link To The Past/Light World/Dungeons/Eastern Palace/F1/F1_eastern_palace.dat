@@ -3916,6 +3916,7 @@ wall{
 }
 
 chest{
+  name = "bow_chest",
   layer = 0,
   x = 1280,
   y = 1253,
@@ -3965,6 +3966,70 @@ wall{
   width = 32,
   height = 8,
   stops_hero = true,
+}
+
+enemy{
+  name = "auto_enemy_skeleton_bow_1",
+  layer = 0,
+  x = 1320,
+  y = 1237,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "dungeons/skeleton_blue",
+}
+
+enemy{
+  name = "auto_enemy_skeleton_bow_2",
+  layer = 0,
+  x = 1240,
+  y = 1317,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "dungeons/skeleton_blue",
+}
+
+enemy{
+  name = "auto_enemy_skeleton_bow_3",
+  layer = 0,
+  x = 1320,
+  y = 1317,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "dungeons/skeleton_blue",
+}
+
+enemy{
+  name = "auto_enemy_skeleton_bow_0",
+  layer = 0,
+  x = 1240,
+  y = 1237,
+  enabled_at_start = false,
+  properties = {
+    {
+      key = "is_major",
+      value = "true",
+    },
+  },
+  direction = 3,
+  breed = "dungeons/skeleton_blue",
 }
 
 tile{
@@ -14621,6 +14686,7 @@ chest{
   layer = 1,
   x = 624,
   y = 1109,
+  treasure_name = "dungeons/compass",
   treasure_savegame_variable = "eastern_compass",
   sprite = "entities/chest",
 }
@@ -14781,6 +14847,7 @@ chest{
   layer = 1,
   x = 1976,
   y = 1413,
+  treasure_name = "dungeons/map",
   treasure_savegame_variable = "eastern_map",
   sprite = "entities/chest",
 }
@@ -15476,6 +15543,54 @@ jumper{
   height = 8,
   direction = 2,
   jump_length = 40,
+}
+
+custom_entity{
+  name = "smoke_bow_1",
+  layer = 1,
+  x = 1320,
+  y = 1229,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/effect_smoke",
+}
+
+custom_entity{
+  name = "smoke_bow_2",
+  layer = 1,
+  x = 1240,
+  y = 1309,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/effect_smoke",
+}
+
+custom_entity{
+  name = "smoke_bow_3",
+  layer = 1,
+  x = 1320,
+  y = 1309,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/effect_smoke",
+}
+
+custom_entity{
+  name = "smoke_bow_0",
+  layer = 1,
+  x = 1240,
+  y = 1229,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/effect_smoke",
 }
 
 tile{

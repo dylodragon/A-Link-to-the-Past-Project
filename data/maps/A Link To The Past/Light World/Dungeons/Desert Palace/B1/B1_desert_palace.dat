@@ -12,16 +12,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = 0,
-  y = 768,
-  width = 2304,
-  height = 1280,
-  pattern = "desert_palace_blueprint",
-  tileset = "blueprint/desert_palace",
-}
-
-tile{
   layer = 1,
   x = 304,
   y = 1344,
@@ -8268,6 +8258,7 @@ chest{
   layer = 1,
   x = 1408,
   y = 1629,
+  treasure_name = "dungeons/compass",
   treasure_savegame_variable = "desert_compass",
   sprite = "entities/chest",
 }
@@ -8381,6 +8372,7 @@ chest{
   x = 768,
   y = 1157,
   enabled_at_start = false,
+  treasure_name = "dungeons/map",
   treasure_savegame_variable = "desert_map",
   sprite = "entities/chest",
 }

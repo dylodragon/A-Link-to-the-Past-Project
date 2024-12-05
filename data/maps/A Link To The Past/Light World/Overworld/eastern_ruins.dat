@@ -16501,6 +16501,186 @@ wall{
   stops_projectiles = true,
 }
 
+enemy{
+  name = "armos_eastern_ruins_1",
+  layer = 0,
+  x = 824,
+  y = 157,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_2",
+  layer = 0,
+  x = 888,
+  y = 157,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_3",
+  layer = 0,
+  x = 232,
+  y = 237,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_4",
+  layer = 0,
+  x = 744,
+  y = 381,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_5",
+  layer = 0,
+  x = 408,
+  y = 429,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_6",
+  layer = 0,
+  x = 584,
+  y = 605,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_8",
+  layer = 0,
+  x = 648,
+  y = 669,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_7",
+  layer = 0,
+  x = 984,
+  y = 669,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_9",
+  layer = 0,
+  x = 328,
+  y = 829,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_10",
+  layer = 0,
+  x = 376,
+  y = 829,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_eastern_ruins_0",
+  layer = 0,
+  x = 792,
+  y = 269,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_eastern_ruins_4",
+  layer = 0,
+  x = 152,
+  y = 877,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_eastern_ruins_3",
+  layer = 0,
+  x = 152,
+  y = 653,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_eastern_ruins_2",
+  layer = 0,
+  x = 248,
+  y = 605,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_eastern_ruins_0",
+  layer = 0,
+  x = 280,
+  y = 429,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_eastern_ruins_0",
+  layer = 0,
+  x = 312,
+  y = 141,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_eastern_ruins_1",
+  layer = 0,
+  x = 880,
+  y = 477,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_eastern_ruins_5",
+  layer = 0,
+  x = 728,
+  y = 941,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 200,
