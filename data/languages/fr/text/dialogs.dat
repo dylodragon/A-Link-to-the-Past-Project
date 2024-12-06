@@ -439,6 +439,22 @@ dialog{
 }
 
 dialog{
+  id = "_treasure.quest/pendant_of_power.1",
+  text = [[
+Tu as gagné le Pendentif du
+Pouvoir ! $0
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_wisdom.1",
+  text = [[
+Tu as gagné le Pendentif de
+Sagesse ! $0
+]],
+}
+
+dialog{
   id = "escape.end_1",
   skip = "none",
   text = [[
