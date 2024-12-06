@@ -13,16 +13,6 @@ properties{
 
 tile{
   layer = 0,
-  x = -1280,
-  y = 256,
-  width = 2304,
-  height = 1280,
-  pattern = "desert_palace_blueprint",
-  tileset = "blueprint/desert_palace",
-}
-
-tile{
-  layer = 0,
   x = 704,
   y = 1104,
   width = 24,
@@ -2332,54 +2322,6 @@ sensor{
   y = 981,
   width = 32,
   height = 16,
-}
-
-wall{
-  layer = 1,
-  x = 960,
-  y = 1168,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 1,
-  x = 816,
-  y = 1248,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 1,
-  x = 944,
-  y = 1440,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 1,
-  x = 624,
-  y = 1440,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{

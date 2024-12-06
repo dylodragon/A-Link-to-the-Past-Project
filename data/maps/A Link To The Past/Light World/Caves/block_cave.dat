@@ -1332,6 +1332,15 @@ tile{
   pattern = "door_main.2.floor.1-3",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
 wall{
   layer = 0,
   x = 208,

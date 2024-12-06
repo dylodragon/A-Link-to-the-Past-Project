@@ -4,7 +4,7 @@ dialog{
   text = [[
 Hein ? C'est fermé à clé !
 Si tu avais une Grande Clé,
-tu pourrais ouvrir 
+tu pourrais l'ouvrir.
 ]],
 }
 
@@ -100,7 +100,7 @@ dialog{
   id = "_treasure.consumables/rupee.3",
   text = [[
 Tu as trouvé un Rubis Rouge !
-Il vaut 20 Rubis Rouge !
+Il vaut 20 Rubis Vert !
 ]],
 }
 
@@ -137,30 +137,20 @@ Petites Clés ne peuvent ouvrir.
 dialog{
   id = "_treasure.dungeons/compass.1",
   text = [[
-Tu as obtenu la Boussole du donjon !
-
-
-Grâce à elle tu peux connaitre ta
-position dans le donjon ainsi que
-les emplacements de coffre.
-"Oh mais c'est génial", me direz-vous...
-Mais en faite, bah elle est cassée donc...
-Pas de boussole ? Pas d'boussole !
+Tu as trouvé la Boussole !
+Désormais tu peux repérer la 
+planque du Diabolique Maître
+du Donjon.
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/map.1",
   text = [[
-Tu as obtenu la Carte du donjon !
-Grâce à elle tu peux connaitre la
-répartition des salles du donjon.
-Mais bon, là ça marche pas en fait,
-donc bah... démerde toi....
-
-Non en vrai, je déconne.
-Si t'es bloqué retourne vers les salles
-avec des grands trous et cherche...
+Tu as le Plan ! Sers-t'en
+pour voir ta position
+et le reste du donjon.
+Appuie sur la touche {X}
 ]],
 }
 
@@ -171,6 +161,16 @@ dialog{
 Tu as obtenu une petite clé !
 Tu peux ouvrir des portes
 fermées à clé !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/book_of_mudora.1",
+  text = [[
+Tu as trouvé le Livre de
+Mudora ! Il te permet de
+déchiffrer l'ancienne langue
+des Hyliens !
 ]],
 }
 
@@ -189,6 +189,28 @@ dialog{
 Tu as récupéré le Gant de la
 Puissance !$0 Tu dois ressentir
 la force dans tes mains.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/moon_pearl.1",
+  text = [[
+Tu as trouvé la Perle de Lune !
+Elle protége le Héros des
+effets changeants du
+Pouvoir d'Or !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/pegasus_shoes.1",
+  text = [[
+Il t'a donné les Bottes de 
+Pégase. Maintenant tu peux
+lancer une Attaque Eclair
+Dévastatrice ! Maintiens
+appuyé le bouton Action
+un court instant.
 ]],
 }
 
@@ -340,6 +362,17 @@ en être complétement retournés.
 }
 
 dialog{
+  id = "_treasure.inventory/ice_rod.1",
+  text = [[
+Tu as trouvé la Baguette de
+Glace ! Ses bourrasques
+magiques glacent l'air.
+Mais surveille ton Compteur 
+Magique !
+]],
+}
+
+dialog{
   id = "_treasure.inventory/lantern.1",
   skip = "all",
   text = [[
@@ -348,6 +381,18 @@ Maintenant tu peux allumer les
 torches en appuyant
 sur Objet pour te frayer
 un chemin dans l'obscurité.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_mirror.1",
+  text = [[
+Il t'a donné le Miroir Magique !
+C'est un beau miroir bleu et
+transparent !
+On a l'impression qu'il va 
+nous absorber dans un autre 
+monde.
 ]],
 }
 
@@ -362,9 +407,9 @@ dialog{
   id = "_treasure.quest/pendant_of_courage.1",
   text = [[
 Tu as gagné le Pendentif du
-Courage ! $0
-Apporte-le à Sahasrahla !
-Il reste encore deux Pendentifs !
+Courage ! Apporte-le à
+Sahasrahla ! Il reste
+encore deux Pendentifs ! $0
 ]],
 }
 
@@ -381,6 +426,79 @@ dialog{
   text = [[
 Tu as gagné le Pendentif de
 Sagesse ! $0
+]],
+}
+
+dialog{
+  id = "crypted.desert_stone",
+  text = [[
+      |}|{|}|{|{|
+      |{|}|}|{|}
+     ||{|}{|{{}|
+]],
+}
+
+dialog{
+  id = "demo.part_four",
+  text = [[
+Link, c'est moi, Le Développeur.
+Tu as terminé la Quatrième Partie,
+de cette Démo... Tu es à la fin !
+Tu as affronté les 3 Boss disponibles
+et récupéré les 3 Pendentifs,
+Merci d'avoir joué !
+N'hésite pas à nous faire 
+des retours en commentaire
+sur la page Itch.io du jeu
+
+https://kakashurukiora.itch.io/
+]],
+}
+
+dialog{
+  id = "demo.part_one",
+  text = [[
+Link, c'est moi, Le Développeur.
+Tu as terminé la Première Partie,
+de cette Démo... Bravo !
+Trouve les vieilles ruines, 
+à l'Est d'Hyrule, 
+un vieux sage t'aidera dans ta quête !
+Il t'expliquera ce que tu dois faire.
+]],
+}
+
+dialog{
+  id = "demo.part_three",
+  text = [[
+Link, c'est moi, Le Développeur.
+Tu as terminé la Troisième Partie,
+de cette Démo... Continue comme ça !
+Je t'invite à te rendre tout au Nord 
+et trouver l'entrée de la 
+Montagne de la Mort !
+C'est là que se trouve
+le Dernier Pendentif.
+]],
+}
+
+dialog{
+  id = "demo.part_two",
+  text = [[
+Link, c'est moi, Le Développeur.
+Tu as terminé la Deuxième Partie,
+de cette Démo... Tu t'en sors bien !
+Retrouve Sahasrahla dans ces ruines, 
+il t'aidera dans ta quête.
+]],
+}
+
+dialog{
+  id = "demo.sahasrahla.hint_dungeon2_and_3",
+  text = [[
+Tu dois te rendre dans le désert
+au Sud-Ouest d'Hyrule afin
+d'y trouver le second Pendentif !
 ]],
 }
 
@@ -720,6 +838,134 @@ Pars à la recherche du dernier !
 }
 
 dialog{
+  id = "npc.grandpa.at_home",
+  text = [[
+Le sorcier a fait taire le Roi
+et maintenant il essaie 
+d'ouvrir la brèche du Monde
+des Ténèbres. Pour accomplir
+ta quête, tu as besoin de
+la Perle de Lune qui est dans
+la Tour au sommet de la 
+montagne. Tout ce que je peux
+faire pour toi maintenant est
+d'apaiser ta lassitude.
+Reviens quand tu veux.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting",
+  text = [[
+Je suis bien Sahasrahla,
+l'Ancien du village, l'un des
+descendants des 7 Sages.
+Je suis surpris, {Link}, qu'un
+jeune homme comme toi puisse
+chercher l'Epée du Diable !
+Il n'est pas donné à tout le 
+monde d'utiliser cette arme.
+La légende transmise par les
+Hyliens dit que seul le Héros
+qui aura gagné les 3 Penden-
+tifs pourra manier cette épée.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting_answer",
+  text = [[
+Bien. A titre de test, peux-tu 
+récupérer le Pendentif du 
+Courage du Palais de l'Est ?
+Si tu me le rapportes, je t'en
+dirai plus de la légende et je
+te donnerai un objet magique.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting_question",
+  text = [[
+Tu veux vraiment la trouver ?
+$? Euh !
+$? Bien sûr !
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.give_courage_pendent",
+  text = [[
+Je constate que tu as 
+récupéré le Pendentif du Cou-
+rage. Je vais te raconter la 
+légende qui y a trait.
+Il y a très longtemps, 
+un ordre de Chevaliers 
+protégeait le Royaume 
+des Hyliens. Ces chevaliers 
+d'Hyrule étaient aussi 
+les gardiens du Pendentif du
+Courage. Malheureusement, la 
+plupart d'entre eux furent dé-
+cimés durant la grande guerre
+contre le Démon qui éclata
+quand les 7 Sages créèrent leur 
+sceau. Des descendants des
+Chevaliers d'Hyrule, un Héros 
+doit surgir. Bien. {Link}, 
+je pense que c'est toi !
+Tu devrais récupérer les 
+autres Pendentifs. 
+Prends cela avec toi. C'est 
+un trésor qui s'est transmis 
+dans les familles des 7 
+Sages.
+Je veux qu'il soit tien.
+]],
+}
+
+dialog{
+  id = "npc.wiseman.after_pendant",
+  text = [[
+Ton épreuve t'a rendu plus
+fort. Le sang du Héros doit
+couler dans tes veines.
+]],
+}
+
+dialog{
+  id = "npc.wiseman.book_of_mudora",
+  text = [[
+Ah ! Voilà le Livre de Mudora.
+Avec lui, tu peux déchiffrer la
+langue des Hyliens.
+]],
+}
+
+dialog{
+  id = "npc.wiseman.first_meeting",
+  text = [[
+Je suis Aginah. Je sens que
+quelque chose va arriver dans
+la Terre d'Or que les Sept
+Sages ont scellée. Ce doit
+être un présage du Grand
+Cataclysme prédit par les gens
+de sang hylien. Selon la
+prophétie, le Héros sera dans 
+le Désert et il tiendra le Livre 
+de Mudora. Si tu as le Livre
+de Mudora, tu peux déchiffrer
+le language des Hyliens.
+Il est probablement dans la 
+Maison des Livres du village.
+Tu dois le récupérer, si tu
+es vraiment le Héros.
+]],
+}
+
+dialog{
   id = "on_look.cant_lift",
   text = [[
 Tu ne peut pas soulever ça !
@@ -848,6 +1094,15 @@ dans le Monde des Ténèbres.
 Tu dois la trouver avant
 de quitter la Tour !
 N'oublie pas la Perle de Lune !
+]],
+}
+
+dialog{
+  id = "uncrypted.desert_stone",
+  text = [[
+Pour t'ouvrir un chemin,
+fais une pière
+et elle sera exaucée.
 ]],
 }
 

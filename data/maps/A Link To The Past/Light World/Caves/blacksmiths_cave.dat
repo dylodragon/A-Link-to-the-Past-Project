@@ -1339,7 +1339,8 @@ teletransporter{
   y = 464,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Caves/lumberjack_cave",
+  destination_map = "A Link To The Past/Light World/Overworld/blacksmiths_house",
+  destination = "dest_cave_blacksmiths_house_0",
 }
 
 wall{

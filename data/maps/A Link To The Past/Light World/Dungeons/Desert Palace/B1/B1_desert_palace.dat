@@ -12,16 +12,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = 0,
-  y = 768,
-  width = 2304,
-  height = 1280,
-  pattern = "desert_palace_blueprint",
-  tileset = "blueprint/desert_palace",
-}
-
-tile{
   layer = 1,
   x = 304,
   y = 1344,
@@ -7889,18 +7879,6 @@ sensor{
 
 wall{
   layer = 1,
-  x = 752,
-  y = 1664,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 1,
   x = 760,
   y = 2008,
   width = 16,
@@ -8268,6 +8246,7 @@ chest{
   layer = 1,
   x = 1408,
   y = 1629,
+  treasure_name = "dungeons/compass",
   treasure_savegame_variable = "desert_compass",
   sprite = "entities/chest",
 }
@@ -8381,6 +8360,7 @@ chest{
   x = 768,
   y = 1157,
   enabled_at_start = false,
+  treasure_name = "dungeons/map",
   treasure_savegame_variable = "desert_map",
   sprite = "entities/chest",
 }
@@ -9203,36 +9183,12 @@ enemy{
   breed = "traps/beamos",
 }
 
-wall{
-  layer = 1,
-  x = 128,
-  y = 1904,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 enemy{
   layer = 1,
   x = 136,
   y = 1917,
   direction = 0,
   breed = "traps/beamos",
-}
-
-wall{
-  layer = 1,
-  x = 368,
-  y = 1168,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 enemy{
@@ -9243,18 +9199,6 @@ enemy{
   breed = "traps/beamos",
 }
 
-wall{
-  layer = 1,
-  x = 1408,
-  y = 1696,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 enemy{
   layer = 1,
   x = 1416,
@@ -9263,36 +9207,12 @@ enemy{
   breed = "traps/beamos",
 }
 
-wall{
-  layer = 1,
-  x = 1408,
-  y = 1912,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 enemy{
   layer = 1,
   x = 1416,
   y = 1925,
   direction = 0,
   breed = "traps/beamos",
-}
-
-wall{
-  layer = 1,
-  x = 112,
-  y = 1424,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 enemy{

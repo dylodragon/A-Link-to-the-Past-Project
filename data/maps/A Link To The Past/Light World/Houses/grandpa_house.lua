@@ -22,3 +22,9 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function grandpa:on_interaction()
+  game:start_dialog("npc.grandpa.at_home", function()
+    game:set_life(game:get_max_life())
+  end)
+end

@@ -14,7 +14,7 @@ tile{
   layer = 0,
   x = 0,
   y = 0,
-  width = 520,
+  width = 512,
   height = 488,
   pattern = "14667",
 }
@@ -1167,16 +1167,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
-  y = 296,
-  width = 112,
-  height = 72,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 208,
   y = 208,
   width = 16,
@@ -2261,16 +2251,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 440,
-  y = 368,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 456,
   y = 368,
   width = 8,
@@ -2974,6 +2954,16 @@ tile{
   pattern = "973",
 }
 
+tile{
+  layer = 0,
+  x = 440,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 destructible{
   name = "bush_maze_game_0",
   layer = 0,
@@ -3566,6 +3556,15 @@ npc{
   sprite = "npc/mini_game_man_blue",
 }
 
+door{
+  layer = 0,
+  x = 440,
+  y = 368,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
+}
+
 tile{
   layer = 1,
   x = 464,
@@ -3577,10 +3576,20 @@ tile{
 
 tile{
   layer = 1,
-  x = 416,
+  x = 408,
   y = 288,
-  width = 96,
-  height = 8,
+  width = 104,
+  height = 80,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 296,
+  width = 112,
+  height = 64,
   pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }

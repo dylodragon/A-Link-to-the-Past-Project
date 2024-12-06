@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
-  music = "beginning",
+  music = "cave",
 }
 
 tile{
@@ -570,7 +570,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
-  destination = "dest_house_cemetery_0",
+  destination = "dest_house_death_mountain_west_0",
 }
 
 wall{
