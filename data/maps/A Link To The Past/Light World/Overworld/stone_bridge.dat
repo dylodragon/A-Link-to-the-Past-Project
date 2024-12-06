@@ -5923,51 +5923,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 88,
-  width = 32,
-  height = 8,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 96,
-  width = 48,
-  height = 16,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 112,
-  width = 40,
-  height = 8,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 120,
-  width = 32,
-  height = 8,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 128,
-  width = 16,
-  height = 8,
-  pattern = "454",
-}
-
-tile{
-  layer = 0,
   x = 104,
   y = 112,
   width = 24,
@@ -5991,6 +5946,60 @@ tile{
   width = 32,
   height = 16,
   pattern = "111",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 96,
+  width = 8,
+  height = 32,
+  pattern = "4029",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 88,
+  width = 32,
+  height = 8,
+  pattern = "4027",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "4028",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "4030",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "4034",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "4034",
 }
 
 destructible{

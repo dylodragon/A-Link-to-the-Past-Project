@@ -6,7 +6,7 @@ local min_speed = 0
 local speed = min_speed
 local speed_change = false
 
-
+enemy:set_attack_consequence("thrown_item",4)
 -- Blue Hardhat Beetle.
 
 function enemy:on_created()

@@ -33,7 +33,7 @@ local inventory_items_names = {
   "bottle_2",
   "bottle_3",
   "bottle_4",
-  "magic_mirror",
+  --"magic_mirror",
 }
 
 local main_equipment_names = {

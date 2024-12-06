@@ -3513,16 +3513,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 344,
-  y = 240,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 360,
   y = 240,
   width = 8,
@@ -3586,6 +3576,16 @@ tile{
   width = 16,
   height = 16,
   pattern = "957",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 destructible{
@@ -4140,6 +4140,15 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/angry_brother",
+}
+
+door{
+  layer = 0,
+  x = 344,
+  y = 240,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
 }
 
 tile{

@@ -2267,16 +2267,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
-  y = 216,
-  width = 96,
-  height = 72,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 0,
   x = 296,
   y = 280,
   width = 8,
@@ -3629,7 +3619,7 @@ jumper{
   layer = 0,
   x = 176,
   y = 152,
-  width = 192,
+  width = 128,
   height = 8,
   direction = 6,
   jump_length = 56,
@@ -3854,6 +3844,38 @@ destination{
   direction = 3,
 }
 
+jumper{
+  name = "jump_fortune_teller_5",
+  layer = 0,
+  x = 320,
+  y = 152,
+  width = 48,
+  height = 8,
+  direction = 6,
+  jump_length = 56,
+}
+
+jumper{
+  name = "jump_fortune_teller_6",
+  layer = 0,
+  x = 304,
+  y = 152,
+  width = 16,
+  height = 8,
+  direction = 6,
+  jump_length = 72,
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 216,
+  width = 96,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
 tile{
   layer = 1,
   x = 288,
@@ -3876,10 +3898,10 @@ tile{
 
 tile{
   layer = 1,
-  x = 224,
+  x = 216,
   y = 208,
-  width = 64,
-  height = 8,
+  width = 80,
+  height = 80,
   pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }

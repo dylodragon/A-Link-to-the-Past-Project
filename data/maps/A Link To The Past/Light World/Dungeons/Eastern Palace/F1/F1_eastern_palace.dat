@@ -14621,6 +14621,7 @@ chest{
   layer = 1,
   x = 624,
   y = 1109,
+  treasure_name = "dungeons/compass",
   treasure_savegame_variable = "eastern_compass",
   sprite = "entities/chest",
 }
@@ -14781,6 +14782,7 @@ chest{
   layer = 1,
   x = 1976,
   y = 1413,
+  treasure_name = "dungeons/map",
   treasure_savegame_variable = "eastern_map",
   sprite = "entities/chest",
 }

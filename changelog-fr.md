@@ -13,7 +13,7 @@
 - Ajout d'une clé qui tombe de la torche avec les **Peagasus Shoes**
 - Ajout des **Power Gloves**
 - Ajout de **Leevers Purple** & **Green**, **Mini Moldorm**, **Quicksand**, **Devalant Blue** & **Red** and **Beemos**
-- Ajout du Boss **Lanmolas**, sa Récompense, son Pendantif
+- Ajout du Boss **Lanmolas**, sa Récompense, son Pendentif
 - Ajout d'un système pour **Secouer la Caméra** 
 - Ajout de Nouveaux **Drops d'Objets** sur les **Nouveaux Ennemis** (Prizes Packs)
 - Ajout de Dialogues for **Sahasrahla**, **Power Gloves**
@@ -24,13 +24,13 @@
 - Ajout de **Spark** and **Firebar**
 - Ajout de **Bumper**
 - Ajout de **Switch Star**
-- Ajout du Boss **Moldorm**, sa Récompense, son Pendantif
+- Ajout du Boss **Moldorm**, sa Récompense, son Pendentif
 - Ajout de Nouveaux **Drops d'Objets** sur les **Nouveaux Ennemis** (Prizes Packs)
 - Ajout de Dialogues for **Sahasrahla**
 
 🗺**Eastern Ruins**
 - Ajout de **Dialogues** pour **Sahasrahla** 
--  **Sahasrahla** donne les **Pegasus Shoes** après avoir récupéré le premier Pendantif 
+-  **Sahasrahla** donne les **Pegasus Shoes** après avoir récupéré le premier Pendentif 
 
 ☠️**Ennemies Fix**
 - Corrige des problèmes de timing des **Eyegore** d'endormissement et de détection
@@ -123,7 +123,7 @@ __------------------------------------------------------------------------------
 - Ajout de l'**Arc** et des **Pegassus Boots**
 - Ajout du Systèmes de Gestion des Salles Sombres et de leurs éclairages (Torche/Lanterne)
 - Ajout des **EyeGores Red** & **Green**, **Evil Tiles**, **Skeletons**, et **Canonballs**
-- Ajout du Boss **Armos Knight**, sa Récompense, son Pendantif
+- Ajout du Boss **Armos Knight**, sa Récompense, son Pendentif
 - Metatables de gestion des **Switch**, des **Small Keys** & **Boss Keys**
 - Ajout d'un Système de Gestion des **Drops d'Objets** sur les Ennemis (Prizes Packs)
 - Ajout Dialogues de **Sahasrahla**, de l'**Arc**, des **Rubis**, des **Coffres**, des **Small Keys** & **Boss Keys** 

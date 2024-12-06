@@ -2188,7 +2188,792 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
-  destination = "dest_dungeon_cemetery_0",
+  destination = "dest_dungeon_death_mountain_west_0",
+}
+
+wall{
+  layer = 0,
+  x = 248,
+  y = 448,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+chest{
+  layer = 0,
+  x = 256,
+  y = 133,
+  treasure_name = "dungeons/map",
+  treasure_savegame_variable = "tower_of_hera_map",
+  sprite = "entities/chest",
+}
+
+npc{
+  name = "ts.hint_hera_1",
+  layer = 0,
+  x = 256,
+  y = 237,
+  direction = 3,
+  subtype = 1,
+}
+
+custom_entity{
+  layer = 0,
+  x = 232,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 280,
+  y = 237,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+crystal_block{
+  layer = 0,
+  x = 400,
+  y = 88,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 416,
+  y = 104,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 432,
+  y = 120,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 72,
+  y = 376,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 88,
+  y = 392,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 104,
+  y = 408,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 120,
+  y = 424,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 432,
+  y = 280,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 64,
+  y = 280,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 208,
+  y = 280,
+  width = 96,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 336,
+  y = 352,
+  width = 16,
+  height = 32,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 384,
+  y = 352,
+  width = 16,
+  height = 32,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 352,
+  y = 384,
+  width = 32,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 112,
+  y = 352,
+  width = 16,
+  height = 32,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 160,
+  y = 352,
+  width = 16,
+  height = 32,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 128,
+  y = 384,
+  width = 32,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 192,
+  y = 368,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 208,
+  y = 352,
+  width = 96,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 304,
+  y = 368,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 392,
+  y = 424,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 408,
+  y = 408,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 424,
+  y = 392,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 96,
+  y = 88,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 80,
+  y = 104,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 64,
+  y = 120,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal{
+  layer = 0,
+  x = 264,
+  y = 397,
+}
+
+crystal{
+  layer = 0,
+  x = 152,
+  y = 429,
+}
+
+crystal{
+  layer = 0,
+  x = 360,
+  y = 429,
+}
+
+wall{
+  layer = 0,
+  x = 136,
+  y = 336,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "stair_sw",
+  layer = 0,
+  x = 144,
+  y = 349,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 136,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
+  destination = "stair_sw",
+}
+
+stairs{
+  layer = 0,
+  x = 136,
+  y = 336,
+  direction = 1,
+  subtype = 1,
+}
+
+wall{
+  layer = 0,
+  x = 120,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "stair_nw",
+  layer = 0,
+  x = 128,
+  y = 77,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 120,
+  y = 64,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/F1_tower_of_hera",
+  destination = "stair_nw",
+}
+
+stairs{
+  layer = 0,
+  x = 120,
+  y = 64,
+  direction = 1,
+  subtype = 1,
+}
+
+door{
+  name = "locked_door_1",
+  layer = 0,
+  x = 120,
+  y = 64,
+  direction = 1,
+  sprite = "doors/door_d1_small_key",
+  savegame_variable = "tower_of_hera_key_1_opened",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "tower_of_hera_small_keys",
+  opening_condition_consumed = true,
+}
+
+wall{
+  layer = 0,
+  x = 360,
+  y = 336,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+destination{
+  name = "stair_se",
+  layer = 0,
+  x = 368,
+  y = 349,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 360,
+  y = 336,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F3/F3_tower_of_hera",
+  destination = "stair_se",
+}
+
+stairs{
+  layer = 0,
+  x = 360,
+  y = 336,
+  direction = 1,
+  subtype = 0,
+}
+
+teletransporter{
+  layer = 0,
+  x = 168,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "A Link To The Past/Light World/Dungeons/Tower of Hera/F1/secret_fairy",
+  destination = "_same",
+}
+
+enemy{
+  layer = 0,
+  x = 184,
+  y = 149,
+  direction = 0,
+  breed = "dungeons/mini_moldorm",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 173,
+  direction = 3,
+  breed = "dungeons/kodongo",
+}
+
+enemy{
+  layer = 0,
+  x = 376,
+  y = 173,
+  direction = 3,
+  breed = "dungeons/kodongo",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 328,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 416,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 424,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 456,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 480,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 488,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 480,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 240,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 120,
+  width = 24,
+  height = 128,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 32,
+  width = 304,
+  height = 24,
+  pattern = "wall.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "885",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "885",
 }
 
 wall{
