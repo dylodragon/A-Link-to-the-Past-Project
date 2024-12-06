@@ -1746,6 +1746,51 @@ tile{
   pattern = "door.3.low_support.1-2",
 }
 
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-3",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-3",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-3",
+}
+
 destination{
   name = "dest_map_ice_rod_cave_0",
   layer = 0,
@@ -1860,6 +1905,15 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+pickable{
+  name = "ice_rod",
+  layer = 0,
+  x = 168,
+  y = 61,
+  treasure_name = "inventory/ice_rod",
+  treasure_savegame_variable = "get_ice_rod",
 }
 
 tile{

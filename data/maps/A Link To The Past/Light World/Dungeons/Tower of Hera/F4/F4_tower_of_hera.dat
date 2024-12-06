@@ -2681,6 +2681,7 @@ chest{
   layer = 1,
   x = 256,
   y = 301,
+  treasure_name = "dungeons/compass",
   treasure_savegame_variable = "tower_of_hera_compass",
   sprite = "entities/chest",
 }

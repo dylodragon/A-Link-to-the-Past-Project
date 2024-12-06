@@ -16,6 +16,7 @@ function enemy:on_created()
   enemy:set_damage(2)
   enemy:set_property("is_major","true")
   enemy:set_attacking_collision_mode("center")
+  self:set_attack_consequence("thrown_item", 4)
   enemy:set_pushed_back_when_hurt(false)
 
   enemy:set_attack_consequence("sword","custom")

@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/desert_of_mistery_cave.
+-- Lua script of map A Link To The Past/Light World/Caves/river_hylia_lake_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -21,14 +21,4 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
-end
-
-function wiseman:on_interaction()
-  if game:has_item("quest/pendant_of_power") then
-    game:start_dialog("npc.wiseman.after_pendant")
-  elseif game:has_item("equipment/book_of_mudora") then
-    game:start_dialog("npc.wiseman.book_of_mudora")
-  else
-    game:start_dialog("npc.wiseman.first_meeting")
-  end
 end

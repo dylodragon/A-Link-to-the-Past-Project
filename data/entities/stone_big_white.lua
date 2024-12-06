@@ -21,4 +21,10 @@ function entity:on_created()
 end
 
 function entity:on_interaction()
+  if game:has_item("equipment/glove") then
+    sol.audio.play_sound("running_obstacle")
+    entity:get_sprite():set_animation("destroy", function()
+      entity:remove()
+    end)
+  end
 end

@@ -723,18 +723,6 @@ sensor{
   height = 160,
 }
 
-wall{
-  layer = 1,
-  x = 624,
-  y = 1408,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 destination{
   name = "entree",
   layer = 1,

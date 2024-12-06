@@ -5683,6 +5683,7 @@ chest{
   layer = 1,
   x = 760,
   y = 157,
+  treasure_name = "dungeons/map",
   treasure_savegame_variable = "hyrule_castle_map",
   sprite = "entities/chest",
 }

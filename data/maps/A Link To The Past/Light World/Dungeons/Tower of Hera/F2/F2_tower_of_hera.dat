@@ -2188,7 +2188,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/death_mountain_west",
-  destination = "dest_dungeon_cemetery_0",
+  destination = "dest_dungeon_death_mountain_west_0",
 }
 
 wall{
@@ -2206,6 +2206,7 @@ chest{
   layer = 0,
   x = 256,
   y = 133,
+  treasure_name = "dungeons/map",
   treasure_savegame_variable = "tower_of_hera_map",
   sprite = "entities/chest",
 }
