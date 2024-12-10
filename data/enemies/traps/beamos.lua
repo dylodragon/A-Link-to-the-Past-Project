@@ -25,6 +25,8 @@ function enemy:on_created()
   enemy:set_size(16, 16)
   self:set_invincible()
   self:set_damage(4)
+  self:set_attacking_collision_mode("overlapping")
+  self:set_damage(4)
   enemy:set_property("is_major","true")
   enemy:set_attacking_collision_mode("overlapping")
   self.is_exhausted = false -- True after a shoot and before a delay.

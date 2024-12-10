@@ -1,4 +1,4 @@
--- Lua script of map A Link To The Past/Light World/Caves/lake_hylia.
+-- Lua script of map A Link To The Past/Light World/Caves/lake_hylia_cave.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -22,3 +22,12 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function green_thief_lake_hylia_cave_0:on_interaction()
+  game:start_dialog("npc.thief.it_s_a_secret", function ()
+    if not game:get_value("secret_rupee_lake_hylia_cave_0") then
+      hero:start_treasure("consumables/rupee", 6, "secret_rupee_lake_hylia_cave_0")
+    end
+  end)
+end
+ 

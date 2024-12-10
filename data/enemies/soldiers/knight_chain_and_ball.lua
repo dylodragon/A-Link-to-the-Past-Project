@@ -118,6 +118,14 @@ enemy:register_event("on_restarted", function(enemy)
   end
 end)
 
+function enemy:on_disabled()
+  flail:set_enabled(false)
+end
+
+function enemy:on_enabled()
+  flail:set_enabled(true)
+end
+
 function enemy:on_movement_changed(movement)
 
   local direction4 = movement:get_direction4()

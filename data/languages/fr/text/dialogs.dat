@@ -242,15 +242,6 @@ Te voici prêt à rater tes esquives !
 }
 
 dialog{
-  id = "_treasure.equipment/sword.2",
-  text = [[
-Tu as trouvé l'Epée de Merde !
-Te voici prêt à couper des putains
-de buisson !
-]],
-}
-
-dialog{
   id = "_treasure.equipment/sword.3",
   text = [[
 Tu as trouvé l'Epée de Merde !
@@ -262,14 +253,10 @@ de buisson !
 dialog{
   id = "_treasure.inventory/bombs.1",
   text = [[
-Tu reçois un Sac de Bombes !
-
-
-Tu vas pouvoir faire exploser plein
-de choses comme des ennemies
-ou des murs...
-Fait attention à pas te blesser
-avec ça !
+Tu as les Bombes !
+Tu peux ramasser et lancer 
+la bombe que tu as placée.
+Appuie sur le bouton Objet.
 ]],
 }
 
@@ -409,7 +396,7 @@ dialog{
 Tu as gagné le Pendentif du
 Courage ! Apporte-le à
 Sahasrahla ! Il reste
-encore deux Pendentifs ! $0
+encore deux Pendentifs !
 ]],
 }
 
@@ -426,6 +413,24 @@ dialog{
   text = [[
 Tu as gagné le Pendentif de
 Sagesse ! $0
+]],
+}
+
+dialog{
+  id = "a_utiliser_plus_tard._treasure/heart_receptable.1",
+  text = [[
+Tu as trouvé un réceptacle de 
+coeur !
+                {Coeur}
+]],
+}
+
+dialog{
+  id = "a_utiliser_plus_tard.out_of_magic",
+  text = [[
+Tu es à court de pouvoirs
+magiques ! Tu ne peux pas
+utiliser cet objet maintenant.
 ]],
 }
 
@@ -439,18 +444,11 @@ dialog{
 }
 
 dialog{
-  id = "_treasure.quest/pendant_of_power.1",
+  id = "crypted.grove_stone",
   text = [[
-Tu as gagné le Pendentif du
-Pouvoir ! $0
-]],
-}
-
-dialog{
-  id = "_treasure.quest/pendant_of_wisdom.1",
-  text = [[
-Tu as gagné le Pendentif de
-Sagesse ! $0
+      |{|}|{|}|{{{{|}|{|}
+      |}||{|}|{|}
+      |{|}||{|}}{||}
 ]],
 }
 
@@ -739,6 +737,7 @@ dialog{
   text = [[
 Merci, Link. Je sentais bien
 que tu te rapprochais.
+
 ]],
 }
 
@@ -790,6 +789,90 @@ Pars à la recherche du dernier !
 }
 
 dialog{
+  id = "npc.aginah.after_pendant",
+  text = [[
+Ton épreuve t'a rendu plus
+fort. Le sang du Héros doit
+couler dans tes veines.
+]],
+}
+
+dialog{
+  id = "npc.aginah.book_of_mudora",
+  text = [[
+Ah ! Voilà le Livre de Mudora.
+Avec lui, tu peux déchiffrer la
+langue des Hyliens.
+]],
+}
+
+dialog{
+  id = "npc.aginah.first_meeting",
+  text = [[
+Je suis Aginah. Je sens que
+quelque chose va arriver dans
+la Terre d'Or que les Sept
+Sages ont scellée. Ce doit
+être un présage du Grand
+Cataclysme prédit par les gens
+de sang hylien. Selon la
+prophétie, le Héros sera dans 
+le Désert et il tiendra le Livre 
+de Mudora. Si tu as le Livre
+de Mudora, tu peux déchiffrer
+le language des Hyliens.
+Il est probablement dans la 
+Maison des Livres du village.
+Tu dois le récupérer, si tu
+es vraiment le Héros.
+]],
+}
+
+dialog{
+  id = "npc.cursed_bully.meeting",
+  text = [[
+Que veux-tu ?
+Tu as quelque chose à me dire
+stupide lapin ?
+Je suis venu pour retrouver le
+Pouvoir d'Or et je suis devenu
+cela. En plus, je ne peux pas
+revenir au vrai Monde.
+Si seulement j'avais la 
+Perle de Lune de la Tour 
+d'Héra ! Je pourrai retrouver
+ma forme d'origine. Je me
+fais du mauvais sang !
+Pfuitt, Pfuitt !
+]],
+}
+
+dialog{
+  id = "npc.cursed_bully.moon_pearl",
+  text = [[
+Ouah ! Tu n'as pas changé de 
+forme ! Tu as la Perle de Lune, 
+hein !
+]],
+}
+
+dialog{
+  id = "npc.grandpa.arrived",
+  text = [[
+Les jeunes filles disparues
+sont encore en vie. Le Héros
+les sauvera sûrement. Il me
+tarde de voir ce jour !
+Mais j'ai trop parlé. Allez,
+merci de ta bonté envers le
+vieil homme que je suis.
+Prends ceci ! Si tu butes dans 
+un Téléporteur Magique, jette
+un oeil dans ce mirroir.
+]],
+}
+
+dialog{
   id = "npc.grandpa.at_home",
   text = [[
 Le sorcier a fait taire le Roi
@@ -803,6 +886,106 @@ montagne. Tout ce que je peux
 faire pour toi maintenant est
 d'apaiser ta lassitude.
 Reviens quand tu veux.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.first_meeting",
+  text = [[
+Je ne te connais pas, mais
+si tu vas à la montagne,
+emmène-moi avec toi.
+J'ai perdu ma lampe.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.moon_perl",
+  text = [[
+La Perle de Lune protége celui
+qui la porte de l'air magique du
+Pays d'Or afin qu'il puisse y
+conserver sa forme humaine.
+Tout ce que je peux faire pour
+toi maintenant est d'apaiser
+ta laissitude. Reviens quand 
+tu veux.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.pot_heart",
+  text = [[
+Ouh, il doit y avoir un coeur 
+dans le pot.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.turn_right",
+  text = [[
+Eh, tourne à droite ici.
+Tu sais, j'ai une
+petite-fille de ton âge.
+Le Roi l'a emmenée au château
+et elle n'est jamais revenue.
+Enlever des jeunes filles doit
+faire partie du dessein du
+sorcier ! Je pense qu'il essaie
+d'utiliser les pouvoirs que
+les jeunes filles, descendant
+des 7 Sages, possèdent.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.warning_hole",
+  text = [[
+Attention aux trous ! Va tout
+droit et regarde bien où tu
+mets les pieds.
+Jeune homme, vas-tu
+aussi à la montagne à la
+recherche du Pouvoir d'Or ?
+Un peu plus loin, il y a une 
+montagne pleine de monstres.
+Beaucoup de gens ont disparu
+dans cette montagne alors
+qu'il recherchaient le Pouvoir 
+d'Or. Je ne veux pas te
+démoraliser mais faut être 
+dingo pour s'laisser entraîner
+dans une quête aussi folle.
+]],
+}
+
+dialog{
+  id = "npc.pink_ball.meeting",
+  text = [[
+Oh ! Tu as été transformé en
+lapin. Ce monde est comme
+le vrai monde, mais le diable
+l'a déformé. Le Pouvoir d'Or
+nous donne une apparence qui
+reflète les pensées de notre
+coeur et de notre esprit.
+Comme je change tout le temps
+d'avis, j'ai été transformé en
+balle. Mais si tu as une balle
+nommée la Perle de Lune, tu
+peux conserver ta forme
+originale ici.
+
+
+]],
+}
+
+dialog{
+  id = "npc.pink_ball.moon_pearl",
+  text = [[
+Tu n'as pas changé de forme ?
+Tu n'es donc pas un être
+normal, n'est-ce pas ?
 ]],
 }
 
@@ -896,42 +1079,19 @@ Hylia. Va le chercher !
 }
 
 dialog{
-  id = "npc.wiseman.after_pendant",
+  id = "npc.sahasrahla.repeat_information",
   text = [[
-Ton épreuve t'a rendu plus
-fort. Le sang du Héros doit
-couler dans tes veines.
+D'autres descendants des 7
+Sages se cachent des gens du
+château. Essaie de les retrouver.
 ]],
 }
 
 dialog{
-  id = "npc.wiseman.book_of_mudora",
+  id = "npc.thief.it_s_a_secret",
   text = [[
-Ah ! Voilà le Livre de Mudora.
-Avec lui, tu peux déchiffrer la
-langue des Hyliens.
-]],
-}
 
-dialog{
-  id = "npc.wiseman.first_meeting",
-  text = [[
-Je suis Aginah. Je sens que
-quelque chose va arriver dans
-la Terre d'Or que les Sept
-Sages ont scellée. Ce doit
-être un présage du Grand
-Cataclysme prédit par les gens
-de sang hylien. Selon la
-prophétie, le Héros sera dans 
-le Désert et il tiendra le Livre 
-de Mudora. Si tu as le Livre
-de Mudora, tu peux déchiffrer
-le language des Hyliens.
-Il est probablement dans la 
-Maison des Livres du village.
-Tu dois le récupérer, si tu
-es vraiment le Héros.
+C'est un secret !
 ]],
 }
 
@@ -995,6 +1155,15 @@ dialog{
             $? Continuer
       $? Sauvegarder et quitter
      $? Quitter sans sauvegarder
+]],
+}
+
+dialog{
+  id = "sign.death_moutain_west",
+  text = [[
+Cette grotte ramène à l'allée
+qui aboutit au village
+de Cocorico.
 ]],
 }
 
@@ -1073,6 +1242,37 @@ dialog{
 Pour t'ouvrir un chemin,
 fais une pière
 et elle sera exaucée.
+]],
+}
+
+dialog{
+  id = "uncrypted.grove_stone",
+  text = [[
+Triomphe du Héros
+la veille du Cataclysme !
+Trois symboles de vertu
+obtiendra.
+Excalibur retrouvera,
+préservant la pureté de
+la lignée des Chevaliers.
+]],
+}
+
+dialog{
+  id = "npc.saharaslara.master_sword",
+  text = [[
+Soudain Sahasrahla te 
+contacte par télépathie.
+{Link}, c'est merveilleux que
+tu aies trouvé Excalibur 
+qui fait battre en retraite le 
+Démon. Avec cette épée étin-
+celante, je pense que tu 
+peux dévier les pouvoirs 
+diaboliques du sorcier.
+Le destin de cette terre est 
+entre tes main.
+Je t'en supplie ! {Link}.
 ]],
 }
 

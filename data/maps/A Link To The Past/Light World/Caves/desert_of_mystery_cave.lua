@@ -23,12 +23,12 @@ function map:on_opening_transition_finished()
 
 end
 
-function wiseman:on_interaction()
+function aginah:on_interaction()
   if game:has_item("quest/pendant_of_power") then
-    game:start_dialog("npc.wiseman.after_pendant")
+    game:start_dialog("npc.aginah.after_pendant")
   elseif game:has_item("equipment/book_of_mudora") then
-    game:start_dialog("npc.wiseman.book_of_mudora")
+    game:start_dialog("npc.aginah.book_of_mudora")
   else
-    game:start_dialog("npc.wiseman.first_meeting")
+    game:start_dialog("npc.aginah.first_meeting")
   end
 end

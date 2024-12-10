@@ -4838,6 +4838,7 @@ destructible{
   x = 312,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4850,6 +4851,7 @@ destructible{
   x = 328,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4862,6 +4864,7 @@ destructible{
   x = 344,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4874,6 +4877,7 @@ destructible{
   x = 360,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4886,6 +4890,7 @@ destructible{
   x = 376,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4898,6 +4903,7 @@ destructible{
   x = 392,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4910,6 +4916,7 @@ destructible{
   x = 408,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4922,6 +4929,7 @@ destructible{
   x = 424,
   y = 221,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4934,6 +4942,7 @@ destructible{
   x = 296,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4946,6 +4955,7 @@ destructible{
   x = 312,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4958,6 +4968,7 @@ destructible{
   x = 344,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4970,6 +4981,7 @@ destructible{
   x = 360,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4982,6 +4994,7 @@ destructible{
   x = 376,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4994,6 +5007,7 @@ destructible{
   x = 392,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5006,6 +5020,7 @@ destructible{
   x = 296,
   y = 253,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5018,6 +5033,7 @@ destructible{
   x = 312,
   y = 253,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5030,6 +5046,7 @@ destructible{
   x = 296,
   y = 269,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5042,6 +5059,7 @@ destructible{
   x = 328,
   y = 333,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5054,6 +5072,7 @@ destructible{
   x = 408,
   y = 237,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5107,6 +5126,7 @@ destination{
 }
 
 door{
+  name = "door_library_0",
   layer = 0,
   x = 120,
   y = 128,
@@ -5116,6 +5136,7 @@ door{
 }
 
 door{
+  name = "door_library_1",
   layer = 0,
   x = 360,
   y = 304,
@@ -5125,12 +5146,23 @@ door{
 }
 
 door{
+  name = "door_library_2",
   layer = 0,
   x = 56,
   y = 368,
   direction = 3,
   sprite = "doors/door_outside_house",
   opening_method = "interaction",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "7412",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -5145,16 +5177,6 @@ tile{
 tile{
   layer = 1,
   x = 0,
-  y = 296,
-  width = 112,
-  height = 64,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 0,
   y = 288,
   width = 104,
   height = 80,
@@ -5164,9 +5186,78 @@ tile{
 
 tile{
   layer = 1,
+  x = 48,
+  y = 248,
+  width = 8,
+  height = 48,
+  pattern = "1452",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "7412",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 328,
+  y = 240,
+  width = 80,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
   x = 320,
   y = 248,
   width = 96,
+  height = 48,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 296,
+  width = 112,
+  height = 64,
+  pattern = "7494",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "7412",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "7317",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 80,
+  width = 80,
   height = 48,
   pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
@@ -5212,16 +5303,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 328,
-  y = 240,
-  width = 80,
-  height = 64,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 320,
   y = 232,
   width = 16,
@@ -5237,16 +5318,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "7412",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 88,
-  y = 80,
-  width = 80,
-  height = 48,
-  pattern = "7494",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -5432,26 +5503,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 320,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "5995",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 248,
-  width = 8,
-  height = 32,
-  pattern = "5982",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 408,
   y = 248,
   width = 8,
@@ -5472,16 +5523,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 320,
-  y = 240,
-  width = 24,
-  height = 8,
-  pattern = "5977",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 336,
   y = 248,
   width = 8,
@@ -5497,26 +5538,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "5987",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 392,
-  y = 240,
-  width = 24,
-  height = 8,
-  pattern = "5979",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 344,
-  y = 240,
-  width = 48,
-  height = 8,
-  pattern = "5978",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -5642,16 +5663,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 80,
-  y = 80,
-  width = 24,
-  height = 8,
-  pattern = "5977",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
   x = 96,
   y = 88,
   width = 8,
@@ -5667,26 +5678,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "5987",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 152,
-  y = 80,
-  width = 24,
-  height = 8,
-  pattern = "5979",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 104,
-  y = 80,
-  width = 48,
-  height = 8,
-  pattern = "5978",
   tileset = "out/outside_lightworld_buildings",
 }
 
@@ -5853,7 +5844,7 @@ tile{
 tile{
   layer = 1,
   x = 112,
-  y = 88,
+  y = 96,
   width = 32,
   height = 32,
   pattern = "6073",
@@ -6119,15 +6110,6 @@ tile{
   width = 8,
   height = 48,
   pattern = "1444",
-}
-
-tile{
-  layer = 1,
-  x = 48,
-  y = 248,
-  width = 8,
-  height = 48,
-  pattern = "1452",
 }
 
 tile{
@@ -6452,6 +6434,106 @@ tile{
   width = 96,
   height = 8,
   pattern = "1451",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 80,
+  width = 24,
+  height = 8,
+  pattern = "5977",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 80,
+  width = 24,
+  height = 8,
+  pattern = "5979",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 80,
+  width = 48,
+  height = 8,
+  pattern = "5978",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "7412",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "7317",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 248,
+  width = 8,
+  height = 32,
+  pattern = "5982",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 240,
+  width = 24,
+  height = 8,
+  pattern = "5977",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 240,
+  width = 48,
+  height = 8,
+  pattern = "5978",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "5995",
+  tileset = "out/outside_lightworld_buildings",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 240,
+  width = 24,
+  height = 8,
+  pattern = "5979",
+  tileset = "out/outside_lightworld_buildings",
 }
 
 teletransporter{

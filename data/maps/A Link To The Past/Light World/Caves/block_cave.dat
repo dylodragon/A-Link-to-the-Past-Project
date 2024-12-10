@@ -1371,7 +1371,7 @@ destination{
   name = "dest_map_block_cave_0",
   layer = 0,
   x = 128,
-  y = 469,
+  y = 461,
   direction = 1,
 }
 

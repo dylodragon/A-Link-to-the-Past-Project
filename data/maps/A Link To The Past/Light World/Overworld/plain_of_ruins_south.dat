@@ -3677,6 +3677,26 @@ npc{
   sprite = "npc/average_middle_aged_man",
 }
 
+enemy{
+  name = "stone_crab_plain_of_ruins_0",
+  layer = 0,
+  x = 184,
+  y = 173,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "stone_crab_plain_of_ruins_1",
+  layer = 0,
+  x = 392,
+  y = 237,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 48,
@@ -6306,7 +6326,17 @@ destination{
   name = "dest_secret",
   layer = 2,
   x = 256,
-  y = 256,
+  y = 248,
   direction = 3,
+}
+
+enemy{
+  name = "crow_plain_of_ruins_0",
+  layer = 2,
+  x = 232,
+  y = 165,
+  direction = 3,
+  breed = "dungeons/keese",
+  treasure_name = "prize_packs/1",
 }
 

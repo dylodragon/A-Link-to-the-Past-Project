@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "Light World",
   tileset = "out/outside_lightworld_main",
-  music = "lost_woods",
+  music = "same",
 }
 
 tile{
@@ -12266,6 +12266,76 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "thief_lost_wood_0",
+  layer = 0,
+  x = 696,
+  y = 173,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "thief_lost_wood_1",
+  layer = 0,
+  x = 216,
+  y = 509,
+  direction = 3,
+  breed = "light_world/deadrock",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_lost_wood_0",
+  layer = 0,
+  x = 824,
+  y = 141,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_lost_wood_1",
+  layer = 0,
+  x = 248,
+  y = 285,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_soldier_lost_wood_2",
+  layer = 0,
+  x = 152,
+  y = 829,
+  direction = 3,
+  breed = "soldiers/sword_soldier_blue",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "bush_crab_lost_wood_0",
+  layer = 0,
+  x = 680,
+  y = 261,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "bush_crab_lost_wood_1",
+  layer = 0,
+  x = 648,
+  y = 765,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 144,
@@ -18981,23 +19051,15 @@ tile{
   pattern = "1334",
 }
 
-tile{
+dynamic_tile{
+  name = "light_lost_wood_0",
   layer = 2,
   x = 0,
   y = 0,
+  enabled_at_start = false,
   width = 1024,
   height = 1024,
-  pattern = "12372",
-}
-
-tile{
-  layer = 2,
-  x = 0,
-  y = 0,
-  width = 1024,
-  height = 1024,
-  pattern = "10249",
-  tileset = "out/outside_special",
+  pattern = "12373",
 }
 
 teletransporter{
@@ -19053,5 +19115,26 @@ destination{
   x = 512,
   y = 512,
   direction = 3,
+}
+
+dynamic_tile{
+  name = "mist_lost_wood_0",
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 1024,
+  pattern = "12372",
+}
+
+dynamic_tile{
+  name = "mist_lost_wood_1",
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 1024,
+  height = 1024,
+  pattern = "10249",
+  tileset = "out/outside_special",
 }
 

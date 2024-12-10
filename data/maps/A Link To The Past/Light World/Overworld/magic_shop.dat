@@ -3744,12 +3744,155 @@ tile{
 
 tile{
   layer = 0,
+  x = 176,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
   x = 200,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "6020",
-  tileset = "out/outside_lightworld_buildings",
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "101",
 }
 
 destructible{
@@ -4351,6 +4494,36 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/witch",
+}
+
+enemy{
+  name = "ploub_ploub_magic_shop_0",
+  layer = 0,
+  x = 216,
+  y = 181,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_magic_shop_1",
+  layer = 0,
+  x = 104,
+  y = 405,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+door{
+  name = "door_magic_shop_0",
+  layer = 0,
+  x = 200,
+  y = 336,
+  direction = 3,
+  sprite = "doors/door_outside_house",
+  opening_method = "interaction",
 }
 
 tile{

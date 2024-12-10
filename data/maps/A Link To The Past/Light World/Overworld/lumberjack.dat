@@ -4143,12 +4143,33 @@ npc{
 }
 
 door{
+  name = "lumberjack_house_0",
   layer = 0,
   x = 344,
   y = 240,
   direction = 3,
   sprite = "doors/door_outside_house",
   opening_method = "interaction",
+}
+
+enemy{
+  name = "bush_crab_lumberjack_0",
+  layer = 0,
+  x = 216,
+  y = 429,
+  direction = 3,
+  breed = "dungeons/leever_green",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lumberjack_0",
+  layer = 0,
+  x = 64,
+  y = 325,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
 }
 
 tile{
