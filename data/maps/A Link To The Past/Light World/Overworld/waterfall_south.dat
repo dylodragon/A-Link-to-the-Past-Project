@@ -4819,6 +4819,56 @@ jumper{
   jump_length = 36,
 }
 
+enemy{
+  name = "ploub_ploub_waterfall_south_4",
+  layer = 0,
+  x = 136,
+  y = 365,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_waterfall_south_3",
+  layer = 0,
+  x = 360,
+  y = 197,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_waterfall_south_1",
+  layer = 0,
+  x = 376,
+  y = 173,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_waterfall_south_0",
+  layer = 0,
+  x = 392,
+  y = 149,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_waterfall_south_2",
+  layer = 0,
+  x = 216,
+  y = 189,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
 tile{
   layer = 1,
   x = 456,

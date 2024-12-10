@@ -1524,6 +1524,15 @@ destination{
 
 tile{
   layer = 1,
+  x = 232,
+  y = 232,
+  width = 48,
+  height = 32,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 1,
   x = 296,
   y = 232,
   width = 8,

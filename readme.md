@@ -57,3 +57,4 @@ This version includes:
 However, there won't be a **Map** and a **Compass** for the time being.  
 - *Map created by **ZeldoRetro** and **Boss** developed by **DarkDavy15**.*
 - * **Items** and Some **Enemies Behaviours** by **Adenothe**.*
+- Some NPCs, Enemies Dialog and Features added to the Overworld from **KaKaShUruKioRa**

@@ -599,6 +599,14 @@ wall{
   stops_projectiles = true,
 }
 
+destination{
+  name = "dest_cave_grandpa_house_0",
+  layer = 0,
+  x = 232,
+  y = 77,
+  direction = 2,
+}
+
 npc{
   name = "grandpa",
   layer = 0,
@@ -607,14 +615,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/lost_old_man",
-}
-
-destination{
-  name = "dest_cave_grandpa_house_0",
-  layer = 0,
-  x = 232,
-  y = 77,
-  direction = 2,
 }
 
 tile{

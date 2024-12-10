@@ -5138,7 +5138,28 @@ destination{
   direction = 3,
 }
 
+enemy{
+  name = "cucco_blacksmiths_house_0",
+  layer = 0,
+  x = 200,
+  y = 333,
+  direction = 3,
+  breed = "light_world/chicken",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "cucco_blacksmiths_house_1",
+  layer = 0,
+  x = 296,
+  y = 333,
+  direction = 3,
+  breed = "light_world/chicken",
+  treasure_name = "prize_packs/1",
+}
+
 door{
+  name = "door_blacksmiths_house_0",
   layer = 0,
   x = 216,
   y = 128,

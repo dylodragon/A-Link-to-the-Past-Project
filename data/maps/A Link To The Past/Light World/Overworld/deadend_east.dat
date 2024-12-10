@@ -4800,6 +4800,7 @@ destructible{
   x = 56,
   y = 173,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -4812,6 +4813,7 @@ destructible{
   x = 56,
   y = 189,
   sprite = "destructibles/grass_green",
+  destruction_sound = "bush",
   weight = -1,
   can_be_cut = true,
   damage_on_enemies = 0,
@@ -5057,6 +5059,36 @@ destination{
   x = 432,
   y = 317,
   direction = 3,
+}
+
+enemy{
+  name = "armos_deadend_east_0",
+  layer = 0,
+  x = 120,
+  y = 381,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "red_soldier_deadend_east_0",
+  layer = 0,
+  x = 248,
+  y = 205,
+  direction = 3,
+  breed = "soldiers/spear_soldier_red",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "armos_deadend_east_1",
+  layer = 0,
+  x = 200,
+  y = 381,
+  direction = 0,
+  breed = "light_world/armos",
+  treasure_name = "prize_packs/1",
 }
 
 tile{

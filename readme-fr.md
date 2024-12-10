@@ -52,4 +52,5 @@ Cette version inclut :
 - Trois donjons jouable en jeu, à savoir le **Palais de l'Est**, le **Palais du Désert** et la **Tour d'Héra**, où vous pouvez obtenir des objets majeurs et combattre des **Boss Mémorables**.  
   Cependant, il n’y aura pas encore de **Carte** ni de **Boussole**.
   - *Carte créée par **ZeldoRetro** et **Boss** développé par **DarkDavy15**.*
-  - *Des **Objets** et certains **Comportements d'Ennemis** by **Adenothe**.*
+  - *Des **Objets** et certains **Comportements d'Ennemis** par **Adenothe**.*
+  - Ajouts de PNJs, Ennemies, Dialogues et Features à l'Overworld par  **KaKaShUruKioRa**

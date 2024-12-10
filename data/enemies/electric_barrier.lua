@@ -57,4 +57,5 @@ end
 
 function enemy:on_dead()
   game:get_map():get_entity("electric_barrier_wall"):set_enabled(false)
+  game:set_value("electric_barrier_destroyed", true)
 end

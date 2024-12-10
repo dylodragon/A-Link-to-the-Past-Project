@@ -1369,6 +1369,15 @@ wall{
   stops_projectiles = true,
 }
 
+pickable{
+  name = "piece_of_heart_lumberjack_cave_0",
+  layer = 0,
+  x = 384,
+  y = 141,
+  treasure_name = "consumables/piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_lumberjack_cave_0",
+}
+
 tile{
   layer = 1,
   x = 232,

@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "hero/sword.sword2.png",
+  directions = {
+    { x = 576, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71 },
+    { x = 576, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71 },
+    { x = 576, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71 },
+    { x = 576, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "hero/sword.sword2.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 360, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71, num_frames = 4 },
+    { x = 360, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71, num_frames = 4 },
+    { x = 360, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71, num_frames = 4 },
+    { x = 360, y = 216, frame_width = 72, frame_height = 72, origin_x = 40, origin_y = 71, num_frames = 4 },
+  },
+}
