@@ -176,17 +176,13 @@ function map:on_finished()
 end
 
 function cursed_bully_death_moutain_west_0:on_interaction()
-  if not game:has_item("equipment/moon_pearl") then  
-    game:start_dialog("npc.cursed_bully.meeting")
-  else
+  if game:has_item("equipment/moon_pearl") then 
     game:start_dialog("npc.cursed_bully.moon_pearl")
   end
 end
 
 function pink_ball_death_moutain_west_0:on_interaction()
-  if not game:has_item("equipment/moon_pearl") then  
-    game:start_dialog("npc.pink_ball.meeting")
-  else
+  if game:has_item("equipment/moon_pearl") then  
     game:start_dialog("npc.pink_ball.moon_pearl")
   end
 end
