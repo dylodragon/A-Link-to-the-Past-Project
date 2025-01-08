@@ -1,24 +1,41 @@
--- Lua script of map Archived/A Link to the Past/Light World/Non Playable Zone/Dungeons/Tower of Hera/F6/.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map is loaded.
-function map:on_started()
+local door_manager = require("scripts/maps/door_manager")
+door_manager:manage_map(map)
+local chest_manager = require("scripts/maps/chest_manager")
+chest_manager:manage_map(map)
+local separator_manager = require("scripts/maps/separator_manager")
+separator_manager:manage_map(map)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+
+function map:on_started(destination)
+
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
+
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+-- SWITCHES ETOILES ET TROUS
+for switch in map:get_entities("switch_hole_B_") do
+  function switch:on_activated()
+    sol.audio.play_sound("secret")
+    map:set_entities_enabled("hole_B_", true)
+    map:set_entities_enabled("hole_A_", false)
+    for switch in map:get_entities("switch_hole_A_") do switch:set_activated(false) end
+    for switch in map:get_entities("switch_hole_B_") do switch:set_activated(true) end
+  end
+end
+for switch in map:get_entities("switch_hole_A_") do
+  function switch:on_activated()
+    sol.audio.play_sound("secret")
+    map:set_entities_enabled("hole_A_", true)
+    map:set_entities_enabled("hole_B_", false)
+    for switch in map:get_entities("switch_hole_B_") do switch:set_activated(false) end
+    for switch in map:get_entities("switch_hole_A_") do switch:set_activated(true) end
+  end
 end

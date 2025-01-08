@@ -1332,6 +1332,15 @@ tile{
   pattern = "door_main.2.floor.1-3",
 }
 
+tile{
+  layer = 0,
+  x = 120,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "ceiling.2",
+}
+
 wall{
   layer = 0,
   x = 208,
@@ -1362,7 +1371,7 @@ destination{
   name = "dest_map_block_cave_0",
   layer = 0,
   x = 128,
-  y = 469,
+  y = 461,
   direction = 1,
 }
 

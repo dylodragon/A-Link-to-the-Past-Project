@@ -23,6 +23,7 @@ function enemy:on_created()
   enemy:set_attack_consequence("hookshot", "protected")
   enemy:set_attack_consequence("boomerang", "protected")
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
+  enemy:set_can_hurt_hero_running(true)
 end
 
 function enemy:on_restarted()

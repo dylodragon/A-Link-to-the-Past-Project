@@ -22,3 +22,31 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+-- Dialogues Sahasrahla
+  function sahasrahla:on_interaction()
+  -- On a les bottes, dirige vers la suite
+  if game:get_value("possession_pegasus_boots") then 
+    if game:get_value("possession_ice_rod") then 
+      game:start_dialog("npc.sahasrahla.ice_rod")
+    else
+      game:start_dialog("npc.sahasrahla.pegasus_gifted")
+    end
+  -- On a trouvé le Pendentif, donne les bottes et dirige vers la suite
+  elseif game:get_value("get_pendant_of_courage") then
+    game:start_dialog("npc.sahasrahla.first_meeting", function()
+      game:start_dialog("npc.sahasrahla.give_courage_pendent",function()
+        hero:start_treasure("equipment/pegasus_shoes", 1, "get_pegasus_shoes", function()
+        game:start_dialog("npc.sahasrahla.pegasus_gifted") 
+      end)
+    end)
+  end)
+  -- Défaut: dirige vers Eastern Palace
+  else 
+    game:start_dialog("npc.sahasrahla.first_meeting", function()
+      game:start_dialog("npc.sahasrahla.first_meeting_question", function()
+        game:start_dialog("npc.sahasrahla.first_meeting_answer")
+      end)
+    end)
+  end
+end

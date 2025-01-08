@@ -4795,7 +4795,7 @@ tile{
   y = 288,
   width = 80,
   height = 96,
-  pattern = "14667",
+  pattern = "129",
 }
 
 tile{
@@ -4804,7 +4804,7 @@ tile{
   y = 304,
   width = 16,
   height = 64,
-  pattern = "14667",
+  pattern = "129",
 }
 
 tile{
@@ -4813,7 +4813,7 @@ tile{
   y = 304,
   width = 16,
   height = 64,
-  pattern = "14667",
+  pattern = "129",
 }
 
 tile{
@@ -17601,7 +17601,7 @@ destructible{
   layer = 0,
   x = 392,
   y = 333,
-  sprite = "destructibles/bush_green",
+  sprite = "destructibles/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
 }
@@ -18248,6 +18248,206 @@ teletransporter{
   height = 16,
   destination_map = "A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness",
   destination = "dest_map_pond_of_hapiness_0",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_0",
+  layer = 0,
+  x = 600,
+  y = 213,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_1",
+  layer = 0,
+  x = 280,
+  y = 381,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_2",
+  layer = 0,
+  x = 888,
+  y = 413,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_3",
+  layer = 0,
+  x = 440,
+  y = 621,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_4",
+  layer = 0,
+  x = 920,
+  y = 797,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_5",
+  layer = 0,
+  x = 328,
+  y = 861,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "underwater_zora_lake_hylia_6",
+  layer = 0,
+  x = 536,
+  y = 877,
+  direction = 3,
+  breed = "light_world/zora_underwater",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lake_hylia_0",
+  layer = 0,
+  x = 408,
+  y = 333,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lake_hylia_1",
+  layer = 0,
+  x = 632,
+  y = 509,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lake_hylia_2",
+  layer = 0,
+  x = 760,
+  y = 509,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lake_hylia_3",
+  layer = 0,
+  x = 808,
+  y = 893,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lake_hylia_4",
+  layer = 0,
+  x = 848,
+  y = 925,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "ploub_ploub_lake_hylia_5",
+  layer = 0,
+  x = 408,
+  y = 941,
+  direction = 3,
+  breed = "light_world/zora",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_lake_hylia_0",
+  layer = 0,
+  x = 216,
+  y = 157,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_lake_hylia_1",
+  layer = 0,
+  x = 904,
+  y = 173,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_lake_hylia_3",
+  layer = 0,
+  x = 168,
+  y = 861,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "octorok_lake_hylia_4",
+  layer = 0,
+  x = 184,
+  y = 917,
+  direction = 3,
+  breed = "light_world/octorok",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "blue_archer_lake_hylia_0",
+  layer = 0,
+  x = 168,
+  y = 205,
+  direction = 3,
+  breed = "soldiers/soldier_archer",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "sand_crab_lake_hylia_0",
+  layer = 0,
+  x = 136,
+  y = 381,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "sand_crab_lake_hylia_1",
+  layer = 0,
+  x = 288,
+  y = 957,
+  direction = 3,
+  breed = "light_world/sand_crab",
+  treasure_name = "prize_packs/1",
 }
 
 tile{
@@ -23373,6 +23573,26 @@ tile{
   pattern = "991",
 }
 
+enemy{
+  name = "crow_lake_hylia_0",
+  layer = 1,
+  x = 232,
+  y = 133,
+  direction = 3,
+  breed = "dungeons/keese",
+  treasure_name = "prize_packs/1",
+}
+
+enemy{
+  name = "crow_lake_hylia_1",
+  layer = 1,
+  x = 248,
+  y = 861,
+  direction = 3,
+  breed = "dungeons/keese",
+  treasure_name = "prize_packs/1",
+}
+
 teletransporter{
   name = "border_lake_hylia_west",
   layer = 2,
@@ -23437,7 +23657,7 @@ destination{
   name = "dest_secret",
   layer = 2,
   x = 256,
-  y = 256,
+  y = 184,
   direction = 3,
 }
 

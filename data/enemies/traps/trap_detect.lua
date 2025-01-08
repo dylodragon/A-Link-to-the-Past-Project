@@ -20,6 +20,7 @@ function enemy:on_created()
   self:set_attack_consequence("arrow", "protected")
   self:set_attack_consequence("hookshot", "protected")
   self:set_attack_consequence("boomerang", "protected")
+  enemy:set_can_hurt_hero_running(true)
 
   initial_xy.x, initial_xy.y = self:get_position()
 end

@@ -18,7 +18,12 @@ function map:on_started()
       return true
     end):set_suspended_with_map(false)
   else
+    for entity in map:get_entities("blue_soldier_link_house_") do
+      entity:set_enabled()
+    end
+
     sol.audio.play_music("overworld")
+    
   end
 
   if not game:get_value("get_sword_1") then

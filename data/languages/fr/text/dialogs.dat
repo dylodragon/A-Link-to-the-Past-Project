@@ -2,9 +2,9 @@ dialog{
   id = "NoBigKey",
   skip = "all",
   text = [[
-Hein ? c'est fermé a clé !
+Hein ? C'est fermé à clé !
 Si tu avais une Grande Clé,
-tu pourrais ouvrir 
+tu pourrais l'ouvrir.
 ]],
 }
 
@@ -27,19 +27,12 @@ Il te faut une petite clé pour ça !
 dialog{
   id = "_bush",
   text = [[
-Vous pouvez soulever les buissons,
-où bien les couper avec votre épée !
 ]],
 }
 
 dialog{
   id = "_crystal",
   text = [[
-Frapper le cristal avec votre épée, 
-ou autres choses !
-
-En faisant ça, vous relèverez les
-plots et en abaisserez d'autres..
 ]],
 }
 
@@ -107,7 +100,7 @@ dialog{
   id = "_treasure.consumables/rupee.3",
   text = [[
 Tu as trouvé un Rubis Rouge !
-Il vaut 20 Rubis Rouge !
+Il vaut 20 Rubis Vert !
 ]],
 }
 
@@ -144,30 +137,20 @@ Petites Clés ne peuvent ouvrir.
 dialog{
   id = "_treasure.dungeons/compass.1",
   text = [[
-Tu as obtenu la Boussole du donjon !
-
-
-Grâce à elle tu peux connaitre ta
-position dans le donjon ainsi que
-les emplacements de coffre.
-"Oh mais c'est génial", me direz-vous...
-Mais en faite, bah elle est cassée donc...
-Pas de boussole ? Pas d'boussole !
+Tu as trouvé la Boussole !
+Désormais tu peux repérer la 
+planque du Diabolique Maître
+du Donjon.
 ]],
 }
 
 dialog{
   id = "_treasure.dungeons/map.1",
   text = [[
-Tu as obtenu la Carte du donjon !
-Grâce à elle tu peux connaitre la
-répartition des salles du donjon.
-Mais bon, là ça marche pas en fait,
-donc bah... démerde toi....
-
-Non en vrai, je déconne.
-Si t'es bloqué retourne vers les salles
-avec des grands trous et cherche...
+Tu as le Plan ! Sers-t'en
+pour voir ta position
+et le reste du donjon.
+Appuie sur la touche {X}
 ]],
 }
 
@@ -182,11 +165,52 @@ fermées à clé !
 }
 
 dialog{
+  id = "_treasure.equipment/book_of_mudora.1",
+  text = [[
+Tu as trouvé le Livre de
+Mudora ! Il te permet de
+déchiffrer l'ancienne langue
+des Hyliens !
+]],
+}
+
+dialog{
   id = "_treasure.equipment/flippers.1",
   text = [[
 Tu as trouvé les Palmes !
 Tu peux maintenant nager en eau
 profonde !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/glove.1",
+  text = [[
+Tu as récupéré le Gant de la
+Puissance !$0 Tu dois ressentir
+la force dans tes mains.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/moon_pearl.1",
+  text = [[
+Tu as trouvé la Perle de Lune !
+Elle protége le Héros des
+effets changeants du
+Pouvoir d'Or !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/pegasus_shoes.1",
+  text = [[
+Il t'a donné les Bottes de 
+Pégase. Maintenant tu peux
+lancer une Attaque Eclair
+Dévastatrice ! Maintiens
+appuyé le bouton Action
+un court instant.
 ]],
 }
 
@@ -218,15 +242,6 @@ Te voici prêt à rater tes esquives !
 }
 
 dialog{
-  id = "_treasure.equipment/sword.2",
-  text = [[
-Tu as trouvé l'Epée de Merde !
-Te voici prêt à couper des putains
-de buisson !
-]],
-}
-
-dialog{
   id = "_treasure.equipment/sword.3",
   text = [[
 Tu as trouvé l'Epée de Merde !
@@ -238,22 +253,17 @@ de buisson !
 dialog{
   id = "_treasure.inventory/bombs.1",
   text = [[
-Tu reçois un Sac de Bombes !
-
-
-Tu vas pouvoir faire exploser plein
-de choses comme des ennemies
-ou des murs...
-Fait attention à pas te blesser
-avec ça !
+Tu as les Bombes !
+Tu peux ramasser et lancer 
+la bombe que tu as placée.
+Appuie sur le bouton Objet.
 ]],
 }
 
 dialog{
   id = "_treasure.inventory/boomerang.1",
-  skip = "all",
   text = [[
-Tu as le Boomerang ! Fais un
+Tu as le Boomerang ! $0Fais un
 essai ! Pour choisir un objet,
 appuie sur Pause.
 ]],
@@ -339,6 +349,17 @@ en être complétement retournés.
 }
 
 dialog{
+  id = "_treasure.inventory/ice_rod.1",
+  text = [[
+Tu as trouvé la Baguette de
+Glace ! Ses bourrasques
+magiques glacent l'air.
+Mais surveille ton Compteur 
+Magique !
+]],
+}
+
+dialog{
   id = "_treasure.inventory/lantern.1",
   skip = "all",
   text = [[
@@ -347,6 +368,18 @@ Maintenant tu peux allumer les
 torches en appuyant
 sur Objet pour te frayer
 un chemin dans l'obscurité.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_mirror.1",
+  text = [[
+Il t'a donné le Miroir Magique !
+C'est un beau miroir bleu et
+transparent !
+On a l'impression qu'il va 
+nous absorber dans un autre 
+monde.
 ]],
 }
 
@@ -361,9 +394,61 @@ dialog{
   id = "_treasure.quest/pendant_of_courage.1",
   text = [[
 Tu as gagné le Pendentif du
-Courage ! $0
-Apporte-le à Sahasrahla !
-Il reste encore deux Pendentifs !
+Courage ! Apporte-le à
+Sahasrahla ! Il reste
+encore deux Pendentifs !
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_power.1",
+  text = [[
+Tu as gagné le Pendentif du
+Pouvoir ! $0
+]],
+}
+
+dialog{
+  id = "_treasure.quest/pendant_of_wisdom.1",
+  text = [[
+Tu as gagné le Pendentif de
+Sagesse ! $0
+]],
+}
+
+dialog{
+  id = "a_utiliser_plus_tard._treasure/heart_receptable.1",
+  text = [[
+Tu as trouvé un réceptacle de 
+coeur !
+                {Coeur}
+]],
+}
+
+dialog{
+  id = "a_utiliser_plus_tard.out_of_magic",
+  text = [[
+Tu es à court de pouvoirs
+magiques ! Tu ne peux pas
+utiliser cet objet maintenant.
+]],
+}
+
+dialog{
+  id = "crypted.desert_stone",
+  text = [[
+      |}|{|}|{|{|
+      |{|}|}|{|}
+     ||{|}{|{{}|
+]],
+}
+
+dialog{
+  id = "crypted.grove_stone",
+  text = [[
+      |{|}|{|}|{{{{|}|{|}
+      |}||{|}|{|}
+      |{|}||{|}}{||}
 ]],
 }
 
@@ -607,10 +692,10 @@ dialog{
 Ce blason doit s'ouvrir en coulissant.
 Tu as la Lanterne ?
 
-C'est indispensabble car il fait
+C'est indispensable car il fait
 rudement sombre la-dedans.
 
-Si tu es prêts, allons-y.
+Si tu es prêt, allons-y.
 Aide-moi à pousser le blason
 par la gauche !
 ]],
@@ -652,6 +737,7 @@ dialog{
   text = [[
 Merci, Link. Je sentais bien
 que tu te rapprochais.
+
 ]],
 }
 
@@ -681,6 +767,331 @@ ne remarque notre disparition.
 Je connais une allée secrète,
 mais il faut d'abord monter
 au Rez-de-chaussée.
+]],
+}
+
+dialog{
+  id = "misc.pendants_all",
+  text = [[
+Bravo ! Tu as les 3 Pendentifs !
+Pars maintenant aux Bois Perdus
+pour retrouver l'Epée de Légende.
+]],
+}
+
+dialog{
+  id = "misc.pendants_only_one",
+  text = [[
+Tu te rapproches de ton objectif
+qui est de trouver les 3 Pendentifs.
+Pars à la recherche du dernier !
+]],
+}
+
+dialog{
+  id = "npc.aginah.after_pendant",
+  text = [[
+Ton épreuve t'a rendu plus
+fort. Le sang du Héros doit
+couler dans tes veines.
+]],
+}
+
+dialog{
+  id = "npc.aginah.book_of_mudora",
+  text = [[
+Ah ! Voilà le Livre de Mudora.
+Avec lui, tu peux déchiffrer la
+langue des Hyliens.
+]],
+}
+
+dialog{
+  id = "npc.aginah.first_meeting",
+  text = [[
+Je suis Aginah. Je sens que
+quelque chose va arriver dans
+la Terre d'Or que les Sept
+Sages ont scellée. Ce doit
+être un présage du Grand
+Cataclysme prédit par les gens
+de sang hylien. Selon la
+prophétie, le Héros sera dans 
+le Désert et il tiendra le Livre 
+de Mudora. Si tu as le Livre
+de Mudora, tu peux déchiffrer
+le language des Hyliens.
+Il est probablement dans la 
+Maison des Livres du village.
+Tu dois le récupérer, si tu
+es vraiment le Héros.
+]],
+}
+
+dialog{
+  id = "npc.cursed_bully.meeting",
+  text = [[
+Que veux-tu ?
+Tu as quelque chose à me dire
+stupide lapin ?
+Je suis venu pour retrouver le
+Pouvoir d'Or et je suis devenu
+cela. En plus, je ne peux pas
+revenir au vrai Monde.
+Si seulement j'avais la 
+Perle de Lune de la Tour 
+d'Héra ! Je pourrai retrouver
+ma forme d'origine. Je me
+fais du mauvais sang !
+Pfuitt, Pfuitt !
+]],
+}
+
+dialog{
+  id = "npc.cursed_bully.moon_pearl",
+  text = [[
+Ouah ! Tu n'as pas changé de 
+forme ! Tu as la Perle de Lune, 
+hein !
+]],
+}
+
+dialog{
+  id = "npc.grandpa.arrived",
+  text = [[
+Les jeunes filles disparues
+sont encore en vie. Le Héros
+les sauvera sûrement. Il me
+tarde de voir ce jour !
+Mais j'ai trop parlé. Allez,
+merci de ta bonté envers le
+vieil homme que je suis.
+Prends ceci ! Si tu butes dans 
+un Téléporteur Magique, jette
+un oeil dans ce mirroir.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.at_home",
+  text = [[
+Le sorcier a fait taire le Roi
+et maintenant il essaie 
+d'ouvrir la brèche du Monde
+des Ténèbres. Pour accomplir
+ta quête, tu as besoin de
+la Perle de Lune qui est dans
+la Tour au sommet de la 
+montagne. Tout ce que je peux
+faire pour toi maintenant est
+d'apaiser ta lassitude.
+Reviens quand tu veux.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.first_meeting",
+  text = [[
+Je ne te connais pas, mais
+si tu vas à la montagne,
+emmène-moi avec toi.
+J'ai perdu ma lampe.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.moon_perl",
+  text = [[
+La Perle de Lune protége celui
+qui la porte de l'air magique du
+Pays d'Or afin qu'il puisse y
+conserver sa forme humaine.
+Tout ce que je peux faire pour
+toi maintenant est d'apaiser
+ta laissitude. Reviens quand 
+tu veux.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.pot_heart",
+  text = [[
+Ouh, il doit y avoir un coeur 
+dans le pot.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.turn_right",
+  text = [[
+Eh, tourne à droite ici.
+Tu sais, j'ai une
+petite-fille de ton âge.
+Le Roi l'a emmenée au château
+et elle n'est jamais revenue.
+Enlever des jeunes filles doit
+faire partie du dessein du
+sorcier ! Je pense qu'il essaie
+d'utiliser les pouvoirs que
+les jeunes filles, descendant
+des 7 Sages, possèdent.
+]],
+}
+
+dialog{
+  id = "npc.grandpa.warning_hole",
+  text = [[
+Attention aux trous ! Va tout
+droit et regarde bien où tu
+mets les pieds.
+Jeune homme, vas-tu
+aussi à la montagne à la
+recherche du Pouvoir d'Or ?
+Un peu plus loin, il y a une 
+montagne pleine de monstres.
+Beaucoup de gens ont disparu
+dans cette montagne alors
+qu'il recherchaient le Pouvoir 
+d'Or. Je ne veux pas te
+démoraliser mais faut être 
+dingo pour s'laisser entraîner
+dans une quête aussi folle.
+]],
+}
+
+dialog{
+  id = "npc.pink_ball.meeting",
+  text = [[
+Oh ! Tu as été transformé en
+lapin. Ce monde est comme
+le vrai monde, mais le diable
+l'a déformé. Le Pouvoir d'Or
+nous donne une apparence qui
+reflète les pensées de notre
+coeur et de notre esprit.
+Comme je change tout le temps
+d'avis, j'ai été transformé en
+balle. Mais si tu as une balle
+nommée la Perle de Lune, tu
+peux conserver ta forme
+originale ici.
+
+
+]],
+}
+
+dialog{
+  id = "npc.pink_ball.moon_pearl",
+  text = [[
+Tu n'as pas changé de forme ?
+Tu n'es donc pas un être
+normal, n'est-ce pas ?
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting",
+  text = [[
+Je suis bien Sahasrahla,
+l'Ancien du village, l'un des
+descendants des 7 Sages.
+Je suis surpris, {Link}, qu'un
+jeune homme comme toi puisse
+chercher l'Epée du Diable !
+Il n'est pas donné à tout le 
+monde d'utiliser cette arme.
+La légende transmise par les
+Hyliens dit que seul le Héros
+qui aura gagné les 3 Penden-
+tifs pourra manier cette épée.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting_answer",
+  text = [[
+Bien. A titre de test, peux-tu 
+récupérer le Pendentif du 
+Courage du Palais de l'Est ?
+Si tu me le rapportes, je t'en
+dirai plus de la légende et je
+te donnerai un objet magique.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.first_meeting_question",
+  text = [[
+Tu veux vraiment la trouver ?
+$? Euh !
+$? Bien sûr !
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.give_courage_pendent",
+  text = [[
+Je constate que tu as 
+récupéré le Pendentif du Cou-
+rage. Je vais te raconter la 
+légende qui y a trait.
+Il y a très longtemps, 
+un ordre de Chevaliers 
+protégeait le Royaume 
+des Hyliens. Ces chevaliers 
+d'Hyrule étaient aussi 
+les gardiens du Pendentif du
+Courage. Malheureusement, la 
+plupart d'entre eux furent dé-
+cimés durant la grande guerre
+contre le Démon qui éclata
+quand les 7 Sages créèrent leur 
+sceau. Des descendants des
+Chevaliers d'Hyrule, un Héros 
+doit surgir. Bien. {Link}, 
+je pense que c'est toi !
+Tu devrais récupérer les 
+autres Pendentifs. 
+Prends cela avec toi. C'est 
+un trésor qui s'est transmis 
+dans les familles des 7 
+Sages.
+Je veux qu'il soit tien.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.ice_rod",
+  text = [[
+D'autres descendants des 7
+Sages se cachent des gens du
+château. Essaie de les retrouver.
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.pegasus_gifted",
+  text = [[
+Un objet très utile est caché
+dans la grotte à l'est du Lac
+Hylia. Va le chercher !
+]],
+}
+
+dialog{
+  id = "npc.sahasrahla.repeat_information",
+  text = [[
+D'autres descendants des 7
+Sages se cachent des gens du
+château. Essaie de les retrouver.
+]],
+}
+
+dialog{
+  id = "npc.thief.it_s_a_secret",
+  text = [[
+
+C'est un secret !
 ]],
 }
 
@@ -748,6 +1159,15 @@ dialog{
 }
 
 dialog{
+  id = "sign.death_moutain_west",
+  text = [[
+Cette grotte ramène à l'allée
+qui aboutit au village
+de Cocorico.
+]],
+}
+
+dialog{
   id = "sign.default",
   skip = "all",
   text = [[
@@ -769,6 +1189,15 @@ Signé : LE ROI
 }
 
 dialog{
+  id = "ts.hint_desert",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Tu dois retrouver impérativement
+les trésors de chaque donjon.
+]],
+}
+
+dialog{
   id = "ts.hint_eastern",
   text = [[
 Link, c'est moi, Sahasrahla.
@@ -777,6 +1206,73 @@ quand tu touches cette dalle.
 Voici un indice. Tu peux utiliser
 le Trésor caché dans ce Palais
 pour vaincre les ennemis coriaces.
+]],
+}
+
+dialog{
+  id = "ts.hint_hera_1",
+  text = [[
+Link, c'est moi, Sahasrahla.
+l'Ancien ! Un conseil ! Dans le
+donjon, jette un coup d'oeil
+au Miroir Magique chaque fois
+que tu veux revenir à l'entrée.
+N'oublie pas cela !
+]],
+}
+
+dialog{
+  id = "ts.hint_hera_2",
+  text = [[
+Link, c'est moi, Sahasrahla.
+Une sphère appelée Perle
+de Lune est dans cette Tour.
+Celui qui détient la Perle de Lune
+est protégé et conserve sa forme
+dans le Monde des Ténèbres.
+Tu dois la trouver avant
+de quitter la Tour !
+N'oublie pas la Perle de Lune !
+]],
+}
+
+dialog{
+  id = "uncrypted.desert_stone",
+  text = [[
+Pour t'ouvrir un chemin,
+fais une pière
+et elle sera exaucée.
+]],
+}
+
+dialog{
+  id = "uncrypted.grove_stone",
+  text = [[
+Triomphe du Héros
+la veille du Cataclysme !
+Trois symboles de vertu
+obtiendra.
+Excalibur retrouvera,
+préservant la pureté de
+la lignée des Chevaliers.
+]],
+}
+
+dialog{
+  id = "npc.saharaslara.master_sword",
+  text = [[
+Soudain Sahasrahla te 
+contacte par télépathie.
+{Link}, c'est merveilleux que
+tu aies trouvé Excalibur 
+qui fait battre en retraite le 
+Démon. Avec cette épée étin-
+celante, je pense que tu 
+peux dévier les pouvoirs 
+diaboliques du sorcier.
+Le destin de cette terre est 
+entre tes main.
+Je t'en supplie ! {Link}.
 ]],
 }
 

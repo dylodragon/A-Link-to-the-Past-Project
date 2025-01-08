@@ -44,3 +44,15 @@ animation{
     { x = 192, y = 0, frame_width = 48, frame_height = 24, origin_x = 24, origin_y = 21, num_frames = 2 },
   },
 }
+animation{
+  name = "stopped",
+  src_image = "enemies/light_world/geldman.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 49, frame_height = 10, origin_x = 24, origin_y = 9 },
+    { x = 0, y = 0, frame_width = 49, frame_height = 10, origin_x = 24, origin_y = 9 },
+    { x = 0, y = 0, frame_width = 49, frame_height = 10, origin_x = 24, origin_y = 9 },
+    { x = 0, y = 0, frame_width = 49, frame_height = 10, origin_x = 24, origin_y = 9 },
+  },
+}

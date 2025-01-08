@@ -1,5 +1,128 @@
 # Changelog
 
+__--------------------------------------------------------------------------------------------------------------__
+
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.4.1
+
+`Changes on December 10, 2024` v0.4.1 (hotfix)
+
+ 🗺**Overworld**
+- __Light Overworld__
+* Added all **Enemies** available in the Overworld (some temporarily replaced until proper sprites are available)
+* Fixed **Grass** that did not make sound when cut
+* Fixed and added **Missing Tiles**
+
+ 🗺**KaKaRiKo Village**
+- Fixed **Jumpers** that caused **SoftLock** in walls.
+- Fixed house roofs and doors; the hero can now enter houses
+- Added the **Book of Mudora**, unlockable by dashing (with **Pegasus Boots**) into the **Bookshelves** of the **Library** in the village
+
+ 🗺**Desert of Mystery**
+- Added the NPC **Aganih** in his **Cave**, with **Dialogues**
+- **Book of Mudora** is now used to read the **Engraved Stone** and open access to the **Desert Palace** Dungeon
+
+ 🗺**Death Mountain**
+- Added the **Lost Old Man** in the cave, who follows the hero, with **Dialogues**
+- Added the **Magic Mirror**, functional in the **West Mountain** and dungeons
+- Added **Bunny Link** in a pseudo **Dark World**
+- Added the **Transition between the Two Worlds**
+- Using the **Teleporter** in the **West Mountain** (to the Dark World)
+- Using the **Magic Mirror** (to return to the Light World)
+
+ 🗺**Lake Hylia**
+- Modified the **Ice Rod Cave** and added the **Ice Rod**
+- Added a **Missing Cave** under a **Big Rock**
+
+ 🗺**Great Swamp**
+- Modified a **Cave** in the **Great Swamp** (It's a **Secret**)
+
+ 🗺**Lost Wood**
+ - Removed the **Thick Mist** and added a clearing effect after the **Master Sword** is removed
+ - **Music** change after that
+
+ 🗺**Sacred Grove**
+- The **Master Sword** can now be removed from its pedestal with a small cutscene and dialogue
+- The **Engraved Stones** can be deciphered using the **Book of Mudora**
+- Removed the **Thick Mist** after the **Master Sword** was removed from its base
+
+ 🪄**Items**
+- **Magic Mirror**: Allows **Returning** to the **Light World** or to the **Entrance of a Dungeon**
+- **Book of Mudora**: Allows **Reading** **Engraved Stones** (written in **Ancient Hylian**)
+- **Ice Rod**: Allows **Casting a Frost Breath** (currently only applies damage)
+
+ ☠️**Enemy Fixes**
+- Fixed **Damage Taken** by **Enemies** from **Thrown Objects**
+- Adjusted **Health Points** for some **Enemies**
+- Fixed the **Hitbox** for **Beemos** and **Armos**
+
+ 📟**Scripts**
+- `stone_big_white.lua`: Added the ability to **Lift Big White Stones**.
+- `stone_explode.lua`: Added the ability to **Destroy Piled Stones** by **Charging** with the **Pegasus Boots**
+
+ 🎮**General Fixes**
+- **Magic Items** no longer automatically refill **Magic**
+- Add **Bombs** in Inventory when a chest contains bombs refill
+
+__--------------------------------------------------------------------------------------------------------------__
+
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.4.0
+
+`Changes on November 28, 2024` v0.4.0
+
+🗺**Overworld**
+- __Light Overworld__:
+  * Added **Desert Palace**
+  * Added **Tower of Hera**
+
+🗺**Desert Palace**
+- Added a key on the torch which falls with the boots
+- Added the **Power Gloves**
+- Added **Leevers Purple** & **Green**, **Mini Moldorm**, **Quicksand**, **Devalant Blue** & **Red** and **Beemos**
+- Added the Boss **Lanmolas**, his Reward, his Pendant
+- Added System to **Shake the Camera** 
+- Added new **Enemy Item Drops** (Prize Packs)
+- Added Dialogues for **Sahasrahla**, **Power Gloves**
+
+🗺**Tower of Hera**
+- Added the **Moon Pearl** with no Code
+- Added **Hardhat Beetle Purple** & **Green**, **Skeleton Red** and **Kodongo**
+- Added **Spark** and **Firebar**
+- Added **Bumper**
+- Added **Switch Star**
+- Added the Boss **Moldorm**, his Reward, his Pendant
+- Added new **Enemy Item Drops** (Prize Packs)
+- Added Dialogues for **Sahasrahla**
+
+🗺**Eastern Ruins**
+- Added **Dialogues** for **Sahasrahla**
+- **Sahasrahla** give **Pegasus Shoes** after 
+
+☠️**Ennemies Fix**
+- Fix awakening and sleep timing  **Eyegore**
+
+🖼️**Sprites**
+- Added Sprites of **Soldier Archer**
+- Added Sprites of **Leevers Purple** & **Green**, **Mini Moldorm** and **Beemos** 
+- Added Sprites of **Kodongo**, **Hardhat Beetle Purple** & **Green** and **Skeleton Red** 
+- Added Sprites of **Quicksand**, **Devalant Blue** & **Red**
+- Added Sprites of **Spark** and **Firebar**
+- Added Sprites of **Bumper**
+- Added **Switch Star**
+
+📟**Script**
+- Added meta/__camera.lua__
+
+🧠**Debug**
+- __Secret Room__: Warp to the **General Secret Room** with ","
+- __Boss Room__: Warp to the **Secret Boss Room** with "="
+- __Enemies Room__: Warp to the **Secret Enemies Room** with ")"
+
+🗃**Organization**
+- Added a Secret Room/Boss/boss_choiche_room
+- Added a Secret Room/Enemies/enemies_choiche_room
+
+__--------------------------------------------------------------------------------------------------------------__
+
 ## The Legend of Zelda A Link to the Past (Solarus Edition) 0.3.0
 
 `Changes on June 20, 2024` v0.3.0
@@ -47,7 +170,7 @@
 - Added __electric_barrier.lua__
 
 🗃**Organization**
-- Added a **/devdate** folder for **Developers**
+- Added a **/devdata** folder for **Developers**
 
 __--------------------------------------------------------------------------------------------------------------__
 
@@ -65,7 +188,7 @@ __------------------------------------------------------------------------------
 - Added the **Bow** and **Pegasus Boots**
 - Added Systems for Managing Dark Rooms and their Lighting (Torch/Lantern)
 - Added **EyeGores Red** & **Green**, **Evil Tiles**, **Skeletons**, and **Cannonballs**
-- Added the Boss **Armos Knight**, his Reward, his Medallion
+- Added the Boss **Armos Knight**, his Reward, his Pendant
 - Management metatables for **Switches**, **Small Keys** & **Boss Keys**
 - Added a System for Managing **Enemy Item Drops** (Prize Packs)
 - Added Dialogues for **Sahasrahla**, the **Bow**, **Rupees**, **Chests**, **Small Keys** & **Boss Keys**

@@ -1,58 +1,56 @@
-### Presentation
+### Présentation
 
-**The Legend of Zelda: A Link to the Past Project** is a remake of the classic and iconic game from the **Super Nintendo (SNES)**, originally released in *1991* (*1992* in *Europe*) which will be revisited on the **Game Boy Advance** in *2002*, alongside **The Legend of Zelda: Four Swords**, a multiplayer game.  
+**The Legend of Zelda : A Link to the Past Project** est un remake du jeu classique et emblématique de la **Super Nintendo (SNES)**, initialement sorti en *1991* (*1992* en *Europe*), revisité sur la **Game Boy Advance** en *2002* aux côtés de **The Legend of Zelda : Four Swords**, un jeu multijoueur.
 
-![Link](ressources/images/artwork_triforce.jpg "Triforce in the Sacred Kingdom")
+![Link](ressources/images/artwork_triforce.jpg "Triforce dans le Royaume Sacré")
 
-**The Legend of Zelda: A Link to the Past** will be reissued numerous times on various Nintendo consoles in the future and will also receive a tribute game on the **Nintendo 3DS** called **The Legend of Zelda: A Link Between Worlds**, which will take up gameplay ideas, the journey between two worlds, in an original story and some modern gameplay ideas !  
-
+**The Legend of Zelda : A Link to the Past** sera réédité à plusieurs reprises sur diverses consoles Nintendo et recevra également un jeu hommage sur la **Nintendo 3DS**, intitulé **The Legend of Zelda : A Link Between Worlds**, reprenant des idées de gameplay, le voyage entre deux mondes, dans une histoire originale avec des idées de gameplay modernisées !
 
 ### Description
 
-This remake, made with Solarus, uses the graphic elements of the **Super Nintendo (SNES)** version, featuring characters, enemies, and landscapes from the original game.  
+Ce remake, réalisé avec Solarus, utilise les éléments graphiques de la version **Super Nintendo (SNES)**, incluant personnages, ennemis et paysages du jeu original.
 
-![Link](ressources/images/artwork_hera.jpg "The Tower of Hera")
+![Link](ressources/images/artwork_hera.jpg "La Tour d’Héra")
 
-With a few differences (mainly due to the modernity of the **Solarus Engine** and the PC system), the game will closely resemble the original discovered on the **Super Nintendo (SNES)**.
+Avec quelques différences (principalement dues à la modernité du **moteur Solarus** et du système PC), le jeu ressemblera de près à l'original découvert sur la **Super Nintendo (SNES)**.
 
+### Scénario
 
-### Scenario
+**Link** se réveille chez lui après avoir reçu un appel télépathique de détresse d’une jeune femme, **Zelda**, *Princesse* du **Royaume d'Hyrule** !
 
-**Link** wakes up at home, after receiving a telepathic distress call from a young woman, **Zelda**, *Princess* of the **Hyrule Kingdom** !  
+Sous une pluie battante, l'**Oncle du Héros**, armé d’une épée et d’un bouclier, se dirige vers le **Château d'Hyrule**.
 
-In the midst of a storm, **Hero's** **Uncle** goes outside, armed with a sword and shield, to go to the **Hyrule Castle**.  
+**Link** décide de le suivre pour répondre à l’appel de la **Princesse Zelda**.
 
-**Link** decides to follow him and thus respond to the request of **Princess Zelda**.
+![Link](ressources/images/artwork_sewer.jpg "Link et Zelda dans les égouts")
 
-![Link](ressources/images/artwork_sewer.jpg "Link and Zelda in the Sewers")
+Vous incarnerez donc **Link** et vivrez son aventure, sauvant **la Princesse Zelda**, ainsi que le **Royaume d'Hyrule** menacé par des **Forces Obscures** !
 
-This is how you will embody **Link** and thus experience his adventure, saving **Princess Zelda**, as well as the **Kingdom of Hyrule** threatened by **Dark Forces** !
+### Système de Gameplay
 
+Ce jeu reproduit le système de gameplay de **The Legend of Zelda : A Link to the Past (SNES)**, quelque peu modernisé grâce au **moteur Solarus** !
 
-### Gameplay System
+Plus dynamique, grâce à la plateforme PC, avec un système d’assignation des touches moderne, vous pouvez jouer avec une manette ou un clavier selon vos préférences.
 
-This game reproduces the gameplay system of **The Legend of Zelda: A Link to the Past (SNES)** somewhat modernized by the **Solarus Engine** !  
+![Link](ressources/images/artwork_fight.jpg "Link combattant des squelettes")
 
-A bit more dynamic, thanks to the PC platform, with modern key assignment system, you can play with a controller or keyboard according to your preferences.  
+### Durée de Vie
 
-![Link](ressources/images/artwork_fight.jpg "Link Fighting Skeletons")
+Pour les joueurs qui découvriraient ce titre ou même la série entière (ou simplement les jeux **Zelda 2D**), la durée de vie estimée pour terminer complètement le jeu est d’environ trente heures.
 
+![Link](ressources/images/artwork_mastersword.jpg "Épée de Maître")
 
-### Lifespan
+### Développement
 
-For players who might eventually discover this title, or even the entire series (or simply the **2D Zelda** games), the estimated lifespan of the complete game is about thirty hours for completionists.
+Ce jeu est actuellement en développement. Cependant, vous pourrez tout de même jouer à des versions démo à chaque mise à jour.
 
-![Link](ressources/images/artwork_mastersword.jpg "Mastersword")
-
-### Development
-
-This game is currently under development. However, you will still be able to play demo versions with each update.  
-
-##### **v0.3.x**
-This version includes:
-- The map of the **Light OverWorld**, with jumpers, without enemies, and featuring caves, houses, and generic dungeons...
-- *Map created entirely by **KaKaShUruKioRa**.*
-- The **Introduction** of the game with **Uncle**, **Zelda** & the **Hyrule Castle** & his **Secret Passage** in the **Sewers**
-- The very first in-game dungeon, namely **Eastern Palace**, where you can obtain an item and battle your way to the final boss of the dungeon.  
-However, there won't be a **Map** and a **Compass** for the time being.  
-- *Map created by **ZeldoRetro** and **Boss** developed by **DarkDavy15**.*
+##### **v0.4.x**
+Cette version inclut :
+- La carte du **Light OverWorld**, avec des sauteurs, sans ennemis, et comprenant des grottes, des maisons, et des donjons génériques…
+  - *Carte créée entièrement par **KaKaShUruKioRa**.*
+- **L’introduction** du jeu avec **l’Oncle**, **Zelda**, le **Château d'Hyrule**, et son **Passage Secret** dans les **Égouts**.
+- Trois donjons jouable en jeu, à savoir le **Palais de l'Est**, le **Palais du Désert** et la **Tour d'Héra**, où vous pouvez obtenir des objets majeurs et combattre des **Boss Mémorables**.  
+  Cependant, il n’y aura pas encore de **Carte** ni de **Boussole**.
+  - *Carte créée par **ZeldoRetro** et **Boss** développé par **DarkDavy15**.*
+  - *Des **Objets** et certains **Comportements d'Ennemis** par **Adenothe**.*
+  - Ajouts de PNJs, Ennemies, Dialogues et Features à l'Overworld par  **KaKaShUruKioRa**

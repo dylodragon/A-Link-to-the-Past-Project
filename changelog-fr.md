@@ -1,5 +1,126 @@
 # Changelog
 
+__--------------------------------------------------------------------------------------------------------------__
+
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.4.1
+
+`Changements du 10 Décembre 2024` v0.4.1 (hotfix)
+
+🗺**Overworld**
+- __Light Overworld__:
+  * Ajouts de tous les **Ennemies** de l'Overworld disponible (Certains Ennemies remplacées par d'Autres en attendant d'avoir les Sprites)
+  * Correction des **Herbes** qui ne faisaient pas de bruit à la découpe.
+  * Corrections et Ajouts de **Tuiles Manquantes**
+
+🗺**KaKaRiKo Village**
+- Correction de **Jumpers** qui faisaient **SoftLock** dans un Mur
+- Correction des Toits et Portes des Maisons, le Héros peut entrer dans les maisons
+- Ajout du **Livre de Mudora** débloquable en fonçant (**Bottes de Pégase**) dans les **Bibliotèques** de la **Librairie** du Village
+
+🗺**Desert of Mystery**
+- Ajout du PNJ **Aganih** dans sa **Grotte** et ses **Dialogues**
+- **Book of Mudora** sert désormais à lire la **Pierre Gravée** et ouvrir l'accès au Donjon **Desert Palace**
+
+🗺**Death Mountain**
+- Ajout du **Vieil Homme Perdus** dans la Grotte qui vous suit, avec ses **Dialogues**
+- Ajout du **Mirroir Magique** qui fonctionne spécifiquement dans la **Montagne Ouest** et dans les Donjons
+- Ajout du **Link Lapin**, dans un Pseudo **Dark World**
+- Ajout de la **Transition entre les deux Mondes** avec le **Téléporteur** de la **Montagne Ouest** (Téléportation Dark World) et le **Miroir Magique** (Retour Light World)
+
+🗺**Lake Hylia**
+- Modification de la **Ice Rod Cave**, et ajout du **Bâton de Glace**
+- D'une **Grotte Manquante** sous un **Gros Rocher**
+
+🗺**Great Swamp**
+- Modification d'une **Grotte** du **Great Swamp** (**C'est un Secret**)
+
+ 🗺**Lost Wood**
+ - Suppression de l'**Epaisse Brume** et Ajout d'un effet d'éclairci quand on a retiré l'**Epée de Légende** (Excalibur)
+ - La **Musique** change après cet événement
+
+ 🗺**Sacred Grove**
+ - L'Epée de Légende (Excalibur) a retirer du Piédestal avec une petite cinématique et Dialogue
+ - La **Pierres Gravées** peut être décrypter avec le **Livre de Mudora**
+ - Suppression de l'**Epaisse Brume** après que l'**Epée de Légende** ait été retiré de son socle
+
+🪄**Items**
+- **Mirroir Magique** : Permet de **Revenir** dans le **Monde la Lumière** ou à l'**Entrée d'un Donjon**
+- **Livre de Mudora** : Permet de **Lire** les **Pierres Gravées** (**Ancien Hylien**)
+- **Baguette de Glace** : Permet de **Jeter** un **Souffle de Glace** (Applique seulement des Dégats pour le Moment)
+
+☠️**Ennemies Fix**
+- Correction des **Dégats Subis** par les **Ennemies** par les **Objets Jetés**
+- Correction des **Points de Vie** de certains **Ennemies**
+- Correction des de la **Hitbox** des **Beemos** et des **Armos**
+
+📟**Script**
+- __stone_big_white.lua__ Ajout de la possibilité de **Soulever** les **Grosses Pierres Blanches**
+- __stone_explode.lua__ Ajout de la capacité de **Détruire** les **Pierres Entassées** au **Chargeant** avec les **Bottes de Pégases**
+
+🎮**GameFix**
+- Les **Objets Magiques** ne remplissent plus la **Magie**
+- Ajout des **Bombes** dans l'Inventaire quand on ouvre un coffre avec des bombes
+
+__--------------------------------------------------------------------------------------------------------------__
+
+## The Legend of Zelda A Link to the Past (Solarus Edition) 0.4.0
+
+`Changements du 28 Novembre 2024` v0.4.0
+
+🗺**Overworld**
+- __Light Overworld__:
+  * Ajout de **Desert Palace**
+  * Ajout de **Tower of Hera**
+
+🗺**Desert Palace**
+- Ajout d'une clé qui tombe de la torche avec les **Peagasus Shoes**
+- Ajout des **Power Gloves**
+- Ajout de **Leevers Purple** & **Green**, **Mini Moldorm**, **Quicksand**, **Devalant Blue** & **Red** and **Beemos**
+- Ajout du Boss **Lanmolas**, sa Récompense, son Pendentif
+- Ajout d'un système pour **Secouer la Caméra** 
+- Ajout de Nouveaux **Drops d'Objets** sur les **Nouveaux Ennemis** (Prizes Packs)
+- Ajout de Dialogues for **Sahasrahla**, **Power Gloves**
+
+🗺**Tower of Hera**
+- Ajout de la **Moon Pearl** sans Comportement/Code
+- Ajout de **Hardhat Beetle Purple** & **Green**, **Skeleton Red** and **Kodongo**
+- Ajout de **Spark** and **Firebar**
+- Ajout de **Bumper**
+- Ajout de **Switch Star**
+- Ajout du Boss **Moldorm**, sa Récompense, son Pendentif
+- Ajout de Nouveaux **Drops d'Objets** sur les **Nouveaux Ennemis** (Prizes Packs)
+- Ajout de Dialogues for **Sahasrahla**
+
+🗺**Eastern Ruins**
+- Ajout de **Dialogues** pour **Sahasrahla** 
+-  **Sahasrahla** donne les **Pegasus Shoes** après avoir récupéré le premier Pendentif 
+
+☠️**Ennemies Fix**
+- Corrige des problèmes de timing des **Eyegore** d'endormissement et de détection
+
+🖼️**Sprites**
+- Ajout du Sprite **Soldier Archer**
+- Ajout des Sprites **Leevers Purple** & **Green**, **Mini Moldorm** and **Beemos** 
+- Ajout des Sprites **Kodongo**, **Hardhat Beetle Purple** & **Green** and **Skeleton Red** 
+- Ajout des Sprites **Quicksand**, **Devalant Blue** & **Red**
+- Ajout des Sprites **Spark** and **Firebar**
+- Ajout du Sprite **Bumper**
+- Ajout du **Switch Star**
+
+📟**Script**
+- Ajout de meta/__camera.lua__
+
+🧠**Debug**
+- __Secret Room__: Téléportation dans une **Pièce Secrète** avec la touche ","
+- __Boss Room__: Téléportation dans une **Pièce Secrète** pour les Boss avec la touche "="
+- __Enemies Room__: Téléportation dans une **Pièce Secrète** pour les Ennemies avec la touche ")"
+
+🗃**Organization**
+- Ajout d'une Secret Room/Boss/boss_choiche_room
+- Ajout d'une Secret Room/Enemies/enemies_choiche_room
+
+__--------------------------------------------------------------------------------------------------------------__
+
 ## The Legend of Zelda A Link to the Past (Solarus Edition) 0.3.0
 
 `Changements du 20 Juin 2024` v0.3.0
@@ -64,8 +185,8 @@ __------------------------------------------------------------------------------
 - Ajout d'un Système pour les Transitions de Map (Séparateur qui reset de certains ennemis)
 - Ajout de l'**Arc** et des **Pegassus Boots**
 - Ajout du Systèmes de Gestion des Salles Sombres et de leurs éclairages (Torche/Lanterne)
-- Ajout des **EyeGores Red** & **Green**, **Evil Tiles**, **Skelletons**, et **Canonballs**
-- Ajout du Boss **Armos Knight**, sa Récompense, son Médaillon
+- Ajout des **EyeGores Red** & **Green**, **Evil Tiles**, **Skeletons**, et **Canonballs**
+- Ajout du Boss **Armos Knight**, sa Récompense, son Pendentif
 - Metatables de gestion des **Switch**, des **Small Keys** & **Boss Keys**
 - Ajout d'un Système de Gestion des **Drops d'Objets** sur les Ennemis (Prizes Packs)
 - Ajout Dialogues de **Sahasrahla**, de l'**Arc**, des **Rubis**, des **Coffres**, des **Small Keys** & **Boss Keys** 

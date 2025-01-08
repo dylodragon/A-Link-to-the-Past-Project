@@ -68,7 +68,7 @@ tile{
   layer = 1,
   x = 48,
   y = 464,
-  width = 160,
+  width = 192,
   height = 8,
   pattern = "floor_small.1",
 }

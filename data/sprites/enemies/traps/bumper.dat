@@ -1,0 +1,14 @@
+animation{
+  name = "walking",
+  src_image = "enemies/traps/bumper.png",
+  directions = {
+    { x = 16, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21 },
+    { x = 16, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21 },
+    { x = 16, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21 },
+    { x = 16, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 0, frame_width = 13, frame_height = 13, origin_x = 16, origin_y = 16 },
+    { x = 13, y = 0, frame_width = 3, frame_height = 13, origin_x = 3, origin_y = 16 },
+    { x = 0, y = 13, frame_width = 13, frame_height = 3, origin_x = 16, origin_y = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}

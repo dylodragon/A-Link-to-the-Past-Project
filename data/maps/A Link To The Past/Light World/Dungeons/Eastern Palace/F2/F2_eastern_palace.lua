@@ -12,12 +12,22 @@ local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 
 function map:on_started()
-  --Pendentif obtenue : Boss ne revient pas
-  if game:get_value("get_pendant_of_courage") then
+
+  --Réceptacle obtenu : Pendentif apparait et pas Boss
+  if game:get_value("eastern_palace_heart_container") then
     boss:set_enabled(false)
     sensor_boss:set_enabled(false)
     sensor_falling_auto_door_6_n_open:set_enabled(false)
     map:set_doors_open("auto_door_6")
+    local x, y = key_item_spot:get_position()
+      map:create_pickable{
+        treasure_name = "quest/pendant_of_courage",
+        treasure_variant = 1,
+        treasure_savegame_variable = "get_pendant_of_courage",
+        x = x,
+        y = y,
+        layer = 1
+      }
   end
 end
 
