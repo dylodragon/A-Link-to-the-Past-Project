@@ -8,31 +8,32 @@ local inventory_items_names = {
   "boomerang",
   "hookshot",
   "bombs",
-  "magic_powder", -- TODO "mushroom", -- Will be replaced by the magic powder if player has it.
-
+  -- TODO "mushroom", -- Will be replaced by the magic powder if player has it.
+  "magic_powder",
   "fire_rod",
   "ice_rod",
-  "bottle_1", -- TODO "bombos_medallion",
-  "bottle_1", -- TODO "ether_medallion",
-  "bottle_1", -- TODO "quake_medallion",
-
+  -- TODO "bombos_medallion",
+  -- TODO "ether_medallion",
+  -- TODO "quake_medallion",
   "lantern",
   "hammer",
-  "ocarina", -- TODO "shovel", -- Will be replaced by the ocarina
-  "bottle_1", -- TODO "bug_catching_net",
-  "bottle_1", -- TODO "book_of_mudora"
-
+  -- TODO "shovel", -- Will be replaced by the ocarina
+  "ocarina",
+  -- TODO "bug_catching_net",
   "bottle_1",
-  "cane_of_somaria",
-  "bottle_1",-- TODO "cane_of_byrna",
-  "bottle_1",-- TODO "magic_cape",
+  "bottle_2",
+  "bottle_3",
+  "bottle_4",
+  -- TODO "cane_of_somaria",
+  -- TODO "cane_of_byrna",
+  -- TODO "magic_cape",
   "magic_mirror",
   -- Here is place holder.
   "bottle_1",
   "bottle_2",
   "bottle_3",
   "bottle_4",
-  "bottle_1",
+  --"magic_mirror",
 }
 
 local main_equipment_names = {
