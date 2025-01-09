@@ -624,6 +624,17 @@ destructible{
   destruction_sound = "stone",
 }
 
+wall{
+  layer = 1,
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
 tile{
   layer = 2,
   x = 96,

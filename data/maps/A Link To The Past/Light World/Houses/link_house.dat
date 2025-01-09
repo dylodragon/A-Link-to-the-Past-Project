@@ -2,7 +2,7 @@ properties{
   x = 0,
   y = 0,
   width = 256,
-  height = 224,
+  height = 256,
   min_layer = 0,
   max_layer = 2,
   tileset = "dungeon/light_brown",
@@ -11,503 +11,513 @@ properties{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 256,
+  pattern = "1_2",
+  tileset = "blueprint/houses_light",
+}
+
+tile{
+  layer = 1,
   x = 40,
-  y = 184,
+  y = 216,
   width = 176,
   height = 24,
   pattern = "wall.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 40,
-  y = 56,
+  y = 88,
   width = 192,
   height = 128,
   pattern = "floor_low.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 48,
-  y = 56,
+  y = 88,
   width = 160,
   height = 8,
   pattern = "wall_border.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 40,
-  y = 64,
+  y = 96,
   width = 8,
   height = 112,
   pattern = "wall_border.3-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 208,
-  y = 64,
+  y = 96,
   width = 8,
   height = 112,
   pattern = "wall_border.4-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 48,
-  y = 176,
+  y = 208,
   width = 160,
   height = 8,
   pattern = "wall_border.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 40,
-  y = 56,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 208,
-  y = 56,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 40,
-  y = 176,
+  y = 208,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.3-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 208,
-  y = 176,
+  y = 208,
   width = 8,
   height = 8,
   pattern = "wall_border.corner.4-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 40,
-  y = 32,
+  y = 64,
   width = 176,
   height = 24,
   pattern = "wall.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 16,
-  y = 56,
+  y = 88,
   width = 24,
   height = 128,
   pattern = "wall.3-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 216,
-  y = 56,
+  y = 88,
   width = 24,
   height = 128,
   pattern = "wall.4-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 16,
-  y = 32,
+  y = 64,
   width = 24,
   height = 24,
   pattern = "wall.corner.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 216,
-  y = 32,
+  y = 64,
   width = 24,
   height = 24,
   pattern = "wall.corner.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 16,
-  y = 184,
+  y = 216,
   width = 24,
   height = 24,
   pattern = "wall.corner.3-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 216,
-  y = 184,
+  y = 216,
   width = 24,
   height = 24,
   pattern = "wall.corner.4-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 112,
-  y = 184,
+  y = 216,
   width = 8,
   height = 16,
   pattern = "door.2.support.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 136,
-  y = 184,
+  y = 216,
   width = 8,
   height = 16,
   pattern = "door.2.support.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 192,
-  y = 120,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "table.9",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 160,
-  y = 104,
+  y = 136,
   width = 32,
   height = 16,
   pattern = "table.5",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 160,
-  y = 120,
+  y = 152,
   width = 32,
   height = 8,
   pattern = "table.8",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 152,
-  y = 104,
+  y = 136,
   width = 8,
   height = 16,
   pattern = "table.4",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 152,
-  y = 120,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "table.7",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 160,
-  y = 96,
+  y = 128,
   width = 32,
   height = 8,
   pattern = "table.2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 152,
-  y = 96,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "table.1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 192,
-  y = 104,
+  y = 136,
   width = 8,
   height = 16,
   pattern = "table.6",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 192,
-  y = 96,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "table.3",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 120,
-  y = 32,
+  y = 64,
   width = 16,
   height = 32,
   pattern = "wine_rack.2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 104,
-  y = 32,
+  y = 64,
   width = 16,
   height = 32,
   pattern = "wine_rack.1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 136,
-  y = 32,
+  y = 64,
   width = 16,
   height = 32,
   pattern = "wine_rack.3",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 216,
-  y = 104,
+  y = 136,
   width = 24,
   height = 32,
   pattern = "window.4-2",
 }
 
 tile{
-  layer = 0,
-  x = 56,
-  y = 184,
+  layer = 1,
+  x = 48,
+  y = 216,
   width = 32,
   height = 24,
   pattern = "window.2-2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 176,
-  y = 184,
+  y = 216,
   width = 32,
   height = 24,
   pattern = "window.2-2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 16,
-  y = 104,
+  y = 136,
   width = 24,
   height = 32,
   pattern = "window.3-2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 80,
-  y = 160,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "table.9",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 64,
-  y = 152,
+  y = 184,
   width = 16,
   height = 8,
   pattern = "table.5",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 64,
-  y = 160,
+  y = 192,
   width = 16,
   height = 8,
   pattern = "table.8",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 56,
-  y = 152,
+  y = 184,
   width = 8,
   height = 8,
   pattern = "table.4",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 56,
-  y = 160,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "table.7",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 64,
-  y = 144,
+  y = 176,
   width = 16,
   height = 8,
   pattern = "table.2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 56,
-  y = 144,
+  y = 176,
   width = 8,
   height = 8,
   pattern = "table.1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 80,
-  y = 152,
+  y = 184,
   width = 8,
   height = 8,
   pattern = "table.6",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 80,
-  y = 144,
+  y = 176,
   width = 8,
   height = 8,
   pattern = "table.3",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 168,
-  y = 128,
+  y = 160,
   width = 16,
   height = 16,
   pattern = "seat.1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 168,
-  y = 80,
+  y = 112,
   width = 16,
   height = 16,
   pattern = "seat.1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 168,
-  y = 32,
+  y = 64,
   width = 32,
   height = 32,
   pattern = "cook.pot",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 64,
-  y = 32,
+  y = 64,
   width = 16,
   height = 32,
   pattern = "wall_pillar.1-9",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 40,
-  y = 56,
+  y = 88,
   width = 16,
   height = 48,
   pattern = "floor_pot",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 120,
-  y = 184,
+  y = 216,
   width = 16,
   height = 24,
   pattern = "865",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 120,
-  y = 184,
+  y = 216,
   width = 16,
   height = 16,
   pattern = "door.2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 120,
-  y = 200,
+  y = 232,
   width = 16,
   height = 16,
   pattern = "floor.1-2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 112,
-  y = 200,
+  y = 232,
   width = 8,
   height = 16,
   pattern = "barrier.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 136,
-  y = 200,
+  y = 232,
   width = 8,
   height = 16,
   pattern = "barrier.2-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 120,
-  y = 216,
+  y = 248,
   width = 16,
   height = 8,
   pattern = "barrier.1-1",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 56,
-  y = 56,
+  y = 88,
   width = 32,
   height = 40,
   pattern = "bed.default",
@@ -515,44 +525,24 @@ tile{
 
 destination{
   name = "dest_map_link_house_0",
-  layer = 0,
+  layer = 1,
   x = 128,
-  y = 197,
+  y = 213,
   direction = 1,
 }
 
 chest{
   name = "chest_lantern",
-  layer = 0,
+  layer = 1,
   x = 200,
-  y = 157,
+  y = 189,
   treasure_savegame_variable = "link_house_chest_opened",
   sprite = "entities/chest",
 }
 
 destructible{
   name = "vase_link_house_0",
-  layer = 0,
-  x = 48,
-  y = 69,
-  treasure_name = "consumables/heart",
-  sprite = "destructibles/vase",
-  destruction_sound = "stone",
-}
-
-destructible{
-  name = "vase_link_house_1",
-  layer = 0,
-  x = 48,
-  y = 85,
-  treasure_name = "consumables/heart",
-  sprite = "destructibles/vase",
-  destruction_sound = "stone",
-}
-
-destructible{
-  name = "vase_link_house_2",
-  layer = 0,
+  layer = 1,
   x = 48,
   y = 101,
   treasure_name = "consumables/heart",
@@ -560,20 +550,40 @@ destructible{
   destruction_sound = "stone",
 }
 
+destructible{
+  name = "vase_link_house_1",
+  layer = 1,
+  x = 48,
+  y = 117,
+  treasure_name = "consumables/heart",
+  sprite = "destructibles/vase",
+  destruction_sound = "stone",
+}
+
+destructible{
+  name = "vase_link_house_2",
+  layer = 1,
+  x = 48,
+  y = 133,
+  treasure_name = "consumables/heart",
+  sprite = "destructibles/vase",
+  destruction_sound = "stone",
+}
+
 destination{
   name = "dest_start",
-  layer = 0,
+  layer = 1,
   x = 128,
-  y = 125,
+  y = 157,
   direction = 3,
   default = true,
 }
 
 teletransporter{
   name = "tp_map_map_link_house_0",
-  layer = 0,
+  layer = 1,
   x = 120,
-  y = 200,
+  y = 232,
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/link_house",
@@ -582,17 +592,17 @@ teletransporter{
 
 destination{
   name = "sortie_lit",
-  layer = 0,
+  layer = 1,
   x = 72,
-  y = 69,
+  y = 101,
   direction = 3,
 }
 
 npc{
   name = "bed",
-  layer = 0,
+  layer = 1,
   x = 72,
-  y = 69,
+  y = 101,
   direction = 3,
   subtype = 0,
   sprite = "entities/bed",
@@ -600,17 +610,17 @@ npc{
 
 destination{
   name = "newgame",
-  layer = 0,
+  layer = 1,
   x = 72,
-  y = 69,
+  y = 101,
   direction = 3,
 }
 
 npc{
   name = "snores",
-  layer = 0,
+  layer = 1,
   x = 80,
-  y = 61,
+  y = 93,
   direction = 3,
   subtype = 0,
   sprite = "entities/snores",
@@ -618,45 +628,38 @@ npc{
 
 npc{
   name = "uncle",
-  layer = 0,
+  layer = 1,
   x = 176,
-  y = 93,
+  y = 125,
   direction = 3,
   subtype = 1,
   sprite = "npc/uncle",
 }
 
-tile{
+wall{
   layer = 1,
-  x = 96,
-  y = 200,
-  width = 64,
-  height = 8,
-  pattern = "door_cache.2-1",
-}
-
-tile{
-  layer = 1,
-  x = 112,
-  y = 200,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2-1",
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{
   layer = 2,
-  x = 0,
+  x = 16,
   y = 0,
-  width = 256,
-  height = 32,
+  width = 224,
+  height = 64,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
   x = 8,
-  y = 208,
+  y = 240,
   width = 248,
   height = 16,
   pattern = "ceiling.2",
@@ -667,7 +670,7 @@ tile{
   x = 0,
   y = 0,
   width = 16,
-  height = 224,
+  height = 256,
   pattern = "ceiling.2",
 }
 
@@ -676,15 +679,33 @@ tile{
   x = 240,
   y = 0,
   width = 16,
-  height = 224,
+  height = 256,
   pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 96,
+  y = 232,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 112,
+  y = 232,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
 }
 
 destination{
   name = "dest_secret",
   layer = 2,
   x = 128,
-  y = 112,
+  y = 152,
   direction = 3,
 }
 

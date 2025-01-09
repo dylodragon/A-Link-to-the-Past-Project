@@ -1055,19 +1055,10 @@ chest{
 }
 
 npc{
+  name = "green_thief_lake_hylia_cave_0",
   layer = 1,
   x = 136,
   y = 93,
-  properties = {
-    {
-      key = "dialog",
-      value = "Take some Rupees, but don't#tell anyone I gave them to you.#Keep it between us, OK?",
-    },
-    {
-      key = "item_give",
-      value = "300 rupee",
-    },
-  },
   direction = 3,
   subtype = 1,
   sprite = "npc/thief_yellow",
@@ -1162,6 +1153,15 @@ destination{
   x = 128,
   y = 469,
   direction = 1,
+}
+
+tile{
+  layer = 2,
+  x = 96,
+  y = 488,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.2-3",
 }
 
 tile{

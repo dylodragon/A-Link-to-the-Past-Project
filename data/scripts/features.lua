@@ -13,6 +13,7 @@ require("scripts/hud/hud")
 require("scripts/dungeons.lua")
 
 require("scripts/meta/camera.lua")
+require("scripts/meta/door.lua")
 require("scripts/meta/enemy.lua")
 require("scripts/meta/map.lua")
 require("scripts/meta/npc.lua")

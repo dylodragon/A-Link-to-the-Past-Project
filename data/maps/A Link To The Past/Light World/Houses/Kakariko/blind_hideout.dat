@@ -1797,11 +1797,15 @@ destructible{
   destruction_sound = "stone",
 }
 
-pickable{
+wall{
   layer = 1,
-  x = 280,
-  y = 589,
-  treasure_name = "equipment/bomb_bag",
+  x = 248,
+  y = 216,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

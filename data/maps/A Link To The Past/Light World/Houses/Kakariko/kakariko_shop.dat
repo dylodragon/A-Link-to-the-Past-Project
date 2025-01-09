@@ -471,6 +471,17 @@ npc{
   sprite = "npc/merchant_green",
 }
 
+wall{
+  layer = 1,
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
 tile{
   layer = 2,
   x = 96,
@@ -547,7 +558,7 @@ destination{
   name = "dest_secret",
   layer = 2,
   x = 128,
-  y = 200,
+  y = 184,
   direction = 3,
 }
 

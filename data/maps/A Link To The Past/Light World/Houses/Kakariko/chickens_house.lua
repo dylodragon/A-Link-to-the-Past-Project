@@ -8,5 +8,3 @@ function chest_boomerang:on_opened()
     hero:start_treasure("inventory/boomerang",1,"get_boomerang_1")
   end
 end
-
-function weak_door_1:on_opened() sol.audio.play_sound("secret") end

@@ -170,7 +170,6 @@ map{ id = "A Link To The Past/Light World/Houses/link_house", description = "Lin
 map{ id = "A Link To The Past/Light World/Houses/lumberjack_house", description = "Lumberjack House" }
 map{ id = "A Link To The Past/Light World/Houses/magic_shop", description = "Magic Shop" }
 map{ id = "A Link To The Past/Light World/Houses/sahasrahla_hideout", description = "Sahasrahla Hideout" }
-map{ id = "A Link To The Past/Light World/Houses/sanctuary", description = "Sanctuary" }
 map{ id = "A Link To The Past/Light World/Houses/twins_house", description = "Twins House" }
 map{ id = "A Link To The Past/Light World/Overworld/blacksmiths_house", description = "BlackSmiths House" }
 map{ id = "A Link To The Past/Light World/Overworld/cemetery", description = "Cemetery" }
@@ -1643,7 +1642,7 @@ file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.dat", aut
 file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Dungeons", author = "ZeldoRetro, DarkDavy15", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/B1", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/B1/B1_desert_palace.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -1701,12 +1700,12 @@ file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle/F1/F1_h
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle/F2", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Hyrule Castle/F2/F2_hyrule_castle.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage", author = "ZeldoRetro, DarkDavy15", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/B1", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/B1/B1_secret_passage.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F1", author = "ZeldoRetro", }
-file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F1", author = "ZeldoRetro, DarkDavy15", }
+file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F1/F1_secret_passage.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F2", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Secret Passage/F2/F2_secret_passage.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -1732,56 +1731,54 @@ file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F5/F5_t
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F6", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Tower of Hera/F6/F6_tower_of_hera.lua", author = "ZeldoRetro", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses", author = "KaKaShUruKioRa, DarkDavy15", }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/blind_hideout.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/blind_hideout.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/chickens_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/chickens_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_left.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_left.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_right.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_right.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/elders_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/elders_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/kakariko_shop.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/kakariko_shop.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/milk_bar.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/milk_bar.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/rats_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/rats_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/sick_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/sick_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/turf_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/turf_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/bandit_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/bandit_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/blacksmiths_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/blacksmiths_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/chance_game_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/chance_game_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_north.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_north.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_south.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_south.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/grandpa_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/grandpa_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/hylia_shop.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/hylia_shop.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/library.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/library.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/link_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/link_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/lumberjack_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/lumberjack_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/magic_shop.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/magic_shop.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/sahasrahla_hideout.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/sahasrahla_hideout.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/sanctuary.dat", author = "DarkDavy15", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/sanctuary.lua", author = "DarkDavy15", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Houses/twins_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Houses/twins_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko", author = "ZeldoRetro", }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/blind_hideout.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/blind_hideout.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/chickens_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/chickens_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_left.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_left.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_right.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/denouncer_right.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/elders_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/elders_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/kakariko_shop.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/kakariko_shop.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/milk_bar.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/milk_bar.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/rats_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/rats_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/sick_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/sick_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/turf_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/Kakariko/turf_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/bandit_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/bandit_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/blacksmiths_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/blacksmiths_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/chance_game_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/chance_game_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_north.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_north.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_south.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/fortune_teller_south.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/grandpa_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/grandpa_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/hylia_shop.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/hylia_shop.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/library.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/library.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/link_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/link_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/lumberjack_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/lumberjack_house.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/magic_shop.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/magic_shop.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/sahasrahla_hideout.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/sahasrahla_hideout.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Houses/twins_house.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Houses/twins_house.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Overworld", author = "KaKaShUruKioRa", }
 file{ path = "maps/A Link To The Past/Light World/Overworld/blacksmiths_house.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Overworld/blacksmiths_house.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
