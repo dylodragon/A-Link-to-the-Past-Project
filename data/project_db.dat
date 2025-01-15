@@ -247,7 +247,7 @@ map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Dungeons/Tur
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A1_skeleton_forest_npz", description = "Skeleton Forest NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A3_entrance_skeleton_forest_npz", description = "Entrance Skeleton Forest NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A4_village_of_outcasts_npz", description = "Village of Outcasts NPZ" }
-map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A6_maze_game_npz", description = "Maze Game NPZ" }
+map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A6_shovel_game_npz", description = "Shovel Game NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A7_swamp_of_evil_npz", description = "Swamp of Evil NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/B3_fortune_teller_npz", description = "Fortune Teller NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/B6_shooting_gallery_npz", description = "Shooting Gallery NPZ" }
@@ -277,7 +277,7 @@ map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G4
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G6_plain_hylia_npz", description = "Plain Hylia NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H1_turtle_rock_npz", description = "Turtle Rock NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H2_lake_of_ill_omen_npz", description = "Lake of ill Omen NPZ" }
-map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H3_waterfall_south_npz", description = "Waterfall South NPZ" }
+map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H3_lake_of_ill_omen_south_npz", description = "Lake of ill Omen South NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H6_deadend_east_npz", description = "Deadend East NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H7_river_hylia_north_npz", description = "River Hylia North NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H8_river_hylia_south_npz", description = "River Hylia South NPZ" }
@@ -1772,7 +1772,7 @@ file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Over
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A1_skeleton_forest_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A3_entrance_skeleton_forest_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A4_village_of_outcasts_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A6_maze_game_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A6_shovel_game_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A7_swamp_of_evil_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/B3_fortune_teller_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/B6_shooting_gallery_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1802,7 +1802,7 @@ file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Over
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G6_plain_hylia_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H1_turtle_rock_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H2_lake_of_ill_omen_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H3_waterfall_south_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H3_lake_of_ill_omen_south_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H6_deadend_east_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H7_river_hylia_north_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H8_river_hylia_south_npz.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }

@@ -4808,7 +4808,7 @@ tile{
 }
 
 destructible{
-  name = "bush_river_hylia_south",
+  name = "bush_H8_river_hylia_south",
   layer = -2,
   x = 344,
   y = 61,
@@ -4818,7 +4818,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_river_hylia_south_2",
+  name = "bush_H8_river_hylia_south_2",
   layer = -2,
   x = 280,
   y = 93,
@@ -4828,7 +4828,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_river_hylia_south_3",
+  name = "bush_H8_river_hylia_south_3",
   layer = -2,
   x = 376,
   y = 93,
@@ -4838,7 +4838,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_river_hylia_south_4",
+  name = "bush_H8_river_hylia_south_4",
   layer = -2,
   x = 344,
   y = 349,
@@ -4848,7 +4848,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_river_hylia_south_5",
+  name = "bush_H8_river_hylia_south_5",
   layer = -2,
   x = 296,
   y = 381,
@@ -4858,7 +4858,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_river_hylia_south_6",
+  name = "bush_H8_river_hylia_south_6",
   layer = -2,
   x = 328,
   y = 397,
@@ -6694,6 +6694,14 @@ tile{
   pattern = "1044",
 }
 
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 376,
+  y = 125,
+  direction = 3,
+}
+
 tile{
   layer = 3,
   x = 0,
@@ -7919,26 +7927,26 @@ tile{
 }
 
 teletransporter{
-  name = "border_river_hylia_south_west",
+  name = "border_H8_river_hylia_south_west",
   layer = 7,
   x = -8,
   y = 0,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/lake_hylia_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F7_ice_lake_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_river_hylia_south_north",
+  name = "border_H8_river_hylia_south_north",
   layer = 7,
   x = 0,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/river_hylia_north_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H7_river_hylia_north_npz",
   destination = "_side",
 }
 

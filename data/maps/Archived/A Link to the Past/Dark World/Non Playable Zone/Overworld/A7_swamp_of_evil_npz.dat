@@ -3,7 +3,7 @@ properties{
   y = 3072,
   width = 1024,
   height = 1024,
-  min_layer = -9,
+  min_layer = -8,
   max_layer = 7,
   world = "Dark World",
   tileset = "out/outside_darkworld_main",
@@ -17435,7 +17435,7 @@ tile{
 }
 
 destructible{
-  name = "bush_lumberjack_765",
+  name = "bush_A7_swamp_of_evil_765",
   layer = 2,
   x = 56,
   y = 653,
@@ -17445,13 +17445,21 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_766",
+  name = "bush_A7_swamp_of_evil_766",
   layer = 2,
   x = 56,
   y = 669,
   sprite = "destructibles/bush_purple",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+destination{
+  name = "dest_secret_5",
+  layer = 2,
+  x = 496,
+  y = 509,
+  direction = 3,
 }
 
 tile{
@@ -21820,50 +21828,50 @@ tile{
 }
 
 teletransporter{
-  name = "border_desert_of_mystery_east",
+  name = "border_A7_swamp_of_evil_east",
   layer = 7,
   x = 1024,
   y = 512,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/plain_of_ruin_south_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/C8_plain_of_ruins_south_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_desert_of_mystery_north",
+  name = "border_A7_swamp_of_evil_north",
   layer = 7,
   x = 0,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/maze_game_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/A6_shovel_game_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_desert_of_mystery_north_2",
+  name = "border_A7_swamp_of_evil_north_2",
   layer = 7,
   x = 512,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/library_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/B6_shooting_gallery_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_desert_of_mystery_east_2",
+  name = "border_A7_swamp_of_evil_east_2",
   layer = 7,
   x = 1024,
   y = 0,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/plain_of_ruins_north_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/C7_plain_of_ruins_north_npz",
   destination = "_side",
 }
 

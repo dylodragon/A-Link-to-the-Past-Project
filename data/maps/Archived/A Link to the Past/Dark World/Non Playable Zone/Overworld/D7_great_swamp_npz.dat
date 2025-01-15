@@ -12,6 +12,15 @@ properties{
 
 tile{
   layer = -4,
+  x = 0,
+  y = 0,
+  width = 600,
+  height = 1000,
+  pattern = "14667",
+}
+
+tile{
+  layer = -4,
   x = 600,
   y = 792,
   width = 128,
@@ -52,15 +61,6 @@ tile{
   y = 0,
   width = 472,
   height = 648,
-  pattern = "14667",
-}
-
-tile{
-  layer = -4,
-  x = 0,
-  y = 0,
-  width = 600,
-  height = 1000,
   pattern = "14667",
 }
 
@@ -13661,8 +13661,17 @@ tile{
   pattern = "454",
 }
 
+tile{
+  layer = -3,
+  x = 144,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "121",
+}
+
 destructible{
-  name = "bush_lumberjack_244",
+  name = "bush_D7_great_swamp_244",
   layer = -2,
   x = 648,
   y = 749,
@@ -13672,7 +13681,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_245",
+  name = "bush_D7_great_swamp_245",
   layer = -2,
   x = 680,
   y = 749,
@@ -13682,7 +13691,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_246",
+  name = "bush_D7_great_swamp_246",
   layer = -2,
   x = 680,
   y = 717,
@@ -13692,7 +13701,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_247",
+  name = "bush_D7_great_swamp_247",
   layer = -2,
   x = 696,
   y = 733,
@@ -13702,7 +13711,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_248",
+  name = "bush_D7_great_swamp_248",
   layer = -2,
   x = 664,
   y = 765,
@@ -13712,7 +13721,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_249",
+  name = "bush_D7_great_swamp_249",
   layer = -2,
   x = 216,
   y = 717,
@@ -13722,7 +13731,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_250",
+  name = "bush_D7_great_swamp_250",
   layer = -2,
   x = 184,
   y = 733,
@@ -13732,7 +13741,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_251",
+  name = "bush_D7_great_swamp_251",
   layer = -2,
   x = 568,
   y = 173,
@@ -13742,7 +13751,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_252",
+  name = "bush_D7_great_swamp_252",
   layer = -2,
   x = 584,
   y = 157,
@@ -13752,7 +13761,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_253",
+  name = "bush_D7_great_swamp_253",
   layer = -2,
   x = 600,
   y = 157,
@@ -13762,7 +13771,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_254",
+  name = "bush_D7_great_swamp_254",
   layer = -2,
   x = 600,
   y = 141,
@@ -13772,7 +13781,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_255",
+  name = "bush_D7_great_swamp_255",
   layer = -2,
   x = 616,
   y = 141,
@@ -13782,7 +13791,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_256",
+  name = "bush_D7_great_swamp_256",
   layer = -2,
   x = 616,
   y = 157,
@@ -13792,7 +13801,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_257",
+  name = "bush_D7_great_swamp_257",
   layer = -2,
   x = 632,
   y = 141,
@@ -13802,7 +13811,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_258",
+  name = "bush_D7_great_swamp_258",
   layer = -2,
   x = 648,
   y = 173,
@@ -13812,7 +13821,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_259",
+  name = "bush_D7_great_swamp_259",
   layer = -2,
   x = 648,
   y = 189,
@@ -13822,7 +13831,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_260",
+  name = "bush_D7_great_swamp_260",
   layer = -2,
   x = 648,
   y = 205,
@@ -13832,7 +13841,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_261",
+  name = "bush_D7_great_swamp_261",
   layer = -2,
   x = 680,
   y = 205,
@@ -13842,7 +13851,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_262",
+  name = "bush_D7_great_swamp_262",
   layer = -2,
   x = 680,
   y = 189,
@@ -13852,7 +13861,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_263",
+  name = "bush_D7_great_swamp_263",
   layer = -2,
   x = 680,
   y = 173,
@@ -13862,7 +13871,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_264",
+  name = "bush_D7_great_swamp_264",
   layer = -2,
   x = 840,
   y = 237,
@@ -13872,7 +13881,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_265",
+  name = "bush_D7_great_swamp_265",
   layer = -2,
   x = 600,
   y = 301,
@@ -13882,7 +13891,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_266",
+  name = "bush_D7_great_swamp_266",
   layer = -2,
   x = 664,
   y = 445,
@@ -13892,7 +13901,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lumberjack_267",
+  name = "bush_D7_great_swamp_267",
   layer = -2,
   x = 760,
   y = 445,
@@ -13902,7 +13911,7 @@ destructible{
 }
 
 destructible{
-  name = "sign_lumberjack_8",
+  name = "sign_D7_great_swamp_8",
   layer = -2,
   x = 136,
   y = 717,
@@ -13981,7 +13990,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_232",
+  name = "grass_D7_great_swamp_232",
   layer = -2,
   x = 904,
   y = 173,
@@ -13993,7 +14002,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_233",
+  name = "grass_D7_great_swamp_233",
   layer = -2,
   x = 920,
   y = 173,
@@ -14005,7 +14014,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_234",
+  name = "grass_D7_great_swamp_234",
   layer = -2,
   x = 936,
   y = 173,
@@ -14017,7 +14026,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_235",
+  name = "grass_D7_great_swamp_235",
   layer = -2,
   x = 968,
   y = 205,
@@ -14029,7 +14038,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_236",
+  name = "grass_D7_great_swamp_236",
   layer = -2,
   x = 888,
   y = 189,
@@ -14041,7 +14050,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_237",
+  name = "grass_D7_great_swamp_237",
   layer = -2,
   x = 904,
   y = 189,
@@ -14053,7 +14062,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_238",
+  name = "grass_D7_great_swamp_238",
   layer = -2,
   x = 920,
   y = 189,
@@ -14065,7 +14074,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_239",
+  name = "grass_D7_great_swamp_239",
   layer = -2,
   x = 936,
   y = 189,
@@ -14077,7 +14086,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_240",
+  name = "grass_D7_great_swamp_240",
   layer = -2,
   x = 952,
   y = 189,
@@ -14089,7 +14098,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_241",
+  name = "grass_D7_great_swamp_241",
   layer = -2,
   x = 872,
   y = 189,
@@ -14101,7 +14110,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_242",
+  name = "grass_D7_great_swamp_242",
   layer = -2,
   x = 904,
   y = 205,
@@ -14113,7 +14122,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_243",
+  name = "grass_D7_great_swamp_243",
   layer = -2,
   x = 920,
   y = 205,
@@ -14125,7 +14134,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_244",
+  name = "grass_D7_great_swamp_244",
   layer = -2,
   x = 936,
   y = 205,
@@ -14137,7 +14146,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_245",
+  name = "grass_D7_great_swamp_245",
   layer = -2,
   x = 952,
   y = 205,
@@ -14149,7 +14158,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_246",
+  name = "grass_D7_great_swamp_246",
   layer = -2,
   x = 904,
   y = 157,
@@ -14161,7 +14170,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_247",
+  name = "grass_D7_great_swamp_247",
   layer = -2,
   x = 904,
   y = 221,
@@ -14173,7 +14182,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_248",
+  name = "grass_D7_great_swamp_248",
   layer = -2,
   x = 920,
   y = 221,
@@ -14185,7 +14194,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_249",
+  name = "grass_D7_great_swamp_249",
   layer = -2,
   x = 936,
   y = 221,
@@ -14197,7 +14206,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_250",
+  name = "grass_D7_great_swamp_250",
   layer = -2,
   x = 952,
   y = 221,
@@ -14209,7 +14218,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_251",
+  name = "grass_D7_great_swamp_251",
   layer = -2,
   x = 920,
   y = 157,
@@ -14221,7 +14230,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_252",
+  name = "grass_D7_great_swamp_252",
   layer = -2,
   x = 904,
   y = 237,
@@ -14233,7 +14242,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_253",
+  name = "grass_D7_great_swamp_253",
   layer = -2,
   x = 920,
   y = 237,
@@ -14245,7 +14254,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_254",
+  name = "grass_D7_great_swamp_254",
   layer = -2,
   x = 936,
   y = 237,
@@ -14257,7 +14266,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_255",
+  name = "grass_D7_great_swamp_255",
   layer = -2,
   x = 952,
   y = 237,
@@ -14269,7 +14278,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_256",
+  name = "grass_D7_great_swamp_256",
   layer = -2,
   x = 888,
   y = 253,
@@ -14281,7 +14290,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_257",
+  name = "grass_D7_great_swamp_257",
   layer = -2,
   x = 904,
   y = 253,
@@ -14293,7 +14302,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_258",
+  name = "grass_D7_great_swamp_258",
   layer = -2,
   x = 920,
   y = 253,
@@ -14305,7 +14314,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_259",
+  name = "grass_D7_great_swamp_259",
   layer = -2,
   x = 936,
   y = 253,
@@ -14317,7 +14326,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_260",
+  name = "grass_D7_great_swamp_260",
   layer = -2,
   x = 952,
   y = 253,
@@ -14329,7 +14338,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_261",
+  name = "grass_D7_great_swamp_261",
   layer = -2,
   x = 888,
   y = 269,
@@ -14341,7 +14350,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_262",
+  name = "grass_D7_great_swamp_262",
   layer = -2,
   x = 904,
   y = 269,
@@ -14353,7 +14362,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_263",
+  name = "grass_D7_great_swamp_263",
   layer = -2,
   x = 920,
   y = 269,
@@ -14365,7 +14374,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_264",
+  name = "grass_D7_great_swamp_264",
   layer = -2,
   x = 936,
   y = 269,
@@ -14377,7 +14386,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_265",
+  name = "grass_D7_great_swamp_265",
   layer = -2,
   x = 888,
   y = 285,
@@ -14389,7 +14398,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_266",
+  name = "grass_D7_great_swamp_266",
   layer = -2,
   x = 904,
   y = 285,
@@ -14401,7 +14410,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_267",
+  name = "grass_D7_great_swamp_267",
   layer = -2,
   x = 920,
   y = 285,
@@ -14413,7 +14422,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_268",
+  name = "grass_D7_great_swamp_268",
   layer = -2,
   x = 968,
   y = 237,
@@ -14425,7 +14434,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_269",
+  name = "grass_D7_great_swamp_269",
   layer = -2,
   x = 888,
   y = 301,
@@ -14437,7 +14446,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_270",
+  name = "grass_D7_great_swamp_270",
   layer = -2,
   x = 904,
   y = 301,
@@ -14449,7 +14458,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_271",
+  name = "grass_D7_great_swamp_271",
   layer = -2,
   x = 968,
   y = 253,
@@ -14461,7 +14470,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_272",
+  name = "grass_D7_great_swamp_272",
   layer = -2,
   x = 968,
   y = 221,
@@ -14473,7 +14482,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_309",
+  name = "grass_D7_great_swamp_309",
   layer = -2,
   x = 840,
   y = 253,
@@ -14485,7 +14494,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_311",
+  name = "grass_D7_great_swamp_311",
   layer = -2,
   x = 856,
   y = 253,
@@ -14497,7 +14506,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_312",
+  name = "grass_D7_great_swamp_312",
   layer = -2,
   x = 872,
   y = 253,
@@ -14509,7 +14518,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_313",
+  name = "grass_D7_great_swamp_313",
   layer = -2,
   x = 840,
   y = 269,
@@ -14521,7 +14530,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_316",
+  name = "grass_D7_great_swamp_316",
   layer = -2,
   x = 856,
   y = 269,
@@ -14533,7 +14542,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_317",
+  name = "grass_D7_great_swamp_317",
   layer = -2,
   x = 872,
   y = 269,
@@ -14545,7 +14554,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_318",
+  name = "grass_D7_great_swamp_318",
   layer = -2,
   x = 840,
   y = 285,
@@ -14557,7 +14566,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_319",
+  name = "grass_D7_great_swamp_319",
   layer = -2,
   x = 856,
   y = 285,
@@ -14569,7 +14578,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_320",
+  name = "grass_D7_great_swamp_320",
   layer = -2,
   x = 872,
   y = 285,
@@ -14581,7 +14590,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_321",
+  name = "grass_D7_great_swamp_321",
   layer = -2,
   x = 840,
   y = 301,
@@ -14593,7 +14602,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_322",
+  name = "grass_D7_great_swamp_322",
   layer = -2,
   x = 856,
   y = 301,
@@ -14605,7 +14614,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_323",
+  name = "grass_D7_great_swamp_323",
   layer = -2,
   x = 872,
   y = 301,
@@ -14617,7 +14626,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_324",
+  name = "grass_D7_great_swamp_324",
   layer = -2,
   x = 840,
   y = 317,
@@ -14629,7 +14638,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_325",
+  name = "grass_D7_great_swamp_325",
   layer = -2,
   x = 856,
   y = 317,
@@ -14641,7 +14650,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_326",
+  name = "grass_D7_great_swamp_326",
   layer = -2,
   x = 872,
   y = 317,
@@ -14653,7 +14662,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_327",
+  name = "grass_D7_great_swamp_327",
   layer = -2,
   x = 840,
   y = 333,
@@ -14665,7 +14674,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_328",
+  name = "grass_D7_great_swamp_328",
   layer = -2,
   x = 856,
   y = 333,
@@ -14677,7 +14686,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_329",
+  name = "grass_D7_great_swamp_329",
   layer = -2,
   x = 872,
   y = 333,
@@ -14689,7 +14698,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_330",
+  name = "grass_D7_great_swamp_330",
   layer = -2,
   x = 840,
   y = 349,
@@ -14701,7 +14710,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_331",
+  name = "grass_D7_great_swamp_331",
   layer = -2,
   x = 856,
   y = 349,
@@ -14713,7 +14722,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_332",
+  name = "grass_D7_great_swamp_332",
   layer = -2,
   x = 872,
   y = 349,
@@ -14725,7 +14734,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_333",
+  name = "grass_D7_great_swamp_333",
   layer = -2,
   x = 888,
   y = 477,
@@ -14737,7 +14746,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_334",
+  name = "grass_D7_great_swamp_334",
   layer = -2,
   x = 904,
   y = 477,
@@ -14749,7 +14758,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_335",
+  name = "grass_D7_great_swamp_335",
   layer = -2,
   x = 920,
   y = 477,
@@ -14761,7 +14770,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_336",
+  name = "grass_D7_great_swamp_336",
   layer = -2,
   x = 888,
   y = 493,
@@ -14773,7 +14782,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_337",
+  name = "grass_D7_great_swamp_337",
   layer = -2,
   x = 904,
   y = 493,
@@ -14785,7 +14794,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_338",
+  name = "grass_D7_great_swamp_338",
   layer = -2,
   x = 920,
   y = 493,
@@ -14797,7 +14806,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_339",
+  name = "grass_D7_great_swamp_339",
   layer = -2,
   x = 888,
   y = 509,
@@ -14809,7 +14818,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_340",
+  name = "grass_D7_great_swamp_340",
   layer = -2,
   x = 904,
   y = 509,
@@ -14821,7 +14830,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_341",
+  name = "grass_D7_great_swamp_341",
   layer = -2,
   x = 920,
   y = 509,
@@ -14833,7 +14842,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_342",
+  name = "grass_D7_great_swamp_342",
   layer = -2,
   x = 888,
   y = 525,
@@ -14845,7 +14854,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_343",
+  name = "grass_D7_great_swamp_343",
   layer = -2,
   x = 904,
   y = 525,
@@ -14857,7 +14866,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_344",
+  name = "grass_D7_great_swamp_344",
   layer = -2,
   x = 920,
   y = 525,
@@ -14869,7 +14878,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_345",
+  name = "grass_D7_great_swamp_345",
   layer = -2,
   x = 888,
   y = 541,
@@ -14881,7 +14890,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_346",
+  name = "grass_D7_great_swamp_346",
   layer = -2,
   x = 904,
   y = 541,
@@ -14893,7 +14902,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_347",
+  name = "grass_D7_great_swamp_347",
   layer = -2,
   x = 920,
   y = 541,
@@ -14905,7 +14914,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_348",
+  name = "grass_D7_great_swamp_348",
   layer = -2,
   x = 888,
   y = 557,
@@ -14917,7 +14926,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_349",
+  name = "grass_D7_great_swamp_349",
   layer = -2,
   x = 904,
   y = 557,
@@ -14929,7 +14938,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_350",
+  name = "grass_D7_great_swamp_350",
   layer = -2,
   x = 920,
   y = 557,
@@ -14941,7 +14950,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_351",
+  name = "grass_D7_great_swamp_351",
   layer = -2,
   x = 888,
   y = 573,
@@ -14953,7 +14962,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_352",
+  name = "grass_D7_great_swamp_352",
   layer = -2,
   x = 904,
   y = 573,
@@ -14965,7 +14974,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_353",
+  name = "grass_D7_great_swamp_353",
   layer = -2,
   x = 920,
   y = 573,
@@ -14977,7 +14986,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_354",
+  name = "grass_D7_great_swamp_354",
   layer = -2,
   x = 840,
   y = 477,
@@ -14989,7 +14998,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_355",
+  name = "grass_D7_great_swamp_355",
   layer = -2,
   x = 856,
   y = 477,
@@ -15001,7 +15010,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_356",
+  name = "grass_D7_great_swamp_356",
   layer = -2,
   x = 872,
   y = 477,
@@ -15013,7 +15022,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_357",
+  name = "grass_D7_great_swamp_357",
   layer = -2,
   x = 840,
   y = 493,
@@ -15025,7 +15034,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_358",
+  name = "grass_D7_great_swamp_358",
   layer = -2,
   x = 856,
   y = 493,
@@ -15037,7 +15046,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_359",
+  name = "grass_D7_great_swamp_359",
   layer = -2,
   x = 872,
   y = 493,
@@ -15049,7 +15058,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_360",
+  name = "grass_D7_great_swamp_360",
   layer = -2,
   x = 840,
   y = 509,
@@ -15061,7 +15070,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_361",
+  name = "grass_D7_great_swamp_361",
   layer = -2,
   x = 856,
   y = 509,
@@ -15073,7 +15082,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_362",
+  name = "grass_D7_great_swamp_362",
   layer = -2,
   x = 872,
   y = 509,
@@ -15085,7 +15094,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_363",
+  name = "grass_D7_great_swamp_363",
   layer = -2,
   x = 840,
   y = 525,
@@ -15097,7 +15106,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_364",
+  name = "grass_D7_great_swamp_364",
   layer = -2,
   x = 856,
   y = 525,
@@ -15109,7 +15118,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_365",
+  name = "grass_D7_great_swamp_365",
   layer = -2,
   x = 872,
   y = 525,
@@ -15121,7 +15130,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_366",
+  name = "grass_D7_great_swamp_366",
   layer = -2,
   x = 840,
   y = 541,
@@ -15133,7 +15142,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_367",
+  name = "grass_D7_great_swamp_367",
   layer = -2,
   x = 856,
   y = 541,
@@ -15145,7 +15154,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_368",
+  name = "grass_D7_great_swamp_368",
   layer = -2,
   x = 872,
   y = 541,
@@ -15157,7 +15166,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_369",
+  name = "grass_D7_great_swamp_369",
   layer = -2,
   x = 840,
   y = 557,
@@ -15169,7 +15178,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_370",
+  name = "grass_D7_great_swamp_370",
   layer = -2,
   x = 856,
   y = 557,
@@ -15181,7 +15190,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_371",
+  name = "grass_D7_great_swamp_371",
   layer = -2,
   x = 872,
   y = 557,
@@ -15193,7 +15202,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_372",
+  name = "grass_D7_great_swamp_372",
   layer = -2,
   x = 840,
   y = 573,
@@ -15205,7 +15214,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_373",
+  name = "grass_D7_great_swamp_373",
   layer = -2,
   x = 856,
   y = 573,
@@ -15217,7 +15226,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_374",
+  name = "grass_D7_great_swamp_374",
   layer = -2,
   x = 872,
   y = 573,
@@ -15229,7 +15238,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_375",
+  name = "grass_D7_great_swamp_375",
   layer = -2,
   x = 792,
   y = 477,
@@ -15241,7 +15250,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_376",
+  name = "grass_D7_great_swamp_376",
   layer = -2,
   x = 808,
   y = 477,
@@ -15253,7 +15262,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_377",
+  name = "grass_D7_great_swamp_377",
   layer = -2,
   x = 824,
   y = 477,
@@ -15265,7 +15274,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_378",
+  name = "grass_D7_great_swamp_378",
   layer = -2,
   x = 792,
   y = 493,
@@ -15277,7 +15286,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_379",
+  name = "grass_D7_great_swamp_379",
   layer = -2,
   x = 808,
   y = 493,
@@ -15289,7 +15298,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_380",
+  name = "grass_D7_great_swamp_380",
   layer = -2,
   x = 824,
   y = 493,
@@ -15301,7 +15310,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_381",
+  name = "grass_D7_great_swamp_381",
   layer = -2,
   x = 792,
   y = 509,
@@ -15313,7 +15322,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_382",
+  name = "grass_D7_great_swamp_382",
   layer = -2,
   x = 808,
   y = 509,
@@ -15325,7 +15334,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_383",
+  name = "grass_D7_great_swamp_383",
   layer = -2,
   x = 824,
   y = 509,
@@ -15337,7 +15346,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_384",
+  name = "grass_D7_great_swamp_384",
   layer = -2,
   x = 792,
   y = 525,
@@ -15349,7 +15358,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_385",
+  name = "grass_D7_great_swamp_385",
   layer = -2,
   x = 808,
   y = 525,
@@ -15361,7 +15370,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_386",
+  name = "grass_D7_great_swamp_386",
   layer = -2,
   x = 824,
   y = 525,
@@ -15373,7 +15382,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_387",
+  name = "grass_D7_great_swamp_387",
   layer = -2,
   x = 792,
   y = 541,
@@ -15385,7 +15394,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_388",
+  name = "grass_D7_great_swamp_388",
   layer = -2,
   x = 808,
   y = 541,
@@ -15397,7 +15406,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_389",
+  name = "grass_D7_great_swamp_389",
   layer = -2,
   x = 824,
   y = 541,
@@ -15409,7 +15418,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_390",
+  name = "grass_D7_great_swamp_390",
   layer = -2,
   x = 792,
   y = 557,
@@ -15421,7 +15430,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_391",
+  name = "grass_D7_great_swamp_391",
   layer = -2,
   x = 808,
   y = 557,
@@ -15433,7 +15442,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_392",
+  name = "grass_D7_great_swamp_392",
   layer = -2,
   x = 824,
   y = 557,
@@ -15445,7 +15454,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_393",
+  name = "grass_D7_great_swamp_393",
   layer = -2,
   x = 888,
   y = 589,
@@ -15457,7 +15466,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_394",
+  name = "grass_D7_great_swamp_394",
   layer = -2,
   x = 808,
   y = 573,
@@ -15469,7 +15478,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_395",
+  name = "grass_D7_great_swamp_395",
   layer = -2,
   x = 824,
   y = 573,
@@ -15481,7 +15490,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_396",
+  name = "grass_D7_great_swamp_396",
   layer = -2,
   x = 744,
   y = 477,
@@ -15493,7 +15502,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_397",
+  name = "grass_D7_great_swamp_397",
   layer = -2,
   x = 760,
   y = 477,
@@ -15505,7 +15514,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_398",
+  name = "grass_D7_great_swamp_398",
   layer = -2,
   x = 776,
   y = 477,
@@ -15517,7 +15526,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_399",
+  name = "grass_D7_great_swamp_399",
   layer = -2,
   x = 744,
   y = 493,
@@ -15529,7 +15538,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_400",
+  name = "grass_D7_great_swamp_400",
   layer = -2,
   x = 760,
   y = 493,
@@ -15541,7 +15550,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_401",
+  name = "grass_D7_great_swamp_401",
   layer = -2,
   x = 776,
   y = 493,
@@ -15553,7 +15562,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_402",
+  name = "grass_D7_great_swamp_402",
   layer = -2,
   x = 744,
   y = 509,
@@ -15565,7 +15574,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_403",
+  name = "grass_D7_great_swamp_403",
   layer = -2,
   x = 760,
   y = 509,
@@ -15577,7 +15586,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_404",
+  name = "grass_D7_great_swamp_404",
   layer = -2,
   x = 776,
   y = 509,
@@ -15589,7 +15598,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_405",
+  name = "grass_D7_great_swamp_405",
   layer = -2,
   x = 744,
   y = 525,
@@ -15601,7 +15610,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_406",
+  name = "grass_D7_great_swamp_406",
   layer = -2,
   x = 760,
   y = 525,
@@ -15613,7 +15622,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_407",
+  name = "grass_D7_great_swamp_407",
   layer = -2,
   x = 776,
   y = 525,
@@ -15625,7 +15634,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_408",
+  name = "grass_D7_great_swamp_408",
   layer = -2,
   x = 744,
   y = 541,
@@ -15637,7 +15646,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_409",
+  name = "grass_D7_great_swamp_409",
   layer = -2,
   x = 760,
   y = 541,
@@ -15649,7 +15658,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_410",
+  name = "grass_D7_great_swamp_410",
   layer = -2,
   x = 776,
   y = 541,
@@ -15661,7 +15670,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_411",
+  name = "grass_D7_great_swamp_411",
   layer = -2,
   x = 744,
   y = 557,
@@ -15673,7 +15682,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_412",
+  name = "grass_D7_great_swamp_412",
   layer = -2,
   x = 760,
   y = 557,
@@ -15685,7 +15694,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_413",
+  name = "grass_D7_great_swamp_413",
   layer = -2,
   x = 776,
   y = 557,
@@ -15697,7 +15706,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_414",
+  name = "grass_D7_great_swamp_414",
   layer = -2,
   x = 744,
   y = 573,
@@ -15709,7 +15718,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_415",
+  name = "grass_D7_great_swamp_415",
   layer = -2,
   x = 760,
   y = 573,
@@ -15721,7 +15730,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_416",
+  name = "grass_D7_great_swamp_416",
   layer = -2,
   x = 808,
   y = 589,
@@ -15733,7 +15742,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_417",
+  name = "grass_D7_great_swamp_417",
   layer = -2,
   x = 696,
   y = 477,
@@ -15745,7 +15754,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_418",
+  name = "grass_D7_great_swamp_418",
   layer = -2,
   x = 712,
   y = 477,
@@ -15757,7 +15766,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_419",
+  name = "grass_D7_great_swamp_419",
   layer = -2,
   x = 728,
   y = 477,
@@ -15769,7 +15778,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_420",
+  name = "grass_D7_great_swamp_420",
   layer = -2,
   x = 696,
   y = 493,
@@ -15781,7 +15790,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_421",
+  name = "grass_D7_great_swamp_421",
   layer = -2,
   x = 712,
   y = 493,
@@ -15793,7 +15802,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_422",
+  name = "grass_D7_great_swamp_422",
   layer = -2,
   x = 728,
   y = 493,
@@ -15805,7 +15814,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_423",
+  name = "grass_D7_great_swamp_423",
   layer = -2,
   x = 696,
   y = 509,
@@ -15817,7 +15826,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_424",
+  name = "grass_D7_great_swamp_424",
   layer = -2,
   x = 712,
   y = 509,
@@ -15829,7 +15838,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_425",
+  name = "grass_D7_great_swamp_425",
   layer = -2,
   x = 728,
   y = 509,
@@ -15841,7 +15850,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_426",
+  name = "grass_D7_great_swamp_426",
   layer = -2,
   x = 696,
   y = 525,
@@ -15853,7 +15862,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_427",
+  name = "grass_D7_great_swamp_427",
   layer = -2,
   x = 712,
   y = 525,
@@ -15865,7 +15874,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_428",
+  name = "grass_D7_great_swamp_428",
   layer = -2,
   x = 728,
   y = 525,
@@ -15877,7 +15886,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_429",
+  name = "grass_D7_great_swamp_429",
   layer = -2,
   x = 696,
   y = 541,
@@ -15889,7 +15898,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_430",
+  name = "grass_D7_great_swamp_430",
   layer = -2,
   x = 712,
   y = 541,
@@ -15901,7 +15910,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_431",
+  name = "grass_D7_great_swamp_431",
   layer = -2,
   x = 728,
   y = 541,
@@ -15913,7 +15922,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_432",
+  name = "grass_D7_great_swamp_432",
   layer = -2,
   x = 696,
   y = 557,
@@ -15925,7 +15934,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_433",
+  name = "grass_D7_great_swamp_433",
   layer = -2,
   x = 712,
   y = 557,
@@ -15937,7 +15946,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_434",
+  name = "grass_D7_great_swamp_434",
   layer = -2,
   x = 728,
   y = 557,
@@ -15949,7 +15958,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_435",
+  name = "grass_D7_great_swamp_435",
   layer = -2,
   x = 696,
   y = 573,
@@ -15961,7 +15970,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_436",
+  name = "grass_D7_great_swamp_436",
   layer = -2,
   x = 696,
   y = 605,
@@ -15973,7 +15982,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_437",
+  name = "grass_D7_great_swamp_437",
   layer = -2,
   x = 696,
   y = 589,
@@ -15985,7 +15994,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_438",
+  name = "grass_D7_great_swamp_438",
   layer = -2,
   x = 584,
   y = 509,
@@ -15997,7 +16006,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_439",
+  name = "grass_D7_great_swamp_439",
   layer = -2,
   x = 600,
   y = 509,
@@ -16009,7 +16018,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_440",
+  name = "grass_D7_great_swamp_440",
   layer = -2,
   x = 616,
   y = 509,
@@ -16021,7 +16030,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_441",
+  name = "grass_D7_great_swamp_441",
   layer = -2,
   x = 584,
   y = 525,
@@ -16033,7 +16042,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_442",
+  name = "grass_D7_great_swamp_442",
   layer = -2,
   x = 600,
   y = 525,
@@ -16045,7 +16054,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_443",
+  name = "grass_D7_great_swamp_443",
   layer = -2,
   x = 616,
   y = 525,
@@ -16057,7 +16066,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_444",
+  name = "grass_D7_great_swamp_444",
   layer = -2,
   x = 584,
   y = 541,
@@ -16069,7 +16078,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_445",
+  name = "grass_D7_great_swamp_445",
   layer = -2,
   x = 600,
   y = 541,
@@ -16081,7 +16090,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_446",
+  name = "grass_D7_great_swamp_446",
   layer = -2,
   x = 616,
   y = 541,
@@ -16093,7 +16102,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_447",
+  name = "grass_D7_great_swamp_447",
   layer = -2,
   x = 584,
   y = 557,
@@ -16105,7 +16114,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_448",
+  name = "grass_D7_great_swamp_448",
   layer = -2,
   x = 600,
   y = 557,
@@ -16117,7 +16126,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_449",
+  name = "grass_D7_great_swamp_449",
   layer = -2,
   x = 616,
   y = 557,
@@ -16129,7 +16138,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_450",
+  name = "grass_D7_great_swamp_450",
   layer = -2,
   x = 584,
   y = 573,
@@ -16141,7 +16150,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_451",
+  name = "grass_D7_great_swamp_451",
   layer = -2,
   x = 600,
   y = 573,
@@ -16153,7 +16162,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_452",
+  name = "grass_D7_great_swamp_452",
   layer = -2,
   x = 616,
   y = 573,
@@ -16165,7 +16174,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_453",
+  name = "grass_D7_great_swamp_453",
   layer = -2,
   x = 584,
   y = 589,
@@ -16177,7 +16186,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_454",
+  name = "grass_D7_great_swamp_454",
   layer = -2,
   x = 600,
   y = 589,
@@ -16189,7 +16198,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_455",
+  name = "grass_D7_great_swamp_455",
   layer = -2,
   x = 616,
   y = 589,
@@ -16201,7 +16210,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_456",
+  name = "grass_D7_great_swamp_456",
   layer = -2,
   x = 584,
   y = 605,
@@ -16213,7 +16222,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_457",
+  name = "grass_D7_great_swamp_457",
   layer = -2,
   x = 600,
   y = 605,
@@ -16225,7 +16234,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_458",
+  name = "grass_D7_great_swamp_458",
   layer = -2,
   x = 616,
   y = 605,
@@ -16237,7 +16246,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_459",
+  name = "grass_D7_great_swamp_459",
   layer = -2,
   x = 632,
   y = 445,
@@ -16249,7 +16258,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_460",
+  name = "grass_D7_great_swamp_460",
   layer = -2,
   x = 648,
   y = 445,
@@ -16261,7 +16270,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_461",
+  name = "grass_D7_great_swamp_461",
   layer = -2,
   x = 680,
   y = 429,
@@ -16273,7 +16282,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_462",
+  name = "grass_D7_great_swamp_462",
   layer = -2,
   x = 632,
   y = 461,
@@ -16285,7 +16294,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_463",
+  name = "grass_D7_great_swamp_463",
   layer = -2,
   x = 648,
   y = 461,
@@ -16297,7 +16306,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_464",
+  name = "grass_D7_great_swamp_464",
   layer = -2,
   x = 664,
   y = 461,
@@ -16309,7 +16318,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_465",
+  name = "grass_D7_great_swamp_465",
   layer = -2,
   x = 632,
   y = 477,
@@ -16321,7 +16330,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_466",
+  name = "grass_D7_great_swamp_466",
   layer = -2,
   x = 648,
   y = 477,
@@ -16333,7 +16342,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_467",
+  name = "grass_D7_great_swamp_467",
   layer = -2,
   x = 664,
   y = 477,
@@ -16345,7 +16354,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_468",
+  name = "grass_D7_great_swamp_468",
   layer = -2,
   x = 632,
   y = 493,
@@ -16357,7 +16366,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_469",
+  name = "grass_D7_great_swamp_469",
   layer = -2,
   x = 648,
   y = 493,
@@ -16369,7 +16378,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_470",
+  name = "grass_D7_great_swamp_470",
   layer = -2,
   x = 664,
   y = 493,
@@ -16381,7 +16390,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_471",
+  name = "grass_D7_great_swamp_471",
   layer = -2,
   x = 632,
   y = 509,
@@ -16393,7 +16402,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_472",
+  name = "grass_D7_great_swamp_472",
   layer = -2,
   x = 648,
   y = 509,
@@ -16405,7 +16414,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_473",
+  name = "grass_D7_great_swamp_473",
   layer = -2,
   x = 664,
   y = 509,
@@ -16417,7 +16426,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_474",
+  name = "grass_D7_great_swamp_474",
   layer = -2,
   x = 632,
   y = 525,
@@ -16429,7 +16438,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_475",
+  name = "grass_D7_great_swamp_475",
   layer = -2,
   x = 648,
   y = 525,
@@ -16441,7 +16450,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_476",
+  name = "grass_D7_great_swamp_476",
   layer = -2,
   x = 664,
   y = 525,
@@ -16453,7 +16462,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_477",
+  name = "grass_D7_great_swamp_477",
   layer = -2,
   x = 632,
   y = 541,
@@ -16465,7 +16474,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_478",
+  name = "grass_D7_great_swamp_478",
   layer = -2,
   x = 648,
   y = 541,
@@ -16477,7 +16486,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_479",
+  name = "grass_D7_great_swamp_479",
   layer = -2,
   x = 664,
   y = 541,
@@ -16489,7 +16498,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_480",
+  name = "grass_D7_great_swamp_480",
   layer = -2,
   x = 904,
   y = 589,
@@ -16501,7 +16510,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_481",
+  name = "grass_D7_great_swamp_481",
   layer = -2,
   x = 680,
   y = 605,
@@ -16513,7 +16522,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_482",
+  name = "grass_D7_great_swamp_482",
   layer = -2,
   x = 680,
   y = 445,
@@ -16525,7 +16534,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_483",
+  name = "grass_D7_great_swamp_483",
   layer = -2,
   x = 680,
   y = 461,
@@ -16537,7 +16546,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_484",
+  name = "grass_D7_great_swamp_484",
   layer = -2,
   x = 680,
   y = 477,
@@ -16549,7 +16558,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_485",
+  name = "grass_D7_great_swamp_485",
   layer = -2,
   x = 680,
   y = 493,
@@ -16561,7 +16570,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_486",
+  name = "grass_D7_great_swamp_486",
   layer = -2,
   x = 680,
   y = 509,
@@ -16573,7 +16582,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_487",
+  name = "grass_D7_great_swamp_487",
   layer = -2,
   x = 680,
   y = 525,
@@ -16585,7 +16594,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_488",
+  name = "grass_D7_great_swamp_488",
   layer = -2,
   x = 680,
   y = 541,
@@ -16597,7 +16606,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_489",
+  name = "grass_D7_great_swamp_489",
   layer = -2,
   x = 680,
   y = 573,
@@ -16609,7 +16618,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_490",
+  name = "grass_D7_great_swamp_490",
   layer = -2,
   x = 680,
   y = 557,
@@ -16621,7 +16630,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_491",
+  name = "grass_D7_great_swamp_491",
   layer = -2,
   x = 680,
   y = 589,
@@ -16633,7 +16642,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_492",
+  name = "grass_D7_great_swamp_492",
   layer = -2,
   x = 904,
   y = 445,
@@ -16645,7 +16654,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_493",
+  name = "grass_D7_great_swamp_493",
   layer = -2,
   x = 904,
   y = 461,
@@ -16657,7 +16666,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_494",
+  name = "grass_D7_great_swamp_494",
   layer = -2,
   x = 920,
   y = 461,
@@ -16669,7 +16678,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_495",
+  name = "grass_D7_great_swamp_495",
   layer = -2,
   x = 936,
   y = 493,
@@ -16681,7 +16690,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_496",
+  name = "grass_D7_great_swamp_496",
   layer = -2,
   x = 936,
   y = 509,
@@ -16693,7 +16702,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_497",
+  name = "grass_D7_great_swamp_497",
   layer = -2,
   x = 936,
   y = 525,
@@ -16705,7 +16714,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_498",
+  name = "grass_D7_great_swamp_498",
   layer = -2,
   x = 952,
   y = 509,
@@ -16717,7 +16726,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_499",
+  name = "grass_D7_great_swamp_499",
   layer = -2,
   x = 904,
   y = 381,
@@ -16729,7 +16738,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_500",
+  name = "grass_D7_great_swamp_500",
   layer = -2,
   x = 888,
   y = 349,
@@ -16741,7 +16750,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_501",
+  name = "grass_D7_great_swamp_501",
   layer = -2,
   x = 856,
   y = 365,
@@ -16753,7 +16762,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_502",
+  name = "grass_D7_great_swamp_502",
   layer = -2,
   x = 872,
   y = 365,
@@ -16765,7 +16774,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_503",
+  name = "grass_D7_great_swamp_503",
   layer = -2,
   x = 888,
   y = 365,
@@ -16777,7 +16786,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_504",
+  name = "grass_D7_great_swamp_504",
   layer = -2,
   x = 856,
   y = 381,
@@ -16789,7 +16798,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_505",
+  name = "grass_D7_great_swamp_505",
   layer = -2,
   x = 872,
   y = 381,
@@ -16801,7 +16810,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_506",
+  name = "grass_D7_great_swamp_506",
   layer = -2,
   x = 888,
   y = 381,
@@ -16813,7 +16822,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_507",
+  name = "grass_D7_great_swamp_507",
   layer = -2,
   x = 856,
   y = 397,
@@ -16825,7 +16834,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_508",
+  name = "grass_D7_great_swamp_508",
   layer = -2,
   x = 872,
   y = 397,
@@ -16837,7 +16846,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_509",
+  name = "grass_D7_great_swamp_509",
   layer = -2,
   x = 888,
   y = 397,
@@ -16849,7 +16858,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_510",
+  name = "grass_D7_great_swamp_510",
   layer = -2,
   x = 856,
   y = 413,
@@ -16861,7 +16870,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_511",
+  name = "grass_D7_great_swamp_511",
   layer = -2,
   x = 872,
   y = 413,
@@ -16873,7 +16882,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_512",
+  name = "grass_D7_great_swamp_512",
   layer = -2,
   x = 888,
   y = 413,
@@ -16885,7 +16894,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_513",
+  name = "grass_D7_great_swamp_513",
   layer = -2,
   x = 856,
   y = 429,
@@ -16897,7 +16906,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_514",
+  name = "grass_D7_great_swamp_514",
   layer = -2,
   x = 856,
   y = 461,
@@ -16909,7 +16918,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_515",
+  name = "grass_D7_great_swamp_515",
   layer = -2,
   x = 856,
   y = 445,
@@ -16921,7 +16930,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_516",
+  name = "grass_D7_great_swamp_516",
   layer = -2,
   x = 840,
   y = 365,
@@ -16933,7 +16942,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_517",
+  name = "grass_D7_great_swamp_517",
   layer = -2,
   x = 840,
   y = 381,
@@ -16945,7 +16954,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_518",
+  name = "grass_D7_great_swamp_518",
   layer = -2,
   x = 840,
   y = 397,
@@ -16957,7 +16966,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_519",
+  name = "grass_D7_great_swamp_519",
   layer = -2,
   x = 840,
   y = 413,
@@ -16969,7 +16978,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_520",
+  name = "grass_D7_great_swamp_520",
   layer = -2,
   x = 840,
   y = 429,
@@ -16981,7 +16990,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_521",
+  name = "grass_D7_great_swamp_521",
   layer = -2,
   x = 840,
   y = 461,
@@ -16993,7 +17002,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_522",
+  name = "grass_D7_great_swamp_522",
   layer = -2,
   x = 840,
   y = 445,
@@ -17005,7 +17014,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_523",
+  name = "grass_D7_great_swamp_523",
   layer = -2,
   x = 792,
   y = 365,
@@ -17017,7 +17026,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_524",
+  name = "grass_D7_great_swamp_524",
   layer = -2,
   x = 792,
   y = 381,
@@ -17029,7 +17038,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_525",
+  name = "grass_D7_great_swamp_525",
   layer = -2,
   x = 792,
   y = 397,
@@ -17041,7 +17050,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_526",
+  name = "grass_D7_great_swamp_526",
   layer = -2,
   x = 792,
   y = 413,
@@ -17053,7 +17062,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_527",
+  name = "grass_D7_great_swamp_527",
   layer = -2,
   x = 792,
   y = 429,
@@ -17065,7 +17074,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_528",
+  name = "grass_D7_great_swamp_528",
   layer = -2,
   x = 792,
   y = 461,
@@ -17077,7 +17086,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_529",
+  name = "grass_D7_great_swamp_529",
   layer = -2,
   x = 792,
   y = 445,
@@ -17089,7 +17098,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_530",
+  name = "grass_D7_great_swamp_530",
   layer = -2,
   x = 824,
   y = 365,
@@ -17101,7 +17110,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_531",
+  name = "grass_D7_great_swamp_531",
   layer = -2,
   x = 824,
   y = 381,
@@ -17113,7 +17122,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_532",
+  name = "grass_D7_great_swamp_532",
   layer = -2,
   x = 776,
   y = 397,
@@ -17125,7 +17134,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_533",
+  name = "grass_D7_great_swamp_533",
   layer = -2,
   x = 776,
   y = 413,
@@ -17137,7 +17146,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_534",
+  name = "grass_D7_great_swamp_534",
   layer = -2,
   x = 776,
   y = 429,
@@ -17149,7 +17158,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_535",
+  name = "grass_D7_great_swamp_535",
   layer = -2,
   x = 776,
   y = 461,
@@ -17161,7 +17170,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_536",
+  name = "grass_D7_great_swamp_536",
   layer = -2,
   x = 776,
   y = 445,
@@ -17173,7 +17182,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_537",
+  name = "grass_D7_great_swamp_537",
   layer = -2,
   x = 808,
   y = 365,
@@ -17185,7 +17194,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_538",
+  name = "grass_D7_great_swamp_538",
   layer = -2,
   x = 808,
   y = 381,
@@ -17197,7 +17206,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_539",
+  name = "grass_D7_great_swamp_539",
   layer = -2,
   x = 760,
   y = 397,
@@ -17209,7 +17218,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_540",
+  name = "grass_D7_great_swamp_540",
   layer = -2,
   x = 760,
   y = 413,
@@ -17221,7 +17230,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_541",
+  name = "grass_D7_great_swamp_541",
   layer = -2,
   x = 760,
   y = 429,
@@ -17233,7 +17242,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_542",
+  name = "grass_D7_great_swamp_542",
   layer = -2,
   x = 760,
   y = 461,
@@ -17245,7 +17254,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_544",
+  name = "grass_D7_great_swamp_544",
   layer = -2,
   x = 824,
   y = 445,
@@ -17257,7 +17266,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_545",
+  name = "grass_D7_great_swamp_545",
   layer = -2,
   x = 824,
   y = 461,
@@ -17269,7 +17278,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_546",
+  name = "grass_D7_great_swamp_546",
   layer = -2,
   x = 808,
   y = 445,
@@ -17281,7 +17290,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_547",
+  name = "grass_D7_great_swamp_547",
   layer = -2,
   x = 808,
   y = 461,
@@ -17293,7 +17302,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_548",
+  name = "grass_D7_great_swamp_548",
   layer = -2,
   x = 744,
   y = 445,
@@ -17305,7 +17314,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_549",
+  name = "grass_D7_great_swamp_549",
   layer = -2,
   x = 744,
   y = 461,
@@ -17317,7 +17326,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_550",
+  name = "grass_D7_great_swamp_550",
   layer = -2,
   x = 728,
   y = 445,
@@ -17329,7 +17338,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_551",
+  name = "grass_D7_great_swamp_551",
   layer = -2,
   x = 728,
   y = 461,
@@ -17341,7 +17350,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_552",
+  name = "grass_D7_great_swamp_552",
   layer = -2,
   x = 712,
   y = 445,
@@ -17353,7 +17362,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_553",
+  name = "grass_D7_great_swamp_553",
   layer = -2,
   x = 712,
   y = 461,
@@ -17365,7 +17374,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_554",
+  name = "grass_D7_great_swamp_554",
   layer = -2,
   x = 696,
   y = 445,
@@ -17377,7 +17386,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_555",
+  name = "grass_D7_great_swamp_555",
   layer = -2,
   x = 696,
   y = 461,
@@ -17389,7 +17398,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_556",
+  name = "grass_D7_great_swamp_556",
   layer = -2,
   x = 712,
   y = 413,
@@ -17401,7 +17410,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_557",
+  name = "grass_D7_great_swamp_557",
   layer = -2,
   x = 712,
   y = 429,
@@ -17413,7 +17422,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_558",
+  name = "grass_D7_great_swamp_558",
   layer = -2,
   x = 696,
   y = 413,
@@ -17425,7 +17434,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_559",
+  name = "grass_D7_great_swamp_559",
   layer = -2,
   x = 696,
   y = 429,
@@ -17437,7 +17446,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_560",
+  name = "grass_D7_great_swamp_560",
   layer = -2,
   x = 680,
   y = 317,
@@ -17449,7 +17458,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_561",
+  name = "grass_D7_great_swamp_561",
   layer = -2,
   x = 712,
   y = 397,
@@ -17461,7 +17470,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_562",
+  name = "grass_D7_great_swamp_562",
   layer = -2,
   x = 680,
   y = 301,
@@ -17473,7 +17482,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_563",
+  name = "grass_D7_great_swamp_563",
   layer = -2,
   x = 680,
   y = 333,
@@ -17485,7 +17494,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_564",
+  name = "grass_D7_great_swamp_564",
   layer = -2,
   x = 664,
   y = 365,
@@ -17497,7 +17506,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_565",
+  name = "grass_D7_great_swamp_565",
   layer = -2,
   x = 664,
   y = 381,
@@ -17509,7 +17518,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_566",
+  name = "grass_D7_great_swamp_566",
   layer = -2,
   x = 648,
   y = 365,
@@ -17521,7 +17530,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_567",
+  name = "grass_D7_great_swamp_567",
   layer = -2,
   x = 648,
   y = 381,
@@ -17533,7 +17542,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_568",
+  name = "grass_D7_great_swamp_568",
   layer = -2,
   x = 664,
   y = 285,
@@ -17545,7 +17554,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_569",
+  name = "grass_D7_great_swamp_569",
   layer = -2,
   x = 664,
   y = 301,
@@ -17557,7 +17566,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_570",
+  name = "grass_D7_great_swamp_570",
   layer = -2,
   x = 648,
   y = 285,
@@ -17569,7 +17578,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_571",
+  name = "grass_D7_great_swamp_571",
   layer = -2,
   x = 648,
   y = 301,
@@ -17581,7 +17590,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_572",
+  name = "grass_D7_great_swamp_572",
   layer = -2,
   x = 824,
   y = 285,
@@ -17593,7 +17602,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_573",
+  name = "grass_D7_great_swamp_573",
   layer = -2,
   x = 824,
   y = 301,
@@ -17605,7 +17614,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_574",
+  name = "grass_D7_great_swamp_574",
   layer = -2,
   x = 808,
   y = 285,
@@ -17617,7 +17626,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_575",
+  name = "grass_D7_great_swamp_575",
   layer = -2,
   x = 808,
   y = 301,
@@ -17629,7 +17638,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_576",
+  name = "grass_D7_great_swamp_576",
   layer = -2,
   x = 792,
   y = 285,
@@ -17641,7 +17650,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_577",
+  name = "grass_D7_great_swamp_577",
   layer = -2,
   x = 792,
   y = 301,
@@ -17653,7 +17662,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_578",
+  name = "grass_D7_great_swamp_578",
   layer = -2,
   x = 760,
   y = 237,
@@ -17665,7 +17674,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_579",
+  name = "grass_D7_great_swamp_579",
   layer = -2,
   x = 760,
   y = 253,
@@ -17677,7 +17686,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_580",
+  name = "grass_D7_great_swamp_580",
   layer = -2,
   x = 792,
   y = 253,
@@ -17689,7 +17698,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_581",
+  name = "grass_D7_great_swamp_581",
   layer = -2,
   x = 792,
   y = 269,
@@ -17701,7 +17710,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_582",
+  name = "grass_D7_great_swamp_582",
   layer = -2,
   x = 776,
   y = 253,
@@ -17713,7 +17722,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_583",
+  name = "grass_D7_great_swamp_583",
   layer = -2,
   x = 776,
   y = 269,
@@ -17725,7 +17734,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_584",
+  name = "grass_D7_great_swamp_584",
   layer = -2,
   x = 792,
   y = 221,
@@ -17737,7 +17746,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_585",
+  name = "grass_D7_great_swamp_585",
   layer = -2,
   x = 792,
   y = 237,
@@ -17749,7 +17758,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_586",
+  name = "grass_D7_great_swamp_586",
   layer = -2,
   x = 776,
   y = 221,
@@ -17761,7 +17770,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_587",
+  name = "grass_D7_great_swamp_587",
   layer = -2,
   x = 776,
   y = 237,
@@ -17773,7 +17782,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_588",
+  name = "grass_D7_great_swamp_588",
   layer = -2,
   x = 824,
   y = 205,
@@ -17785,7 +17794,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_589",
+  name = "grass_D7_great_swamp_589",
   layer = -2,
   x = 824,
   y = 221,
@@ -17797,7 +17806,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_590",
+  name = "grass_D7_great_swamp_590",
   layer = -2,
   x = 808,
   y = 205,
@@ -17809,7 +17818,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_591",
+  name = "grass_D7_great_swamp_591",
   layer = -2,
   x = 808,
   y = 221,
@@ -17821,7 +17830,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_592",
+  name = "grass_D7_great_swamp_592",
   layer = -2,
   x = 856,
   y = 205,
@@ -17833,7 +17842,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_593",
+  name = "grass_D7_great_swamp_593",
   layer = -2,
   x = 856,
   y = 221,
@@ -17845,7 +17854,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_594",
+  name = "grass_D7_great_swamp_594",
   layer = -2,
   x = 840,
   y = 205,
@@ -17857,7 +17866,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_595",
+  name = "grass_D7_great_swamp_595",
   layer = -2,
   x = 840,
   y = 221,
@@ -17869,7 +17878,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_596",
+  name = "grass_D7_great_swamp_596",
   layer = -2,
   x = 856,
   y = 173,
@@ -17881,7 +17890,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_597",
+  name = "grass_D7_great_swamp_597",
   layer = -2,
   x = 856,
   y = 189,
@@ -17893,7 +17902,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_598",
+  name = "grass_D7_great_swamp_598",
   layer = -2,
   x = 840,
   y = 173,
@@ -17905,7 +17914,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_599",
+  name = "grass_D7_great_swamp_599",
   layer = -2,
   x = 840,
   y = 189,
@@ -17917,7 +17926,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_600",
+  name = "grass_D7_great_swamp_600",
   layer = -2,
   x = 824,
   y = 173,
@@ -17929,7 +17938,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_601",
+  name = "grass_D7_great_swamp_601",
   layer = -2,
   x = 824,
   y = 189,
@@ -17941,7 +17950,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_602",
+  name = "grass_D7_great_swamp_602",
   layer = -2,
   x = 808,
   y = 173,
@@ -17953,7 +17962,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_603",
+  name = "grass_D7_great_swamp_603",
   layer = -2,
   x = 808,
   y = 189,
@@ -17965,7 +17974,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_604",
+  name = "grass_D7_great_swamp_604",
   layer = -2,
   x = 792,
   y = 157,
@@ -17977,7 +17986,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_605",
+  name = "grass_D7_great_swamp_605",
   layer = -2,
   x = 792,
   y = 173,
@@ -17989,7 +17998,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_606",
+  name = "grass_D7_great_swamp_606",
   layer = -2,
   x = 776,
   y = 157,
@@ -18001,7 +18010,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_607",
+  name = "grass_D7_great_swamp_607",
   layer = -2,
   x = 776,
   y = 173,
@@ -18013,7 +18022,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_608",
+  name = "grass_D7_great_swamp_608",
   layer = -2,
   x = 792,
   y = 189,
@@ -18025,7 +18034,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_609",
+  name = "grass_D7_great_swamp_609",
   layer = -2,
   x = 792,
   y = 141,
@@ -18037,7 +18046,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_610",
+  name = "grass_D7_great_swamp_610",
   layer = -2,
   x = 776,
   y = 125,
@@ -18049,7 +18058,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_611",
+  name = "grass_D7_great_swamp_611",
   layer = -2,
   x = 776,
   y = 141,
@@ -18061,7 +18070,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_612",
+  name = "grass_D7_great_swamp_612",
   layer = -2,
   x = 760,
   y = 109,
@@ -18073,7 +18082,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_613",
+  name = "grass_D7_great_swamp_613",
   layer = -2,
   x = 760,
   y = 125,
@@ -18085,7 +18094,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_614",
+  name = "grass_D7_great_swamp_614",
   layer = -2,
   x = 792,
   y = 205,
@@ -18097,7 +18106,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_615",
+  name = "grass_D7_great_swamp_615",
   layer = -2,
   x = 744,
   y = 125,
@@ -18109,7 +18118,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_616",
+  name = "grass_D7_great_swamp_616",
   layer = -2,
   x = 888,
   y = 157,
@@ -18121,7 +18130,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_617",
+  name = "grass_D7_great_swamp_617",
   layer = -2,
   x = 888,
   y = 173,
@@ -18133,7 +18142,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_618",
+  name = "grass_D7_great_swamp_618",
   layer = -2,
   x = 760,
   y = 269,
@@ -18145,7 +18154,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_619",
+  name = "grass_D7_great_swamp_619",
   layer = -2,
   x = 872,
   y = 173,
@@ -18157,7 +18166,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_620",
+  name = "grass_D7_great_swamp_620",
   layer = -2,
   x = 856,
   y = 237,
@@ -18169,7 +18178,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_621",
+  name = "grass_D7_great_swamp_621",
   layer = -2,
   x = 760,
   y = 221,
@@ -18181,7 +18190,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_622",
+  name = "grass_D7_great_swamp_622",
   layer = -2,
   x = 744,
   y = 205,
@@ -18193,7 +18202,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_623",
+  name = "grass_D7_great_swamp_623",
   layer = -2,
   x = 744,
   y = 221,
@@ -18205,7 +18214,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_624",
+  name = "grass_D7_great_swamp_624",
   layer = -2,
   x = 728,
   y = 205,
@@ -18217,7 +18226,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_625",
+  name = "grass_D7_great_swamp_625",
   layer = -2,
   x = 728,
   y = 221,
@@ -18229,7 +18238,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_626",
+  name = "grass_D7_great_swamp_626",
   layer = -2,
   x = 712,
   y = 205,
@@ -18241,7 +18250,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_627",
+  name = "grass_D7_great_swamp_627",
   layer = -2,
   x = 712,
   y = 221,
@@ -18253,7 +18262,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_628",
+  name = "grass_D7_great_swamp_628",
   layer = -2,
   x = 712,
   y = 237,
@@ -18265,7 +18274,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_629",
+  name = "grass_D7_great_swamp_629",
   layer = -2,
   x = 712,
   y = 253,
@@ -18277,7 +18286,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_630",
+  name = "grass_D7_great_swamp_630",
   layer = -2,
   x = 696,
   y = 237,
@@ -18289,7 +18298,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_631",
+  name = "grass_D7_great_swamp_631",
   layer = -2,
   x = 680,
   y = 221,
@@ -18301,7 +18310,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_632",
+  name = "grass_D7_great_swamp_632",
   layer = -2,
   x = 632,
   y = 173,
@@ -18313,7 +18322,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_633",
+  name = "grass_D7_great_swamp_633",
   layer = -2,
   x = 632,
   y = 189,
@@ -18325,7 +18334,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_634",
+  name = "grass_D7_great_swamp_634",
   layer = -2,
   x = 616,
   y = 173,
@@ -18337,7 +18346,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_635",
+  name = "grass_D7_great_swamp_635",
   layer = -2,
   x = 616,
   y = 189,
@@ -18349,7 +18358,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_636",
+  name = "grass_D7_great_swamp_636",
   layer = -2,
   x = 600,
   y = 173,
@@ -18361,7 +18370,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_637",
+  name = "grass_D7_great_swamp_637",
   layer = -2,
   x = 600,
   y = 189,
@@ -18373,7 +18382,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_638",
+  name = "grass_D7_great_swamp_638",
   layer = -2,
   x = 664,
   y = 221,
@@ -18385,7 +18394,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_639",
+  name = "grass_D7_great_swamp_639",
   layer = -2,
   x = 696,
   y = 221,
@@ -18397,7 +18406,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_640",
+  name = "grass_D7_great_swamp_640",
   layer = -2,
   x = 632,
   y = 205,
@@ -18409,7 +18418,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_641",
+  name = "grass_D7_great_swamp_641",
   layer = -2,
   x = 632,
   y = 221,
@@ -18421,7 +18430,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_642",
+  name = "grass_D7_great_swamp_642",
   layer = -2,
   x = 616,
   y = 205,
@@ -18433,7 +18442,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_643",
+  name = "grass_D7_great_swamp_643",
   layer = -2,
   x = 616,
   y = 221,
@@ -18445,7 +18454,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_644",
+  name = "grass_D7_great_swamp_644",
   layer = -2,
   x = 680,
   y = 237,
@@ -18457,7 +18466,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_645",
+  name = "grass_D7_great_swamp_645",
   layer = -2,
   x = 648,
   y = 221,
@@ -18469,7 +18478,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_646",
+  name = "grass_D7_great_swamp_646",
   layer = -2,
   x = 616,
   y = 237,
@@ -18481,7 +18490,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_647",
+  name = "grass_D7_great_swamp_647",
   layer = -2,
   x = 616,
   y = 253,
@@ -18493,7 +18502,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_648",
+  name = "grass_D7_great_swamp_648",
   layer = -2,
   x = 600,
   y = 253,
@@ -18505,7 +18514,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_649",
+  name = "grass_D7_great_swamp_649",
   layer = -2,
   x = 600,
   y = 269,
@@ -18517,7 +18526,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_650",
+  name = "grass_D7_great_swamp_650",
   layer = -2,
   x = 584,
   y = 253,
@@ -18529,7 +18538,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_651",
+  name = "grass_D7_great_swamp_651",
   layer = -2,
   x = 584,
   y = 269,
@@ -18541,7 +18550,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_652",
+  name = "grass_D7_great_swamp_652",
   layer = -2,
   x = 632,
   y = 269,
@@ -18553,7 +18562,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_653",
+  name = "grass_D7_great_swamp_653",
   layer = -2,
   x = 632,
   y = 285,
@@ -18565,7 +18574,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_654",
+  name = "grass_D7_great_swamp_654",
   layer = -2,
   x = 616,
   y = 269,
@@ -18577,7 +18586,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_655",
+  name = "grass_D7_great_swamp_655",
   layer = -2,
   x = 616,
   y = 285,
@@ -18589,7 +18598,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_656",
+  name = "grass_D7_great_swamp_656",
   layer = -2,
   x = 632,
   y = 301,
@@ -18601,7 +18610,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_657",
+  name = "grass_D7_great_swamp_657",
   layer = -2,
   x = 632,
   y = 317,
@@ -18613,7 +18622,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_658",
+  name = "grass_D7_great_swamp_658",
   layer = -2,
   x = 616,
   y = 301,
@@ -18625,7 +18634,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_659",
+  name = "grass_D7_great_swamp_659",
   layer = -2,
   x = 616,
   y = 317,
@@ -18637,7 +18646,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_660",
+  name = "grass_D7_great_swamp_660",
   layer = -2,
   x = 600,
   y = 317,
@@ -18649,7 +18658,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_661",
+  name = "grass_D7_great_swamp_661",
   layer = -2,
   x = 600,
   y = 333,
@@ -18661,7 +18670,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_662",
+  name = "grass_D7_great_swamp_662",
   layer = -2,
   x = 584,
   y = 317,
@@ -18673,7 +18682,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_663",
+  name = "grass_D7_great_swamp_663",
   layer = -2,
   x = 584,
   y = 333,
@@ -18685,7 +18694,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_664",
+  name = "grass_D7_great_swamp_664",
   layer = -2,
   x = 632,
   y = 397,
@@ -18697,7 +18706,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_665",
+  name = "grass_D7_great_swamp_665",
   layer = -2,
   x = 632,
   y = 413,
@@ -18709,7 +18718,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_666",
+  name = "grass_D7_great_swamp_666",
   layer = -2,
   x = 680,
   y = 365,
@@ -18721,7 +18730,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_667",
+  name = "grass_D7_great_swamp_667",
   layer = -2,
   x = 616,
   y = 413,
@@ -18733,7 +18742,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_668",
+  name = "grass_D7_great_swamp_668",
   layer = -2,
   x = 680,
   y = 349,
@@ -18745,7 +18754,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_669",
+  name = "grass_D7_great_swamp_669",
   layer = -2,
   x = 600,
   y = 413,
@@ -18757,7 +18766,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_670",
+  name = "grass_D7_great_swamp_670",
   layer = -2,
   x = 584,
   y = 397,
@@ -18769,7 +18778,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_671",
+  name = "grass_D7_great_swamp_671",
   layer = -2,
   x = 584,
   y = 413,
@@ -18781,7 +18790,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_672",
+  name = "grass_D7_great_swamp_672",
   layer = -2,
   x = 600,
   y = 285,
@@ -18793,7 +18802,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_673",
+  name = "grass_D7_great_swamp_673",
   layer = -2,
   x = 696,
   y = 205,
@@ -18805,7 +18814,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_674",
+  name = "grass_D7_great_swamp_674",
   layer = -2,
   x = 584,
   y = 285,
@@ -18817,7 +18826,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_675",
+  name = "grass_D7_great_swamp_675",
   layer = -2,
   x = 584,
   y = 301,
@@ -18829,7 +18838,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_676",
+  name = "grass_D7_great_swamp_676",
   layer = -2,
   x = 568,
   y = 397,
@@ -18841,7 +18850,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_677",
+  name = "grass_D7_great_swamp_677",
   layer = -2,
   x = 568,
   y = 413,
@@ -18853,7 +18862,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_678",
+  name = "grass_D7_great_swamp_678",
   layer = -2,
   x = 584,
   y = 381,
@@ -18865,7 +18874,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_679",
+  name = "grass_D7_great_swamp_679",
   layer = -2,
   x = 552,
   y = 413,
@@ -18877,7 +18886,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_680",
+  name = "grass_D7_great_swamp_680",
   layer = -2,
   x = 632,
   y = 429,
@@ -18889,7 +18898,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_681",
+  name = "grass_D7_great_swamp_681",
   layer = -2,
   x = 584,
   y = 365,
@@ -18901,7 +18910,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_682",
+  name = "grass_D7_great_swamp_682",
   layer = -2,
   x = 616,
   y = 429,
@@ -18913,7 +18922,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_683",
+  name = "grass_D7_great_swamp_683",
   layer = -2,
   x = 616,
   y = 445,
@@ -18925,7 +18934,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_684",
+  name = "grass_D7_great_swamp_684",
   layer = -2,
   x = 616,
   y = 461,
@@ -18937,7 +18946,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_685",
+  name = "grass_D7_great_swamp_685",
   layer = -2,
   x = 616,
   y = 477,
@@ -18949,7 +18958,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_686",
+  name = "grass_D7_great_swamp_686",
   layer = -2,
   x = 584,
   y = 349,
@@ -18961,7 +18970,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_687",
+  name = "grass_D7_great_swamp_687",
   layer = -2,
   x = 600,
   y = 477,
@@ -18973,7 +18982,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_688",
+  name = "grass_D7_great_swamp_688",
   layer = -2,
   x = 568,
   y = 429,
@@ -18985,7 +18994,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_689",
+  name = "grass_D7_great_swamp_689",
   layer = -2,
   x = 568,
   y = 445,
@@ -18997,7 +19006,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_690",
+  name = "grass_D7_great_swamp_690",
   layer = -2,
   x = 552,
   y = 429,
@@ -19009,7 +19018,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_691",
+  name = "grass_D7_great_swamp_691",
   layer = -2,
   x = 552,
   y = 445,
@@ -19021,7 +19030,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_692",
+  name = "grass_D7_great_swamp_692",
   layer = -2,
   x = 568,
   y = 461,
@@ -19033,7 +19042,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_693",
+  name = "grass_D7_great_swamp_693",
   layer = -2,
   x = 568,
   y = 477,
@@ -19045,7 +19054,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_694",
+  name = "grass_D7_great_swamp_694",
   layer = -2,
   x = 552,
   y = 461,
@@ -19057,7 +19066,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_695",
+  name = "grass_D7_great_swamp_695",
   layer = -2,
   x = 584,
   y = 477,
@@ -19069,7 +19078,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_696",
+  name = "grass_D7_great_swamp_696",
   layer = -2,
   x = 584,
   y = 493,
@@ -19081,7 +19090,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_697",
+  name = "grass_D7_great_swamp_697",
   layer = -2,
   x = 600,
   y = 493,
@@ -19093,7 +19102,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_698",
+  name = "grass_D7_great_swamp_698",
   layer = -2,
   x = 568,
   y = 493,
@@ -19105,7 +19114,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_699",
+  name = "grass_D7_great_swamp_699",
   layer = -2,
   x = 568,
   y = 509,
@@ -19117,7 +19126,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_700",
+  name = "grass_D7_great_swamp_700",
   layer = -2,
   x = 568,
   y = 589,
@@ -19129,7 +19138,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_701",
+  name = "grass_D7_great_swamp_701",
   layer = -2,
   x = 568,
   y = 605,
@@ -19141,7 +19150,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_702",
+  name = "grass_D7_great_swamp_702",
   layer = -2,
   x = 552,
   y = 589,
@@ -19153,7 +19162,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_703",
+  name = "grass_D7_great_swamp_703",
   layer = -2,
   x = 552,
   y = 605,
@@ -19165,7 +19174,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_704",
+  name = "grass_D7_great_swamp_704",
   layer = -2,
   x = 552,
   y = 621,
@@ -19177,7 +19186,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_705",
+  name = "grass_D7_great_swamp_705",
   layer = -2,
   x = 552,
   y = 637,
@@ -19189,7 +19198,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_706",
+  name = "grass_D7_great_swamp_706",
   layer = -2,
   x = 536,
   y = 621,
@@ -19201,7 +19210,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_707",
+  name = "grass_D7_great_swamp_707",
   layer = -2,
   x = 536,
   y = 637,
@@ -19213,7 +19222,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_708",
+  name = "grass_D7_great_swamp_708",
   layer = -2,
   x = 520,
   y = 621,
@@ -19225,7 +19234,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_709",
+  name = "grass_D7_great_swamp_709",
   layer = -2,
   x = 520,
   y = 637,
@@ -19237,7 +19246,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_710",
+  name = "grass_D7_great_swamp_710",
   layer = -2,
   x = 504,
   y = 621,
@@ -19249,7 +19258,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_711",
+  name = "grass_D7_great_swamp_711",
   layer = -2,
   x = 504,
   y = 637,
@@ -19261,7 +19270,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_712",
+  name = "grass_D7_great_swamp_712",
   layer = -2,
   x = 536,
   y = 589,
@@ -19273,7 +19282,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_713",
+  name = "grass_D7_great_swamp_713",
   layer = -2,
   x = 536,
   y = 605,
@@ -19285,7 +19294,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_714",
+  name = "grass_D7_great_swamp_714",
   layer = -2,
   x = 520,
   y = 589,
@@ -19297,7 +19306,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_715",
+  name = "grass_D7_great_swamp_715",
   layer = -2,
   x = 520,
   y = 605,
@@ -19309,7 +19318,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_716",
+  name = "grass_D7_great_swamp_716",
   layer = -2,
   x = 504,
   y = 589,
@@ -19321,7 +19330,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_717",
+  name = "grass_D7_great_swamp_717",
   layer = -2,
   x = 504,
   y = 605,
@@ -19333,7 +19342,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_718",
+  name = "grass_D7_great_swamp_718",
   layer = -2,
   x = 488,
   y = 589,
@@ -19345,7 +19354,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_719",
+  name = "grass_D7_great_swamp_719",
   layer = -2,
   x = 488,
   y = 605,
@@ -19357,7 +19366,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_720",
+  name = "grass_D7_great_swamp_720",
   layer = -2,
   x = 472,
   y = 589,
@@ -19369,7 +19378,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_721",
+  name = "grass_D7_great_swamp_721",
   layer = -2,
   x = 472,
   y = 605,
@@ -19381,7 +19390,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_722",
+  name = "grass_D7_great_swamp_722",
   layer = -2,
   x = 488,
   y = 461,
@@ -19393,7 +19402,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_723",
+  name = "grass_D7_great_swamp_723",
   layer = -2,
   x = 504,
   y = 461,
@@ -19405,7 +19414,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_724",
+  name = "grass_D7_great_swamp_724",
   layer = -2,
   x = 568,
   y = 541,
@@ -19417,7 +19426,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_725",
+  name = "grass_D7_great_swamp_725",
   layer = -2,
   x = 488,
   y = 573,
@@ -19429,7 +19438,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_726",
+  name = "grass_D7_great_swamp_726",
   layer = -2,
   x = 568,
   y = 525,
@@ -19441,7 +19450,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_727",
+  name = "grass_D7_great_swamp_727",
   layer = -2,
   x = 472,
   y = 573,
@@ -19453,7 +19462,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_728",
+  name = "grass_D7_great_swamp_728",
   layer = -2,
   x = 536,
   y = 573,
@@ -19465,7 +19474,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_729",
+  name = "grass_D7_great_swamp_729",
   layer = -2,
   x = 520,
   y = 573,
@@ -19477,7 +19486,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_730",
+  name = "grass_D7_great_swamp_730",
   layer = -2,
   x = 616,
   y = 493,
@@ -19489,7 +19498,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_731",
+  name = "grass_D7_great_swamp_731",
   layer = -2,
   x = 504,
   y = 573,
@@ -19501,7 +19510,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_732",
+  name = "grass_D7_great_swamp_732",
   layer = -2,
   x = 488,
   y = 621,
@@ -19513,7 +19522,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_733",
+  name = "grass_D7_great_swamp_733",
   layer = -2,
   x = 408,
   y = 493,
@@ -19525,7 +19534,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_734",
+  name = "grass_D7_great_swamp_734",
   layer = -2,
   x = 664,
   y = 173,
@@ -19537,7 +19546,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_735",
+  name = "grass_D7_great_swamp_735",
   layer = -2,
   x = 472,
   y = 461,
@@ -19549,7 +19558,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_736",
+  name = "grass_D7_great_swamp_736",
   layer = -2,
   x = 440,
   y = 525,
@@ -19561,7 +19570,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_737",
+  name = "grass_D7_great_swamp_737",
   layer = -2,
   x = 440,
   y = 541,
@@ -19573,7 +19582,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_738",
+  name = "grass_D7_great_swamp_738",
   layer = -2,
   x = 424,
   y = 525,
@@ -19585,7 +19594,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_739",
+  name = "grass_D7_great_swamp_739",
   layer = -2,
   x = 424,
   y = 541,
@@ -19597,7 +19606,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_740",
+  name = "grass_D7_great_swamp_740",
   layer = -2,
   x = 440,
   y = 493,
@@ -19609,7 +19618,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_741",
+  name = "grass_D7_great_swamp_741",
   layer = -2,
   x = 440,
   y = 509,
@@ -19621,7 +19630,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_742",
+  name = "grass_D7_great_swamp_742",
   layer = -2,
   x = 424,
   y = 493,
@@ -19633,7 +19642,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_743",
+  name = "grass_D7_great_swamp_743",
   layer = -2,
   x = 424,
   y = 509,
@@ -19645,7 +19654,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_744",
+  name = "grass_D7_great_swamp_744",
   layer = -2,
   x = 440,
   y = 461,
@@ -19657,7 +19666,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_745",
+  name = "grass_D7_great_swamp_745",
   layer = -2,
   x = 440,
   y = 477,
@@ -19669,7 +19678,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_746",
+  name = "grass_D7_great_swamp_746",
   layer = -2,
   x = 424,
   y = 461,
@@ -19681,7 +19690,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_747",
+  name = "grass_D7_great_swamp_747",
   layer = -2,
   x = 424,
   y = 477,
@@ -19693,7 +19702,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_748",
+  name = "grass_D7_great_swamp_748",
   layer = -2,
   x = 536,
   y = 445,
@@ -19705,7 +19714,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_749",
+  name = "grass_D7_great_swamp_749",
   layer = -2,
   x = 536,
   y = 461,
@@ -19717,7 +19726,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_750",
+  name = "grass_D7_great_swamp_750",
   layer = -2,
   x = 456,
   y = 461,
@@ -19729,7 +19738,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_751",
+  name = "grass_D7_great_swamp_751",
   layer = -2,
   x = 520,
   y = 461,
@@ -19741,7 +19750,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_752",
+  name = "grass_D7_great_swamp_752",
   layer = -2,
   x = 520,
   y = 669,
@@ -19753,7 +19762,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_753",
+  name = "grass_D7_great_swamp_753",
   layer = -2,
   x = 520,
   y = 685,
@@ -19765,7 +19774,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_754",
+  name = "grass_D7_great_swamp_754",
   layer = -2,
   x = 504,
   y = 669,
@@ -19777,7 +19786,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_755",
+  name = "grass_D7_great_swamp_755",
   layer = -2,
   x = 504,
   y = 685,
@@ -19789,7 +19798,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_756",
+  name = "grass_D7_great_swamp_756",
   layer = -2,
   x = 488,
   y = 685,
@@ -19801,7 +19810,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_757",
+  name = "grass_D7_great_swamp_757",
   layer = -2,
   x = 488,
   y = 701,
@@ -19813,7 +19822,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_758",
+  name = "grass_D7_great_swamp_758",
   layer = -2,
   x = 600,
   y = 797,
@@ -19825,7 +19834,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_759",
+  name = "grass_D7_great_swamp_759",
   layer = -2,
   x = 568,
   y = 717,
@@ -19837,7 +19846,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_760",
+  name = "grass_D7_great_swamp_760",
   layer = -2,
   x = 488,
   y = 717,
@@ -19849,7 +19858,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_761",
+  name = "grass_D7_great_swamp_761",
   layer = -2,
   x = 488,
   y = 733,
@@ -19861,7 +19870,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_762",
+  name = "grass_D7_great_swamp_762",
   layer = -2,
   x = 472,
   y = 717,
@@ -19873,7 +19882,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_763",
+  name = "grass_D7_great_swamp_763",
   layer = -2,
   x = 536,
   y = 749,
@@ -19885,7 +19894,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_764",
+  name = "grass_D7_great_swamp_764",
   layer = -2,
   x = 520,
   y = 701,
@@ -19897,7 +19906,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_765",
+  name = "grass_D7_great_swamp_765",
   layer = -2,
   x = 520,
   y = 717,
@@ -19909,7 +19918,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_766",
+  name = "grass_D7_great_swamp_766",
   layer = -2,
   x = 504,
   y = 701,
@@ -19921,7 +19930,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_767",
+  name = "grass_D7_great_swamp_767",
   layer = -2,
   x = 504,
   y = 717,
@@ -19933,7 +19942,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_768",
+  name = "grass_D7_great_swamp_768",
   layer = -2,
   x = 552,
   y = 685,
@@ -19945,7 +19954,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_769",
+  name = "grass_D7_great_swamp_769",
   layer = -2,
   x = 552,
   y = 701,
@@ -19957,7 +19966,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_770",
+  name = "grass_D7_great_swamp_770",
   layer = -2,
   x = 536,
   y = 685,
@@ -19969,7 +19978,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_771",
+  name = "grass_D7_great_swamp_771",
   layer = -2,
   x = 536,
   y = 701,
@@ -19981,7 +19990,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_772",
+  name = "grass_D7_great_swamp_772",
   layer = -2,
   x = 552,
   y = 717,
@@ -19993,7 +20002,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_773",
+  name = "grass_D7_great_swamp_773",
   layer = -2,
   x = 552,
   y = 733,
@@ -20005,7 +20014,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_774",
+  name = "grass_D7_great_swamp_774",
   layer = -2,
   x = 536,
   y = 717,
@@ -20017,7 +20026,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_775",
+  name = "grass_D7_great_swamp_775",
   layer = -2,
   x = 536,
   y = 733,
@@ -20029,7 +20038,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_776",
+  name = "grass_D7_great_swamp_776",
   layer = -2,
   x = 520,
   y = 733,
@@ -20041,7 +20050,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_777",
+  name = "grass_D7_great_swamp_777",
   layer = -2,
   x = 520,
   y = 749,
@@ -20053,7 +20062,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_778",
+  name = "grass_D7_great_swamp_778",
   layer = -2,
   x = 504,
   y = 733,
@@ -20065,7 +20074,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_779",
+  name = "grass_D7_great_swamp_779",
   layer = -2,
   x = 504,
   y = 749,
@@ -20077,7 +20086,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_780",
+  name = "grass_D7_great_swamp_780",
   layer = -2,
   x = 520,
   y = 765,
@@ -20089,7 +20098,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_781",
+  name = "grass_D7_great_swamp_781",
   layer = -2,
   x = 520,
   y = 781,
@@ -20101,7 +20110,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_782",
+  name = "grass_D7_great_swamp_782",
   layer = -2,
   x = 504,
   y = 765,
@@ -20113,7 +20122,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_783",
+  name = "grass_D7_great_swamp_783",
   layer = -2,
   x = 504,
   y = 781,
@@ -20125,7 +20134,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_784",
+  name = "grass_D7_great_swamp_784",
   layer = -2,
   x = 520,
   y = 797,
@@ -20137,7 +20146,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_785",
+  name = "grass_D7_great_swamp_785",
   layer = -2,
   x = 520,
   y = 813,
@@ -20149,7 +20158,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_786",
+  name = "grass_D7_great_swamp_786",
   layer = -2,
   x = 504,
   y = 797,
@@ -20161,7 +20170,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_787",
+  name = "grass_D7_great_swamp_787",
   layer = -2,
   x = 504,
   y = 813,
@@ -20173,7 +20182,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_788",
+  name = "grass_D7_great_swamp_788",
   layer = -2,
   x = 552,
   y = 797,
@@ -20185,7 +20194,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_789",
+  name = "grass_D7_great_swamp_789",
   layer = -2,
   x = 552,
   y = 813,
@@ -20197,7 +20206,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_790",
+  name = "grass_D7_great_swamp_790",
   layer = -2,
   x = 536,
   y = 797,
@@ -20209,7 +20218,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_791",
+  name = "grass_D7_great_swamp_791",
   layer = -2,
   x = 536,
   y = 813,
@@ -20221,7 +20230,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_792",
+  name = "grass_D7_great_swamp_792",
   layer = -2,
   x = 584,
   y = 797,
@@ -20233,7 +20242,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_793",
+  name = "grass_D7_great_swamp_793",
   layer = -2,
   x = 584,
   y = 813,
@@ -20245,7 +20254,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_794",
+  name = "grass_D7_great_swamp_794",
   layer = -2,
   x = 568,
   y = 797,
@@ -20257,7 +20266,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_795",
+  name = "grass_D7_great_swamp_795",
   layer = -2,
   x = 568,
   y = 813,
@@ -20269,7 +20278,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_796",
+  name = "grass_D7_great_swamp_796",
   layer = -2,
   x = 568,
   y = 749,
@@ -20281,7 +20290,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_797",
+  name = "grass_D7_great_swamp_797",
   layer = -2,
   x = 584,
   y = 781,
@@ -20293,7 +20302,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_798",
+  name = "grass_D7_great_swamp_798",
   layer = -2,
   x = 568,
   y = 765,
@@ -20305,7 +20314,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_799",
+  name = "grass_D7_great_swamp_799",
   layer = -2,
   x = 568,
   y = 781,
@@ -20317,7 +20326,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_800",
+  name = "grass_D7_great_swamp_800",
   layer = -2,
   x = 552,
   y = 765,
@@ -20329,7 +20338,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_801",
+  name = "grass_D7_great_swamp_801",
   layer = -2,
   x = 552,
   y = 781,
@@ -20341,7 +20350,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_802",
+  name = "grass_D7_great_swamp_802",
   layer = -2,
   x = 536,
   y = 765,
@@ -20353,7 +20362,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_803",
+  name = "grass_D7_great_swamp_803",
   layer = -2,
   x = 536,
   y = 781,
@@ -20365,7 +20374,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_804",
+  name = "grass_D7_great_swamp_804",
   layer = -2,
   x = 584,
   y = 685,
@@ -20377,7 +20386,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_805",
+  name = "grass_D7_great_swamp_805",
   layer = -2,
   x = 584,
   y = 701,
@@ -20389,7 +20398,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_806",
+  name = "grass_D7_great_swamp_806",
   layer = -2,
   x = 568,
   y = 685,
@@ -20401,7 +20410,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_807",
+  name = "grass_D7_great_swamp_807",
   layer = -2,
   x = 568,
   y = 701,
@@ -20413,7 +20422,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_808",
+  name = "grass_D7_great_swamp_808",
   layer = -2,
   x = 616,
   y = 685,
@@ -20425,7 +20434,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_809",
+  name = "grass_D7_great_swamp_809",
   layer = -2,
   x = 616,
   y = 701,
@@ -20437,7 +20446,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_810",
+  name = "grass_D7_great_swamp_810",
   layer = -2,
   x = 600,
   y = 685,
@@ -20449,7 +20458,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_811",
+  name = "grass_D7_great_swamp_811",
   layer = -2,
   x = 600,
   y = 701,
@@ -20461,7 +20470,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_812",
+  name = "grass_D7_great_swamp_812",
   layer = -2,
   x = 648,
   y = 653,
@@ -20473,7 +20482,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_813",
+  name = "grass_D7_great_swamp_813",
   layer = -2,
   x = 648,
   y = 669,
@@ -20485,7 +20494,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_814",
+  name = "grass_D7_great_swamp_814",
   layer = -2,
   x = 632,
   y = 653,
@@ -20497,7 +20506,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_815",
+  name = "grass_D7_great_swamp_815",
   layer = -2,
   x = 632,
   y = 669,
@@ -20509,7 +20518,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_816",
+  name = "grass_D7_great_swamp_816",
   layer = -2,
   x = 648,
   y = 685,
@@ -20521,7 +20530,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_817",
+  name = "grass_D7_great_swamp_817",
   layer = -2,
   x = 648,
   y = 701,
@@ -20533,7 +20542,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_818",
+  name = "grass_D7_great_swamp_818",
   layer = -2,
   x = 632,
   y = 685,
@@ -20545,7 +20554,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_819",
+  name = "grass_D7_great_swamp_819",
   layer = -2,
   x = 632,
   y = 701,
@@ -20557,7 +20566,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_820",
+  name = "grass_D7_great_swamp_820",
   layer = -2,
   x = 664,
   y = 717,
@@ -20569,7 +20578,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_821",
+  name = "grass_D7_great_swamp_821",
   layer = -2,
   x = 616,
   y = 669,
@@ -20581,7 +20590,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_822",
+  name = "grass_D7_great_swamp_822",
   layer = -2,
   x = 648,
   y = 717,
@@ -20593,7 +20602,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_823",
+  name = "grass_D7_great_swamp_823",
   layer = -2,
   x = 648,
   y = 733,
@@ -20605,7 +20614,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_824",
+  name = "grass_D7_great_swamp_824",
   layer = -2,
   x = 568,
   y = 925,
@@ -20617,7 +20626,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_825",
+  name = "grass_D7_great_swamp_825",
   layer = -2,
   x = 568,
   y = 941,
@@ -20629,7 +20638,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_826",
+  name = "grass_D7_great_swamp_826",
   layer = -2,
   x = 552,
   y = 925,
@@ -20641,7 +20650,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_827",
+  name = "grass_D7_great_swamp_827",
   layer = -2,
   x = 552,
   y = 941,
@@ -20653,7 +20662,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_828",
+  name = "grass_D7_great_swamp_828",
   layer = -2,
   x = 552,
   y = 909,
@@ -20665,7 +20674,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_829",
+  name = "grass_D7_great_swamp_829",
   layer = -2,
   x = 552,
   y = 957,
@@ -20677,7 +20686,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_830",
+  name = "grass_D7_great_swamp_830",
   layer = -2,
   x = 536,
   y = 941,
@@ -20689,7 +20698,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_831",
+  name = "grass_D7_great_swamp_831",
   layer = -2,
   x = 536,
   y = 957,
@@ -20701,7 +20710,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_832",
+  name = "grass_D7_great_swamp_832",
   layer = -2,
   x = 536,
   y = 909,
@@ -20713,7 +20722,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_833",
+  name = "grass_D7_great_swamp_833",
   layer = -2,
   x = 536,
   y = 925,
@@ -20725,7 +20734,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_834",
+  name = "grass_D7_great_swamp_834",
   layer = -2,
   x = 520,
   y = 909,
@@ -20737,7 +20746,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_835",
+  name = "grass_D7_great_swamp_835",
   layer = -2,
   x = 520,
   y = 925,
@@ -20749,7 +20758,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_836",
+  name = "grass_D7_great_swamp_836",
   layer = -2,
   x = 520,
   y = 941,
@@ -20761,7 +20770,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_837",
+  name = "grass_D7_great_swamp_837",
   layer = -2,
   x = 520,
   y = 957,
@@ -20773,7 +20782,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_838",
+  name = "grass_D7_great_swamp_838",
   layer = -2,
   x = 504,
   y = 941,
@@ -20785,7 +20794,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_839",
+  name = "grass_D7_great_swamp_839",
   layer = -2,
   x = 504,
   y = 957,
@@ -20797,7 +20806,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_840",
+  name = "grass_D7_great_swamp_840",
   layer = -2,
   x = 504,
   y = 909,
@@ -20809,7 +20818,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_841",
+  name = "grass_D7_great_swamp_841",
   layer = -2,
   x = 504,
   y = 925,
@@ -20821,7 +20830,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_842",
+  name = "grass_D7_great_swamp_842",
   layer = -2,
   x = 488,
   y = 909,
@@ -20833,7 +20842,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_843",
+  name = "grass_D7_great_swamp_843",
   layer = -2,
   x = 488,
   y = 925,
@@ -20845,7 +20854,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_844",
+  name = "grass_D7_great_swamp_844",
   layer = -2,
   x = 536,
   y = 877,
@@ -20857,7 +20866,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_845",
+  name = "grass_D7_great_swamp_845",
   layer = -2,
   x = 536,
   y = 893,
@@ -20869,7 +20878,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_846",
+  name = "grass_D7_great_swamp_846",
   layer = -2,
   x = 520,
   y = 877,
@@ -20881,7 +20890,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_847",
+  name = "grass_D7_great_swamp_847",
   layer = -2,
   x = 520,
   y = 893,
@@ -20893,7 +20902,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_848",
+  name = "grass_D7_great_swamp_848",
   layer = -2,
   x = 504,
   y = 877,
@@ -20905,7 +20914,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_849",
+  name = "grass_D7_great_swamp_849",
   layer = -2,
   x = 504,
   y = 893,
@@ -20917,7 +20926,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_850",
+  name = "grass_D7_great_swamp_850",
   layer = -2,
   x = 488,
   y = 877,
@@ -20929,7 +20938,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_851",
+  name = "grass_D7_great_swamp_851",
   layer = -2,
   x = 488,
   y = 893,
@@ -20941,7 +20950,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_852",
+  name = "grass_D7_great_swamp_852",
   layer = -2,
   x = 472,
   y = 877,
@@ -20953,7 +20962,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_853",
+  name = "grass_D7_great_swamp_853",
   layer = -2,
   x = 472,
   y = 893,
@@ -20965,7 +20974,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_854",
+  name = "grass_D7_great_swamp_854",
   layer = -2,
   x = 456,
   y = 877,
@@ -20977,7 +20986,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_855",
+  name = "grass_D7_great_swamp_855",
   layer = -2,
   x = 456,
   y = 893,
@@ -20989,7 +20998,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_856",
+  name = "grass_D7_great_swamp_856",
   layer = -2,
   x = 472,
   y = 845,
@@ -21001,7 +21010,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_857",
+  name = "grass_D7_great_swamp_857",
   layer = -2,
   x = 472,
   y = 861,
@@ -21013,7 +21022,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_858",
+  name = "grass_D7_great_swamp_858",
   layer = -2,
   x = 456,
   y = 845,
@@ -21025,7 +21034,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_859",
+  name = "grass_D7_great_swamp_859",
   layer = -2,
   x = 456,
   y = 861,
@@ -21037,7 +21046,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_860",
+  name = "grass_D7_great_swamp_860",
   layer = -2,
   x = 504,
   y = 845,
@@ -21049,7 +21058,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_861",
+  name = "grass_D7_great_swamp_861",
   layer = -2,
   x = 504,
   y = 861,
@@ -21061,7 +21070,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_862",
+  name = "grass_D7_great_swamp_862",
   layer = -2,
   x = 488,
   y = 845,
@@ -21073,7 +21082,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_863",
+  name = "grass_D7_great_swamp_863",
   layer = -2,
   x = 488,
   y = 861,
@@ -21085,7 +21094,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_864",
+  name = "grass_D7_great_swamp_864",
   layer = -2,
   x = 520,
   y = 829,
@@ -21097,7 +21106,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_865",
+  name = "grass_D7_great_swamp_865",
   layer = -2,
   x = 504,
   y = 829,
@@ -21109,7 +21118,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_866",
+  name = "grass_D7_great_swamp_866",
   layer = -2,
   x = 488,
   y = 813,
@@ -21121,7 +21130,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_867",
+  name = "grass_D7_great_swamp_867",
   layer = -2,
   x = 488,
   y = 829,
@@ -21133,7 +21142,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_868",
+  name = "grass_D7_great_swamp_868",
   layer = -2,
   x = 472,
   y = 909,
@@ -21145,7 +21154,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_869",
+  name = "grass_D7_great_swamp_869",
   layer = -2,
   x = 472,
   y = 925,
@@ -21157,7 +21166,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_870",
+  name = "grass_D7_great_swamp_870",
   layer = -2,
   x = 536,
   y = 829,
@@ -21169,7 +21178,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_871",
+  name = "grass_D7_great_swamp_871",
   layer = -2,
   x = 488,
   y = 941,
@@ -21181,7 +21190,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_872",
+  name = "grass_D7_great_swamp_872",
   layer = -2,
   x = 568,
   y = 733,
@@ -21193,7 +21202,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_873",
+  name = "grass_D7_great_swamp_873",
   layer = -2,
   x = 552,
   y = 749,
@@ -21205,7 +21214,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_874",
+  name = "grass_D7_great_swamp_874",
   layer = -2,
   x = 520,
   y = 845,
@@ -21217,7 +21226,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_875",
+  name = "grass_D7_great_swamp_875",
   layer = -2,
   x = 520,
   y = 861,
@@ -21229,7 +21238,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_876",
+  name = "grass_D7_great_swamp_876",
   layer = -2,
   x = 664,
   y = 189,
@@ -21241,7 +21250,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_877",
+  name = "grass_D7_great_swamp_877",
   layer = -2,
   x = 664,
   y = 205,
@@ -21253,7 +21262,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_878",
+  name = "grass_D7_great_swamp_878",
   layer = -2,
   x = 696,
   y = 173,
@@ -21265,7 +21274,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_879",
+  name = "grass_D7_great_swamp_879",
   layer = -2,
   x = 696,
   y = 189,
@@ -21277,7 +21286,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_880",
+  name = "grass_D7_great_swamp_880",
   layer = -2,
   x = 520,
   y = 157,
@@ -21289,7 +21298,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_881",
+  name = "grass_D7_great_swamp_881",
   layer = -2,
   x = 520,
   y = 173,
@@ -21301,7 +21310,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_882",
+  name = "grass_D7_great_swamp_882",
   layer = -2,
   x = 504,
   y = 157,
@@ -21313,7 +21322,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_883",
+  name = "grass_D7_great_swamp_883",
   layer = -2,
   x = 504,
   y = 173,
@@ -21325,7 +21334,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_884",
+  name = "grass_D7_great_swamp_884",
   layer = -2,
   x = 552,
   y = 141,
@@ -21337,7 +21346,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_885",
+  name = "grass_D7_great_swamp_885",
   layer = -2,
   x = 520,
   y = 141,
@@ -21349,7 +21358,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_886",
+  name = "grass_D7_great_swamp_886",
   layer = -2,
   x = 536,
   y = 141,
@@ -21361,7 +21370,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_887",
+  name = "grass_D7_great_swamp_887",
   layer = -2,
   x = 536,
   y = 157,
@@ -21373,7 +21382,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_888",
+  name = "grass_D7_great_swamp_888",
   layer = -2,
   x = 488,
   y = 141,
@@ -21385,7 +21394,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_889",
+  name = "grass_D7_great_swamp_889",
   layer = -2,
   x = 488,
   y = 157,
@@ -21397,7 +21406,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_890",
+  name = "grass_D7_great_swamp_890",
   layer = -2,
   x = 472,
   y = 141,
@@ -21409,7 +21418,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_891",
+  name = "grass_D7_great_swamp_891",
   layer = -2,
   x = 504,
   y = 141,
@@ -21421,7 +21430,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_892",
+  name = "grass_D7_great_swamp_892",
   layer = -2,
   x = 392,
   y = 189,
@@ -21433,7 +21442,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_893",
+  name = "grass_D7_great_swamp_893",
   layer = -2,
   x = 392,
   y = 205,
@@ -21445,7 +21454,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_894",
+  name = "grass_D7_great_swamp_894",
   layer = -2,
   x = 376,
   y = 189,
@@ -21457,7 +21466,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_895",
+  name = "grass_D7_great_swamp_895",
   layer = -2,
   x = 376,
   y = 205,
@@ -21469,7 +21478,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_896",
+  name = "grass_D7_great_swamp_896",
   layer = -2,
   x = 360,
   y = 189,
@@ -21481,7 +21490,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_897",
+  name = "grass_D7_great_swamp_897",
   layer = -2,
   x = 360,
   y = 205,
@@ -21493,7 +21502,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_898",
+  name = "grass_D7_great_swamp_898",
   layer = -2,
   x = 344,
   y = 189,
@@ -21505,7 +21514,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_899",
+  name = "grass_D7_great_swamp_899",
   layer = -2,
   x = 344,
   y = 205,
@@ -21517,7 +21526,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_900",
+  name = "grass_D7_great_swamp_900",
   layer = -2,
   x = 328,
   y = 189,
@@ -21529,7 +21538,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_901",
+  name = "grass_D7_great_swamp_901",
   layer = -2,
   x = 328,
   y = 205,
@@ -21541,7 +21550,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_902",
+  name = "grass_D7_great_swamp_902",
   layer = -2,
   x = 312,
   y = 189,
@@ -21553,7 +21562,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_903",
+  name = "grass_D7_great_swamp_903",
   layer = -2,
   x = 312,
   y = 205,
@@ -21565,7 +21574,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_904",
+  name = "grass_D7_great_swamp_904",
   layer = -2,
   x = 360,
   y = 157,
@@ -21577,7 +21586,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_905",
+  name = "grass_D7_great_swamp_905",
   layer = -2,
   x = 360,
   y = 173,
@@ -21589,7 +21598,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_906",
+  name = "grass_D7_great_swamp_906",
   layer = -2,
   x = 344,
   y = 157,
@@ -21601,7 +21610,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_907",
+  name = "grass_D7_great_swamp_907",
   layer = -2,
   x = 344,
   y = 173,
@@ -21613,7 +21622,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_908",
+  name = "grass_D7_great_swamp_908",
   layer = -2,
   x = 296,
   y = 141,
@@ -21625,7 +21634,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_909",
+  name = "grass_D7_great_swamp_909",
   layer = -2,
   x = 296,
   y = 157,
@@ -21637,7 +21646,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_910",
+  name = "grass_D7_great_swamp_910",
   layer = -2,
   x = 280,
   y = 141,
@@ -21649,7 +21658,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_911",
+  name = "grass_D7_great_swamp_911",
   layer = -2,
   x = 280,
   y = 157,
@@ -21661,7 +21670,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_912",
+  name = "grass_D7_great_swamp_912",
   layer = -2,
   x = 296,
   y = 109,
@@ -21673,7 +21682,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_913",
+  name = "grass_D7_great_swamp_913",
   layer = -2,
   x = 296,
   y = 125,
@@ -21685,7 +21694,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_914",
+  name = "grass_D7_great_swamp_914",
   layer = -2,
   x = 280,
   y = 109,
@@ -21697,7 +21706,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_915",
+  name = "grass_D7_great_swamp_915",
   layer = -2,
   x = 280,
   y = 125,
@@ -21709,7 +21718,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_916",
+  name = "grass_D7_great_swamp_916",
   layer = -2,
   x = 328,
   y = 109,
@@ -21721,7 +21730,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_917",
+  name = "grass_D7_great_swamp_917",
   layer = -2,
   x = 328,
   y = 125,
@@ -21733,7 +21742,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_918",
+  name = "grass_D7_great_swamp_918",
   layer = -2,
   x = 312,
   y = 109,
@@ -21745,7 +21754,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_919",
+  name = "grass_D7_great_swamp_919",
   layer = -2,
   x = 312,
   y = 125,
@@ -21757,7 +21766,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_920",
+  name = "grass_D7_great_swamp_920",
   layer = -2,
   x = 360,
   y = 77,
@@ -21769,7 +21778,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_921",
+  name = "grass_D7_great_swamp_921",
   layer = -2,
   x = 360,
   y = 93,
@@ -21781,7 +21790,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_922",
+  name = "grass_D7_great_swamp_922",
   layer = -2,
   x = 344,
   y = 77,
@@ -21793,7 +21802,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_923",
+  name = "grass_D7_great_swamp_923",
   layer = -2,
   x = 344,
   y = 93,
@@ -21805,7 +21814,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_924",
+  name = "grass_D7_great_swamp_924",
   layer = -2,
   x = 376,
   y = 93,
@@ -21817,7 +21826,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_925",
+  name = "grass_D7_great_swamp_925",
   layer = -2,
   x = 392,
   y = 125,
@@ -21829,7 +21838,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_926",
+  name = "grass_D7_great_swamp_926",
   layer = -2,
   x = 376,
   y = 109,
@@ -21841,7 +21850,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_927",
+  name = "grass_D7_great_swamp_927",
   layer = -2,
   x = 376,
   y = 125,
@@ -21853,7 +21862,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_928",
+  name = "grass_D7_great_swamp_928",
   layer = -2,
   x = 328,
   y = 77,
@@ -21865,7 +21874,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_929",
+  name = "grass_D7_great_swamp_929",
   layer = -2,
   x = 424,
   y = 157,
@@ -21877,7 +21886,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_930",
+  name = "grass_D7_great_swamp_930",
   layer = -2,
   x = 408,
   y = 141,
@@ -21889,7 +21898,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_931",
+  name = "grass_D7_great_swamp_931",
   layer = -2,
   x = 408,
   y = 157,
@@ -21901,7 +21910,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_932",
+  name = "grass_D7_great_swamp_932",
   layer = -2,
   x = 312,
   y = 93,
@@ -21913,7 +21922,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_933",
+  name = "grass_D7_great_swamp_933",
   layer = -2,
   x = 360,
   y = 397,
@@ -21925,7 +21934,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_934",
+  name = "grass_D7_great_swamp_934",
   layer = -2,
   x = 264,
   y = 269,
@@ -21937,7 +21946,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_935",
+  name = "grass_D7_great_swamp_935",
   layer = -2,
   x = 344,
   y = 397,
@@ -21949,7 +21958,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_936",
+  name = "grass_D7_great_swamp_936",
   layer = -2,
   x = 376,
   y = 589,
@@ -21961,7 +21970,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_937",
+  name = "grass_D7_great_swamp_937",
   layer = -2,
   x = 376,
   y = 605,
@@ -21973,7 +21982,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_938",
+  name = "grass_D7_great_swamp_938",
   layer = -2,
   x = 360,
   y = 589,
@@ -21985,7 +21994,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_939",
+  name = "grass_D7_great_swamp_939",
   layer = -2,
   x = 360,
   y = 605,
@@ -21997,7 +22006,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_940",
+  name = "grass_D7_great_swamp_940",
   layer = -2,
   x = 376,
   y = 557,
@@ -22009,7 +22018,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_941",
+  name = "grass_D7_great_swamp_941",
   layer = -2,
   x = 376,
   y = 573,
@@ -22021,7 +22030,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_942",
+  name = "grass_D7_great_swamp_942",
   layer = -2,
   x = 360,
   y = 557,
@@ -22033,7 +22042,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_943",
+  name = "grass_D7_great_swamp_943",
   layer = -2,
   x = 360,
   y = 573,
@@ -22045,7 +22054,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_944",
+  name = "grass_D7_great_swamp_944",
   layer = -2,
   x = 280,
   y = 397,
@@ -22057,7 +22066,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_945",
+  name = "grass_D7_great_swamp_945",
   layer = -2,
   x = 376,
   y = 541,
@@ -22069,7 +22078,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_946",
+  name = "grass_D7_great_swamp_946",
   layer = -2,
   x = 360,
   y = 525,
@@ -22081,7 +22090,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_947",
+  name = "grass_D7_great_swamp_947",
   layer = -2,
   x = 360,
   y = 541,
@@ -22093,7 +22102,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_948",
+  name = "grass_D7_great_swamp_948",
   layer = -2,
   x = 328,
   y = 461,
@@ -22105,7 +22114,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_949",
+  name = "grass_D7_great_swamp_949",
   layer = -2,
   x = 328,
   y = 477,
@@ -22117,7 +22126,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_950",
+  name = "grass_D7_great_swamp_950",
   layer = -2,
   x = 312,
   y = 461,
@@ -22129,7 +22138,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_951",
+  name = "grass_D7_great_swamp_951",
   layer = -2,
   x = 312,
   y = 477,
@@ -22141,7 +22150,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_952",
+  name = "grass_D7_great_swamp_952",
   layer = -2,
   x = 360,
   y = 509,
@@ -22153,7 +22162,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_953",
+  name = "grass_D7_great_swamp_953",
   layer = -2,
   x = 360,
   y = 493,
@@ -22165,7 +22174,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_954",
+  name = "grass_D7_great_swamp_954",
   layer = -2,
   x = 344,
   y = 477,
@@ -22177,7 +22186,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_955",
+  name = "grass_D7_great_swamp_955",
   layer = -2,
   x = 344,
   y = 493,
@@ -22189,7 +22198,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_956",
+  name = "grass_D7_great_swamp_956",
   layer = -2,
   x = 344,
   y = 509,
@@ -22201,7 +22210,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_957",
+  name = "grass_D7_great_swamp_957",
   layer = -2,
   x = 344,
   y = 525,
@@ -22213,7 +22222,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_958",
+  name = "grass_D7_great_swamp_958",
   layer = -2,
   x = 328,
   y = 509,
@@ -22225,7 +22234,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_959",
+  name = "grass_D7_great_swamp_959",
   layer = -2,
   x = 328,
   y = 525,
@@ -22237,7 +22246,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_960",
+  name = "grass_D7_great_swamp_960",
   layer = -2,
   x = 344,
   y = 541,
@@ -22249,7 +22258,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_961",
+  name = "grass_D7_great_swamp_961",
   layer = -2,
   x = 344,
   y = 557,
@@ -22261,7 +22270,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_962",
+  name = "grass_D7_great_swamp_962",
   layer = -2,
   x = 328,
   y = 541,
@@ -22273,7 +22282,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_963",
+  name = "grass_D7_great_swamp_963",
   layer = -2,
   x = 328,
   y = 557,
@@ -22285,7 +22294,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_964",
+  name = "grass_D7_great_swamp_964",
   layer = -2,
   x = 344,
   y = 573,
@@ -22297,7 +22306,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_965",
+  name = "grass_D7_great_swamp_965",
   layer = -2,
   x = 344,
   y = 589,
@@ -22309,7 +22318,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_966",
+  name = "grass_D7_great_swamp_966",
   layer = -2,
   x = 328,
   y = 573,
@@ -22321,7 +22330,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_967",
+  name = "grass_D7_great_swamp_967",
   layer = -2,
   x = 328,
   y = 589,
@@ -22333,7 +22342,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_968",
+  name = "grass_D7_great_swamp_968",
   layer = -2,
   x = 344,
   y = 605,
@@ -22345,7 +22354,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_969",
+  name = "grass_D7_great_swamp_969",
   layer = -2,
   x = 344,
   y = 621,
@@ -22357,7 +22366,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_970",
+  name = "grass_D7_great_swamp_970",
   layer = -2,
   x = 328,
   y = 605,
@@ -22369,7 +22378,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_971",
+  name = "grass_D7_great_swamp_971",
   layer = -2,
   x = 328,
   y = 621,
@@ -22381,7 +22390,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_972",
+  name = "grass_D7_great_swamp_972",
   layer = -2,
   x = 312,
   y = 605,
@@ -22393,7 +22402,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_973",
+  name = "grass_D7_great_swamp_973",
   layer = -2,
   x = 312,
   y = 621,
@@ -22405,7 +22414,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_974",
+  name = "grass_D7_great_swamp_974",
   layer = -2,
   x = 296,
   y = 605,
@@ -22417,7 +22426,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_975",
+  name = "grass_D7_great_swamp_975",
   layer = -2,
   x = 296,
   y = 621,
@@ -22429,7 +22438,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_976",
+  name = "grass_D7_great_swamp_976",
   layer = -2,
   x = 312,
   y = 573,
@@ -22441,7 +22450,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_977",
+  name = "grass_D7_great_swamp_977",
   layer = -2,
   x = 312,
   y = 589,
@@ -22453,7 +22462,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_978",
+  name = "grass_D7_great_swamp_978",
   layer = -2,
   x = 296,
   y = 573,
@@ -22465,7 +22474,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_979",
+  name = "grass_D7_great_swamp_979",
   layer = -2,
   x = 296,
   y = 589,
@@ -22477,7 +22486,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_980",
+  name = "grass_D7_great_swamp_980",
   layer = -2,
   x = 312,
   y = 541,
@@ -22489,7 +22498,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_981",
+  name = "grass_D7_great_swamp_981",
   layer = -2,
   x = 312,
   y = 557,
@@ -22501,7 +22510,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_982",
+  name = "grass_D7_great_swamp_982",
   layer = -2,
   x = 296,
   y = 541,
@@ -22513,7 +22522,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_983",
+  name = "grass_D7_great_swamp_983",
   layer = -2,
   x = 296,
   y = 557,
@@ -22525,7 +22534,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_984",
+  name = "grass_D7_great_swamp_984",
   layer = -2,
   x = 312,
   y = 509,
@@ -22537,7 +22546,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_985",
+  name = "grass_D7_great_swamp_985",
   layer = -2,
   x = 312,
   y = 525,
@@ -22549,7 +22558,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_986",
+  name = "grass_D7_great_swamp_986",
   layer = -2,
   x = 296,
   y = 509,
@@ -22561,7 +22570,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_987",
+  name = "grass_D7_great_swamp_987",
   layer = -2,
   x = 296,
   y = 525,
@@ -22573,7 +22582,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_988",
+  name = "grass_D7_great_swamp_988",
   layer = -2,
   x = 328,
   y = 493,
@@ -22585,7 +22594,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_989",
+  name = "grass_D7_great_swamp_989",
   layer = -2,
   x = 312,
   y = 493,
@@ -22597,7 +22606,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_990",
+  name = "grass_D7_great_swamp_990",
   layer = -2,
   x = 296,
   y = 477,
@@ -22609,7 +22618,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_991",
+  name = "grass_D7_great_swamp_991",
   layer = -2,
   x = 296,
   y = 493,
@@ -22621,7 +22630,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_992",
+  name = "grass_D7_great_swamp_992",
   layer = -2,
   x = 280,
   y = 605,
@@ -22633,7 +22642,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_993",
+  name = "grass_D7_great_swamp_993",
   layer = -2,
   x = 280,
   y = 621,
@@ -22645,7 +22654,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_994",
+  name = "grass_D7_great_swamp_994",
   layer = -2,
   x = 264,
   y = 605,
@@ -22657,7 +22666,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_995",
+  name = "grass_D7_great_swamp_995",
   layer = -2,
   x = 344,
   y = 637,
@@ -22669,7 +22678,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_996",
+  name = "grass_D7_great_swamp_996",
   layer = -2,
   x = 280,
   y = 573,
@@ -22681,7 +22690,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_997",
+  name = "grass_D7_great_swamp_997",
   layer = -2,
   x = 280,
   y = 589,
@@ -22693,7 +22702,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_998",
+  name = "grass_D7_great_swamp_998",
   layer = -2,
   x = 264,
   y = 573,
@@ -22705,7 +22714,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_999",
+  name = "grass_D7_great_swamp_999",
   layer = -2,
   x = 264,
   y = 589,
@@ -22717,7 +22726,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1000",
+  name = "grass_D7_great_swamp_1000",
   layer = -2,
   x = 248,
   y = 589,
@@ -22729,7 +22738,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1001",
+  name = "grass_D7_great_swamp_1001",
   layer = -2,
   x = 248,
   y = 605,
@@ -22741,7 +22750,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1002",
+  name = "grass_D7_great_swamp_1002",
   layer = -2,
   x = 232,
   y = 589,
@@ -22753,7 +22762,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1003",
+  name = "grass_D7_great_swamp_1003",
   layer = -2,
   x = 296,
   y = 637,
@@ -22765,7 +22774,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1004",
+  name = "grass_D7_great_swamp_1004",
   layer = -2,
   x = 216,
   y = 557,
@@ -22777,7 +22786,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1005",
+  name = "grass_D7_great_swamp_1005",
   layer = -2,
   x = 216,
   y = 573,
@@ -22789,7 +22798,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1006",
+  name = "grass_D7_great_swamp_1006",
   layer = -2,
   x = 280,
   y = 509,
@@ -22801,7 +22810,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1007",
+  name = "grass_D7_great_swamp_1007",
   layer = -2,
   x = 136,
   y = 765,
@@ -22813,7 +22822,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1008",
+  name = "grass_D7_great_swamp_1008",
   layer = -2,
   x = 200,
   y = 509,
@@ -22825,7 +22834,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1009",
+  name = "grass_D7_great_swamp_1009",
   layer = -2,
   x = 200,
   y = 525,
@@ -22837,7 +22846,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1010",
+  name = "grass_D7_great_swamp_1010",
   layer = -2,
   x = 184,
   y = 509,
@@ -22849,7 +22858,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1011",
+  name = "grass_D7_great_swamp_1011",
   layer = -2,
   x = 184,
   y = 525,
@@ -22861,7 +22870,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1012",
+  name = "grass_D7_great_swamp_1012",
   layer = -2,
   x = 232,
   y = 525,
@@ -22873,7 +22882,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1013",
+  name = "grass_D7_great_swamp_1013",
   layer = -2,
   x = 232,
   y = 541,
@@ -22885,7 +22894,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1014",
+  name = "grass_D7_great_swamp_1014",
   layer = -2,
   x = 216,
   y = 525,
@@ -22897,7 +22906,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1015",
+  name = "grass_D7_great_swamp_1015",
   layer = -2,
   x = 216,
   y = 541,
@@ -22909,7 +22918,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1016",
+  name = "grass_D7_great_swamp_1016",
   layer = -2,
   x = 232,
   y = 493,
@@ -22921,7 +22930,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1017",
+  name = "grass_D7_great_swamp_1017",
   layer = -2,
   x = 232,
   y = 509,
@@ -22933,7 +22942,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1018",
+  name = "grass_D7_great_swamp_1018",
   layer = -2,
   x = 216,
   y = 493,
@@ -22945,7 +22954,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1019",
+  name = "grass_D7_great_swamp_1019",
   layer = -2,
   x = 216,
   y = 509,
@@ -22957,7 +22966,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1020",
+  name = "grass_D7_great_swamp_1020",
   layer = -2,
   x = 264,
   y = 493,
@@ -22969,7 +22978,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1021",
+  name = "grass_D7_great_swamp_1021",
   layer = -2,
   x = 264,
   y = 509,
@@ -22981,7 +22990,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1022",
+  name = "grass_D7_great_swamp_1022",
   layer = -2,
   x = 248,
   y = 493,
@@ -22993,7 +23002,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1023",
+  name = "grass_D7_great_swamp_1023",
   layer = -2,
   x = 248,
   y = 509,
@@ -23005,7 +23014,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1024",
+  name = "grass_D7_great_swamp_1024",
   layer = -2,
   x = 264,
   y = 525,
@@ -23017,7 +23026,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1025",
+  name = "grass_D7_great_swamp_1025",
   layer = -2,
   x = 264,
   y = 541,
@@ -23029,7 +23038,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1026",
+  name = "grass_D7_great_swamp_1026",
   layer = -2,
   x = 248,
   y = 525,
@@ -23041,7 +23050,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1027",
+  name = "grass_D7_great_swamp_1027",
   layer = -2,
   x = 248,
   y = 541,
@@ -23053,7 +23062,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1028",
+  name = "grass_D7_great_swamp_1028",
   layer = -2,
   x = 248,
   y = 557,
@@ -23065,7 +23074,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1029",
+  name = "grass_D7_great_swamp_1029",
   layer = -2,
   x = 248,
   y = 573,
@@ -23077,7 +23086,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1030",
+  name = "grass_D7_great_swamp_1030",
   layer = -2,
   x = 232,
   y = 557,
@@ -23089,7 +23098,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1031",
+  name = "grass_D7_great_swamp_1031",
   layer = -2,
   x = 232,
   y = 573,
@@ -23101,7 +23110,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1032",
+  name = "grass_D7_great_swamp_1032",
   layer = -2,
   x = 280,
   y = 541,
@@ -23113,7 +23122,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1033",
+  name = "grass_D7_great_swamp_1033",
   layer = -2,
   x = 280,
   y = 557,
@@ -23125,7 +23134,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1034",
+  name = "grass_D7_great_swamp_1034",
   layer = -2,
   x = 280,
   y = 525,
@@ -23137,7 +23146,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1035",
+  name = "grass_D7_great_swamp_1035",
   layer = -2,
   x = 264,
   y = 557,
@@ -23149,7 +23158,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1036",
+  name = "grass_D7_great_swamp_1036",
   layer = -2,
   x = 328,
   y = 637,
@@ -23161,7 +23170,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1037",
+  name = "grass_D7_great_swamp_1037",
   layer = -2,
   x = 280,
   y = 493,
@@ -23173,7 +23182,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1038",
+  name = "grass_D7_great_swamp_1038",
   layer = -2,
   x = 312,
   y = 637,
@@ -23185,7 +23194,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1039",
+  name = "grass_D7_great_swamp_1039",
   layer = -2,
   x = 168,
   y = 509,
@@ -23197,7 +23206,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1040",
+  name = "grass_D7_great_swamp_1040",
   layer = -2,
   x = 152,
   y = 781,
@@ -23209,7 +23218,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1041",
+  name = "grass_D7_great_swamp_1041",
   layer = -2,
   x = 152,
   y = 797,
@@ -23221,7 +23230,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1042",
+  name = "grass_D7_great_swamp_1042",
   layer = -2,
   x = 136,
   y = 781,
@@ -23233,7 +23242,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1043",
+  name = "grass_D7_great_swamp_1043",
   layer = -2,
   x = 136,
   y = 797,
@@ -23245,7 +23254,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1044",
+  name = "grass_D7_great_swamp_1044",
   layer = -2,
   x = 120,
   y = 781,
@@ -23257,7 +23266,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1045",
+  name = "grass_D7_great_swamp_1045",
   layer = -2,
   x = 136,
   y = 813,
@@ -23269,7 +23278,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1046",
+  name = "grass_D7_great_swamp_1046",
   layer = -2,
   x = 120,
   y = 797,
@@ -23281,7 +23290,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1047",
+  name = "grass_D7_great_swamp_1047",
   layer = -2,
   x = 120,
   y = 813,
@@ -23293,7 +23302,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1048",
+  name = "grass_D7_great_swamp_1048",
   layer = -2,
   x = 184,
   y = 893,
@@ -23305,7 +23314,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1049",
+  name = "grass_D7_great_swamp_1049",
   layer = -2,
   x = 184,
   y = 909,
@@ -23317,7 +23326,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1050",
+  name = "grass_D7_great_swamp_1050",
   layer = -2,
   x = 168,
   y = 893,
@@ -23329,7 +23338,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1051",
+  name = "grass_D7_great_swamp_1051",
   layer = -2,
   x = 168,
   y = 909,
@@ -23341,7 +23350,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1052",
+  name = "grass_D7_great_swamp_1052",
   layer = -2,
   x = 184,
   y = 861,
@@ -23353,7 +23362,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1053",
+  name = "grass_D7_great_swamp_1053",
   layer = -2,
   x = 184,
   y = 877,
@@ -23365,7 +23374,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1054",
+  name = "grass_D7_great_swamp_1054",
   layer = -2,
   x = 104,
   y = 797,
@@ -23377,7 +23386,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1055",
+  name = "grass_D7_great_swamp_1055",
   layer = -2,
   x = 168,
   y = 877,
@@ -23389,7 +23398,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1056",
+  name = "grass_D7_great_swamp_1056",
   layer = -2,
   x = 200,
   y = 829,
@@ -23401,7 +23410,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1057",
+  name = "grass_D7_great_swamp_1057",
   layer = -2,
   x = 200,
   y = 845,
@@ -23413,7 +23422,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1058",
+  name = "grass_D7_great_swamp_1058",
   layer = -2,
   x = 184,
   y = 829,
@@ -23425,7 +23434,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1059",
+  name = "grass_D7_great_swamp_1059",
   layer = -2,
   x = 184,
   y = 845,
@@ -23437,7 +23446,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1060",
+  name = "grass_D7_great_swamp_1060",
   layer = -2,
   x = 216,
   y = 797,
@@ -23449,7 +23458,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1061",
+  name = "grass_D7_great_swamp_1061",
   layer = -2,
   x = 216,
   y = 813,
@@ -23461,7 +23470,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1062",
+  name = "grass_D7_great_swamp_1062",
   layer = -2,
   x = 200,
   y = 797,
@@ -23473,7 +23482,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1063",
+  name = "grass_D7_great_swamp_1063",
   layer = -2,
   x = 200,
   y = 813,
@@ -23485,7 +23494,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1064",
+  name = "grass_D7_great_swamp_1064",
   layer = -2,
   x = 232,
   y = 781,
@@ -23497,7 +23506,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1065",
+  name = "grass_D7_great_swamp_1065",
   layer = -2,
   x = 232,
   y = 797,
@@ -23509,7 +23518,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1066",
+  name = "grass_D7_great_swamp_1066",
   layer = -2,
   x = 216,
   y = 781,
@@ -23521,7 +23530,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1067",
+  name = "grass_D7_great_swamp_1067",
   layer = -2,
   x = 248,
   y = 797,
@@ -23533,7 +23542,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1068",
+  name = "grass_D7_great_swamp_1068",
   layer = -2,
   x = 248,
   y = 813,
@@ -23545,7 +23554,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1069",
+  name = "grass_D7_great_swamp_1069",
   layer = -2,
   x = 248,
   y = 829,
@@ -23557,7 +23566,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1070",
+  name = "grass_D7_great_swamp_1070",
   layer = -2,
   x = 232,
   y = 813,
@@ -23569,7 +23578,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1071",
+  name = "grass_D7_great_swamp_1071",
   layer = -2,
   x = 232,
   y = 829,
@@ -23581,7 +23590,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1072",
+  name = "grass_D7_great_swamp_1072",
   layer = -2,
   x = 216,
   y = 861,
@@ -23593,7 +23602,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1073",
+  name = "grass_D7_great_swamp_1073",
   layer = -2,
   x = 216,
   y = 877,
@@ -23605,7 +23614,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1074",
+  name = "grass_D7_great_swamp_1074",
   layer = -2,
   x = 200,
   y = 861,
@@ -23617,7 +23626,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1075",
+  name = "grass_D7_great_swamp_1075",
   layer = -2,
   x = 200,
   y = 877,
@@ -23629,7 +23638,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1076",
+  name = "grass_D7_great_swamp_1076",
   layer = -2,
   x = 248,
   y = 861,
@@ -23641,7 +23650,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1077",
+  name = "grass_D7_great_swamp_1077",
   layer = -2,
   x = 248,
   y = 877,
@@ -23653,7 +23662,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1078",
+  name = "grass_D7_great_swamp_1078",
   layer = -2,
   x = 232,
   y = 861,
@@ -23665,7 +23674,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1079",
+  name = "grass_D7_great_swamp_1079",
   layer = -2,
   x = 232,
   y = 877,
@@ -23677,7 +23686,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1080",
+  name = "grass_D7_great_swamp_1080",
   layer = -2,
   x = 264,
   y = 877,
@@ -23689,7 +23698,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1081",
+  name = "grass_D7_great_swamp_1081",
   layer = -2,
   x = 264,
   y = 893,
@@ -23701,7 +23710,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1082",
+  name = "grass_D7_great_swamp_1082",
   layer = -2,
   x = 216,
   y = 829,
@@ -23713,7 +23722,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1083",
+  name = "grass_D7_great_swamp_1083",
   layer = -2,
   x = 248,
   y = 893,
@@ -23725,7 +23734,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1084",
+  name = "grass_D7_great_swamp_1084",
   layer = -2,
   x = 312,
   y = 893,
@@ -23737,7 +23746,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1085",
+  name = "grass_D7_great_swamp_1085",
   layer = -2,
   x = 312,
   y = 909,
@@ -23749,7 +23758,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1086",
+  name = "grass_D7_great_swamp_1086",
   layer = -2,
   x = 296,
   y = 893,
@@ -23761,7 +23770,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1087",
+  name = "grass_D7_great_swamp_1087",
   layer = -2,
   x = 296,
   y = 909,
@@ -23773,7 +23782,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1088",
+  name = "grass_D7_great_swamp_1088",
   layer = -2,
   x = 312,
   y = 861,
@@ -23785,7 +23794,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1089",
+  name = "grass_D7_great_swamp_1089",
   layer = -2,
   x = 312,
   y = 877,
@@ -23797,7 +23806,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1090",
+  name = "grass_D7_great_swamp_1090",
   layer = -2,
   x = 296,
   y = 861,
@@ -23809,7 +23818,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1091",
+  name = "grass_D7_great_swamp_1091",
   layer = -2,
   x = 296,
   y = 877,
@@ -23821,7 +23830,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1092",
+  name = "grass_D7_great_swamp_1092",
   layer = -2,
   x = 280,
   y = 845,
@@ -23833,7 +23842,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1093",
+  name = "grass_D7_great_swamp_1093",
   layer = -2,
   x = 280,
   y = 861,
@@ -23845,7 +23854,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1094",
+  name = "grass_D7_great_swamp_1094",
   layer = -2,
   x = 264,
   y = 845,
@@ -23857,7 +23866,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1095",
+  name = "grass_D7_great_swamp_1095",
   layer = -2,
   x = 264,
   y = 861,
@@ -23869,7 +23878,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1096",
+  name = "grass_D7_great_swamp_1096",
   layer = -2,
   x = 344,
   y = 829,
@@ -23881,7 +23890,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1097",
+  name = "grass_D7_great_swamp_1097",
   layer = -2,
   x = 344,
   y = 845,
@@ -23893,7 +23902,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1098",
+  name = "grass_D7_great_swamp_1098",
   layer = -2,
   x = 360,
   y = 861,
@@ -23905,7 +23914,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1099",
+  name = "grass_D7_great_swamp_1099",
   layer = -2,
   x = 328,
   y = 845,
@@ -23917,7 +23926,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1100",
+  name = "grass_D7_great_swamp_1100",
   layer = -2,
   x = 280,
   y = 829,
@@ -23929,7 +23938,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1101",
+  name = "grass_D7_great_swamp_1101",
   layer = -2,
   x = 312,
   y = 845,
@@ -23941,7 +23950,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1102",
+  name = "grass_D7_great_swamp_1102",
   layer = -2,
   x = 264,
   y = 829,
@@ -23953,7 +23962,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1103",
+  name = "grass_D7_great_swamp_1103",
   layer = -2,
   x = 296,
   y = 845,
@@ -23965,7 +23974,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1104",
+  name = "grass_D7_great_swamp_1104",
   layer = -2,
   x = 248,
   y = 845,
@@ -23977,7 +23986,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1105",
+  name = "grass_D7_great_swamp_1105",
   layer = -2,
   x = 232,
   y = 845,
@@ -23989,7 +23998,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1106",
+  name = "grass_D7_great_swamp_1106",
   layer = -2,
   x = 424,
   y = 717,
@@ -24001,7 +24010,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1107",
+  name = "grass_D7_great_swamp_1107",
   layer = -2,
   x = 216,
   y = 845,
@@ -24013,7 +24022,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1108",
+  name = "grass_D7_great_swamp_1108",
   layer = -2,
   x = 280,
   y = 893,
@@ -24025,7 +24034,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_1109",
+  name = "grass_D7_great_swamp_1109",
   layer = -2,
   x = 280,
   y = 877,
@@ -24037,7 +24046,7 @@ destructible{
 }
 
 destructible{
-  name = "big_stone_swamp_0",
+  name = "big_stone_D7_great_swamp_0",
   layer = -2,
   x = 168,
   y = 365,
@@ -24047,7 +24056,7 @@ destructible{
 }
 
 destructible{
-  name = "big_stone_swamp_1",
+  name = "big_stone_D7_great_swamp_1",
   layer = -2,
   x = 552,
   y = 845,
@@ -24057,7 +24066,7 @@ destructible{
 }
 
 destructible{
-  name = "hammer_stake_swamp_0",
+  name = "hammer_stake_D7_great_swamp_0",
   layer = -2,
   x = 440,
   y = 141,
@@ -24068,7 +24077,7 @@ destructible{
 }
 
 destructible{
-  name = "hammer_stake_swamp_1",
+  name = "hammer_stake_D7_great_swamp_1",
   layer = -2,
   x = 440,
   y = 157,
@@ -24079,7 +24088,7 @@ destructible{
 }
 
 destructible{
-  name = "hammer_stake_swamp_2",
+  name = "hammer_stake_D7_great_swamp_2",
   layer = -2,
   x = 440,
   y = 173,
@@ -24090,13 +24099,13 @@ destructible{
 }
 
 teletransporter{
-  name = "swamp_warp_0",
+  name = "warp_D7_great_swamp_0",
   layer = -2,
   x = 320,
   y = 80,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Light World/Overworld/overworld_light",
+  destination_map = "Archived/A Link to the Past/Dark World/overworld_dark",
   sprite = "entities/teletransporter_yellow",
   sound = "warp",
 }
@@ -29250,6 +29259,14 @@ tile{
   pattern = "454",
 }
 
+destination{
+  name = "dest_secret_20",
+  layer = 2,
+  x = 568,
+  y = 573,
+  direction = 3,
+}
+
 tile{
   layer = 3,
   x = 976,
@@ -31924,62 +31941,63 @@ tile{
 }
 
 teletransporter{
-  name = "border_great_swamp_west",
+  name = "border_D7_great_swamp_west",
   layer = 7,
   x = -8,
   y = 0,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/plain_of_ruins_north_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/C7_plain_of_ruins_north_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_great_swamp_north",
+  name = "border_D7_great_swamp_north",
   layer = 7,
   x = 0,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/link_forest_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/D6_link_forest_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_great_swamp_north_2",
+  name = "border_D7_great_swamp_north_2",
   layer = 7,
   x = 512,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/link_house_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/E6_bomb_shop_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_great_swamp_west_2",
+  name = "border_D7_great_swamp_west_2",
   layer = 7,
   x = -8,
   y = 512,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/plain_of_ruin_south_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/C8_plain_of_ruins_south_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_great_swamp_east",
+  name = "border_D7_great_swamp_east",
   layer = 7,
   x = 1024,
   y = 0,
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F7_ice_lake_npz",
+  destination = "_side",
 }
 
 wall{

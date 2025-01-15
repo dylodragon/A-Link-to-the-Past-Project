@@ -4241,7 +4241,7 @@ tile{
 }
 
 destructible{
-  name = "stone_white_river_ice_north_29",
+  name = "stone_white_H7_river_hylia_north_29",
   layer = -2,
   x = 344,
   y = 125,
@@ -4251,7 +4251,7 @@ destructible{
 }
 
 destructible{
-  name = "stone_white_river_ice_north_30",
+  name = "stone_white_H7_river_hylia_north_30",
   layer = -2,
   x = 200,
   y = 173,
@@ -4261,7 +4261,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_178",
+  name = "grass_H7_river_hylia_north_178",
   layer = -2,
   x = 152,
   y = 125,
@@ -4273,7 +4273,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_179",
+  name = "grass_H7_river_hylia_north_179",
   layer = -2,
   x = 168,
   y = 125,
@@ -4285,7 +4285,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_180",
+  name = "grass_H7_river_hylia_north_180",
   layer = -2,
   x = 184,
   y = 125,
@@ -4297,7 +4297,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_181",
+  name = "grass_H7_river_hylia_north_181",
   layer = -2,
   x = 200,
   y = 125,
@@ -4309,7 +4309,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_182",
+  name = "grass_H7_river_hylia_north_182",
   layer = -2,
   x = 152,
   y = 141,
@@ -4321,7 +4321,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_183",
+  name = "grass_H7_river_hylia_north_183",
   layer = -2,
   x = 168,
   y = 141,
@@ -4333,7 +4333,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_184",
+  name = "grass_H7_river_hylia_north_184",
   layer = -2,
   x = 184,
   y = 141,
@@ -4345,7 +4345,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_185",
+  name = "grass_H7_river_hylia_north_185",
   layer = -2,
   x = 168,
   y = 157,
@@ -4357,7 +4357,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_186",
+  name = "grass_H7_river_hylia_north_186",
   layer = -2,
   x = 216,
   y = 125,
@@ -4369,7 +4369,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_187",
+  name = "grass_H7_river_hylia_north_187",
   layer = -2,
   x = 200,
   y = 141,
@@ -4381,7 +4381,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_188",
+  name = "grass_H7_river_hylia_north_188",
   layer = -2,
   x = 152,
   y = 109,
@@ -4393,7 +4393,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_189",
+  name = "grass_H7_river_hylia_north_189",
   layer = -2,
   x = 168,
   y = 109,
@@ -4405,7 +4405,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_190",
+  name = "grass_H7_river_hylia_north_190",
   layer = -2,
   x = 184,
   y = 109,
@@ -4417,7 +4417,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_191",
+  name = "grass_H7_river_hylia_north_191",
   layer = -2,
   x = 200,
   y = 109,
@@ -4429,7 +4429,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_192",
+  name = "grass_H7_river_hylia_north_192",
   layer = -2,
   x = 216,
   y = 109,
@@ -4441,7 +4441,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_193",
+  name = "grass_H7_river_hylia_north_193",
   layer = -2,
   x = 88,
   y = 109,
@@ -4453,7 +4453,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_194",
+  name = "grass_H7_river_hylia_north_194",
   layer = -2,
   x = 104,
   y = 109,
@@ -4465,7 +4465,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_195",
+  name = "grass_H7_river_hylia_north_195",
   layer = -2,
   x = 120,
   y = 109,
@@ -4477,7 +4477,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_196",
+  name = "grass_H7_river_hylia_north_196",
   layer = -2,
   x = 136,
   y = 109,
@@ -4489,7 +4489,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_197",
+  name = "grass_H7_river_hylia_north_197",
   layer = -2,
   x = 104,
   y = 125,
@@ -4501,7 +4501,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_198",
+  name = "grass_H7_river_hylia_north_198",
   layer = -2,
   x = 120,
   y = 125,
@@ -4513,7 +4513,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_199",
+  name = "grass_H7_river_hylia_north_199",
   layer = -2,
   x = 136,
   y = 125,
@@ -4525,7 +4525,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_200",
+  name = "grass_H7_river_hylia_north_200",
   layer = -2,
   x = 136,
   y = 141,
@@ -4537,7 +4537,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_201",
+  name = "grass_H7_river_hylia_north_201",
   layer = -2,
   x = 136,
   y = 157,
@@ -4549,7 +4549,7 @@ destructible{
 }
 
 destructible{
-  name = "grass_hyrule_castle_202",
+  name = "grass_H7_river_hylia_north_202",
   layer = -2,
   x = 152,
   y = 157,
@@ -7312,6 +7312,14 @@ tile{
   pattern = "1044",
 }
 
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 296,
+  y = 157,
+  direction = 3,
+}
+
 tile{
   layer = 3,
   x = 0,
@@ -7502,38 +7510,38 @@ tile{
 }
 
 teletransporter{
-  name = "border_river_hylia_north_west",
+  name = "border_H7_river_hylia_north_west",
   layer = 7,
   x = -8,
   y = 0,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/lake_hylia_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F7_ice_lake_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_river_hylia_north_south",
+  name = "border_H7_river_hylia_north_south",
   layer = 7,
   x = 0,
   y = 512,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/river_hylia_south_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H8_river_hylia_south_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_river_hylia_north_north",
+  name = "border_H7_river_hylia_north_north",
   layer = 7,
   x = 0,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/deadend_east_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H6_deadend_east_npz",
   destination = "_side",
 }
 

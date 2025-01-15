@@ -11785,7 +11785,7 @@ tile{
 }
 
 destructible{
-  name = "bush_lake_hylia_0",
+  name = "bush_F7_ice_lake_0",
   layer = -2,
   x = 232,
   y = 109,
@@ -11795,7 +11795,7 @@ destructible{
 }
 
 destructible{
-  name = "stone_black_lake_hylia_1",
+  name = "stone_black_F7_ice_lake_1",
   layer = -2,
   x = 168,
   y = 525,
@@ -11805,7 +11805,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lake_hylia_4",
+  name = "bush_F7_ice_lake_4",
   layer = -2,
   x = 136,
   y = 397,
@@ -11815,7 +11815,7 @@ destructible{
 }
 
 destructible{
-  name = "bush_lake_hylia_6",
+  name = "bush_F7_ice_lake_6",
   layer = -2,
   x = 184,
   y = 477,
@@ -11825,7 +11825,7 @@ destructible{
 }
 
 destructible{
-  name = "stone_white_lake_hylia_0",
+  name = "stone_white_F7_ice_lake_0",
   layer = -2,
   x = 200,
   y = 93,
@@ -23759,6 +23759,14 @@ tile{
   pattern = "454",
 }
 
+destination{
+  name = "dest_secret",
+  layer = 2,
+  x = 416,
+  y = 141,
+  direction = 3,
+}
+
 tile{
   layer = 3,
   x = 464,
@@ -25993,26 +26001,26 @@ tile{
 }
 
 teletransporter{
-  name = "border_lake_hylia_north",
+  name = "border_F7_ice_lake_north",
   layer = 7,
   x = 0,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/stone_bridge_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F6_stone_bridge_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_lake_hylia_north_2",
+  name = "border_F7_ice_lake_north_2",
   layer = 7,
   x = 512,
   y = -8,
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/plain_hylia_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G6_plain_hylia_npz",
   destination = "_side",
 }
 
@@ -26031,38 +26039,38 @@ wall{
 }
 
 teletransporter{
-  name = "border_lake_hylia_west",
+  name = "border_F7_ice_lake_west",
   layer = 7,
   x = -8,
   y = 0,
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/great_swamp_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/D7_great_swamp_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_river_hylia_south_west",
+  name = "border_F7_ice_lake_east",
   layer = 7,
   x = 1024,
   y = 0,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/lake_hylia_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H7_river_hylia_north_npz",
   destination = "_side",
 }
 
 teletransporter{
-  name = "border_river_hylia_south_west_2",
+  name = "border_F7_ice_lake_east_2",
   layer = 7,
   x = 1024,
   y = 512,
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Non_Playable Zone/Light World/lake_hylia_npz",
+  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H8_river_hylia_south_npz",
   destination = "_side",
 }
 
