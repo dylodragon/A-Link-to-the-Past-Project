@@ -12905,10 +12905,10 @@ enemy{
   properties = {
     {
       key = "variant",
-      value = "1",
+      value = "2",
     },
   },
-  direction = 0,
+  direction = 3,
   breed = "bosses/agahnim",
 }
 

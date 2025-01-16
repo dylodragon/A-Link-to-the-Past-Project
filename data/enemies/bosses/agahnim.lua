@@ -1,7 +1,7 @@
 -- Lua for enemies/bosses/agahnim.
 -- "variant" property :
--- 1                 = Aga 2
--- 2                 = Aga Clone
+-- 2                 = Aga 2 (plus, et ca ajoute un clone)
+-- 1                 = Aga Clone
 --(0, other, or nil) = Aga 1
 local enemy = ...
 local hero = enemy:get_map():get_hero()
@@ -18,6 +18,7 @@ projo_pos[0] = {0, 0}
 projo_pos[1] = {0, 0}
 local direction = 7
 local x, y, layer = enemy:get_position()
+local general_opacity = 255
 
 function enemy:on_created()
   enemy:set_invincible()
@@ -78,7 +79,7 @@ function enemy:on_created()
     end)
   end
 
-  if variant == 1 then -- Agahnim 2
+  if variant > 1 then -- Agahnim 2
     function enemy:launch_attack()
       if math.random(0, 1) == 0 then
         attack[0]()
@@ -93,10 +94,32 @@ function enemy:on_created()
         enemy:hurt(2)
       end
     end
-  elseif variant == 2 then -- Agahnim Clone
+    for i = 1, variant do
+      local clone_aga = enemy:get_map():create_enemy({
+        name = ("agahnim_"..tostring(enemy).."_clone_"..tostring(i)),
+        breed = enemy:get_breed(),
+        x = x,
+        y = y,
+        layer = layer,
+        direction = 0,
+        enabled_at_start = enemy:is_enabled(),
+        properties = {
+          {
+            key = "variant",
+            value = "1",
+          },
+        },
+      })
+      clone_aga:set_position(x, y)
+      clone_aga:shadow_move(x+64-(128*(i%2)), y+64, true, function()
+        clone_aga:restart()
+      end)
+    end
+  elseif variant == 1 then -- Agahnim Clone
     function enemy:launch_attack()
       attack[0]()
     end
+    general_opacity = 125
   else                     -- Agahnim 1
     local attack_choice = {}
     local number_cycle = 0
@@ -166,7 +189,7 @@ function enemy:shadow_move_end(opacity, color, target_hero, callback)
     enemy:get_sprite():set_animation("walking")
     sol.timer.start(enemy, 50, function()
       if color < 255 then
-        opacity = math.min(opacity+25,255)
+        opacity = math.min(opacity+25,general_opacity)
         color = math.min(color+25,255)
         enemy:get_sprite():set_color_modulation({color, color, color, opacity})
         return true
@@ -189,7 +212,7 @@ function enemy:shadow_move(target_x, target_y, target_hero, callback)
   sol.timer.start(enemy, 50, function()
     if color > 0 then
       color = math.max(0,color-25)
-      opacity = math.max(125,opacity-25)
+      opacity = math.min(math.max(125,opacity-25), general_opacity)
       enemy:get_sprite():set_color_modulation({color, color, color, opacity})
       return true
     end
@@ -261,6 +284,14 @@ function enemy:on_post_draw(camera)
       projo_spr:draw(surface, x-x_d_1-calcul+16, y-y_d_1+calcul-22)
     end
   end
+end
+
+function enemy:on_enabled()
+  enemy:get_map():set_entities_enabled("agahnim_"..tostring(enemy).."_clone", true)
+end
+
+function enemy:on_disabled()
+  enemy:get_map():set_entities_enabled("agahnim_"..tostring(enemy).."_clone", false)
 end
 
 function enemy:on_dying()
