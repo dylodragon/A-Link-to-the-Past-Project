@@ -105,8 +105,8 @@ map{ id = "A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness", descrip
 map{ id = "A Link To The Past/Light World/Caves/Fairy/waterfall_pond", description = "Waterfall Pond" }
 map{ id = "A Link To The Past/Light World/Caves/blacksmiths_cave", description = "Blacksmith Cave" }
 map{ id = "A Link To The Past/Light World/Caves/block_cave", description = "Block Cave" }
+map{ id = "A Link To The Past/Light World/Caves/cemetery_cave", description = "Cemetery Cave" }
 map{ id = "A Link To The Past/Light World/Caves/cemetery_tomb", description = "Cemetery Tomb" }
-map{ id = "A Link To The Past/Light World/Caves/cemetry_cave", description = "Cemetery Cave" }
 map{ id = "A Link To The Past/Light World/Caves/desert_of_mystery_cave", description = "Desert of Mystery Cave" }
 map{ id = "A Link To The Past/Light World/Caves/great_swamp_cave", description = "Great Swamp Cave" }
 map{ id = "A Link To The Past/Light World/Caves/hyrule_castle_cave", description = "Hyrule Castle Cave" }
@@ -1612,10 +1612,10 @@ file{ path = "maps/A Link To The Past/Light World/Caves/blacksmiths_cave.dat", a
 file{ path = "maps/A Link To The Past/Light World/Caves/blacksmiths_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/block_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/block_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_tomb.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_tomb.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/cemetry_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/cemetry_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/desert_of_mystery_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/desert_of_mystery_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
