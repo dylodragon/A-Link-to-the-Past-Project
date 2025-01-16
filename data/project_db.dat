@@ -1,3 +1,19 @@
+map{ id = "A Link To The Past/Dark World/Caves/blacksmiths_cave", description = "blacksmiths_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/block_cave", description = "block_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/cemetery_tomb", description = "cemetery_tomb" }
+map{ id = "A Link To The Past/Dark World/Caves/cemetry_cave", description = "cemetry_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/desert_of_mystery_cave", description = "desert_of_mystery_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/great_swamp_cave", description = "great_swamp_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/hyrule_castle_cave", description = "hyrule_castle_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/ice_rod_cave", description = "ice_rod_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/kakariko_village_cave", description = "kakariko_village_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/lake_hylia_cave", description = "lake_hylia_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/lost_wood_cave", description = "lost_wood_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/lumberjack_cave", description = "lumberjack_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/plain_of_ruins_north_cave", description = "plain_of_ruins_north_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/plain_of_ruins_south_cave", description = "plain_of_ruins_south_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/sanctuary_cave", description = "sanctuary_cave" }
+map{ id = "A Link To The Past/Dark World/Caves/wooden_bridge_north_cave", description = "wooden_bridge_north_cave" }
 map{ id = "A Link To The Past/Dark World/Dungeons/Dark Palace/B1/B1_dark_palace", description = "B1 Dark Palace" }
 map{ id = "A Link To The Past/Dark World/Dungeons/Dark Palace/F1/F1_dark_palace", description = "F1 Dark Palace" }
 map{ id = "A Link To The Past/Dark World/Dungeons/Ganon Tower/B1/B1_ganon_tower", description = "B1 Ganon Tower" }
@@ -78,7 +94,7 @@ map{ id = "A Link To The Past/Dark World/Overworld/G4_dark_ruins", description =
 map{ id = "A Link To The Past/Dark World/Overworld/G6_plain_hylia", description = "Plain Hylia" }
 map{ id = "A Link To The Past/Dark World/Overworld/H1_turtle_rock", description = "Turtle Rock" }
 map{ id = "A Link To The Past/Dark World/Overworld/H2_lake_of_ill_omen", description = "Lake of Ill Omen" }
-map{ id = "A Link To The Past/Dark World/Overworld/H3_waterfall_south", description = "Waterfall South" }
+map{ id = "A Link To The Past/Dark World/Overworld/H3_lake_of_ill_omen_south", description = "Lake of Ill Omen South" }
 map{ id = "A Link To The Past/Dark World/Overworld/H6_deadend_east", description = "Deadend East" }
 map{ id = "A Link To The Past/Dark World/Overworld/H7_river_hylia_north", description = "River Hylia North" }
 map{ id = "A Link To The Past/Dark World/Overworld/H8_river_hylia_south", description = "River Hylia South" }
@@ -275,7 +291,7 @@ map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F7
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G3_magic_shop_npz", description = "Magic Shop NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G4_dark_ruins_npz", description = "Dark Ruins NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G6_plain_hylia_npz", description = "Plain Hylia NPZ" }
-map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H1_turtle_rock_npz", description = "Turtle Rock NPZ" }
+map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H1_turtle_rock_npz", description = "Turtle Rock_NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H2_lake_of_ill_omen_npz", description = "Lake of ill Omen NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H3_lake_of_ill_omen_south_npz", description = "Lake of ill Omen South NPZ" }
 map{ id = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H6_deadend_east_npz", description = "Deadend East NPZ" }
@@ -1177,6 +1193,42 @@ file{ path = "main.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/Death Mountain East", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/Death Mountain West", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/Fairy", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/blacksmiths_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/blacksmiths_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/block_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/block_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/cemetery_tomb.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/cemetery_tomb.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/cemetry_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/cemetry_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/desert_of_mystery_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/desert_of_mystery_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/great_swamp_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/great_swamp_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/hyrule_castle_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/hyrule_castle_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/ice_rod_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/ice_rod_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/kakariko_village_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/kakariko_village_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/lake_hylia_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/lake_hylia_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/lost_wood_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/lost_wood_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/lumberjack_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/lumberjack_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/plain_of_ruins_north_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/plain_of_ruins_north_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/plain_of_ruins_south_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/plain_of_ruins_south_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/sanctuary_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/sanctuary_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/wooden_bridge_north_cave.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Caves/wooden_bridge_north_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Dungeons", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Dungeons/Dark Palace", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Dungeons/Dark Palace/B1", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
@@ -1341,20 +1393,31 @@ file{ path = "maps/A Link To The Past/Dark World/Overworld/D7_great_swamp.dat", 
 file{ path = "maps/A Link To The Past/Dark World/Overworld/E3_cemetery.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/E6_bomb_shop.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/F1_death_mountain_east.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/F1_death_mountain_east.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/F3_wooden_bridge_north.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/F4_wooden_bridge.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/F5_plain_of_rocks.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/F6_stone_bridge.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/F7_ice_lake.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/F7_ice_lake.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/G3_magic_shop.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/G3_magic_shop.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/G4_dark_ruins.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/G4_dark_ruins.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/G6_plain_hylia.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/G6_plain_hylia.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/H1_turtle_rock.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H1_turtle_rock.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/H2_lake_of_ill_omen.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Dark World/Overworld/H3_waterfall_south.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H2_lake_of_ill_omen.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H3_lake_of_ill_omen_south.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H3_lake_of_ill_omen_south.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/H6_deadend_east.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H6_deadend_east.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/H7_river_hylia_north.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H7_river_hylia_north.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/H8_river_hylia_south.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/H8_river_hylia_south.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain East", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }

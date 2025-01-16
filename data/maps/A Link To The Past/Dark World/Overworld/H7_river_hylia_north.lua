@@ -1,4 +1,4 @@
--- Lua script of map Non_Playable Zone/Light World/river_hylia_north.
+-- Lua script of map A Link To The Past/Dark World/Overworld/H7_river_hylia_north.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
