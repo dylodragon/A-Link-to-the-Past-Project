@@ -1,125 +1,272 @@
--- Agahnim boss.
--- Shoots 3 different magic projectiles.
-
+-- Lua for enemies/bosses/agahnim.
+-- "variant" property :
+-- 1                 = Aga 2
+-- 2                 = Aga Clone
+--(0, other, or nil) = Aga 1
 local enemy = ...
-
-local should_shoot_rabbit_beam = false
-local remaining_lightnings = 0
-local last_lightnings_total = 0
-local projectile_prefix = enemy:get_name() .. "_projectile"
+local hero = enemy:get_map():get_hero()
+local attack = {}
+function enemy:launch_attack() end
+local spawn_x, spawn_y = enemy:get_position()
+local variant = tonumber(enemy:get_property("variant"))
+if variant == nil then variant = 0 end
+local can_be_hurt = true
+local projo_spr = sol.sprite.create("enemies/bosses/agahnim_projo_1")
+projo_spr:set_opacity(0)
+local projo_pos = {}
+projo_pos[0] = {0, 0}
+projo_pos[1] = {0, 0}
+local direction = 7
+local x, y, layer = enemy:get_position()
 
 function enemy:on_created()
-
-  enemy:set_life(16)
+  enemy:set_invincible()
+  enemy:set_attack_consequence("sword", "protected")
+  enemy:set_attack_consequence("boomerang", "protected")
+  enemy:set_life(12)
   enemy:set_damage(4)
   enemy:set_hurt_style("boss")
   enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_hurt_style("boss")
   enemy:set_pushed_back_when_hurt(false)
   enemy:set_push_hero_on_sword(true)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
+  enemy:set_attacking_collision_mode("overlapping")
 
-  enemy:set_invincible()
-  enemy:set_attack_consequence("sword", "protected")
-  enemy:set_attack_consequence("boomerang", "protected")
-end
-
--- Shoots a normal fireball that the hero can send back.
-local function shoot_fireball()
-
-  local sprite = enemy:get_sprite()
-  sprite:set_animation("shooting")
-  sol.timer.start(enemy, 300, function()
-    sprite:set_animation("walking")
-
-    enemy:create_enemy({
-      breed = "others/fireball_red_big",
-      name = projectile_prefix,
-    })
-    sol.audio.play_sound("boss_fireball")
-  end)
-
-  return true  -- Repeat the timer until hurt.
-end
-
--- Shoots a deadly thunderbold.
-local function shoot_lightning()
-
-  if remaining_lightnings == 0 then
-    return false
+  attack[0] = function() -- Projectile
+    local tp_x = 0
+    local tp_y = math.max(math.min(math.random(-6,15),12),-3)
+    if tp_y < 0 then
+      tp_x = math.max(math.min(math.random(-7,7),6),-6)
+    else
+      tp_x = math.max(math.min(math.random(-11,11),8),-8)
+    end
+    tp_x = spawn_x+(tp_x*8)
+    tp_y = spawn_y+(tp_y*8)
+    enemy:shadow_move(tp_x, tp_y, true, function()
+      sol.audio.play_sound("boss_charge")
+      enemy:launch_projectile("bosses/agahnim_projo_1", "boss_fireball", 1, 2000, true, function()
+        enemy:restart()
+      end)
+    end)
+  end
+  attack[1] = function()  -- Four Sphere
+    local tp_x = 0
+    local tp_y = math.max(math.min(math.random(-6,15),12),-3)
+    if tp_y < 0 then
+      tp_x = math.max(math.min(math.random(-7,7),6),-6)
+    else
+      tp_x = math.max(math.min(math.random(-11,11),8),-8)
+    end
+    tp_x = spawn_x+(tp_x*8)
+    tp_y = spawn_y+(tp_y*8)
+    enemy:shadow_move(tp_x, tp_y, true, function()
+      sol.audio.play_sound("boss_charge")
+      enemy:launch_projectile("bosses/agahnim_projo_2", "boss_fireball", 1, 2000, true, function()
+        enemy:restart()
+      end)
+    end)
+  end
+  attack[2] = function()   -- Lightning
+    enemy:shadow_move(spawn_x, spawn_y-16, false, function()
+      enemy:get_sprite():set_direction(6)
+      direction = 6
+      sol.audio.play_sound("boss_charge")
+      enemy:launch_projectile("bosses/agahnim_projo_3", "lightning", 4, 1000, false, function()
+        enemy:restart()
+      end)
+    end)
   end
 
-  local sprite = enemy:get_sprite()
-  sprite:set_animation("shooting")
-  sol.timer.start(enemy, 300, function()
-    sprite:set_animation("walking")
-
-    enemy:create_enemy({
-      breed = "others/agahnim_lightning",
-      name = projectile_prefix,
-    })
-    sol.audio.play_sound("lightning")
-  end)
-
-  remaining_lightnings = remaining_lightnings - 1
-  if remaining_lightnings > 0 then
-    return true  -- Repeat the timer.
+  if variant == 1 then -- Agahnim 2
+    function enemy:launch_attack()
+      if math.random(0, 1) == 0 then
+        attack[0]()
+      else
+        attack[1]()
+      end
+    end
+    -- Function called by the fireball when colliding.
+    function enemy:receive_bounced_projectile(fireball)
+      if can_be_hurt then
+        fireball:remove()
+        enemy:hurt(2)
+      end
+    end
+  elseif variant == 2 then -- Agahnim Clone
+    function enemy:launch_attack()
+      attack[0]()
+    end
+  else                     -- Agahnim 1
+    local attack_choice = {}
+    local number_cycle = 0
+    attack_choice[0] = function() attack[0]() end
+    attack_choice[1] = function() attack[math.random(0,1)]() end
+    attack_choice[2] = function() attack[math.random(0,1)]() end
+    attack_choice[3] = function() attack[math.random(0,1)]() end
+    attack_choice[4] = function() attack[2]() end
+    function enemy:launch_attack()
+      attack_choice[number_cycle]()
+      number_cycle = (number_cycle+1)%5
+    end
+    -- Function called by the fireball when colliding.
+    function enemy:receive_bounced_projectile(fireball)
+      if can_be_hurt then
+        fireball:remove()
+        enemy:hurt(2)
+      end
+    end
   end
 
-  -- Shoot normal fireballs next.
-  sol.timer.start(enemy, 3000, function()
-    shoot_fireball()
-    sol.timer.start(enemy, 1500, shoot_fireball)
-  end)
-  return false
 end
 
--- Shoots a bouncing beam that turns the hero into a rabbit.
-local function shoot_rabbit_beam()
-
-  local sprite = enemy:get_sprite()
-  sprite:set_animation("shooting")
+function enemy:launch_projectile(projectile_breed, sound, number_projectile, wait_value, target_hero, callback)
+  local i = 0
+  if target_hero then
+    direction = enemy:get_direction8_to(hero)
+    enemy:get_sprite():set_direction(direction)
+  end
+  enemy:get_sprite():set_animation("shooting")
+  projo_spr:set_direction(0)
+  projo_spr:set_opacity(255)
   sol.timer.start(enemy, 300, function()
-    sprite:set_animation("walking")
-
-    enemy:create_enemy({
-      breed = "others/rabbit_beam",
-      name = projectile_prefix,
-    })
-    sol.audio.play_sound("boss_fireball")
+    i = i+1
+    if target_hero then
+      direction = enemy:get_direction8_to(hero)
+      enemy:get_sprite():set_direction(direction)
+    end
+    if i < 5 then
+      projo_spr:set_direction(i)
+      return true
+    end
+    if sound ~= nil then
+      sol.audio.play_sound(sound)
+    end
+    enemy:get_sprite():set_animation("walking")
+    projo_spr:set_opacity(0)
+    for i = 1, number_projectile do
+      local projo = enemy:create_enemy({
+        name = ("agahnim_"..tostring(enemy).."_projo"),
+        breed = projectile_breed,
+        y = -16,
+      })
+    end
+    sol.timer.start(enemy, wait_value, function()
+      if callback ~= nil then callback() end
+    end)
   end)
+end
 
-  should_shoot_rabbit_beam = false
+function enemy:shadow_move_end(opacity, color, target_hero, callback)
+  if target_hero then
+    direction = enemy:get_direction8_to(hero)
+    enemy:get_sprite():set_direction(direction)
+  end
+  enemy:get_sprite():set_animation("to_appear", function()
+    enemy:get_sprite():set_animation("walking")
+    sol.timer.start(enemy, 50, function()
+      if color < 255 then
+        opacity = math.min(opacity+25,255)
+        color = math.min(color+25,255)
+        enemy:get_sprite():set_color_modulation({color, color, color, opacity})
+        return true
+      end
+      x, y, layer = enemy:get_position()
+      can_be_hurt = true
+      enemy:set_attack_consequence("sword", "protected")
+      enemy:set_can_attack(true)
+      if callback ~= nil then callback() end
+    end)
+  end)
+end
 
-  -- Shoot lightnings next.
-  last_lightnings_total = last_lightnings_total + 1
-  remaining_lightnings = last_lightnings_total
-  sol.timer.start(enemy, 3000, shoot_lightning)
+function enemy:shadow_move(target_x, target_y, target_hero, callback)
+  local opacity = 255
+  local color = 255
+  can_be_hurt = false
+  enemy:set_attack_consequence("sword", "ignored")
+  enemy:set_can_attack(false)
+  sol.timer.start(enemy, 50, function()
+    if color > 0 then
+      color = math.max(0,color-25)
+      opacity = math.max(125,opacity-25)
+      enemy:get_sprite():set_color_modulation({color, color, color, opacity})
+      return true
+    end
+    enemy:get_sprite():set_animation("to_shadow", function()
+      enemy:get_sprite():set_animation("shadow")
+      local m = sol.movement.create("target")
+      m:set_speed(32)
+      m:set_target(target_x, target_y)
+      m:set_ignore_obstacles(true)
+      local add_speed = 32
+      sol.timer.start(enemy, 80, function()
+        add_speed = add_speed+32
+        if enemy:get_sprite():get_animation() == "shadow" then
+          m:set_speed(add_speed)
+          m:start(enemy, function()
+            m:stop()
+            enemy:shadow_move_end(opacity, color, target_hero, callback)
+          end)
+          return true
+        end
+      end)
+      m:start(enemy, function()
+        m:stop()
+        enemy:shadow_move_end(opacity, color, target_hero, callback)
+      end)
+    end)
+  end)
 end
 
 function enemy:on_restarted()
+  direction = enemy:get_direction8_to(hero)
+  enemy:get_sprite():set_direction(direction)
+  enemy:launch_attack()
+end
 
-  if should_shoot_rabbit_beam then
-    sol.timer.start(enemy, 500, shoot_rabbit_beam)
-  else
-    -- Wait more the first time.
-    sol.timer.start(enemy, 1000, function()
-      sol.timer.start(enemy, 1500, shoot_fireball)
-    end)
+function enemy:on_pre_draw(camera)
+  local surface = camera:get_surface()
+  if projo_spr:get_opacity() > 0 and (direction >= 1 and direction <= 3) then
+    local x_d_1, y_d_1 = camera:get_position()
+    local calcul = math.max(0, projo_spr:get_direction()-2)*6
+    projo_spr:draw(surface, x-x_d_1+calcul-12, y-y_d_1-24)
+    projo_spr:draw(surface, x-x_d_1-calcul+12, y-y_d_1-24)
   end
 end
 
--- Function called by the fireball when colliding.
-function enemy:receive_bounced_projectile(fireball)
-
-  should_shoot_rabbit_beam = true
-  fireball:remove()
-  enemy:hurt(2)
+function enemy:on_post_draw(camera)
+  local surface = camera:get_surface()
+  if projo_spr:get_opacity() > 0 and (direction == 0 or direction >= 4) then
+    local x_d_1, y_d_1 = camera:get_position()
+    if direction == 0 then
+      local calcul = math.max(0, projo_spr:get_direction()-2)*3
+      projo_spr:draw(surface, x-x_d_1+10, y-y_d_1+calcul-20)
+      projo_spr:draw(surface, x-x_d_1+10, y-y_d_1-calcul-8)
+    elseif direction == 4 then
+      local calcul = math.max(0, projo_spr:get_direction()-2)*3
+      projo_spr:draw(surface, x-x_d_1-10, y-y_d_1+calcul-20)
+      projo_spr:draw(surface, x-x_d_1-10, y-y_d_1-calcul-8)
+    elseif direction == 5 then
+      local calcul = math.max(0, projo_spr:get_direction()-2)*3
+      projo_spr:draw(surface, x-x_d_1+calcul-16, y-y_d_1+calcul-22)
+      projo_spr:draw(surface, x-x_d_1-calcul-4, y-y_d_1-calcul-10)
+    elseif direction == 6 then
+      local calcul = math.max(0, projo_spr:get_direction()-2)*6
+      projo_spr:draw(surface, x-x_d_1+calcul-12, y-y_d_1-24)
+      projo_spr:draw(surface, x-x_d_1-calcul+12, y-y_d_1-24)
+    elseif direction == 7 then
+      local calcul = math.max(0, projo_spr:get_direction()-2)*3
+      projo_spr:draw(surface, x-x_d_1+calcul+4, y-y_d_1-calcul-10)
+      projo_spr:draw(surface, x-x_d_1-calcul+16, y-y_d_1+calcul-22)
+    end
+  end
 end
 
 function enemy:on_dying()
+  enemy:get_map():remove_entities("agahnim_"..tostring(enemy))
+end
 
-  local map = enemy:get_map()
-  map:remove_entities(projectile_prefix)
+function enemy:on_dead()
+  enemy:get_map():remove_entities("agahnim_"..tostring(enemy))
 end
