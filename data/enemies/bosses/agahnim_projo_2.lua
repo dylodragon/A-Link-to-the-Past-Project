@@ -3,6 +3,25 @@ local enemy = ...
 local map = enemy:get_map()
 local sprite
 
+-- Avoid loudy simultaneous sounds of Monster.
+function enemy:sound_play(sound_id)
+  local map = enemy:get_map()
+  local hero = map:get_hero()
+  if enemy:get_distance(hero) < 500 and enemy:is_in_same_region(hero) then
+    if not map.monster_recent_sound then
+      if sol.main.resource_exists("sound", sound_id) then
+        sol.audio.play_sound(sound_id)
+      else
+        print(sound_id .. " not exist.")
+      end
+      map.monster_recent_sound = true
+      sol.timer.start(map, 250, function()
+        map.monster_recent_sound = nil
+      end)
+    end
+  end
+end
+
 function enemy:on_created()
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_invincible()
@@ -37,7 +56,7 @@ end
 
 function enemy:explode()
   if sprite:get_direction() == 0 then
-    sol.audio.play_sound("boss_fireball")
+    enemy:sound_play("boss_fireball")
     for i = 0, 5 do
       local name = "aga_projo_2"..tostring(i)
       if enemy:get_name() ~= nil then
@@ -62,7 +81,7 @@ function enemy:explode()
           direction = 1,
           width = 8,
           height = 8,
-          sprite = "enemies/bosses/agahnim_projo_2",
+          sprite = "enemies/" .. enemy:get_breed(),
         })
         local sprite_particule = particule:get_sprite()
         sprite_particule:set_animation(sprite_particule:get_animation(), function()

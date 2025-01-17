@@ -10,8 +10,21 @@ function enemy:launch_attack() end
 local spawn_x, spawn_y = enemy:get_position()
 local variant = tonumber(enemy:get_property("variant"))
 if variant == nil then variant = 0 end
+local up_zone = tonumber(enemy:get_property("up_zone"))
+local down_zone = tonumber(enemy:get_property("down_zone"))
+local right_zone = tonumber(enemy:get_property("right_zone"))
+local left_zone = tonumber(enemy:get_property("left_zone"))
+local agahnim_room = false
+if up_zone == nil and down_zone == nil and right_zone == nil and left_zone == nil then
+  agahnim_room = true
+else
+  if up_zone == nil then up_zone = -3 end
+  if down_zone == nil then down_zone = 12 end
+  if right_zone == nil then right_zone = 8 end
+  if left_zone == nil then left_zone = -8 end
+end
 local can_be_hurt = true
-local projo_spr = sol.sprite.create("enemies/bosses/agahnim_projo_1")
+local projo_spr = sol.sprite.create("enemies/"..enemy:get_breed().."_projo_1")
 projo_spr:set_opacity(0)
 local projo_pos = {}
 projo_pos[0] = {0, 0}
@@ -19,6 +32,25 @@ projo_pos[1] = {0, 0}
 local direction = 7
 local x, y, layer = enemy:get_position()
 local general_opacity = 255
+
+-- Avoid loudy simultaneous sounds of Monster.
+function enemy:sound_play(sound_id)
+  local map = enemy:get_map()
+  local hero = map:get_hero()
+  if enemy:get_distance(hero) < 500 and enemy:is_in_same_region(hero) then
+    if not map.monster_recent_sound then
+      if sol.main.resource_exists("sound", sound_id) then
+        sol.audio.play_sound(sound_id)
+      else
+        print(sound_id .. " not exist.")
+      end
+      map.monster_recent_sound = true
+      sol.timer.start(map, 250, function()
+        map.monster_recent_sound = nil
+      end)
+    end
+  end
+end
 
 function enemy:on_created()
   enemy:set_invincible()
@@ -36,34 +68,46 @@ function enemy:on_created()
 
   attack[0] = function() -- Projectile
     local tp_x = 0
-    local tp_y = math.max(math.min(math.random(-6,15),12),-3)
-    if tp_y < 0 then
-      tp_x = math.max(math.min(math.random(-7,7),6),-6)
+    local tp_y = 0
+    if agahnim_room then
+      tp_y = math.max(math.min(math.random(-6,15),12),-3)
+      if tp_y < 0 then
+        tp_x = math.max(math.min(math.random(-7,7),6),-6)
+      else
+        tp_x = math.max(math.min(math.random(-11,11),8),-8)
+      end
     else
-      tp_x = math.max(math.min(math.random(-11,11),8),-8)
+      tp_x = math.max(math.min(math.random(left_zone*1.5,right_zone*1.5),right_zone),left_zone)
+      tp_y = math.max(math.min(math.random(up_zone*1.5,down_zone*1.5),down_zone),up_zone)
     end
     tp_x = spawn_x+(tp_x*8)
     tp_y = spawn_y+(tp_y*8)
     enemy:shadow_move(tp_x, tp_y, true, function()
-      sol.audio.play_sound("boss_charge")
-      enemy:launch_projectile("bosses/agahnim_projo_1", "boss_fireball", 1, 2000, true, function()
+      enemy:sound_play("boss_charge")
+      enemy:launch_projectile(enemy:get_breed().."_projo_1", "boss_fireball", 1, 2000, true, function()
         enemy:restart()
       end)
     end)
   end
   attack[1] = function()  -- Four Sphere
     local tp_x = 0
-    local tp_y = math.max(math.min(math.random(-6,15),12),-3)
-    if tp_y < 0 then
-      tp_x = math.max(math.min(math.random(-7,7),6),-6)
+    local tp_y = 0
+    if agahnim_room then
+      tp_y = math.max(math.min(math.random(-6,15),12),-3)
+      if tp_y < 0 then
+        tp_x = math.max(math.min(math.random(-7,7),6),-6)
+      else
+        tp_x = math.max(math.min(math.random(-11,11),8),-8)
+      end
     else
-      tp_x = math.max(math.min(math.random(-11,11),8),-8)
+      tp_x = math.max(math.min(math.random(left_zone*1.5,right_zone*1.5),right_zone),left_zone)
+      tp_y = math.max(math.min(math.random(up_zone*1.5,down_zone*1.5),down_zone),up_zone)
     end
     tp_x = spawn_x+(tp_x*8)
     tp_y = spawn_y+(tp_y*8)
     enemy:shadow_move(tp_x, tp_y, true, function()
-      sol.audio.play_sound("boss_charge")
-      enemy:launch_projectile("bosses/agahnim_projo_2", "boss_fireball", 1, 2000, true, function()
+      enemy:sound_play("boss_charge")
+      enemy:launch_projectile(enemy:get_breed().."_projo_2", "boss_fireball", 1, 2000, true, function()
         enemy:restart()
       end)
     end)
@@ -72,8 +116,8 @@ function enemy:on_created()
     enemy:shadow_move(spawn_x, spawn_y-16, false, function()
       enemy:get_sprite():set_direction(6)
       direction = 6
-      sol.audio.play_sound("boss_charge")
-      enemy:launch_projectile("bosses/agahnim_projo_3", "lightning", 4, 1000, false, function()
+      enemy:sound_play("boss_charge")
+      enemy:launch_projectile(enemy:get_breed().."_projo_3", "lightning", 4, 1000, false, function()
         enemy:restart()
       end)
     end)
@@ -108,8 +152,29 @@ function enemy:on_created()
             key = "variant",
             value = "1",
           },
+          {
+            key = "up_zone",
+            value = tostring(up_zone),
+          },
+          {
+            key = "down_zone",
+            value = tostring(down_zone),
+          },
+          {
+            key = "right_zone",
+            value = tostring(right_zone),
+          },
+          {
+            key = "left_zone",
+            value = tostring(left_zone),
+          },
         },
       })
+      clone_aga:set_invincible()
+      clone_aga:set_attack_consequence("sword", "ignored")
+      clone_aga:set_attack_consequence("boomerang", "ignored")
+      clone_aga:set_can_attack(false)
+      clone_aga.is_clone = true
       clone_aga:set_position(x, y)
       clone_aga:shadow_move(x+64-(128*(i%2)), y+64, true, function()
         clone_aga:restart()
@@ -120,6 +185,11 @@ function enemy:on_created()
       attack[0]()
     end
     general_opacity = 125
+    enemy:set_invincible()
+    enemy:set_attack_consequence("sword", "ignored")
+    enemy:set_attack_consequence("boomerang", "ignored")
+    enemy:set_can_attack(false)
+    enemy.is_clone = true
   else                     -- Agahnim 1
     local attack_choice = {}
     local number_cycle = 0
@@ -163,7 +233,7 @@ function enemy:launch_projectile(projectile_breed, sound, number_projectile, wai
       return true
     end
     if sound ~= nil then
-      sol.audio.play_sound(sound)
+      enemy:sound_play(sound)
     end
     enemy:get_sprite():set_animation("walking")
     projo_spr:set_opacity(0)
@@ -196,8 +266,11 @@ function enemy:shadow_move_end(opacity, color, target_hero, callback)
       end
       x, y, layer = enemy:get_position()
       can_be_hurt = true
-      enemy:set_attack_consequence("sword", "protected")
-      enemy:set_can_attack(true)
+      if enemy.is_clone == nil then
+        enemy:set_attack_consequence("sword", "protected")
+        enemy:set_attack_consequence("boomerang", "protected")
+        enemy:set_can_attack(true)
+      end
       if callback ~= nil then callback() end
     end)
   end)
@@ -207,8 +280,11 @@ function enemy:shadow_move(target_x, target_y, target_hero, callback)
   local opacity = 255
   local color = 255
   can_be_hurt = false
-  enemy:set_attack_consequence("sword", "ignored")
-  enemy:set_can_attack(false)
+  if enemy.is_clone == nil then
+    enemy:set_attack_consequence("sword", "ignored")
+    enemy:set_attack_consequence("boomerang", "ignored")
+    enemy:set_can_attack(false)
+  end
   sol.timer.start(enemy, 50, function()
     if color > 0 then
       color = math.max(0,color-25)
@@ -243,6 +319,7 @@ function enemy:shadow_move(target_x, target_y, target_hero, callback)
 end
 
 function enemy:on_restarted()
+  projo_spr:set_opacity(0)
   direction = enemy:get_direction8_to(hero)
   enemy:get_sprite():set_direction(direction)
   enemy:launch_attack()
@@ -288,10 +365,12 @@ end
 
 function enemy:on_enabled()
   enemy:get_map():set_entities_enabled("agahnim_"..tostring(enemy).."_clone", true)
+  projo_spr:set_opacity(0)
 end
 
 function enemy:on_disabled()
   enemy:get_map():set_entities_enabled("agahnim_"..tostring(enemy).."_clone", false)
+  projo_spr:set_opacity(0)
 end
 
 function enemy:on_dying()

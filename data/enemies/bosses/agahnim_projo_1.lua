@@ -6,6 +6,25 @@ local sprite
 
 local bounced = false
 
+-- Avoid loudy simultaneous sounds of Monster.
+function enemy:sound_play(sound_id)
+  local map = enemy:get_map()
+  local hero = map:get_hero()
+  if enemy:get_distance(hero) < 500 and enemy:is_in_same_region(hero) then
+    if not map.monster_recent_sound then
+      if sol.main.resource_exists("sound", sound_id) then
+        sol.audio.play_sound(sound_id)
+      else
+        print(sound_id .. " not exist.")
+      end
+      map.monster_recent_sound = true
+      sol.timer.start(map, 250, function()
+        map.monster_recent_sound = nil
+      end)
+    end
+  end
+end
+
 function enemy:on_created()
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_invincible()
@@ -33,7 +52,7 @@ function enemy:on_restarted()
       direction = 2,
       width = 8,
       height = 8,
-      sprite = "enemies/bosses/agahnim_projo_1",
+      sprite = "enemies/" .. enemy:get_breed(),
     })
     local sprite_particule = particule:get_sprite()
     sprite_particule:set_animation(sprite_particule:get_animation(), function()
@@ -79,8 +98,7 @@ function enemy:on_custom_attack_received(attack, sprite)
       angle = 2 * math.pi - old_angle
     end
     enemy:go(angle, 180)
-    sol.audio.play_sound("sword_tapping")
-    sol.audio.play_sound("boss_fireball")
+    enemy:sound_play("boss_fireball")
     bounced = true
     -- The trailing fireballs are now on the hero: don't attack temporarily
     enemy:set_can_attack(false)
