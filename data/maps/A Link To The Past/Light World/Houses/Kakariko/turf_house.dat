@@ -10,16 +10,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 256,
-  height = 256,
-  pattern = "1",
-  tileset = "blueprint/houses_light",
-}
-
-tile{
   layer = 1,
   x = 48,
   y = 64,

@@ -10,16 +10,6 @@ properties{
 }
 
 tile{
-  layer = -1,
-  x = 0,
-  y = 0,
-  width = 512,
-  height = 512,
-  pattern = "1_5",
-  tileset = "blueprint/caves_light",
-}
-
-tile{
   layer = 0,
   x = 168,
   y = 344,
@@ -709,6 +699,15 @@ stairs{
   y = 400,
   direction = 3,
   subtype = 4,
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 488,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.2",
 }
 
 tile{
@@ -2034,16 +2033,6 @@ tile{
   pattern = "2761",
 }
 
-dynamic_tile{
-  name = "weak_door_1_closed_1",
-  layer = 1,
-  x = 96,
-  y = 288,
-  width = 64,
-  height = 24,
-  pattern = "wall.1-3",
-}
-
 destination{
   name = "dest_map_kakariko_village_cave_0",
   layer = 1,
@@ -2121,19 +2110,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-}
-
-door{
-  name = "weak_door_1",
-  layer = 1,
-  x = 120,
-  y = 296,
-  direction = 1,
-  sprite = "doors/door_d2_weak_wall",
-  savegame_variable = "light_world_kakariko_village_cave_weak_opened",
-  opening_method = "explosion",
-  opening_condition = "hyrule_castle_secret_passage_small_keys",
-  opening_condition_consumed = true,
 }
 
 destructible{
@@ -2287,6 +2263,29 @@ jumper{
   height = 8,
   direction = 2,
   jump_length = 40,
+}
+
+dynamic_tile{
+  name = "weak_door_1_closed_1",
+  layer = 1,
+  x = 96,
+  y = 288,
+  width = 64,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
+door{
+  name = "weak_door_1",
+  layer = 1,
+  x = 120,
+  y = 296,
+  direction = 1,
+  sprite = "doors/door_d2_weak_wall",
+  savegame_variable = "light_world_kakariko_village_cave_weak_opened",
+  opening_method = "explosion",
+  opening_condition = "hyrule_castle_secret_passage_small_keys",
+  opening_condition_consumed = true,
 }
 
 tile{

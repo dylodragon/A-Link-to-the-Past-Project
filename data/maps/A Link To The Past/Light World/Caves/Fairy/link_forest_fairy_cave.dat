@@ -517,7 +517,7 @@ destination{
   name = "dest_map_link_forest_fairy_cave_0",
   layer = 1,
   x = 128,
-  y = 237,
+  y = 213,
   direction = 1,
 }
 
@@ -525,7 +525,7 @@ teletransporter{
   name = "tp_map_link_forest_fairy_cave_0",
   layer = 1,
   x = 120,
-  y = 240,
+  y = 232,
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Light World/Overworld/link_forest",
@@ -535,7 +535,7 @@ teletransporter{
 wall{
   layer = 1,
   x = 136,
-  y = 240,
+  y = 232,
   width = 8,
   height = 16,
   stops_hero = true,
@@ -548,7 +548,7 @@ wall{
 wall{
   layer = 1,
   x = 112,
-  y = 240,
+  y = 232,
   width = 8,
   height = 16,
   stops_hero = true,
@@ -584,6 +584,45 @@ pickable{
   x = 136,
   y = 109,
   treasure_name = "consumables/fairy",
+}
+
+wall{
+  layer = 1,
+  x = 120,
+  y = 248,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 48,
+  y = 80,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 176,
+  y = 80,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
@@ -615,24 +654,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 176,
-  y = 80,
-  width = 32,
-  height = 8,
-  pattern = "fairy_fountain.2",
-}
-
-tile{
-  layer = 2,
-  x = 48,
-  y = 80,
-  width = 32,
-  height = 8,
-  pattern = "fairy_fountain.2",
-}
-
-tile{
-  layer = 2,
   x = 16,
   y = 240,
   width = 224,
@@ -647,6 +668,24 @@ tile{
   width = 16,
   height = 224,
   pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 80,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
+}
+
+tile{
+  layer = 2,
+  x = 48,
+  y = 80,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
 }
 
 destination{

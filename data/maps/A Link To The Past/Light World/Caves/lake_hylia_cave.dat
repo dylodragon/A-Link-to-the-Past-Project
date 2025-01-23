@@ -10,16 +10,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 256,
-  height = 512,
-  pattern = "2",
-  tileset = "blueprint/caves_light",
-}
-
-tile{
   layer = 1,
   x = 16,
   y = 32,
@@ -1157,6 +1147,32 @@ destination{
   x = 128,
   y = 469,
   direction = 1,
+}
+
+wall{
+  layer = 1,
+  x = 96,
+  y = 136,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 144,
+  y = 136,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

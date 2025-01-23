@@ -10,16 +10,6 @@ properties{
 }
 
 tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 512,
-  height = 512,
-  pattern = "1",
-  tileset = "blueprint/caves_light",
-}
-
-tile{
   layer = 1,
   x = 16,
   y = 288,
@@ -683,15 +673,6 @@ tile{
   width = 176,
   height = 24,
   pattern = "wall.2-3",
-}
-
-tile{
-  layer = 1,
-  x = 368,
-  y = 112,
-  width = 32,
-  height = 8,
-  pattern = "fairy_fountain.2",
 }
 
 tile{
@@ -1837,16 +1818,6 @@ tile{
   pattern = "barrier.2-1",
 }
 
-dynamic_tile{
-  name = "weak_door_1_closed_1",
-  layer = 1,
-  x = 360,
-  y = 288,
-  width = 48,
-  height = 24,
-  pattern = "wall.1-3",
-}
-
 chest{
   name = "chest_ice_rod",
   layer = 1,
@@ -2050,6 +2021,16 @@ wall{
   stops_blocks = true,
 }
 
+dynamic_tile{
+  name = "weak_door_1_closed_1",
+  layer = 1,
+  x = 360,
+  y = 288,
+  width = 48,
+  height = 24,
+  pattern = "wall.1-3",
+}
+
 door{
   name = "weak_door_1",
   layer = 1,
@@ -2061,6 +2042,19 @@ door{
   opening_method = "explosion",
   opening_condition = "hyrule_castle_secret_passage_small_keys",
   opening_condition_consumed = true,
+}
+
+wall{
+  layer = 1,
+  x = 368,
+  y = 112,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
@@ -2331,6 +2325,15 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-3",
+}
+
+tile{
+  layer = 2,
+  x = 368,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "fairy_fountain.2",
 }
 
 destination{

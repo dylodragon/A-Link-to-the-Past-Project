@@ -108,6 +108,7 @@ map{ id = "A Link To The Past/Light World/Caves/block_cave", description = "Bloc
 map{ id = "A Link To The Past/Light World/Caves/cemetery_cave", description = "Cemetery Cave" }
 map{ id = "A Link To The Past/Light World/Caves/cemetery_tomb", description = "Cemetery Tomb" }
 map{ id = "A Link To The Past/Light World/Caves/desert_of_mystery_cave", description = "Desert of Mystery Cave" }
+map{ id = "A Link To The Past/Light World/Caves/great_swamp_barrage", description = "Great Swamp Barrage" }
 map{ id = "A Link To The Past/Light World/Caves/great_swamp_cave", description = "Great Swamp Cave" }
 map{ id = "A Link To The Past/Light World/Caves/hyrule_castle_cave", description = "Hyrule Castle Cave" }
 map{ id = "A Link To The Past/Light World/Caves/ice_rod_cave", description = "Ice Rod Cave" }
@@ -1593,55 +1594,57 @@ file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_d
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/in_deathmountain_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Light World/Caves/Death Mountain West/out_deathmountain_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy", author = "KaKaShUruKioRa", }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/waterfall_pond.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/waterfall_pond.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/blacksmiths_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/blacksmiths_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/block_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/block_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_tomb.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_tomb.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/desert_of_mystery_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/desert_of_mystery_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/hyrule_castle_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/hyrule_castle_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/ice_rod_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/ice_rod_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/kakariko_village_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/kakariko_village_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/lake_hylia_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/lake_hylia_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/lost_wood_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/lost_wood_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/lumberjack_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/lumberjack_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_north_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_north_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_south_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_south_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/river_hylia_lake_north_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/river_hylia_lake_north_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
-file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.dat", author = "KaKaShUruKioRa", license = "CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.lua", author = "KaKaShUruKioRa", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy", author = "ZeldoRetro, DarkDavy15", }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deadend_east_fairy_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/deathmountain_east_fairy_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/link_forest_fairy_cave.lua", author = "ZeldoRetro, DarkDavy15", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_hylia_fairy_cave.lua", author = "ZeldoRetro, DarkDavy15", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/plain_of_ruins_south_fairy_cave.lua", author = "ZeldoRetro, DarkDavy15", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/pond_of_hapiness.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/waterfall_pond.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/Fairy/waterfall_pond.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/blacksmiths_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/blacksmiths_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/block_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/block_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_tomb.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/cemetery_tomb.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/desert_of_mystery_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/desert_of_mystery_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_barrage.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_barrage.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_cave.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/great_swamp_cave.lua", author = "ZeldoRetro, DarkDavy15", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/hyrule_castle_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/hyrule_castle_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/ice_rod_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/ice_rod_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/kakariko_village_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/kakariko_village_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/lake_hylia_cave.dat", author = "ZeldoRetro, DarkDavy15", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/lake_hylia_cave.lua", author = "ZeldoRetro, DarkDavy15", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/lost_wood_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/lost_wood_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/lumberjack_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/lumberjack_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_north_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_north_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_south_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/plain_of_ruins_south_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/river_hylia_lake_north_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/river_hylia_lake_north_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/sanctuary_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
+file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Light World/Caves/wooden_bridge_north_cave.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/A Link To The Past/Light World/Dungeons", author = "ZeldoRetro, DarkDavy15", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace", author = "ZeldoRetro", }
 file{ path = "maps/A Link To The Past/Light World/Dungeons/Desert Palace/B1", author = "ZeldoRetro", }
