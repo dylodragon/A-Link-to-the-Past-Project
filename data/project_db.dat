@@ -64,7 +64,7 @@ map{ id = "A Link To The Past/Dark World/Houses/shooting_gallery", description =
 map{ id = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest", description = "Skeleton Forest" }
 map{ id = "A Link To The Past/Dark World/Overworld/A3_entrance_skeleton_forest", description = "Entrance Skeleton Forest" }
 map{ id = "A Link To The Past/Dark World/Overworld/A4_village_of_outcasts", description = "Village of Outcasts" }
-map{ id = "A Link To The Past/Dark World/Overworld/A6_maze_game", description = "Maze Game" }
+map{ id = "A Link To The Past/Dark World/Overworld/A6_shovel_game", description = "Shovel Game" }
 map{ id = "A Link To The Past/Dark World/Overworld/A7_swamp_of_evil", description = "Swamp of Evil" }
 map{ id = "A Link To The Past/Dark World/Overworld/B3_fortune_teller", description = "Fortune Teller" }
 map{ id = "A Link To The Past/Dark World/Overworld/B6_shooting_gallery", description = "Shooting Gallery" }
@@ -1373,7 +1373,7 @@ file{ path = "maps/A Link To The Past/Dark World/Overworld", author = "KaKaShUru
 file{ path = "maps/A Link To The Past/Dark World/Overworld/A1_skeleton_forest.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/A3_entrance_skeleton_forest.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/A4_village_of_outcasts.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
-file{ path = "maps/A Link To The Past/Dark World/Overworld/A6_maze_game.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
+file{ path = "maps/A Link To The Past/Dark World/Overworld/A6_shovel_game.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/A7_swamp_of_evil.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/B3_fortune_teller.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/A Link To The Past/Dark World/Overworld/B6_shooting_gallery.dat", author = "KaKaShUruKioRa", license = "GPL v3, CC BY-SA 4.0" }

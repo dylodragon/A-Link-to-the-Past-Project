@@ -22703,7 +22703,7 @@ tile_pattern{
 
 tile_pattern{
   id = "1503",
-  ground = "empty",
+  ground = "wall",
   default_layer = 0,
   x = 832,
   y = 216,

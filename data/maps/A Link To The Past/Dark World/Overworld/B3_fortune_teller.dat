@@ -5,7 +5,7 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Light World",
+  world = "Dark World",
   tileset = "out/outside_darkworld_main",
   music = "dark_world",
 }
@@ -21,17 +21,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 336,
-  width = 16,
+  x = 480,
+  y = 120,
+  width = 32,
   height = 16,
   pattern = "13892",
 }
 
 tile{
   layer = 0,
-  x = 280,
-  y = 496,
+  x = 200,
+  y = 336,
   width = 16,
   height = 16,
   pattern = "13892",
@@ -174,15 +174,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 480,
-  y = 120,
-  width = 32,
-  height = 16,
-  pattern = "13892",
-}
-
-tile{
-  layer = 0,
   x = 488,
   y = 112,
   width = 16,
@@ -215,6 +206,51 @@ tile{
   width = 8,
   height = 8,
   pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 496,
+  width = 16,
+  height = 16,
+  pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 408,
+  width = 128,
+  height = 8,
+  pattern = "119",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "115",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 400,
+  width = 8,
+  height = 8,
+  pattern = "118",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "115",
 }
 
 tile{
@@ -391,33 +427,6 @@ tile{
 tile{
   layer = 0,
   x = 384,
-  y = 408,
-  width = 128,
-  height = 8,
-  pattern = "119",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 496,
-  width = 8,
-  height = 16,
-  pattern = "125",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 496,
-  width = 8,
-  height = 16,
-  pattern = "121",
-}
-
-tile{
-  layer = 0,
-  x = 384,
   y = 48,
   width = 8,
   height = 8,
@@ -453,6 +462,15 @@ tile{
 
 tile{
   layer = 0,
+  x = 504,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "117",
+}
+
+tile{
+  layer = 0,
   x = 472,
   y = 112,
   width = 8,
@@ -467,6 +485,15 @@ tile{
   width = 8,
   height = 8,
   pattern = "124",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "122",
 }
 
 tile{
@@ -885,33 +912,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 400,
-  width = 8,
-  height = 8,
-  pattern = "115",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 400,
-  width = 8,
-  height = 8,
-  pattern = "118",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 408,
-  width = 8,
-  height = 8,
-  pattern = "115",
-}
-
-tile{
-  layer = 0,
   x = 272,
   y = 416,
   width = 8,
@@ -1085,6 +1085,15 @@ tile{
   layer = 0,
   x = 144,
   y = 288,
+  width = 8,
+  height = 8,
+  pattern = "117",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 360,
   width = 8,
   height = 8,
   pattern = "117",
@@ -1691,15 +1700,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "127",
-}
-
-tile{
-  layer = 0,
-  x = 288,
-  y = 376,
-  width = 8,
-  height = 8,
-  pattern = "126",
 }
 
 tile{
@@ -1717,8 +1717,8 @@ tile{
   y = 312,
   width = 32,
   height = 8,
-  pattern = "6201",
-  tileset = "out/outside_lightworld_buildings",
+  pattern = "6201_2",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -1727,8 +1727,8 @@ tile{
   y = 304,
   width = 16,
   height = 8,
-  pattern = "6201",
-  tileset = "out/outside_lightworld_buildings",
+  pattern = "6201_2",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -1738,7 +1738,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "6007",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -1748,7 +1748,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "6005",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -1758,7 +1758,7 @@ tile{
   width = 8,
   height = 72,
   pattern = "6006",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -1821,7 +1821,7 @@ tile{
   y = 136,
   width = 8,
   height = 8,
-  pattern = "1036",
+  pattern = "117",
 }
 
 tile{
@@ -1830,7 +1830,7 @@ tile{
   y = 128,
   width = 8,
   height = 8,
-  pattern = "1036",
+  pattern = "117",
 }
 
 tile{
@@ -1839,7 +1839,7 @@ tile{
   y = 112,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -1857,7 +1857,7 @@ tile{
   y = 120,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -1884,7 +1884,7 @@ tile{
   y = 136,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -1902,7 +1902,7 @@ tile{
   y = 128,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -1920,7 +1920,7 @@ tile{
   y = 144,
   width = 8,
   height = 8,
-  pattern = "1036",
+  pattern = "117",
 }
 
 tile{
@@ -1938,7 +1938,7 @@ tile{
   y = 152,
   width = 8,
   height = 8,
-  pattern = "1036",
+  pattern = "117",
 }
 
 tile{
@@ -1956,7 +1956,7 @@ tile{
   y = 152,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -1974,7 +1974,7 @@ tile{
   y = 160,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -1992,7 +1992,7 @@ tile{
   y = 168,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -2010,7 +2010,7 @@ tile{
   y = 144,
   width = 8,
   height = 8,
-  pattern = "1035",
+  pattern = "116",
 }
 
 tile{
@@ -2195,20 +2195,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 504,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "117",
-}
-
-tile{
-  layer = 0,
-  x = 504,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "122",
+  x = 208,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "1111",
 }
 
 tile{
@@ -2249,30 +2240,92 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
-  y = 304,
+  x = 392,
+  y = 24,
   width = 16,
   height = 16,
-  pattern = "1111",
+  pattern = "12374",
 }
 
 tile{
   layer = 0,
-  x = 0,
+  x = 392,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "12375",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "1349",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "1350",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "1352",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "1351",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "2227",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 496,
+  width = 8,
+  height = 16,
+  pattern = "125",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 496,
+  width = 8,
+  height = 16,
+  pattern = "121",
+}
+
+tile{
+  layer = 0,
+  x = 16,
   y = 184,
-  width = 144,
+  width = 128,
   height = 8,
   pattern = "959",
-}
-
-tile{
-  layer = 0,
-  x = 208,
-  y = 216,
-  width = 96,
-  height = 72,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
 }
 
 tile{
@@ -2282,7 +2335,7 @@ tile{
   width = 8,
   height = 24,
   pattern = "6000",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2292,7 +2345,7 @@ tile{
   width = 8,
   height = 24,
   pattern = "5996",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2302,7 +2355,7 @@ tile{
   width = 80,
   height = 16,
   pattern = "6106",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2627,7 +2680,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "6147",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2637,7 +2690,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "6153",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2647,7 +2700,7 @@ tile{
   width = 48,
   height = 8,
   pattern = "6154",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2657,7 +2710,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "6153",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2667,7 +2720,97 @@ tile{
   width = 8,
   height = 8,
   pattern = "6147",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "6151",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "6148",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 432,
+  width = 48,
+  height = 24,
+  pattern = "6150",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 440,
+  width = 8,
+  height = 24,
+  pattern = "12553",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "12554",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "6148",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "6151",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 320,
+  y = 448,
+  width = 8,
+  height = 16,
+  pattern = "12553",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 440,
+  width = 8,
+  height = 24,
+  pattern = "12554",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2677,7 +2820,7 @@ tile{
   width = 8,
   height = 16,
   pattern = "6108",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2687,7 +2830,7 @@ tile{
   width = 8,
   height = 16,
   pattern = "6105",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2697,7 +2840,7 @@ tile{
   width = 8,
   height = 16,
   pattern = "5974",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2707,7 +2850,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "5919",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2717,7 +2860,7 @@ tile{
   width = 8,
   height = 16,
   pattern = "5975",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2727,7 +2870,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "5920",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2737,7 +2880,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "6008",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2747,7 +2890,7 @@ tile{
   width = 16,
   height = 24,
   pattern = "6208",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -2757,7 +2900,16 @@ tile{
   width = 16,
   height = 24,
   pattern = "6208",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 168,
+  width = 48,
+  height = 8,
+  pattern = "959",
 }
 
 tile{
@@ -2776,6 +2928,15 @@ tile{
   width = 48,
   height = 16,
   pattern = "958",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 152,
+  width = 192,
+  height = 8,
+  pattern = "959",
 }
 
 tile{
@@ -2798,18 +2959,18 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
+  x = 16,
   y = 208,
-  width = 144,
+  width = 128,
   height = 16,
   pattern = "957",
 }
 
 tile{
   layer = 0,
-  x = 0,
+  x = 16,
   y = 192,
-  width = 144,
+  width = 128,
   height = 16,
   pattern = "958",
 }
@@ -2889,6 +3050,15 @@ tile{
 tile{
   layer = 0,
   x = 432,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "995",
+}
+
+tile{
+  layer = 0,
+  x = 432,
   y = 160,
   width = 16,
   height = 16,
@@ -2938,6 +3108,15 @@ tile{
   width = 8,
   height = 8,
   pattern = "999",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "996",
 }
 
 tile{
@@ -2996,74 +3175,38 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "12374",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 16,
-  width = 16,
-  height = 8,
-  pattern = "12375",
-}
-
-tile{
-  layer = 0,
-  x = 384,
-  y = 8,
+  x = 480,
+  y = 152,
   width = 32,
   height = 8,
-  pattern = "12376",
+  pattern = "1007",
 }
 
 tile{
   layer = 0,
-  x = 376,
-  y = 16,
-  width = 16,
+  x = 480,
+  y = 160,
+  width = 32,
   height = 8,
-  pattern = "1349",
+  pattern = "1008",
 }
 
 tile{
   layer = 0,
-  x = 408,
-  y = 16,
-  width = 16,
+  x = 472,
+  y = 160,
+  width = 8,
   height = 8,
-  pattern = "1350",
+  pattern = "1020",
 }
 
 tile{
   layer = 0,
-  x = 408,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "1352",
-}
-
-tile{
-  layer = 0,
-  x = 376,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "1351",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 16,
-  width = 16,
+  x = 472,
+  y = 152,
+  width = 8,
   height = 8,
-  pattern = "2227",
+  pattern = "14796",
 }
 
 tile{
@@ -3095,33 +3238,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 176,
-  y = 152,
-  width = 192,
-  height = 8,
-  pattern = "959",
-}
-
-tile{
-  layer = 0,
-  x = 384,
-  y = 128,
-  width = 16,
-  height = 16,
-  pattern = "996",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 144,
-  width = 16,
-  height = 16,
-  pattern = "995",
-}
-
-tile{
-  layer = 0,
   x = 448,
   y = 160,
   width = 16,
@@ -3129,503 +3245,27 @@ tile{
   pattern = "1081",
 }
 
-tile{
-  layer = 0,
-  x = 464,
-  y = 168,
-  width = 48,
-  height = 8,
-  pattern = "959",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 160,
-  width = 8,
-  height = 8,
-  pattern = "1020",
-}
-
-tile{
-  layer = 0,
-  x = 472,
-  y = 152,
-  width = 8,
-  height = 8,
-  pattern = "14796",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 160,
-  width = 32,
-  height = 8,
-  pattern = "1008",
-}
-
-tile{
-  layer = 0,
-  x = 480,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "1007",
-}
-
-destructible{
-  name = "bush_fortune_teller_0",
-  layer = 0,
-  x = 312,
-  y = 205,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "sign_fortune_teller_0",
-  layer = 0,
-  x = 344,
-  y = 397,
-  sprite = "entities/sign_brown",
-  destruction_sound = "stone",
-}
-
-destructible{
-  name = "stone_white_fortune_teller_0",
-  layer = 0,
-  x = 424,
-  y = 333,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
 destination{
-  name = "dest_map_fortune_teller_3",
+  name = "dest_map_B3_fortune_teller_3",
   layer = 0,
   x = 400,
   y = 37,
   direction = 3,
 }
 
-custom_entity{
-  name = "explode_stone_fortune_teller_0",
-  layer = 0,
-  x = 136,
-  y = 269,
-  width = 32,
-  height = 32,
-  direction = 0,
-  sprite = "destructibles/stone_explode_lw_1",
-  model = "stone_explode",
-}
-
-destructible{
-  name = "stone_white_fortune_teller_1",
-  layer = 0,
-  x = 424,
-  y = 349,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "stone_white_fortune_teller_2",
-  layer = 0,
-  x = 440,
-  y = 349,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "stone_white_fortune_teller_3",
-  layer = 0,
-  x = 472,
-  y = 349,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "bush_fortune_teller_1",
-  layer = 0,
-  x = 328,
-  y = 221,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_2",
-  layer = 0,
-  x = 184,
-  y = 237,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_3",
-  layer = 0,
-  x = 344,
-  y = 237,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_4",
-  layer = 0,
-  x = 168,
-  y = 253,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_5",
-  layer = 0,
-  x = 184,
-  y = 253,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_6",
-  layer = 0,
-  x = 360,
-  y = 253,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_7",
-  layer = 0,
-  x = 360,
-  y = 269,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_8",
-  layer = 0,
-  x = 360,
-  y = 285,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_9",
-  layer = 0,
-  x = 376,
-  y = 285,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_10",
-  layer = 0,
-  x = 344,
-  y = 301,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_11",
-  layer = 0,
-  x = 216,
-  y = 317,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_12",
-  layer = 0,
-  x = 296,
-  y = 317,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_13",
-  layer = 0,
-  x = 328,
-  y = 317,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_14",
-  layer = 0,
-  x = 280,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_15",
-  layer = 0,
-  x = 296,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_16",
-  layer = 0,
-  x = 312,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_17",
-  layer = 0,
-  x = 328,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_18",
-  layer = 0,
-  x = 344,
-  y = 333,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_19",
-  layer = 0,
-  x = 264,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_20",
-  layer = 0,
-  x = 280,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_21",
-  layer = 0,
-  x = 296,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_22",
-  layer = 0,
-  x = 312,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_23",
-  layer = 0,
-  x = 328,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_24",
-  layer = 0,
-  x = 344,
-  y = 349,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_25",
-  layer = 0,
-  x = 200,
-  y = 381,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_26",
-  layer = 0,
-  x = 216,
-  y = 381,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_27",
-  layer = 0,
-  x = 200,
-  y = 397,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_28",
-  layer = 0,
-  x = 216,
-  y = 397,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_29",
-  layer = 0,
-  x = 200,
-  y = 413,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_30",
-  layer = 0,
-  x = 216,
-  y = 413,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_31",
-  layer = 0,
-  x = 200,
-  y = 429,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_32",
-  layer = 0,
-  x = 216,
-  y = 429,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_33",
-  layer = 0,
-  x = 232,
-  y = 429,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_34",
-  layer = 0,
-  x = 120,
-  y = 445,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_35",
-  layer = 0,
-  x = 216,
-  y = 445,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "bush_fortune_teller_36",
-  layer = 0,
-  x = 232,
-  y = 445,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
 teletransporter{
-  name = "tp_map_skeleton_forest_3",
+  name = "tp_map_B3_fortune_teller_3",
   layer = 0,
   x = 392,
   y = 8,
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Dark World/Overworld/A1_skeleton_forest",
-  destination = "dest_map_skeleton_forest_3",
+  destination = "dest_map_B3_skeleton_forest_3",
 }
 
 jumper{
-  name = "jump_fortune_teller_0",
+  name = "jump_B3_fortune_teller_0",
   layer = 0,
   x = 176,
   y = 152,
@@ -3636,7 +3276,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_fortune_teller_1",
+  name = "jump_B3_fortune_teller_1",
   layer = 0,
   x = 456,
   y = 168,
@@ -3647,7 +3287,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_fortune_teller_2",
+  name = "jump_B3_fortune_teller_2",
   layer = 0,
   x = 136,
   y = 168,
@@ -3658,7 +3298,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_fortune_teller_3",
+  name = "jump_B3_fortune_teller_3",
   layer = 0,
   x = 368,
   y = 128,
@@ -3669,7 +3309,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_fortune_teller_4",
+  name = "jump_B3_fortune_teller_4",
   layer = 0,
   x = 440,
   y = 144,
@@ -3836,44 +3476,463 @@ wall{
 }
 
 teletransporter{
-  name = "tp_fortune_teller_0",
+  name = "tp_B3_fortune_teller_0",
   layer = 0,
   x = 248,
   y = 288,
   width = 16,
   height = 16,
   destination_map = "A Link To The Past/Dark World/Houses/fortune_teller_north",
-  destination = "dest_map_fortune_teller_north_0",
+  destination = "dest_map_B3_fortune_teller_north_0",
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_471",
+  layer = 0,
+  x = 376,
+  y = 285,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_472",
+  layer = 0,
+  x = 312,
+  y = 205,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_473",
+  layer = 0,
+  x = 328,
+  y = 221,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_474",
+  layer = 0,
+  x = 344,
+  y = 237,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_475",
+  layer = 0,
+  x = 344,
+  y = 301,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_476",
+  layer = 0,
+  x = 328,
+  y = 317,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_477",
+  layer = 0,
+  x = 296,
+  y = 317,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_484",
+  layer = 0,
+  x = 216,
+  y = 317,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_486",
+  layer = 0,
+  x = 264,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_487",
+  layer = 0,
+  x = 344,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_488",
+  layer = 0,
+  x = 328,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_489",
+  layer = 0,
+  x = 328,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_490",
+  layer = 0,
+  x = 312,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_491",
+  layer = 0,
+  x = 312,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_492",
+  layer = 0,
+  x = 296,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_493",
+  layer = 0,
+  x = 296,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_494",
+  layer = 0,
+  x = 280,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_495",
+  layer = 0,
+  x = 360,
+  y = 285,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_496",
+  layer = 0,
+  x = 360,
+  y = 269,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_497",
+  layer = 0,
+  x = 360,
+  y = 253,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_498",
+  layer = 0,
+  x = 344,
+  y = 349,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_499",
+  layer = 0,
+  x = 280,
+  y = 333,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_500",
+  layer = 0,
+  x = 184,
+  y = 253,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_501",
+  layer = 0,
+  x = 184,
+  y = 237,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_502",
+  layer = 0,
+  x = 168,
+  y = 253,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_503",
+  layer = 0,
+  x = 120,
+  y = 445,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_504",
+  layer = 0,
+  x = 232,
+  y = 445,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_505",
+  layer = 0,
+  x = 232,
+  y = 429,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_506",
+  layer = 0,
+  x = 216,
+  y = 445,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_507",
+  layer = 0,
+  x = 216,
+  y = 429,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_508",
+  layer = 0,
+  x = 216,
+  y = 413,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_509",
+  layer = 0,
+  x = 216,
+  y = 397,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_510",
+  layer = 0,
+  x = 200,
+  y = 413,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_511",
+  layer = 0,
+  x = 200,
+  y = 397,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_512",
+  layer = 0,
+  x = 200,
+  y = 381,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_513",
+  layer = 0,
+  x = 216,
+  y = 381,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "bush_B3_fortune_teller_514",
+  layer = 0,
+  x = 200,
+  y = 429,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  name = "sign_B3_fortune_teller_3",
+  layer = 0,
+  x = 344,
+  y = 397,
+  sprite = "entities/sign_brown",
+  destruction_sound = "stone",
+}
+
+destructible{
+  name = "stone_white_B3_fortune_teller_64",
+  layer = 0,
+  x = 424,
+  y = 333,
+  sprite = "destructibles/stone_small_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_B3_fortune_teller_65",
+  layer = 0,
+  x = 424,
+  y = 349,
+  sprite = "destructibles/stone_small_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_B3_fortune_teller_66",
+  layer = 0,
+  x = 440,
+  y = 349,
+  sprite = "destructibles/stone_small_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "stone_white_B3_fortune_teller_67",
+  layer = 0,
+  x = 472,
+  y = 349,
+  sprite = "destructibles/stone_small_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "explode_stone_B3_fortune_teller_0",
+  layer = 0,
+  x = 136,
+  y = 269,
+  sprite = "destructibles/stone_explode_lw_1",
+  destruction_sound = "stone",
+  weight = 1,
+}
+
+destructible{
+  name = "big_stone_white_B3_fortune_teller_south_1",
+  layer = 0,
+  x = 136,
+  y = 269,
+  sprite = "destructibles/stone_explode_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
 tile{
   layer = 1,
-  x = 288,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "7412",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 208,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "7317",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 224,
-  y = 208,
-  width = 64,
-  height = 8,
-  pattern = "7494",
-  tileset = "out/outside_lightworld_buildings",
+  x = 216,
+  y = 216,
+  width = 80,
+  height = 64,
+  pattern = "65",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3883,17 +3942,7 @@ tile{
   width = 80,
   height = 8,
   pattern = "5997",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 224,
-  y = 264,
-  width = 64,
-  height = 16,
-  pattern = "5992",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3903,7 +3952,7 @@ tile{
   width = 32,
   height = 16,
   pattern = "5976",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3913,7 +3962,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "5995",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3923,7 +3972,7 @@ tile{
   width = 8,
   height = 48,
   pattern = "5982",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3933,7 +3982,7 @@ tile{
   width = 8,
   height = 48,
   pattern = "5981",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3943,7 +3992,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "5994",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3953,7 +4002,7 @@ tile{
   width = 24,
   height = 8,
   pattern = "5977",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3963,7 +4012,7 @@ tile{
   width = 8,
   height = 40,
   pattern = "5984",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3973,7 +4022,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "5987",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3983,7 +4032,7 @@ tile{
   width = 24,
   height = 8,
   pattern = "5979",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -3993,7 +4042,7 @@ tile{
   width = 48,
   height = 8,
   pattern = "5978",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4003,7 +4052,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "5989",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4013,7 +4062,7 @@ tile{
   width = 48,
   height = 8,
   pattern = "5988",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4023,7 +4072,7 @@ tile{
   width = 8,
   height = 40,
   pattern = "5985",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4033,27 +4082,7 @@ tile{
   width = 48,
   height = 40,
   pattern = "5986",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 216,
-  y = 216,
-  width = 8,
-  height = 40,
-  pattern = "5992",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 288,
-  y = 216,
-  width = 8,
-  height = 40,
-  pattern = "5992",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4063,7 +4092,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "7543",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4073,7 +4102,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "5980",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4083,7 +4112,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "5980",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4093,7 +4122,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "5980",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4103,7 +4132,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "5980",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
@@ -4113,23 +4142,86 @@ tile{
   width = 32,
   height = 16,
   pattern = "6070",
-  tileset = "out/outside_lightworld_buildings",
+  tileset = "out/outside_darkworld_buildings_ERROR",
 }
 
 tile{
   layer = 1,
-  x = 352,
-  y = 24,
-  width = 48,
+  x = 368,
+  y = 488,
+  width = 144,
   height = 8,
   pattern = "1453",
 }
 
 tile{
   layer = 1,
-  x = 328,
+  x = 344,
+  y = 488,
+  width = 192,
+  height = 48,
+  pattern = "1455",
+}
+
+tile{
+  layer = 1,
+  x = -32,
+  y = 504,
+  width = 240,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 440,
+  width = 144,
+  height = 48,
+  pattern = "1455",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 432,
+  width = 144,
+  height = 8,
+  pattern = "1451",
+}
+
+tile{
+  layer = 1,
+  x = 360,
+  y = 440,
+  width = 8,
+  height = 48,
+  pattern = "1444",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 480,
+  width = 192,
+  height = 8,
+  pattern = "1451",
+}
+
+tile{
+  layer = 1,
+  x = -32,
+  y = 24,
+  width = 432,
+  height = 8,
+  pattern = "1453",
+}
+
+tile{
+  layer = 1,
+  x = -8,
   y = 72,
-  width = 48,
+  width = 384,
   height = 8,
   pattern = "1453",
 }
@@ -4168,6 +4260,15 @@ tile{
   width = 144,
   height = 8,
   pattern = "1453",
+}
+
+tile{
+  layer = 1,
+  x = -32,
+  y = 168,
+  width = 48,
+  height = 48,
+  pattern = "1455",
 }
 
 tile{
@@ -4273,7 +4374,7 @@ tile{
   layer = 1,
   x = 400,
   y = 24,
-  width = 48,
+  width = 96,
   height = 8,
   pattern = "1453",
 }
@@ -4460,6 +4561,24 @@ tile{
 
 tile{
   layer = 1,
+  x = -32,
+  y = 160,
+  width = 48,
+  height = 8,
+  pattern = "1451",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 168,
+  width = 8,
+  height = 48,
+  pattern = "1452",
+}
+
+tile{
+  layer = 1,
   x = -8,
   y = 112,
   width = 144,
@@ -4501,60 +4620,6 @@ tile{
   width = 8,
   height = 48,
   pattern = "1452",
-}
-
-tile{
-  layer = 1,
-  x = 368,
-  y = 440,
-  width = 144,
-  height = 48,
-  pattern = "1455",
-}
-
-tile{
-  layer = 1,
-  x = 368,
-  y = 432,
-  width = 144,
-  height = 8,
-  pattern = "1451",
-}
-
-tile{
-  layer = 1,
-  x = 360,
-  y = 440,
-  width = 8,
-  height = 48,
-  pattern = "1444",
-}
-
-tile{
-  layer = 1,
-  x = 344,
-  y = 488,
-  width = 192,
-  height = 48,
-  pattern = "1455",
-}
-
-tile{
-  layer = 1,
-  x = 344,
-  y = 480,
-  width = 192,
-  height = 8,
-  pattern = "1451",
-}
-
-tile{
-  layer = 1,
-  x = 336,
-  y = 488,
-  width = 8,
-  height = 48,
-  pattern = "1444",
 }
 
 tile{
@@ -4703,105 +4768,15 @@ tile{
 
 tile{
   layer = 1,
-  x = 232,
-  y = 504,
+  x = 336,
+  y = 488,
   width = 8,
   height = 48,
-  pattern = "1452",
-}
-
-tile{
-  layer = 1,
-  x = 312,
-  y = 432,
-  width = 8,
-  height = 8,
-  pattern = "6151",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 248,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "6148",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 264,
-  y = 432,
-  width = 48,
-  height = 24,
-  pattern = "6150",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 312,
-  y = 440,
-  width = 8,
-  height = 24,
-  pattern = "12553",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 248,
-  y = 448,
-  width = 8,
-  height = 16,
-  pattern = "12554",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 256,
-  y = 432,
-  width = 8,
-  height = 8,
-  pattern = "6148",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 440,
-  width = 8,
-  height = 8,
-  pattern = "6151",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 320,
-  y = 448,
-  width = 8,
-  height = 16,
-  pattern = "12553",
-  tileset = "out/outside_lightworld_buildings",
-}
-
-tile{
-  layer = 1,
-  x = 256,
-  y = 440,
-  width = 8,
-  height = 24,
-  pattern = "12554",
-  tileset = "out/outside_lightworld_buildings",
+  pattern = "1444",
 }
 
 teletransporter{
-  name = "border_fortune_teller_west",
+  name = "border_B3_fortune_teller_west",
   layer = 2,
   x = -8,
   y = 0,
@@ -4813,7 +4788,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "border_fortune_teller_south",
+  name = "border_B3_fortune_teller_south",
   layer = 2,
   x = 0,
   y = 512,
@@ -4825,7 +4800,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "border_fortune_teller_east",
+  name = "border_B3_fortune_teller_east",
   layer = 2,
   x = 512,
   y = 0,
@@ -4837,7 +4812,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "border_fortune_teller_north",
+  name = "border_B3_fortune_teller_north",
   layer = 2,
   x = 0,
   y = -8,
@@ -4857,7 +4832,7 @@ destination{
 }
 
 destination{
-  name = "dest_house_fortune_teller_0",
+  name = "dest_house_B3_fortune_teller_0",
   layer = 2,
   x = 256,
   y = 317,

@@ -5,7 +5,7 @@ properties{
   height = 1024,
   min_layer = -8,
   max_layer = 7,
-  world = "dark_world",
+  world = "Dark World",
   tileset = "out/outside_darkworld_main",
 }
 

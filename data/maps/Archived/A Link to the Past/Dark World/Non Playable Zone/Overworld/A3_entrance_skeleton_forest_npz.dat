@@ -833,16 +833,6 @@ destructible{
 }
 
 destructible{
-  name = "bush_A3_entrance_skeleton_forest_516",
-  layer = -2,
-  x = 312,
-  y = 237,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
   name = "bush_A3_entrance_skeleton_forest_761",
   layer = -2,
   x = 328,

@@ -5,17 +5,17 @@ properties{
   height = 512,
   min_layer = 0,
   max_layer = 2,
-  world = "Light World",
+  world = "Dark World",
   tileset = "out/outside_darkworld_main",
   music = "dark_world",
 }
 
 tile{
   layer = 0,
-  x = 224,
-  y = 200,
+  x = 304,
+  y = 328,
   width = 64,
-  height = 152,
+  height = 184,
   pattern = "112",
 }
 
@@ -30,19 +30,10 @@ tile{
 
 tile{
   layer = 0,
-  x = 304,
-  y = 328,
+  x = 224,
+  y = 200,
   width = 64,
-  height = 120,
-  pattern = "112",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 448,
-  width = 40,
-  height = 64,
+  height = 152,
   pattern = "112",
 }
 
@@ -84,11 +75,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 480,
-  width = 8,
-  height = 32,
-  pattern = "1340",
+  x = 0,
+  y = 496,
+  width = 16,
+  height = 8,
+  pattern = "1341_2",
 }
 
 tile{
@@ -97,16 +88,7 @@ tile{
   y = 336,
   width = 8,
   height = 96,
-  pattern = "1340",
-}
-
-tile{
-  layer = 0,
-  x = 288,
-  y = 400,
-  width = 8,
-  height = 112,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -115,7 +97,7 @@ tile{
   y = 240,
   width = 8,
   height = 48,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -124,7 +106,7 @@ tile{
   y = 240,
   width = 8,
   height = 48,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -133,7 +115,7 @@ tile{
   y = 144,
   width = 8,
   height = 48,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -142,7 +124,7 @@ tile{
   y = 48,
   width = 8,
   height = 32,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -151,16 +133,16 @@ tile{
   y = 48,
   width = 8,
   height = 16,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
   layer = 0,
   x = 344,
   y = 160,
-  width = 176,
+  width = 168,
   height = 8,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -169,7 +151,7 @@ tile{
   y = 128,
   width = 16,
   height = 8,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -178,7 +160,7 @@ tile{
   y = 128,
   width = 32,
   height = 8,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -187,7 +169,7 @@ tile{
   y = 320,
   width = 64,
   height = 8,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -196,7 +178,7 @@ tile{
   y = 320,
   width = 48,
   height = 8,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
@@ -205,16 +187,25 @@ tile{
   y = 224,
   width = 64,
   height = 8,
-  pattern = "1340",
+  pattern = "1341_2",
 }
 
 tile{
   layer = 0,
-  x = 0,
-  y = 496,
-  width = 16,
-  height = 8,
-  pattern = "1340",
+  x = 288,
+  y = 400,
+  width = 8,
+  height = 112,
+  pattern = "1341_2",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 480,
+  width = 8,
+  height = 32,
+  pattern = "1341_2",
 }
 
 tile{
@@ -570,20 +561,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
-  y = 480,
+  x = 0,
+  y = 496,
   width = 16,
-  height = 32,
-  pattern = "921",
-}
-
-tile{
-  layer = 0,
-  x = 288,
-  y = 400,
-  width = 16,
-  height = 112,
-  pattern = "920",
+  height = 16,
+  pattern = "918",
 }
 
 tile{
@@ -1389,29 +1371,20 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 496,
-  width = 16,
-  height = 16,
-  pattern = "918",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 240,
+  x = 320,
+  y = 480,
   width = 16,
   height = 32,
-  pattern = "1069",
+  pattern = "921",
 }
 
 tile{
   layer = 0,
-  x = 272,
-  y = 272,
+  x = 288,
+  y = 400,
   width = 16,
-  height = 16,
-  pattern = "1067",
+  height = 112,
+  pattern = "920",
 }
 
 tile{
@@ -1425,9 +1398,18 @@ tile{
 
 tile{
   layer = 0,
+  x = 216,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "14667_2",
+}
+
+tile{
+  layer = 0,
   x = 0,
   y = 0,
-  width = 120,
+  width = 112,
   height = 448,
   pattern = "14667",
 }
@@ -1443,24 +1425,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 408,
-  y = 184,
-  width = 104,
-  height = 328,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
-  x = 352,
-  y = 472,
-  width = 56,
-  height = 40,
-  pattern = "14667",
-}
-
-tile{
-  layer = 0,
   x = 56,
   y = 336,
   width = 136,
@@ -1471,9 +1435,9 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 64,
-  width = 112,
-  height = 136,
+  y = 80,
+  width = 104,
+  height = 128,
   pattern = "14667",
 }
 
@@ -1481,7 +1445,7 @@ tile{
   layer = 0,
   x = 296,
   y = 232,
-  width = 112,
+  width = 216,
   height = 48,
   pattern = "14667",
 }
@@ -1502,6 +1466,15 @@ tile{
   width = 24,
   height = 24,
   pattern = "14667",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 392,
+  width = 24,
+  height = 16,
+  pattern = "13892",
 }
 
 tile{
@@ -1562,7 +1535,7 @@ tile{
   layer = 0,
   x = 336,
   y = 184,
-  width = 72,
+  width = 176,
   height = 48,
   pattern = "14667",
 }
@@ -1571,8 +1544,8 @@ tile{
   layer = 0,
   x = 392,
   y = 280,
-  width = 16,
-  height = 32,
+  width = 120,
+  height = 232,
   pattern = "14667",
 }
 
@@ -1662,7 +1635,7 @@ tile{
   x = 376,
   y = 448,
   width = 32,
-  height = 32,
+  height = 64,
   pattern = "14667",
 }
 
@@ -1677,20 +1650,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 392,
-  width = 24,
-  height = 16,
-  pattern = "13892",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 496,
+  x = 360,
+  y = 464,
   width = 16,
-  height = 16,
-  pattern = "13892",
+  height = 48,
+  pattern = "14667",
 }
 
 tile{
@@ -1718,15 +1682,6 @@ tile{
   width = 64,
   height = 8,
   pattern = "123",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 368,
-  width = 8,
-  height = 144,
-  pattern = "121",
 }
 
 tile{
@@ -1772,24 +1727,6 @@ tile{
   width = 24,
   height = 8,
   pattern = "119",
-}
-
-tile{
-  layer = 0,
-  x = 384,
-  y = 496,
-  width = 8,
-  height = 16,
-  pattern = "125",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 496,
-  width = 8,
-  height = 16,
-  pattern = "121",
 }
 
 tile{
@@ -3135,15 +3072,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 32,
-  y = 376,
-  width = 8,
-  height = 8,
-  pattern = "126",
-}
-
-tile{
-  layer = 0,
   x = 40,
   y = 360,
   width = 8,
@@ -3329,15 +3257,6 @@ tile{
   width = 32,
   height = 16,
   pattern = "67",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 448,
-  width = 16,
-  height = 64,
-  pattern = "454",
 }
 
 tile{
@@ -3765,11 +3684,47 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 240,
+  x = 136,
+  y = 368,
+  width = 8,
+  height = 144,
+  pattern = "121",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 496,
   width = 16,
   height = 16,
-  pattern = "1041",
+  pattern = "13892",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 496,
+  width = 8,
+  height = 16,
+  pattern = "125",
+}
+
+tile{
+  layer = 0,
+  x = 408,
+  y = 496,
+  width = 8,
+  height = 16,
+  pattern = "121",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 448,
+  width = 16,
+  height = 64,
+  pattern = "454",
 }
 
 tile{
@@ -3851,15 +3806,6 @@ tile{
   width = 32,
   height = 64,
   pattern = "1057",
-}
-
-tile{
-  layer = 0,
-  x = 352,
-  y = 480,
-  width = 8,
-  height = 32,
-  pattern = "977",
 }
 
 tile{
@@ -4098,15 +4044,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 464,
-  width = 8,
-  height = 48,
-  pattern = "1110",
-}
-
-tile{
-  layer = 0,
   x = 32,
   y = 432,
   width = 16,
@@ -4134,29 +4071,38 @@ tile{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 456,
+  width = 16,
+  height = 8,
+  pattern = "959",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 480,
+  width = 16,
+  height = 16,
+  pattern = "1071",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 464,
+  width = 16,
+  height = 16,
+  pattern = "958",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 480,
   width = 16,
   height = 16,
   pattern = "960",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 496,
-  width = 8,
-  height = 16,
-  pattern = "977",
-}
-
-tile{
-  layer = 0,
-  x = 56,
-  y = 496,
-  width = 8,
-  height = 16,
-  pattern = "1012",
 }
 
 tile{
@@ -4242,11 +4188,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
-  y = 96,
+  x = 0,
+  y = 448,
   width = 16,
-  height = 16,
-  pattern = "957",
+  height = 8,
+  pattern = "1008",
 }
 
 tile{
@@ -4368,24 +4314,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 432,
-  y = 464,
-  width = 16,
-  height = 48,
-  pattern = "975",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 464,
-  width = 16,
-  height = 48,
-  pattern = "976",
-}
-
-tile{
-  layer = 0,
   x = 400,
   y = 320,
   width = 8,
@@ -4409,15 +4337,6 @@ tile{
   width = 16,
   height = 32,
   pattern = "973",
-}
-
-tile{
-  layer = 0,
-  x = 384,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "976",
 }
 
 tile{
@@ -4458,15 +4377,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 264,
-  y = 400,
-  width = 8,
-  height = 112,
-  pattern = "972",
-}
-
-tile{
-  layer = 0,
   x = 96,
   y = 0,
   width = 16,
@@ -4481,42 +4391,6 @@ tile{
   width = 16,
   height = 32,
   pattern = "976",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 88,
-  width = 16,
-  height = 24,
-  pattern = "992",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 88,
-  width = 8,
-  height = 24,
-  pattern = "990",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 88,
-  width = 8,
-  height = 24,
-  pattern = "989",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 80,
-  width = 32,
-  height = 8,
-  pattern = "991",
 }
 
 tile{
@@ -4670,6 +4544,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "965",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 272,
+  width = 16,
+  height = 16,
+  pattern = "1067",
 }
 
 tile{
@@ -4926,15 +4809,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
-  y = 480,
-  width = 16,
-  height = 32,
-  pattern = "1069",
-}
-
-tile{
-  layer = 0,
   x = 384,
   y = 336,
   width = 16,
@@ -4944,20 +4818,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "1069",
-}
-
-tile{
-  layer = 0,
   x = 272,
-  y = 400,
+  y = 240,
   width = 16,
-  height = 112,
-  pattern = "1070",
+  height = 32,
+  pattern = "1069",
 }
 
 tile{
@@ -4975,15 +4840,6 @@ tile{
   y = 144,
   width = 16,
   height = 32,
-  pattern = "1070",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 0,
-  width = 16,
-  height = 16,
   pattern = "1070",
 }
 
@@ -5291,24 +5147,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "1012",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 480,
-  width = 8,
-  height = 32,
-  pattern = "1012",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 480,
-  width = 8,
-  height = 32,
-  pattern = "1011",
 }
 
 tile{
@@ -5710,24 +5548,6 @@ tile{
 tile{
   layer = 0,
   x = 352,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "939",
-}
-
-tile{
-  layer = 0,
-  x = 288,
-  y = 0,
-  width = 16,
-  height = 16,
-  pattern = "938",
-}
-
-tile{
-  layer = 0,
-  x = 352,
   y = 16,
   width = 8,
   height = 24,
@@ -5745,47 +5565,101 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 456,
-  width = 16,
-  height = 8,
-  pattern = "959",
+  x = 144,
+  y = 96,
+  width = 64,
+  height = 16,
+  pattern = "957",
 }
 
 tile{
   layer = 0,
-  x = 0,
+  x = 352,
+  y = 480,
+  width = 8,
+  height = 32,
+  pattern = "977",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 400,
+  width = 8,
+  height = 112,
+  pattern = "972",
+}
+
+tile{
+  layer = 0,
+  x = 336,
   y = 480,
   width = 16,
-  height = 16,
-  pattern = "1071",
+  height = 32,
+  pattern = "1069",
 }
 
 tile{
   layer = 0,
-  x = 0,
+  x = 272,
+  y = 400,
+  width = 16,
+  height = 112,
+  pattern = "1070",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 480,
+  width = 8,
+  height = 32,
+  pattern = "1012",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 480,
+  width = 8,
+  height = 32,
+  pattern = "1011",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 496,
+  width = 8,
+  height = 16,
+  pattern = "977",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 496,
+  width = 8,
+  height = 16,
+  pattern = "1012",
+}
+
+tile{
+  layer = 0,
+  x = 432,
   y = 464,
   width = 16,
-  height = 16,
-  pattern = "958",
+  height = 48,
+  pattern = "975",
 }
 
 tile{
   layer = 0,
-  x = 0,
-  y = 448,
+  x = 448,
+  y = 464,
   width = 16,
-  height = 8,
-  pattern = "1008",
-}
-
-tile{
-  layer = 0,
-  x = 304,
-  y = -8,
-  width = 48,
-  height = 16,
-  pattern = "940",
+  height = 48,
+  pattern = "976",
 }
 
 tile{
@@ -5817,26 +5691,33 @@ tile{
 
 tile{
   layer = 0,
-  x = 192,
-  y = 96,
-  width = 16,
-  height = 16,
-  pattern = "957",
+  x = 216,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "1044",
 }
 
-teletransporter{
-  name = "tp_hole_wooden_bridge_north_0",
+tile{
   layer = 0,
-  x = 64,
-  y = 240,
-  width = 16,
-  height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/F3_wooden_bridge_north",
-  destination = "dest_secret",
+  x = 224,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "1044",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "127",
 }
 
 destination{
-  name = "dest_vortex_wooden_bridge_north_0",
+  name = "dest_vortex_F3_wooden_bridge_north_0",
   layer = 0,
   x = 272,
   y = 173,
@@ -5844,7 +5725,7 @@ destination{
 }
 
 teletransporter{
-  name = "vortex_wooden_bridge_north_0",
+  name = "vortex_F3_wooden_bridge_north_0",
   layer = 0,
   x = 264,
   y = 144,
@@ -5854,228 +5735,6 @@ teletransporter{
   destination = "dest_vortex_great_swamp_0",
   sprite = "entities/teletransporter_vortex",
   sound = "warp",
-}
-
-destructible{
-  name = "stone_white_wooden_bridge_north_0",
-  layer = 0,
-  x = 88,
-  y = 125,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "stone_white_wooden_bridge_north_1",
-  layer = 0,
-  x = 56,
-  y = 221,
-  sprite = "destructibles/stone_small_lw_1",
-  destruction_sound = "stone",
-  weight = 1,
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_0",
-  layer = 0,
-  x = 72,
-  y = 237,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_1",
-  layer = 0,
-  x = 56,
-  y = 253,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_3",
-  layer = 0,
-  x = 72,
-  y = 269,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_4",
-  layer = 0,
-  x = 24,
-  y = 301,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "bush_wooden_bridge_north_0",
-  layer = 0,
-  x = 72,
-  y = 253,
-  sprite = "destructibles/bush_purple",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_2",
-  layer = 0,
-  x = 88,
-  y = 253,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_5",
-  layer = 0,
-  x = 8,
-  y = 317,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_6",
-  layer = 0,
-  x = 24,
-  y = 317,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_7",
-  layer = 0,
-  x = 8,
-  y = 333,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_8",
-  layer = 0,
-  x = 232,
-  y = 413,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_9",
-  layer = 0,
-  x = 232,
-  y = 429,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_10",
-  layer = 0,
-  x = 248,
-  y = 429,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_11",
-  layer = 0,
-  x = 232,
-  y = 445,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_12",
-  layer = 0,
-  x = 248,
-  y = 445,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_13",
-  layer = 0,
-  x = 232,
-  y = 461,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_14",
-  layer = 0,
-  x = 248,
-  y = 461,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
-}
-
-destructible{
-  name = "grass_wooden_bridge_north_15",
-  layer = 0,
-  x = 248,
-  y = 477,
-  sprite = "destructibles/grass_yellow",
-  weight = -1,
-  can_be_cut = true,
-  damage_on_enemies = 0,
-  ground = "grass",
 }
 
 wall{
@@ -6144,7 +5803,7 @@ wall{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_2",
+  name = "jump_F3_wooden_bridge_north_2",
   layer = 0,
   x = 216,
   y = 152,
@@ -6155,7 +5814,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_0",
+  name = "jump_F3_wooden_bridge_north_0",
   layer = 0,
   x = 152,
   y = 184,
@@ -6166,7 +5825,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_5",
+  name = "jump_F3_wooden_bridge_north_5",
   layer = 0,
   x = 296,
   y = 184,
@@ -6177,7 +5836,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_6",
+  name = "jump_F3_wooden_bridge_north_6",
   layer = 0,
   x = 208,
   y = 344,
@@ -6188,7 +5847,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_4",
+  name = "jump_F3_wooden_bridge_north_4",
   layer = 0,
   x = 352,
   y = 176,
@@ -6199,7 +5858,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_1",
+  name = "jump_F3_wooden_bridge_north_1",
   layer = 0,
   x = 184,
   y = 184,
@@ -6210,7 +5869,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_3",
+  name = "jump_F3_wooden_bridge_north_3",
   layer = 0,
   x = 264,
   y = 400,
@@ -6221,7 +5880,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_9",
+  name = "jump_F3_wooden_bridge_north_9",
   layer = 0,
   x = 184,
   y = 336,
@@ -6232,7 +5891,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_10",
+  name = "jump_F3_wooden_bridge_north_10",
   layer = 0,
   x = 288,
   y = 240,
@@ -6243,7 +5902,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_7",
+  name = "jump_F3_wooden_bridge_north_7",
   layer = 0,
   x = 104,
   y = 232,
@@ -6254,7 +5913,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_11",
+  name = "jump_F3_wooden_bridge_north_11",
   layer = 0,
   x = 296,
   y = 280,
@@ -6265,7 +5924,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_12",
+  name = "jump_F3_wooden_bridge_north_12",
   layer = 0,
   x = 344,
   y = 280,
@@ -6276,7 +5935,7 @@ jumper{
 }
 
 jumper{
-  name = "jump_wooden_bridge_north_14",
+  name = "jump_F3_wooden_bridge_north_14",
   layer = 0,
   x = 400,
   y = 344,
@@ -6299,139 +5958,289 @@ wall{
   stops_projectiles = true,
 }
 
-tile{
-  layer = 1,
-  x = 216,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "129",
+destructible{
+  name = "stone_white_F3_wooden_bridge_north_40",
+  layer = 0,
+  x = 88,
+  y = 125,
+  sprite = "destructibles/stone_small_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
-tile{
-  layer = 1,
-  x = 216,
-  y = 120,
-  width = 8,
-  height = 8,
-  pattern = "1044",
+destructible{
+  name = "stone_white_F3_wooden_bridge_north_41",
+  layer = 0,
+  x = 56,
+  y = 221,
+  sprite = "destructibles/stone_small_dw_1",
+  destruction_sound = "stone",
+  weight = 1,
 }
 
-tile{
-  layer = 1,
-  x = 224,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "1044",
+destructible{
+  name = "grass_F3_wooden_bridge_north_159",
+  layer = 0,
+  x = 8,
+  y = 317,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
 }
 
-tile{
-  layer = 1,
-  x = 136,
-  y = 0,
-  width = 112,
-  height = 40,
-  pattern = "13892",
+destructible{
+  name = "grass_F3_wooden_bridge_north_160",
+  layer = 0,
+  x = 8,
+  y = 333,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
 }
 
-tile{
-  layer = 1,
-  x = 128,
-  y = 0,
-  width = 8,
-  height = 32,
-  pattern = "977",
+destructible{
+  name = "grass_F3_wooden_bridge_north_161",
+  layer = 0,
+  x = 24,
+  y = 301,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
 }
 
-tile{
-  layer = 1,
-  x = 144,
-  y = 40,
-  width = 96,
-  height = 8,
-  pattern = "959",
+destructible{
+  name = "grass_F3_wooden_bridge_north_162",
+  layer = 0,
+  x = 24,
+  y = 317,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
 }
 
-tile{
-  layer = 1,
+destructible{
+  name = "grass_F3_wooden_bridge_north_166",
+  layer = 0,
+  x = 72,
+  y = 237,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_167",
+  layer = 0,
+  x = 56,
+  y = 253,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_168",
+  layer = 0,
+  x = 72,
+  y = 269,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_169",
+  layer = 0,
+  x = 88,
+  y = 253,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_170",
+  layer = 0,
+  x = 232,
+  y = 413,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_171",
+  layer = 0,
+  x = 232,
+  y = 429,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_172",
+  layer = 0,
   x = 248,
-  y = 0,
-  width = 8,
-  height = 32,
-  pattern = "972",
+  y = 429,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_173",
+  layer = 0,
+  x = 232,
+  y = 445,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_174",
+  layer = 0,
+  x = 248,
+  y = 445,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_175",
+  layer = 0,
+  x = 232,
+  y = 461,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_176",
+  layer = 0,
+  x = 248,
+  y = 461,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "grass_F3_wooden_bridge_north_177",
+  layer = 0,
+  x = 248,
+  y = 477,
+  sprite = "destructibles/grass_yellow",
+  weight = -1,
+  can_be_cut = true,
+  damage_on_enemies = 0,
+  ground = "grass",
+}
+
+destructible{
+  name = "bush_F3_wooden_bridge_north_0",
+  layer = 0,
+  x = 72,
+  y = 253,
+  sprite = "destructibles/bush_purple",
+  destruction_sound = "bush",
+  can_be_cut = true,
 }
 
 tile{
   layer = 1,
-  x = 240,
-  y = 32,
+  x = 384,
+  y = 0,
   width = 16,
   height = 16,
-  pattern = "1080",
+  pattern = "976",
 }
 
 tile{
   layer = 1,
-  x = 240,
-  y = 32,
-  width = 8,
-  height = 8,
-  pattern = "1044",
-}
-
-tile{
-  layer = 1,
-  x = 128,
-  y = 32,
+  x = 368,
+  y = 0,
   width = 16,
   height = 16,
-  pattern = "1081",
+  pattern = "1069",
 }
 
 tile{
   layer = 1,
-  x = 136,
-  y = 32,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
-  layer = 1,
-  x = 144,
+  x = 272,
   y = 0,
-  width = 96,
-  height = 32,
-  pattern = "907",
-}
-
-tile{
-  layer = 1,
-  x = 408,
-  y = 0,
-  width = 32,
-  height = 24,
-  pattern = "13892",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 0,
-  width = 40,
-  height = 24,
-  pattern = "13892",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 0,
-  width = 96,
+  width = 16,
   height = 16,
-  pattern = "907",
+  pattern = "1070",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "939",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "938",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = -8,
+  width = 48,
+  height = 16,
+  pattern = "940",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 96,
+  height = 8,
+  pattern = "1451",
 }
 
 tile{
@@ -6445,24 +6254,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 480,
-  y = 24,
-  width = 32,
-  height = 8,
-  pattern = "959",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 24,
-  width = 16,
-  height = 8,
-  pattern = "959",
-}
-
-tile{
-  layer = 1,
   x = 448,
   y = 8,
   width = 16,
@@ -6472,74 +6263,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 448,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "958",
-}
-
-tile{
-  layer = 1,
-  x = 400,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "1081",
-}
-
-tile{
-  layer = 1,
-  x = 408,
-  y = 16,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
-  layer = 1,
   x = 400,
   y = 8,
   width = 8,
   height = 8,
   pattern = "1045",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "1081",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 16,
-  width = 8,
-  height = 8,
-  pattern = "1045",
-}
-
-tile{
-  layer = 1,
-  x = 432,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "1080",
-}
-
-tile{
-  layer = 1,
-  x = 432,
-  y = 16,
-  width = 8,
-  height = 8,
-  pattern = "1044",
 }
 
 tile{
@@ -6567,60 +6295,6 @@ tile{
   width = 8,
   height = 16,
   pattern = "977",
-}
-
-tile{
-  layer = 1,
-  x = 496,
-  y = 432,
-  width = 16,
-  height = 8,
-  pattern = "978",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 464,
-  width = 8,
-  height = 48,
-  pattern = "977",
-}
-
-tile{
-  layer = 1,
-  x = 464,
-  y = 448,
-  width = 16,
-  height = 16,
-  pattern = "1078",
-}
-
-tile{
-  layer = 1,
-  x = 480,
-  y = 432,
-  width = 16,
-  height = 16,
-  pattern = "1078",
-}
-
-tile{
-  layer = 1,
-  x = 216,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "127",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 464,
-  width = 8,
-  height = 48,
-  pattern = "121",
 }
 
 tile{
@@ -6679,11 +6353,47 @@ tile{
 
 tile{
   layer = 1,
-  x = -24,
-  y = -40,
-  width = 96,
+  x = 472,
+  y = 464,
+  width = 8,
   height = 48,
-  pattern = "1455",
+  pattern = "121",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 0,
+  width = 32,
+  height = 24,
+  pattern = "13892",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 0,
+  width = 40,
+  height = 24,
+  pattern = "13892",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 8,
+  width = 96,
+  height = 16,
+  pattern = "907",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 0,
+  width = 112,
+  height = 40,
+  pattern = "13892",
 }
 
 tile{
@@ -6967,26 +6677,203 @@ tile{
 
 tile{
   layer = 1,
-  x = 0,
-  y = 0,
-  width = 96,
+  x = 496,
+  y = 432,
+  width = 16,
   height = 8,
-  pattern = "1451",
+  pattern = "978",
 }
 
-teletransporter{
-  name = "tp_cave_wooden_bridge_north_0",
+tile{
   layer = 1,
-  x = 168,
-  y = 88,
+  x = 128,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "977",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 448,
   width = 16,
   height = 16,
-  destination_map = "A Link To The Past/Dark World/Overworld/F3_wooden_bridge_north",
-  destination = "dest_secret",
+  pattern = "1078",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "1078",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 40,
+  width = 96,
+  height = 8,
+  pattern = "959",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "972",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "1080",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "1044",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "1081",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "1045",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 0,
+  width = 96,
+  height = 32,
+  pattern = "907",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = "959",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "959",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "958",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "1081",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "1045",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "1081",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "1045",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "1080",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "1044",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 464,
+  width = 8,
+  height = 48,
+  pattern = "977",
+}
+
+destination{
+  name = "dest_secret",
+  layer = 1,
+  x = 128,
+  y = 381,
+  direction = 3,
 }
 
 teletransporter{
-  name = "border_wooden_bridge_north_west",
+  name = "border_F3_wooden_bridge_north_west",
   layer = 2,
   x = -8,
   y = 0,
@@ -6998,7 +6885,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "border_wooden_bridge_north_south",
+  name = "border_F3_wooden_bridge_north_south",
   layer = 2,
   x = 0,
   y = 512,
@@ -7010,7 +6897,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "border_wooden_bridge_north_east",
+  name = "border_F3_wooden_bridge_north_east",
   layer = 2,
   x = 512,
   y = 0,
@@ -7022,7 +6909,7 @@ teletransporter{
 }
 
 teletransporter{
-  name = "border_wooden_bridge_north_north",
+  name = "border_F3_wooden_bridge_north_north",
   layer = 2,
   x = 0,
   y = -8,
@@ -7031,13 +6918,5 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link To The Past/Dark World/Overworld/F1_death_mountain_east",
   destination = "_side",
-}
-
-destination{
-  name = "dest_secret",
-  layer = 2,
-  x = 256,
-  y = 256,
-  direction = 3,
 }
 

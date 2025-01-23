@@ -6977,6 +6977,15 @@ jumper{
 
 tile{
   layer = 1,
+  x = 0,
+  y = 80,
+  width = 32,
+  height = 80,
+  pattern = "973",
+}
+
+tile{
+  layer = 1,
   x = 16,
   y = 256,
   width = 8,
@@ -7531,15 +7540,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "966",
-}
-
-tile{
-  layer = 1,
-  x = 0,
-  y = 80,
-  width = 32,
-  height = 80,
-  pattern = "973",
 }
 
 tile{

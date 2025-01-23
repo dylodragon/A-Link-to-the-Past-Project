@@ -32476,8 +32476,8 @@ teletransporter{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 512,
-  y = 512,
+  x = 568,
+  y = 568,
   direction = 3,
 }
 

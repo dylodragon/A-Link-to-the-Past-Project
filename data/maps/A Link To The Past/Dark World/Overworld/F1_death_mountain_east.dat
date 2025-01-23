@@ -27314,7 +27314,7 @@ teletransporter{
   width = 8,
   height = 1024,
   transition = "scrolling",
-  destination_map = "A Link to the Past/Dark World/Overworld/F1_death_mountain_east",
+  destination_map = "A Link To The Past/Dark World/Overworld/D1_death_mountain_west",
   destination = "_side",
 }
 
@@ -27364,19 +27364,5 @@ teletransporter{
   transition = "scrolling",
   destination_map = "A Link to the Past/Dark World/Overworld/H2_lake_of_ill_omen",
   destination = "_side",
-}
-
-wall{
-  name = "coor_zone_3",
-  layer = 2,
-  x = 0,
-  y = 0,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 

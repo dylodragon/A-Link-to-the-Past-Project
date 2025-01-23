@@ -12,6 +12,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 48,
+  y = 0,
+  width = 64,
+  height = 64,
+  pattern = "1059",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 128,
+  height = 16,
+  pattern = "958",
+}
+
+tile{
+  layer = 0,
   x = 72,
   y = 80,
   width = 184,
@@ -2366,15 +2384,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 48,
-  y = 0,
-  width = 64,
-  height = 64,
-  pattern = "1059",
-}
-
-tile{
-  layer = 0,
   x = 32,
   y = 48,
   width = 32,
@@ -4166,7 +4175,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F3_wooden_bridge_north_npz",
+  destination_map = "A Link to the Past/Dark World/Overworld/F3_wooden_bridge_north",
   destination = "_side",
 }
 
@@ -4178,7 +4187,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/G4_dark_ruins_npz",
+  destination_map = "A Link to the Past/Dark World/Overworld/G4_dark_ruins",
   destination = "_side",
 }
 
@@ -4190,7 +4199,7 @@ teletransporter{
   width = 8,
   height = 512,
   transition = "scrolling",
-  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/H3_lake_of_ill_omen_south_npz",
+  destination_map = "A Link to the Past/Dark World/Overworld/H3_lake_of_ill_omen_south",
   destination = "_side",
 }
 
@@ -4202,7 +4211,7 @@ teletransporter{
   width = 512,
   height = 8,
   transition = "scrolling",
-  destination_map = "Archived/A Link to the Past/Dark World/Non Playable Zone/Overworld/F1_death_mountain_east_npz",
+  destination_map = "A Link to the Past/Dark World/Overworld/F1_death_mountain_east",
   destination = "_side",
 }
 
@@ -4566,6 +4575,33 @@ destination{
 
 tile{
   layer = 1,
+  x = 256,
+  y = 0,
+  width = 144,
+  height = 16,
+  pattern = "907",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 0,
+  width = 272,
+  height = 8,
+  pattern = "13892",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 8,
+  width = 96,
+  height = 8,
+  pattern = "959",
+}
+
+tile{
+  layer = 1,
   x = 184,
   y = 344,
   width = 80,
@@ -4716,15 +4752,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 96,
-  y = 0,
-  width = 128,
-  height = 16,
-  pattern = "958",
-}
-
-tile{
-  layer = 1,
   x = 48,
   y = 0,
   width = 16,
@@ -4748,15 +4775,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "1044",
-}
-
-tile{
-  layer = 1,
-  x = 256,
-  y = 0,
-  width = 144,
-  height = 16,
-  pattern = "907",
 }
 
 tile{
@@ -6324,24 +6342,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 240,
-  y = 0,
-  width = 272,
-  height = 8,
-  pattern = "13892",
-}
-
-tile{
-  layer = 1,
-  x = 416,
-  y = 8,
-  width = 96,
-  height = 8,
-  pattern = "959",
-}
-
-tile{
-  layer = 1,
   x = 256,
   y = 24,
   width = 144,
@@ -7319,20 +7319,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "66",
-}
-
-wall{
-  name = "coor_zone_20",
-  layer = 1,
-  x = 0,
-  y = 0,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 destination{

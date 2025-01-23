@@ -3642,7 +3642,7 @@ tile{
   x = 464,
   y = 192,
   width = 8,
-  height = 120,
+  height = 128,
   pattern = "454",
 }
 
@@ -6596,8 +6596,8 @@ teletransporter{
 destination{
   name = "dest_secret",
   layer = 2,
-  x = 248,
-  y = 248,
+  x = 216,
+  y = 216,
   direction = 3,
 }
 
